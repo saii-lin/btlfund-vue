@@ -1,57 +1,76 @@
 <template>
-  <div>
-    <img class="logo_pc" src="/images/Logo.png" alt />
-    <div class="nav">
-      <div class="nav_top">
-        <ul class="language">
-          <li>
-            <nuxt-link :to="switchLocalePath('en-us')">English</nuxt-link>
+  <div
+    :class="['b-nav', hidden ? 'hidden' : '']"
+    :style="{ width: `${width}px` }"
+  >
+    <div style="position:relative">
+      <div class="nav">
+        <img class="logo_pc" src="/images/Logo.png" alt />
+        <div class="nav_top">
+          <ul class="language">
+            <li class="">
+              <nuxt-link :to="switchLocalePath('en-us')">English</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link :to="switchLocalePath('zh-tw')">繁體中文</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link :to="switchLocalePath('zh-cn')">简体中文</nuxt-link>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_bottom">
+          <ul class="navbar">
+            <li>
+              <img class="search_pic" src="/images/nav1.png" />
+            </li>
+            <li>
+              <input class="search_text" type="text" placeholder="search" />
+            </li>
+            <li>
+              <a href>
+                <img class="login" src="/images/nav2.png" alt />
+              </a>
+            </li>
+            <li @click="openNav">
+              <img class="bg" src="/images/bg.png" alt />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div :class="['menu', navOpened ? 'opened' : '']">
+        <ul class="menu_title">
+          <li
+            :class="{
+              selected: navItemSelected && navItemSelected.name === navItem.name
+            }"
+            v-for="(navItem, index) in navItems"
+            :key="index"
+            @click="selectNavItem(navItem)"
+          >
+            <nuxt-link
+              v-if="navItem.link"
+              :to="navItem.link"
+              @click="forceToClose"
+            >
+              {{ navItem.name }}
+            </nuxt-link>
+            <template v-else>{{ navItem.name }}</template>
+            <div v-if="!navItem.link" class="triangle"></div>
           </li>
-          <li>
-            <nuxt-link :to="switchLocalePath('zh-tw')">繁體中文</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link :to="switchLocalePath('zh-cn')">简体中文</nuxt-link>
+        </ul>
+        <ul :class="['menu_content', subNavOpened ? 'opened' : '']">
+          <li
+            v-for="(navItem, index) in subNavItems"
+            :key="index"
+            @click="forceToClose"
+          >
+            <nuxt-link :to="navItem.link">
+              {{ navItem.name }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
-      <div class="nav_bottom">
-        <ul class="navbar">
-          <li>
-            <img class="search_pic" src="/images/nav1.png" />
-          </li>
-          <li>
-            <input class="search_text" type="text" placeholder="search" />
-          </li>
-          <li>
-            <a href>
-              <img class="login" src="/images/nav2.png" alt />
-            </a>
-          </li>
-          <li @click="navOpened = !navOpened">
-            <img class="bg" src="/images/bg.png" alt />
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="menu" v-show="navOpened">
-      <ul class="menu_title">
-        <li
-          :class="{'selected': navItemSelected === navItem.name}"
-          v-for="(navItem, index) in navItems"
-          :key="index"
-          @click="navItemSelected = navItem"
-        >
-          <a v-if="navItem.link" :href="navItem.link">{{navItem.name}}</a>
-          <template v-else>{{navItem.name}}</template>
-          <div v-if="!navItem.link" class="triangle"></div>
-        </li>
-      </ul>
-      <ul class="menu_content" v-show="navItemSelected.name && !navItemSelected.link">
-        <li v-for="(navItem, index) in subNavItems" :key="index">
-          <a :href="navItem.link">{{navItem.name}}</a>
-        </li>
-      </ul>
     </div>
   </div>
 </template>
@@ -59,15 +78,23 @@
 <script>
 import navItems from "@/assets/json/nav-items.json";
 export default {
+  props: {
+    hidden: {
+      type: Boolean
+    },
+    width: {
+      type: Number
+    }
+  },
   data: () => ({
     navItems,
-    navItemSelected: {
-      name: ""
-    },
-    navOpened: false
+    navItemSelected: undefined,
+    navOpened: false,
+    subNavOpened: false
   }),
   computed: {
     subNavItems() {
+      if (!this.navItemSelected) return [];
       const target = this.navItems.find(
         item => item.name === this.navItemSelected.name
       );
@@ -75,14 +102,35 @@ export default {
     }
   },
   methods: {
+    openNav() {
+      if (this.navOpened) {
+        this.subNavOpened = false;
+        this.navItemSelected = undefined;
+      }
+      this.navOpened = !this.navOpened;
+    },
     forceToClose() {
       this.navOpened = false;
+      this.subNavOpened = false;
+      this.navItemSelected = undefined;
+    },
+    selectNavItem(navItem) {
+      this.navItemSelected = navItem;
+      this.subNavOpened = true;
     }
   }
 };
 </script>
 
 <style>
+.b-nav {
+  position: fixed;
+  top: 0px;
+  transition: top 0.5s;
+}
+.b-nav.hidden {
+  top: -128px;
+}
 div {
   font-family: "微軟正黑體";
 }
@@ -134,16 +182,34 @@ ul {
   margin-left: 15px;
   cursor: pointer;
 }
+.nav {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  background: white;
+  height: 128px;
+}
 .menu {
   background: rgba(0, 0, 0, 0.8);
   display: flex;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: calc(128px - 400px - 10px);
+  transition: top 0.5s;
+  z-index: 98;
+}
+.menu.opened {
+  top: 128px;
 }
 .menu .menu_title {
   background: #4f83cc;
-  max-width: 450px;
-  min-height: 400px;
+  width: 350px;
   margin: 0;
   padding: 10px;
+  position: absolute;
+  z-index: 99;
+  height: calc(100% - 20px);
 }
 .menu li {
   color: #fff;
@@ -157,6 +223,7 @@ ul {
   color: #fff;
   text-decoration: none;
   transition: 0.5s;
+  width: 100%;
 }
 .menu_title li:hover,
 .menu_title li a:hover,
@@ -167,7 +234,6 @@ ul {
   border-color: transparent transparent transparent #fff;
   border-style: solid solid solid solid;
   border-width: 5px;
-  /* 設定 width、height 可更好理解原理 */
   height: 0px;
   width: 0px;
   margin: 8px;
@@ -180,8 +246,17 @@ ul {
 .menu_content {
   background: #8cbbf2;
   margin: 0;
-  min-width: 230px;
+  width: 400px;
   padding: 10px;
+  position: absolute;
+  z-index: 98;
+  transition: left 0.5s;
+  left: calc(370px - 420px);
+  height: calc(100% - 20px);
+  overflow-y: scroll;
+}
+.menu_content.opened {
+  left: 370px;
 }
 .menu_content li a:hover {
   color: #002f6c;

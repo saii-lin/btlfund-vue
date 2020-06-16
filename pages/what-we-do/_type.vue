@@ -1,13 +1,9 @@
 <template>
-  <div></div>
+  <div>{{ $route.params.type }}</div>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style scoped>
-div {
-  height: 300vh;
-}
-</style>
+<style></style>
