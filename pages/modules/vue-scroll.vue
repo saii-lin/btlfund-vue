@@ -2,7 +2,7 @@
   <div>
     <header>
       <div>
-        <nuxt-link to="/">
+        <nuxt-link to="/demo">
           <h3>Go Back To Home Page</h3>
         </nuxt-link>
       </div>
@@ -11,15 +11,13 @@
           <a
             href="https://github.com/wangpin34/vue-scroll#readme"
             target="_blank"
-          >
-            https://github.com/wangpin34/vue-scroll#readme
-          </a>
+          >https://github.com/wangpin34/vue-scroll#readme</a>
         </h3>
       </div>
     </header>
     <div class="hello">
       <div class="dashboard">scrollTop:{{ position.scrollTop }}</div>
-      <ol v-scroll:throttle="{ fn: onScroll, throttle: 500 }">
+      <ol v-scroll="onScroll">
         <li v-for="order of orders" v-bind:key="order">{{ order }}</li>
       </ol>
     </div>

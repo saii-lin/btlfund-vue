@@ -16,7 +16,10 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [
+      { "src": "/jquery-3.5.1.min.js" }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -25,7 +28,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    'normalize.css/normalize.css'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -48,6 +53,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 };
