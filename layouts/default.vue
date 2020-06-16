@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <b-nav ref="nav"></b-nav>
-    <div @click="forceToClose">
+  <div v-scroll="onScroll" class="body">
+    <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
+    <div @click="forceToClose" ref="content">
       <nuxt />
     </div>
   </div>
@@ -12,13 +12,29 @@ export default {
   components: {
     BNav
   },
-  data: () => ({}),
+  data: () => ({
+    scrollTop: 0,
+    downward: false,
+    contentWidth: 0
+  }),
+  mounted() {
+    this.contentWidth = this.$refs.content.offsetWidth;
+  },
   methods: {
     forceToClose() {
       this.$refs.nav.forceToClose();
+    },
+    onScroll(e, position) {
+      this.downward = position.scrollTop > this.scrollTop;
+      this.scrollTop = position.scrollTop;
     }
   }
 };
 </script>
-<style>
+<style scoped>
+.body {
+  max-height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
 </style>
