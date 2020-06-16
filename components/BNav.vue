@@ -143,6 +143,7 @@ ul {
   max-width: 450px;
   min-height: 400px;
   margin: 0;
+  padding: 10px;
 }
 .menu li {
   color: #fff;
@@ -180,6 +181,7 @@ ul {
   background: #8cbbf2;
   margin: 0;
   min-width: 230px;
+  padding: 10px;
 }
 .menu_content li a:hover {
   color: #002f6c;
