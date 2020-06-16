@@ -1,13 +1,20 @@
 <template>
-  <div></div>
+  <div>
+    <b-slide></b-slide>
+    <b-what-we-do></b-what-we-do>
+  </div>
 </template>
 
 <script>
-export default {};
+import BSlide from "~/components/BSlide.vue";
+import BWhatWeDo from "~/components/BWhatWeDo";
+export default {
+  components: {
+    BSlide,
+    BWhatWeDo
+  }
+};
 </script>
 
 <style scoped>
-div {
-  height: 100vh;
-}
 </style>
