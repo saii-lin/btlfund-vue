@@ -119,7 +119,7 @@ export default {};
 }
 .what_bottom_ {
   width: 35vw;
-  height: 300px;
+  height: 400px;
   background-size: cover;
 }
 .what_bottom_left {
@@ -133,7 +133,7 @@ export default {};
 .what_bottom_font h2 {
   font-size: 50px;
   color: #002f6c;
-  margin-top: 140px;
+  margin-top: 180px;
 }
 .what_bottom_text {
   font-size: 20px;
