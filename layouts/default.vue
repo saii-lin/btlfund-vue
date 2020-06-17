@@ -27,6 +27,7 @@ export default {
     onScroll(e, position) {
       this.downward = position.scrollTop > this.scrollTop;
       this.scrollTop = position.scrollTop;
+      this.$refs.nav.forceToClose();
     }
   }
 };
@@ -35,6 +36,5 @@ export default {
 .body {
   max-height: 100vh;
   overflow-y: scroll;
-  scrollbar-width: none;
 }
 </style>

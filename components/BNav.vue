@@ -1,14 +1,11 @@
 <template>
-  <div
-    :class="['b-nav', hidden ? 'hidden' : '']"
-    :style="{ width: `${width}px` }"
-  >
+  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
     <div style="position:relative">
       <div class="nav">
         <img class="logo_pc" src="/images/Logo.png" alt />
         <div class="nav_top">
           <ul class="language">
-            <li class="">
+            <li class>
               <nuxt-link :to="switchLocalePath('en-us')">English</nuxt-link>
             </li>
             <li>
@@ -52,22 +49,14 @@
               v-if="navItem.link"
               :to="navItem.link"
               @click="forceToClose"
-            >
-              {{ navItem.name }}
-            </nuxt-link>
+            >{{ navItem.name }}</nuxt-link>
             <template v-else>{{ navItem.name }}</template>
             <div v-if="!navItem.link" class="triangle"></div>
           </li>
         </ul>
-        <ul :class="['menu_content', subNavOpened ? 'opened' : '']">
-          <li
-            v-for="(navItem, index) in subNavItems"
-            :key="index"
-            @click="forceToClose"
-          >
-            <nuxt-link :to="navItem.link">
-              {{ navItem.name }}
-            </nuxt-link>
+        <ul :class="['menu_content', subNavOpened && !navItemSelected.link ? 'opened' : '']">
+          <li v-for="(navItem, index) in subNavItems" :key="index" @click="forceToClose">
+            <nuxt-link :to="navItem.link">{{ navItem.name }}</nuxt-link>
           </li>
         </ul>
       </div>
@@ -127,6 +116,7 @@ export default {
   position: fixed;
   top: 0px;
   transition: top 0.5s;
+  z-index: 99;
 }
 .b-nav.hidden {
   top: -128px;
@@ -184,7 +174,7 @@ ul {
 }
 .nav {
   position: absolute;
-  z-index: 99;
+  z-index: 2;
   width: 100%;
   background: white;
   height: 128px;
@@ -194,10 +184,10 @@ ul {
   display: flex;
   position: absolute;
   width: 100%;
-  height: 400px;
-  top: calc(128px - 400px - 10px);
+  height: 420px;
+  top: calc(128px - 420px - 10px);
   transition: top 0.5s;
-  z-index: 98;
+  z-index: 1;
 }
 .menu.opened {
   top: 128px;
@@ -208,7 +198,7 @@ ul {
   margin: 0;
   padding: 10px;
   position: absolute;
-  z-index: 99;
+  z-index: 2;
   height: calc(100% - 20px);
 }
 .menu li {
@@ -249,11 +239,11 @@ ul {
   width: 400px;
   padding: 10px;
   position: absolute;
-  z-index: 98;
+  z-index: 1;
   transition: left 0.5s;
   left: calc(370px - 420px);
   height: calc(100% - 20px);
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .menu_content.opened {
   left: 370px;
