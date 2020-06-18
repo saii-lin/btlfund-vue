@@ -1,7 +1,7 @@
 <template>
   <div v-scroll="onScroll" class="body">
     <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
-    <div @click="forceToClose" ref="content">
+    <div class="page-body" @click="forceToClose" ref="content">
       <nuxt />
     </div>
   </div>
@@ -36,5 +36,8 @@ export default {
 .body {
   max-height: 100vh;
   overflow-y: scroll;
+}
+.page-body {
+  margin-top: 128px;
 }
 </style>
