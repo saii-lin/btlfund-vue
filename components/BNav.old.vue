@@ -124,7 +124,7 @@ export default {
 div {
   font-family: "微軟正黑體";
 }
-.b-nav ul {
+ul {
   list-style: none;
 }
 .logo_pc {
