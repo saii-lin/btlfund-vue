@@ -107,7 +107,7 @@ export default {};
 }
 .block5_icon1 {
   width: 20vw;
-  margin-top: 50px;
+  margin: 30px;
 }
 .block5_icon1 img {
   margin: 0 auto;
