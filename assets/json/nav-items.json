@@ -1,42 +1,26 @@
 [
   {
-    "name": "Our Firm",
+    "name": "About Us",
     "subNavItems": [
       {
-        "name": "About Us",
-        "link": "/our-firm/about-us"
-      },
-      {
-        "name": "Our Vision",
-        "link": "/our-firm/our-vision"
-      },
-      {
-        "name": "Our Mission",
-        "link": "/our-firm/our-missionour"
-      },
-      {
-        "name": "Our Difference",
-        "link": "/our-firm/our-difference"
+        "name": "Intro",
+        "link": "/about-us/intro"
       },
       {
         "name": "Our Core Values",
-        "link": "/our-firm/our-core-values"
+        "link": "/about-us/our-core-values"
       },
       {
         "name": "Our Clients",
-        "link": "/our-firm/our-clients"
+        "link": "/about-us/our-clients"
       },
       {
-        "name": "Leadership",
-        "link": "/our-firm/leadership"
-      },
-      {
-        "name": "Locations",
-        "link": "/our-firm/locations"
+        "name": "Our Location",
+        "link": "/about-us/our-location"
       },
       {
         "name": "Global Presence",
-        "link": "/our-firm/global-presence"
+        "link": "/about-us/global-presence"
       }
     ]
   },
@@ -54,53 +38,68 @@
     ]
   },
   {
-    "name": "Insight",
-    "link": "/insight"
+    "name": "Market Insight",
+    "subNavItems": [
+      {
+        "name": "Market Commentary",
+        "link": "/market-insight/market-commentary"
+      },
+      {
+        "name": "Special Editions",
+        "link": "/market-insight/special-editions"
+      }
+    ]
   },
   {
     "name": "Forms",
-    "link": "/forms"
+    "subNavItems": [
+      {
+        "name": "Asset Management Forms",
+        "link": "/forms/asset-management-forms"
+      },
+      {
+        "name": "Brokerage Forms",
+        "link": "/forms/brokerage-forms"
+      }
+    ]
   },
   {
-    "name": "Investor Education Center",
+    "name": "Resource and Education Center",
     "subNavItems": [
       {
         "name": "Bond",
-        "link": "/investor-education-center/bond"
-      },
-      {
-        "name": "CBBC",
-        "link": "/investor-education-center/cbbc"
+        "link": "/resource-and-education-center/bond"
       },
       {
         "name": "Digital Structure Note",
-        "link": "/investor-education-center/digital-structure-note"
+        "link": "/resource-and-education-center/digital-structure-note"
       },
       {
         "name": "Equity Linked Notes",
-        "link": "/investor-education-center/equity-linked-notes"
+        "link": "/resource-and-education-center/equity-linked-notes"
       },
       {
         "name": "Equity Structured Products Accumulator / Decumulator",
-        "link": "/investor-education-center/equity-structured-products-accumulator-decumulator"
+        "link": "/resource-and-education-center/equity-structured-products-accumulator-decumulator"
       },
       {
         "name": "Exchange Traded Fund",
-        "link": "/investor-education-center/exchange-traded-fund"
+        "link": "/resource-and-education-center/exchange-traded-fund"
       },
       {
         "name": "Options",
-        "link": "/investor-education-center/options"
+        "link": "/resource-and-education-center/options"
       },
       {
         "name": "Glossary",
-        "link": "/investor-education-center/glossary"
+        "link": "/resource-and-education-center/glossary"
       },
       {
         "name": "Q&A",
-        "link": "/investor-education-center/qa"
+        "link": "/resource-and-education-center/qa"
       }
-    ]
+    ],
+    "hidden": true
   },
   {
     "name": "Contact us",

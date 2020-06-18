@@ -14,8 +14,14 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.12.2",
+    "nuxt-material-design-icons": "^1.0.4",
     "vue-scroll": "^2.1.13",
-    "vue-scrollto": "^2.18.1"
+    "vue-scrollto": "^2.18.1",
+    "vue-silentbox": "^2.0.2",
+    "vuetify": "^1.5.9"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  }
 }

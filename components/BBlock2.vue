@@ -4,13 +4,22 @@
       <img class="what_pic" src="/images/index1.jpeg" alt />
       <div class="what_text what_top_text">
         <h3>ASSET MANAGEMENT</h3>
-        <p>Our investment strategy, customised for and fully transparent to each client, is designed to create steady, long term compounding of wealth.</p>
+        <p>
+          Our investment strategy, customised for and fully transparent to each
+          client, is designed to create steady, long term compounding of wealth.
+        </p>
       </div>
     </div>
     <div class="what_content what_content_bottom">
       <div class="what_text what_bottom_text">
         <h3>INTRODUCING BROKERAGE</h3>
-        <p>BTL is committed to serving the introducing brokerage services in most of the major equity and futures markets worldwide including Hong Kong and US. Our transparent, low commissions and financing rates, and support for best price executions minimize your costs to help you maximize your returns.</p>
+        <p>
+          BTL is committed to serving the introducing brokerage services in most
+          of the major equity and futures markets worldwide including Hong Kong
+          and US. Our transparent, low commissions and financing rates, and
+          support for best price executions minimize your costs to help you
+          maximize your returns.
+        </p>
       </div>
       <img class="what_pic" src="images/index2.jpg" alt />
     </div>
@@ -23,7 +32,7 @@ export default {};
 
 <style>
 .what {
-  margin-top: 220px;
+  /* margin-top: 220px; */
 }
 .what_content {
   display: flex;

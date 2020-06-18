@@ -1,7 +1,7 @@
 <template>
   <div v-scroll="onScroll" class="body">
     <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
-    <div @click="forceToClose" ref="content">
+    <div class="page-body" @click="forceToClose" ref="content">
       <nuxt />
     </div>
   </div>
@@ -19,6 +19,9 @@ export default {
   }),
   mounted() {
     this.contentWidth = this.$refs.content.offsetWidth;
+    window.addEventListener("resize", () => {
+      this.contentWidth = this.$refs.content.offsetWidth;
+    });
   },
   methods: {
     forceToClose() {
@@ -32,9 +35,16 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style>
 .body {
   max-height: 100vh;
   overflow-y: scroll;
+}
+.page-body {
+  margin-top: 150px;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 </style>

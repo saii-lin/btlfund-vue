@@ -1,7 +1,7 @@
 import i18nOptions from "./locales/i18n";
 
 export default {
-  mode: "universal",
+  mode: "spa",
   /*
    ** Headers of the page
    */
@@ -26,11 +26,19 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["normalize.css/normalize.css"],
+  css: [
+    "~/assets/style/app.styl",
+    "~/assets/css/app.css",
+    "normalize.css/normalize.css"
+  ],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ["~/plugins/vuescroll.js"],
+  plugins: [
+    "@/plugins/vuescroll.js",
+    "@/plugins/vuetify",
+    "@/plugins/vue-slientbox.js"
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -40,7 +48,8 @@ export default {
    */
   modules: [
     ["vue-scrollto/nuxt", { duration: 666 }],
-    ["nuxt-i18n", i18nOptions]
+    ["nuxt-i18n", i18nOptions],
+    "nuxt-material-design-icons"
   ],
   /*
    ** Build configuration
