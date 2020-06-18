@@ -49,7 +49,7 @@ export default {};
 .block4_pic0 {
   width: 34vw;
   height: 350px;
-  margin: 20px;
+  margin: 15px;
   background-size: cover;
 }
 .block4_btn0,
