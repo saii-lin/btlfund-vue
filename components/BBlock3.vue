@@ -1,10 +1,14 @@
 <template>
   <div class="about">
     <div class="about_content about_content_top">
-      <img class="about_pic" src="images/index3.jpeg" alt />
+      <img class="about_pic" src="/istock/block2-3.png" alt />
       <div class="about_text about_text_top">
         <h3>MARKET INSIGHT</h3>
-        <p>We seek to deliver to our clients leading market insight, helping them to raise money, invest, and risk diversification across multi-financial asset classes.</p>
+        <p>
+          We seek to deliver to our clients leading market insight, helping them
+          to raise money, invest, and risk diversification across
+          multi-financial asset classes.
+        </p>
       </div>
     </div>
     <div class="about_content about_content_bottom">
@@ -14,24 +18,14 @@
           <strong>E-T-H-I-C</strong>
         </h3>
         <ul>
-          <li>
-            <strong>E</strong>xcellence
-          </li>
-          <li>
-            <strong>T</strong>eam Spirit
-          </li>
-          <li>
-            <strong>H</strong>ard Work
-          </li>
-          <li>
-            <strong>I</strong>ntegrity
-          </li>
-          <li>
-            <strong>C</strong>onsideration
-          </li>
+          <li><strong>E</strong>xcellence</li>
+          <li><strong>T</strong>eam Spirit</li>
+          <li><strong>H</strong>ard Work</li>
+          <li><strong>I</strong>ntegrity</li>
+          <li><strong>C</strong>onsideration</li>
         </ul>
       </div>
-      <img class="about_pic" src="images/index4.jpeg" alt />
+      <img class="about_pic" src="/istock/block2-4.png" alt />
     </div>
   </div>
 </template>
@@ -41,6 +35,9 @@ export default {};
 </script>
 
 <style>
+.about {
+  margin-bottom: 30px;
+}
 .about_content {
   display: flex;
   justify-content: center;
@@ -63,6 +60,10 @@ export default {};
 .about_text p {
   font-size: 20px;
   line-height: 30px;
+}
+.about_text p,
+.about_text li {
+  font-style: italic;
 }
 .about_text strong {
   color: red;

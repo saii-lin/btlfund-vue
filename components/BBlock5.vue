@@ -6,35 +6,47 @@
       <div class="block5_icon">
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon1.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-2.png"
+            ></v-img>
             <p>Bond</p>
           </a>
         </div>
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon2.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-3.png"
+            ></v-img>
             <p>
-              Digital Structure
-              Note
+              Digital Structure Note
             </p>
           </a>
         </div>
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon3.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-4.png"
+            ></v-img>
             <p>
-              Equity Linked
-              Notes
+              Equity Linked Notes
             </p>
           </a>
         </div>
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon4.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-5.png"
+            ></v-img>
             <p>
-              Equity Structured
-              Products Accumulator
-              / De-cumulator
+              Equity Structured Products Accumulator / De-cumulator
             </p>
           </a>
         </div>
@@ -42,29 +54,44 @@
       <div class="block5_icon">
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon5.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-6.png"
+            ></v-img>
             <p>
-              Exchange Traded
-              Fund
+              Exchange Traded Fund
             </p>
           </a>
         </div>
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon6.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-7.png"
+            ></v-img>
             <p>Options</p>
           </a>
         </div>
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon7.png" alt />
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-8.png"
+            ></v-img>
             <p>Glossary</p>
           </a>
         </div>
         <div class="block5_icon1">
           <a href>
-            <img src="/images/icon8.png" alt />
-            <p>Q&A</p>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/istock/block4-9.png"
+            ></v-img>
+            <p>Q&amp;A</p>
           </a>
         </div>
       </div>
@@ -73,7 +100,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    size: 150
+  })
+};
 </script>
 
 <style scoped>
@@ -89,7 +120,9 @@ export default {};
   margin: 0;
 }
 .block5_pic {
-  background-image: url(/images/iec.jpeg);
+  background-image: url(/istock/block4-1.png);
+  background-size: cover;
+  background-position-y: bottom;
   width: 100%;
   height: 1000px;
 }
@@ -109,12 +142,16 @@ export default {};
   width: 20vw;
   margin: 30px;
 }
-.block5_icon1 img {
+.block5_icon1 p {
+  font-size: 25px;
+  padding: 10px;
+}
+.block5_icon1 .v-image {
   margin: 0 auto;
   display: block;
   transition: 0.5s;
 }
-.block5_icon1 img:hover {
+.block5_icon1 .v-image:hover {
   transform: translateY(-15px);
 }
 </style>

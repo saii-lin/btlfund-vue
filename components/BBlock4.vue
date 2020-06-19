@@ -64,7 +64,7 @@ export default {
     dialog: false,
     members: [
       {
-        src: "images/index5.jpeg",
+        src: "/istock/block3-1.png",
         title:
           "Mr. Tang Chi Hong, Eric - Responsible Officer / Chief Executive Officer",
         texts: [
@@ -73,14 +73,14 @@ export default {
         ]
       },
       {
-        src: "images/index6.jpeg",
+        src: "/istock/block3-2.png",
         title: "Mr. Lui Chi Lung , Louis - Responsible Officer",
         texts: [
           "Mr. Lui has established his career in the private banking and asset management sector over the past 25 years. During the period, he has been working for several major European banks, as well as managing a portfolio of hundred millions US dollar of assets under management(AUM). He was once the non-executive director of a Hong Kong listed company. Mr. Lui possesses extensive knowledge in various types of investment products, covering equities, fixed income, mutual funds, private equities, to structured derivative products. He also has experience in managing a loan portfolio for his high net-worth individual customers."
         ]
       },
       {
-        src: "images/index7.jpeg",
+        src: "/istock/block3-3.png",
         title:
           "Mr. Yeung Chung Wing, Michel - General Manager / Compliance & Operations",
         texts: [
@@ -88,7 +88,7 @@ export default {
         ]
       },
       {
-        src: "images/index8.jpeg",
+        src: "/istock/block3-4.png",
         title: "",
         texts: []
       }
@@ -106,11 +106,14 @@ export default {
 <style scoped>
 .block4 {
   background: #cdd2d1;
+  padding-bottom: 20px;
 }
 .block4 > h2 {
   font-size: 50px;
-  text-align: center;
-  padding: 20px;
+  padding: 30px;
+  width: fit-content;
+  margin: auto;
+  color: white;
 }
 .block4_pic {
   display: flex;
@@ -152,16 +155,16 @@ export default {
   background: #1057b4;
 }
 .block4_pic1 {
-  background-image: url(/images/index5.jpeg);
+  background-image: url(/istock/block3-1.png);
 }
 .block4_pic2 {
-  background-image: url(/images/index6.jpeg);
+  background-image: url(/istock/block3-2.png);
 }
 .block4_pic3 {
-  background-image: url(/images/index7.jpeg);
+  background-image: url(/istock/block3-3.png);
 }
 .block4_pic4 {
-  background-image: url(/images/index8.jpeg);
+  background-image: url(/istock/block3-4.png);
 }
 .member-grid {
   display: grid;

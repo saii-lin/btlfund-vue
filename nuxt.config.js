@@ -27,8 +27,8 @@ export default {
    ** Global CSS
    */
   css: [
-    "~/assets/style/app.styl",
-    "~/assets/css/app.css",
+    "@/assets/style/app.styl",
+    "@/assets/css/app.css",
     "normalize.css/normalize.css"
   ],
   /*

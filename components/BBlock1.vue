@@ -19,6 +19,11 @@
             >
               {{ text }}
             </p>
+            <nuxt-link :to="item.link">
+              <div class="background-content__more">
+                more
+              </div>
+            </nuxt-link>
           </div>
         </v-img>
       </v-carousel-item>
@@ -49,6 +54,7 @@ export default {
         {
           src: "/images/slide1.jpeg",
           title: "Our Vision",
+          link: "#",
           texts: [
             'BTL is inspired from a phrase "Built to Last",  embody our dedication to preserve and grow our clients\' asset, and to continue providing our clients with creative ideas and solutions for operating effectively in a complex global economy.  BTL strives for excellence, we keep creating value and generating growth for our clients and shareholders with our outstanding financial services and products and continue to exceed all expectations.'
           ]
@@ -56,6 +62,7 @@ export default {
         {
           src: "/images/slide2.jpg",
           title: "Our Mission",
+          link: "#",
           texts: [
             "BTL will be trusted to reliably deliver innovative, exemplary and high performance financial services and products, for our clients whilst upholding the highest standards of integrity and quality.",
             "BTL values the trust and confidence our clients placed in us and strive to consistently and steadfastly deliver innovative and exemplary financial services and outstanding performance to them whilst upholding the highest standard of integrity and quality."
@@ -64,6 +71,7 @@ export default {
         {
           src: "/images/slide3.jpeg",
           title: "Our Difference",
+          link: "#",
           texts: [
             "As opposed to beating a benchmark, growing our clients' assets is at the very core of our business.  BTL is fully committed to putting clients' interests as our top priority.  We tailor our exceptional services and portfolio management to meet each client's unique needs."
           ]
@@ -89,8 +97,6 @@ export default {
   height: 100%;
   width: calc(80vh * 16 / 9);
   margin: auto;
-  border-radius: 10px;
-  background-color: #6f7287;
 }
 .v-carousel {
   box-shadow: none;
@@ -98,11 +104,10 @@ export default {
 .background {
   width: 100vw;
   top: -72px;
-  height: 75vh;
+  height: 700px;
   bottom: 0;
   position: absolute;
   overflow: hidden;
-  background-color: #6f7287;
 }
 .background img {
   height: 110vh;
@@ -127,25 +132,37 @@ export default {
   background: rgba(255, 255, 255, 0.8);
   width: 500px;
   position: absolute;
-  bottom: 0;
+  top: 33%;
+  padding: 10px;
 }
 .background-content__title {
   font-size: 50px;
   padding: 10px;
   margin: 0;
-  color: #424746;
 }
 .background-content__text {
   font-size: 20px;
   line-height: 30px;
   padding: 10px;
   margin: 0;
+  font-weight: bold;
+}
+.background-content__more {
+  background-color: #0f4c81;
+  width: fit-content;
+  float: right;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
 </style>
 <style>
 .carousel-background .v-carousel__controls {
   width: fit-content;
   left: calc(50vw - 110px);
-  border-radius: 10px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #0f4c81;
 }
 </style>

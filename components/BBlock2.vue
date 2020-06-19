@@ -1,7 +1,7 @@
 <template>
   <div class="what">
     <div class="what_content what_content_top">
-      <img class="what_pic" src="/images/index1.jpeg" alt />
+      <img class="what_pic" src="/istock/block2-1.png" alt />
       <div class="what_text what_top_text">
         <h3>ASSET MANAGEMENT</h3>
         <p>
@@ -21,7 +21,7 @@
           maximize your returns.
         </p>
       </div>
-      <img class="what_pic" src="images/index2.jpg" alt />
+      <img class="what_pic" src="/istock/block2-2.png" alt />
     </div>
   </div>
 </template>
@@ -31,9 +31,6 @@ export default {};
 </script>
 
 <style>
-.what {
-  /* margin-top: 220px; */
-}
 .what_content {
   display: flex;
   justify-content: center;
@@ -48,6 +45,9 @@ export default {};
 .what_text h3,
 .what_text p {
   margin: 60px 20px 0;
+}
+.what_text p {
+  font-style: italic;
 }
 .what_text h3 {
   font-size: 40px;
