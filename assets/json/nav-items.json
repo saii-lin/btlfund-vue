@@ -16,7 +16,7 @@
       },
       {
         "name": "Our Location",
-        "link": "/about-us/our-location"
+        "link": "$t:index.nav.GoogleMap"
       },
       {
         "name": "Global Presence",
@@ -29,7 +29,7 @@
     "subNavItems": [
       {
         "name": "Asset Management",
-        "link": "/what-we-do/asset-managerment"
+        "link": "/what-we-do/asset-management"
       },
       {
         "name": "Introducing Brokerage",

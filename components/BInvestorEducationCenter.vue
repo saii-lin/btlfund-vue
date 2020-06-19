@@ -30,7 +30,7 @@ export default {};
 <style>
 .iec h2 {
   font-size: 50px;
-  color: #002f6c;
+  color: #0f4c81;
   text-align: center;
 }
 .iec_in {

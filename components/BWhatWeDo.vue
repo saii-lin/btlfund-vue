@@ -5,7 +5,11 @@
         <div class="what_top_ what_top_left">
           <div class="what_text">
             <h3>Asset Management</h3>
-            <p>Our investment strategy, customised for and fully transparent to each client, is designed to create steady, long term compounding of wealth.</p>
+            <p>
+              Our investment strategy, customised for and fully transparent to
+              each client, is designed to create steady, long term compounding
+              of wealth.
+            </p>
           </div>
         </div>
       </a>
@@ -132,7 +136,7 @@ export default {};
 
 .what_bottom_font h2 {
   font-size: 50px;
-  color: #002f6c;
+  color: #0f4c81;
   margin-top: 180px;
 }
 .what_bottom_text {

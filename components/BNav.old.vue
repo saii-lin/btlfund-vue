@@ -1,5 +1,8 @@
 <template>
-  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
+  <div
+    :class="['b-nav', hidden ? 'hidden' : '']"
+    :style="{ width: `${width}px` }"
+  >
     <div style="position:relative">
       <div class="nav">
         <img class="logo_pc" src="/images/Logo.png" alt />
@@ -47,16 +50,28 @@
           >
             <nuxt-link
               v-if="navItem.link"
-              :to="navItem.link"
+              :to="localePath(navItem.link)"
               @click="forceToClose"
-            >{{ navItem.name }}</nuxt-link>
+              >{{ navItem.name }}</nuxt-link
+            >
             <template v-else>{{ navItem.name }}</template>
             <div v-if="!navItem.link" class="triangle"></div>
           </li>
         </ul>
-        <ul :class="['menu_content', subNavOpened && !navItemSelected.link ? 'opened' : '']">
-          <li v-for="(navItem, index) in subNavItems" :key="index" @click="forceToClose">
-            <nuxt-link :to="navItem.link">{{ navItem.name }}</nuxt-link>
+        <ul
+          :class="[
+            'menu_content',
+            subNavOpened && !navItemSelected.link ? 'opened' : ''
+          ]"
+        >
+          <li
+            v-for="(navItem, index) in subNavItems"
+            :key="index"
+            @click="forceToClose"
+          >
+            <nuxt-link :to="localePath(navItem.link)">
+              {{ navItem.name }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -141,7 +156,7 @@ ul {
   display: flex;
 }
 .language a {
-  color: #002f6c;
+  color: #0f4c81;
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
@@ -159,7 +174,7 @@ ul {
 }
 .search_text {
   height: 28px;
-  border: 1px solid #002f6c;
+  border: 1px solid #0f4c81;
   border-radius: 5px;
   background: #e8e8e8;
 }
@@ -249,6 +264,6 @@ ul {
   left: 370px;
 }
 .menu_content li a:hover {
-  color: #002f6c;
+  color: #0f4c81;
 }
 </style>

@@ -3,22 +3,17 @@
     <div class="what_content what_content_top">
       <div class="what_pic what_pic1"></div>
       <div class="what_text what_top_text">
-        <h3>ASSET MANAGEMENT</h3>
+        <h3>{{ $t("index.block2.AssetManagementTitle") }}</h3>
         <p>
-          Our investment strategy, customised for and fully transparent to each
-          client, is designed to create steady, long term compounding of wealth.
+          {{ $t("index.block2.AssetManagementTitleContent") }}
         </p>
       </div>
     </div>
     <div class="what_content what_content_bottom">
       <div class="what_text what_bottom_text">
-        <h3>INTRODUCING BROKERAGE</h3>
+        <h3>{{ $t("index.block2.IntroducingBrokerageTitle") }}</h3>
         <p>
-          BTL is committed to serving the introducing brokerage services in most
-          of the major equity and futures markets worldwide including Hong Kong
-          and US. Our transparent, low commissions and financing rates, and
-          support for best price executions minimize your costs to help you
-          maximize your returns.
+          {{ $t("index.block2.IntroducingBrokerageContent") }}
         </p>
       </div>
       <div class="what_pic what_pic2"></div>
@@ -36,29 +31,31 @@ export default {};
   justify-content: center;
 }
 .what_pic {
-  width: 35vw;
+  width: 40vw;
   margin: 20px;
+  height: calc(40vw * 0.76);
   background-size: cover;
 }
 .what_text {
-  width: 35vw;
+  width: 40vw;
+  align-self: center;
 }
 .what_text h3,
 .what_text p {
-  margin: 60px 20px 0;
+  margin: 30px 20px 0;
 }
 .what_text p {
   font-style: italic;
 }
 .what_text h3 {
-  font-size: 40px;
+  font-size: 36px;
 }
 .what_text p {
   font-size: 20px;
   line-height: 30px;
 }
 .what_top_text h3 {
-  color: #002f6c;
+  color: #0f4c81;
 }
 .what_content_bottom {
   background: #cdd2d1;
@@ -67,10 +64,10 @@ export default {};
   color: #fff;
 }
 .what_pic1 {
-  background-image: url(/istock/block2-1.png);
+  background-image: url(/images/block2-1.png);
 }
 .what_pic2 {
-  background-image: url(/istock/block2-2.png);
+  background-image: url(/images/block2-2.png);
 }
 .what_top_text {
   margin-bottom: 150px;

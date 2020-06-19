@@ -1,0 +1,165 @@
+[
+  {
+    "name": "about-us",
+    "title": "index.nav.AboutUs",
+    "pages": [
+      {
+        "name": "intro",
+        "title": "aboutus.Intro",
+        "texts": [
+          "aboutus.IntroContent"
+        ]
+      },
+      {
+        "name": "our-core-values",
+        "title": "aboutus.OurCoreValues",
+        "texts": [
+          "aboutus.OurCoreValuesContent",
+          {
+            "type": "list",
+            "texts": [
+              "aboutus.OurCoreValuesContent2.Excellence",
+              "aboutus.OurCoreValuesContent2.TeamSpirit",
+              "aboutus.OurCoreValuesContent2.HardWork",
+              "aboutus.OurCoreValuesContent2.Integrity",
+              "aboutus.OurCoreValuesContent2.Consideration"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "our-clients",
+        "title": "aboutus.OurClients",
+        "texts": [
+          "aboutus.OurClientsContent"
+        ]
+      },
+      {
+        "name": "global-presence",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "what-we-do",
+    "title": "index.nav.WhatWeDo",
+    "pages": [
+      {
+        "name": "asset-management",
+        "title": "whatwedo.AssetManagement",
+        "texts": [
+          {
+            "type": "component",
+            "name": "BAssetManagement"
+          }
+        ]
+      },
+      {
+        "name": "introducing-brokerage",
+        "title": "whatwedo.IntroducingBrokerage",
+        "texts": [
+          {
+            "type": "component",
+            "name": "BIntroducingBrokerage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "market-insight",
+    "title": "index.nav.MarketInsight",
+    "pages": [
+      {
+        "name": "market-commentary",
+        "title": "marketinsight.MarketCommentary",
+        "texts": []
+      },
+      {
+        "name": "special-editions",
+        "title": "marketinsight.SpecialEditions",
+        "texts": []
+      }
+    ]
+  },
+  {
+    "name": "forms",
+    "title": "index.nav.Forms",
+    "pages": [
+      {
+        "name": "asset-management-forms",
+        "title": "forms.AssetManagementForms",
+        "texts": []
+      },
+      {
+        "name": "brokerage-forms",
+        "title": "forms.BrokerageForms",
+        "texts": []
+      }
+    ]
+  },
+  {
+    "name": "resource-and-education-center",
+    "pages": [
+      {
+        "name": "bond",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "digital-structure-note",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "equity-linked-notes",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "equity-structured-products-accumulator-decumulator",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "exchange-traded-fund",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "options",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "glossary",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      },
+      {
+        "name": "qa",
+        "title": "aboutus.GlobalPresence",
+        "texts": [
+          "aboutus.GlobalPresenceContent"
+        ]
+      }
+    ]
+  }
+]

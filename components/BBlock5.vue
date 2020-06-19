@@ -1,6 +1,6 @@
 <template>
   <div class="block5">
-    <h2>RESCOURCES AND EDUCATION CENTER</h2>
+    <h2>{{ $t("index.block5.RescourcesAndEducationCenter") }}</h2>
     <div class="block5_pic"></div>
     <div class="block5_content">
       <div class="block5_icon">
@@ -9,9 +9,9 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-2.png"
+              src="/images/block5-2.png"
             ></v-img>
-            <p>Bond</p>
+            <p>{{ $t("index.block5.Bond") }}</p>
           </a>
         </div>
         <div class="block5_icon1">
@@ -19,11 +19,9 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-3.png"
+              src="/images/block5-3.png"
             ></v-img>
-            <p>
-              Digital Structure Note
-            </p>
+            <p>{{ $t("index.block5.DigitalStructureNote") }}</p>
           </a>
         </div>
         <div class="block5_icon1">
@@ -31,11 +29,9 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-4.png"
+              src="/images/block5-4.png"
             ></v-img>
-            <p>
-              Equity Linked Notes
-            </p>
+            <p>{{ $t("index.block5.EquityLinkedNotes") }}</p>
           </a>
         </div>
         <div class="block5_icon1">
@@ -43,10 +39,14 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-5.png"
+              src="/images/block5-5.png"
             ></v-img>
             <p>
-              Equity Structured Products Accumulator / De-cumulator
+              {{
+                $t(
+                  "index.block5.EquityStructuredProductsAccumulatorDecumulator"
+                )
+              }}
             </p>
           </a>
         </div>
@@ -57,10 +57,10 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-6.png"
+              src="/images/block5-6.png"
             ></v-img>
             <p>
-              Exchange Traded Fund
+              {{ $t("index.block5.ExchangeTradedFund") }}
             </p>
           </a>
         </div>
@@ -69,9 +69,9 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-7.png"
+              src="/images/block5-7.png"
             ></v-img>
-            <p>Options</p>
+            <p>{{ $t("index.block5.Options") }}</p>
           </a>
         </div>
         <div class="block5_icon1">
@@ -79,9 +79,9 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-8.png"
+              src="/images/block5-8.png"
             ></v-img>
-            <p>Glossary</p>
+            <p>{{ $t("index.block5.Glossary") }}</p>
           </a>
         </div>
         <div class="block5_icon1">
@@ -89,9 +89,9 @@
             <v-img
               :width="size"
               :height="size"
-              src="/istock/block4-9.png"
+              src="/images/block5-9.png"
             ></v-img>
-            <p>Q&amp;A</p>
+            <p>{{ $t("index.block5.Q&A") }}</p>
           </a>
         </div>
       </div>
@@ -120,7 +120,7 @@ export default {
   margin: 0;
 }
 .block5_pic {
-  background-image: url(/istock/block4-1.png);
+  background-image: url(/images/block5-1.png);
   background-size: cover;
   background-position-y: bottom;
   width: 100%;

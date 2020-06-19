@@ -10,7 +10,7 @@ export default {};
 
 <style>
 .footer {
-  background: #002f6c;
+  background: #0f4c81;
 }
 .footer p {
   color: #fff;

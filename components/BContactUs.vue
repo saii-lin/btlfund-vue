@@ -43,7 +43,7 @@ export default {};
 
 <style>
 .coutact h2 {
-  color: #002f6c;
+  color: #0f4c81;
   font-size: 50px;
   text-align: center;
 }
@@ -60,6 +60,6 @@ export default {};
 }
 .coutact_font p {
   font-size: 20px;
-  color: #002f6c;
+  color: #0f4c81;
 }
 </style>

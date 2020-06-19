@@ -118,7 +118,10 @@
               {{ navItem.name }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
-                  <nuxt-link :to="subNavItem.link" :key="`nav-item-${index}-${jndex}`">
+                  <nuxt-link
+                    :to="localePath(subNavItem.link)"
+                    :key="`nav-item-${index}-${jndex}`"
+                  >
                     <li>{{ subNavItem.name }}</li>
                   </nuxt-link>
                 </template>
@@ -196,7 +199,7 @@ export default {
   display: flex;
 }
 .language a {
-  color: #002f6c;
+  color: #0f4c81;
   text-decoration: none;
   padding: 10px;
   font-size: 20px;

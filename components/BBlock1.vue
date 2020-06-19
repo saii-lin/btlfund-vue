@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel-background">
+  <div class="carousel-background b-block1">
     <v-carousel height="800px" hide-controls>
       <v-carousel-item ref="carouselItems" v-for="(item, i) in sources" :key="i">
         <div class="background">
@@ -13,9 +13,6 @@
               v-for="(text, index) in item.texts"
               :key="index"
             >{{ text }}</p>
-            <nuxt-link :to="item.link">
-              <!-- <div class="background-content__more">more</div> -->
-            </nuxt-link>
           </div>
         </v-img>
       </v-carousel-item>
@@ -46,25 +43,23 @@ export default {
         {
           src: "/images/slide1.jpeg",
           link: "#",
-          title: this.$t("OurVision"),
-          texts: [this.$t("OurVisionContent")]
+          title: this.$t("index.block1.OurVision"),
+          texts: [this.$t("index.block1.OurVisionContent")]
         },
         {
           src: "/images/slide2.jpg",
-          title: "Our Mission",
+          title: this.$t("index.block1.OurMission"),
           link: "#",
           texts: [
-            "BTL will be trusted to reliably deliver innovative, exemplary and high performance financial services and products, for our clients whilst upholding the highest standards of integrity and quality.",
-            "BTL values the trust and confidence our clients placed in us and strive to consistently and steadfastly deliver innovative and exemplary financial services and outstanding performance to them whilst upholding the highest standard of integrity and quality."
+            this.$t("index.block1.OurMissionContent"),
+            this.$t("index.block1.OurMissionContent2")
           ]
         },
         {
           src: "/images/slide3.jpeg",
-          title: "Our Difference",
+          title: this.$t("index.block1.OurDifference"),
           link: "#",
-          texts: [
-            "As opposed to beating a benchmark, growing our clients' assets is at the very core of our business.  BTL is fully committed to putting clients' interests as our top priority.  We tailor our exceptional services and portfolio management to meet each client's unique needs."
-          ]
+          texts: [this.$t("index.block1.OurDifferenceContent")]
         }
       ]
     };
@@ -72,6 +67,9 @@ export default {
 };
 </script>
 <style scoped>
+.b-block1 {
+  margin-bottom: 30px;
+}
 .carousel-background {
   position: relative;
   height: 800px;
@@ -136,16 +134,6 @@ export default {
   padding: 10px;
   margin: 0;
   font-weight: bold;
-}
-.background-content__more {
-  background-color: #0f4c81;
-  width: fit-content;
-  float: right;
-  color: white;
-  padding: 3px 15px;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
 }
 @media screen and (max-width: 414px) {
   .background-content__text {

@@ -1,35 +1,37 @@
 <template>
   <div class="contact">
-    <h2>Contact Us</h2>
+    <h2>{{ $t("index.block6.ContactUs") }}</h2>
     <div class="contact_content">
       <div class="contact_text">
         <div class="contact_font">
           <img src="/images/contact1.png" alt />
           <div class="info">
-            12/F, Chung Nam Building, 1 Lockhart Road, Hong Kong
+            {{ $t("index.block6.12FChungNamBuilding1LockhartRoadHongKong") }}
           </div>
         </div>
         <div class="contact_font contact_font__4x">
           <div>
             <img src="/images/contact2.png" alt />
-            <div class="info">Hotline: +852 3701 7000</div>
+            <div class="info">{{ $t("index.block6.Hotline") }}</div>
           </div>
           <div>
             <div></div>
-            <div class="info">Fax: +852 3701 7099</div>
+            <div class="info">{{ $t("index.block6.Fax") }}</div>
           </div>
         </div>
         <div class="contact_font contact_font__4x">
           <div>
             <img src="/images/contact3.png" alt />
             <div class="info">
-              Asset Management Services &nbsp;&nbsp;ams@btlfund.com.hk
+              {{ $t("index.block6.AssetManagementServices") }}
+              &nbsp;&nbsp;ams@btlfund.com.hk
             </div>
           </div>
           <div>
             <div></div>
             <div class="info">
-              Brokerage Services&nbsp;&nbsp;info@btlfund.com.hk
+              {{ $t("index.block6.BrokerageServices") }}
+              &nbsp;&nbsp;info@btlfund.com.hk
             </div>
           </div>
         </div>
@@ -37,7 +39,7 @@
       <div>
         <iframe
           class="contact_map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1sen-US!2stw!4v1592365359864!5m2!1sen-US!2stw"
+          :src="$t('index.block6.GoogleMap')"
           height="450"
           frameborder="0"
           style="border:0;"
@@ -59,7 +61,7 @@ export default {};
   margin: 20px 0px;
 }
 .contact h2 {
-  color: #002f6c;
+  color: #0f4c81;
   font-size: 50px;
   text-align: center;
   padding: 20px;
@@ -84,7 +86,7 @@ export default {};
 }
 .contact_font .info {
   font-size: 20px;
-  color: #002f6c;
+  color: #0f4c81;
   align-self: center;
 }
 .contact_font__4x {

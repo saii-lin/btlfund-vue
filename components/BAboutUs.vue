@@ -37,7 +37,7 @@ export default {};
 }
 .about h2 {
   font-size: 50px;
-  color: #002f6c;
+  color: #0f4c81;
   text-align: center;
   padding: 10px;
 }
@@ -48,7 +48,7 @@ export default {};
 }
 .about_icon p,
 .about_text {
-  color: #002f6c;
+  color: #0f4c81;
 }
 .about_icon p {
   text-align: center;
