@@ -18,4 +18,10 @@ export default {};
   line-height: 30px;
   color: #0f4c81;
 }
+@media screen and (max-width: 414px) {
+  .content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 </style>

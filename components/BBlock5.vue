@@ -104,6 +104,7 @@ export default {};
 .block5_icon p {
   font-size: 20px;
   text-align: center;
+  margin-top: 20px;
 }
 .block5_icon1 {
   width: 20vw;
@@ -116,5 +117,40 @@ export default {};
 }
 .block5_icon1 img:hover {
   transform: translateY(-15px);
+}
+@media screen and (max-width: 1200px) {
+  .block5_icon {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .block5_icon1 img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .block5_icon {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 414px) {
+  .block5 h2 {
+    font-size: 25px;
+  }
+  .block5_pic {
+    background-size: cover;
+    width: 90vw;
+    height: 300px;
+    margin: auto;
+  }
+  .block5_icon1 img {
+    width: 100px;
+  }
+  .block5_icon1 {
+    width: 80vw;
+  }
+  .block5_icon p {
+    font-size: 14px;
+  }
 }
 </style>
