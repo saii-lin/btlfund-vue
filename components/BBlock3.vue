@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="about_content about_content_top">
-      <img class="about_pic" src="/istock/block2-3.png" alt />
+      <div class="about_pic about_pic1"></div>
       <div class="about_text about_text_top">
         <h3>MARKET INSIGHT</h3>
         <p>
@@ -15,6 +15,7 @@
       <div class="about_text about_text_bottom">
         <h3>
           OUR CORE VALUE:
+          <br />
           <strong>E-T-H-I-C</strong>
         </h3>
         <ul>
@@ -25,7 +26,7 @@
           <li><strong>C</strong>onsideration</li>
         </ul>
       </div>
-      <img class="about_pic" src="/istock/block2-4.png" alt />
+      <div class="about_pic about_pic2"></div>
     </div>
   </div>
 </template>
@@ -45,6 +46,13 @@ export default {};
 .about_pic {
   width: 35vw;
   margin: 20px;
+  background-size: cover;
+}
+.about_pic1 {
+  background-image: url(/istock/block2-3.png);
+}
+.about_pic2 {
+  background-image: url(/istock/block2-4.png);
 }
 .about_text {
   width: 35vw;
@@ -71,7 +79,7 @@ export default {};
 }
 .about_text ul {
   list-style: square inside url("/images/list.png");
-  margin: 60px 0px 0;
+  margin: 60px 0px 30px;
 }
 .about_text li {
   font-size: 20px;
@@ -79,5 +87,41 @@ export default {};
 }
 .about_text li strong {
   margin-left: 10px;
+}
+.about_text_top p {
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 1300px) {
+  .about_content {
+    display: block;
+  }
+  .about_text {
+    margin: 20px auto;
+    width: 60vw;
+  }
+  .about_text_top p {
+    margin-bottom: 10px;
+  }
+  .about_text h3 {
+    text-align: center;
+  }
+  @media screen and (max-width: 414px) {
+    .about_text {
+      width: 90vw;
+    }
+    .about_text h3 {
+      font-size: 25px;
+    }
+    .about_text strong {
+      font-size: 20px;
+    }
+    .about_text p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .about_text li {
+      font-size: 14px;
+    }
+  }
 }
 </style>

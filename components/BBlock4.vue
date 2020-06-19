@@ -2,42 +2,33 @@
   <div class="block4">
     <h2>MEET THE TEAM</h2>
     <div class="block4_pic">
-      <div class="block4_pic0 block4_pic1">
+      <div class="block4_pic0 block4_pic1" @click="openDialog(0)">
         <div class="block4_btn0">
-          <div class="block4_btn1" @click="openDialog(0)">Read More</div>
+          <div class="block4_btn1">Read More</div>
         </div>
       </div>
-      <div class="block4_pic0 block4_pic2">
+      <div class="block4_pic0 block4_pic2" @click="openDialog(1)">
         <div class="block4_btn0">
-          <div class="block4_btn1" @click="openDialog(1)">Read More</div>
+          <div class="block4_btn1">Read More</div>
         </div>
       </div>
     </div>
     <div class="block4_pic">
-      <div class="block4_pic0 block4_pic3">
+      <div class="block4_pic0 block4_pic3" @click="openDialog(2)">
         <div class="block4_btn0">
-          <div class="block4_btn1" @click="openDialog(2)">Read More</div>
+          <div class="block4_btn1">Read More</div>
         </div>
       </div>
-      <div class="block4_pic0 block4_pic4">
+      <div class="block4_pic0 block4_pic4" @click="openDialog(3)">
         <div class="block4_btn0">
-          <div class="block4_btn1" @click="openDialog(3)">Read More</div>
+          <div class="block4_btn1">Read More</div>
         </div>
       </div>
     </div>
     <v-dialog v-model="dialog" max-width="1000px">
       <v-card>
-        <v-carousel
-          class="lightbox-carousel"
-          :cycle="false"
-          height="400px"
-          hide-delimiters
-        >
-          <v-carousel-item
-            ref="carouselItems"
-            v-for="(item, i) in members"
-            :key="i"
-          >
+        <v-carousel class="lightbox-carousel" :cycle="false" height="400px" hide-delimiters>
+          <v-carousel-item ref="carouselItems" v-for="(item, i) in members" :key="i">
             <div class="member-grid">
               <v-img :src="item.src" class="member-grid__avatar"></v-img>
               <div class="member-grid__content">
@@ -46,9 +37,7 @@
                   class="member-grid__content__text"
                   v-for="(text, index) in item.texts"
                   :key="index"
-                >
-                  {{ text }}
-                </p>
+                >{{ text }}</p>
               </div>
             </div>
           </v-carousel-item>
@@ -124,6 +113,7 @@ export default {
   height: 350px;
   margin: 15px;
   background-size: cover;
+  cursor: pointer;
 }
 .block4_btn0,
 .block4_btn1 {
@@ -192,5 +182,25 @@ export default {
 .lightbox-carousel .v-carousel__prev,
 .lightbox-carousel .v-carousel__next {
   position: fixed;
+}
+@media screen and (max-width: 1000px) {
+  .block4_pic {
+    display: block !important;
+  }
+  .block4_pic0 {
+    width: 80vw !important;
+    margin: 20px auto !important;
+  }
+  .block4 > h2 {
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  .block4 > h2 {
+    font-size: 25px !important;
+  }
+  .block4_pic0 {
+    height: 200px !important;
+  }
 }
 </style>

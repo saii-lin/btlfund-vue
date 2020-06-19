@@ -53,11 +53,9 @@ export default {
       sources: [
         {
           src: "/images/slide1.jpeg",
-          title: "Our Vision",
           link: "#",
-          texts: [
-            'BTL is inspired from a phrase "Built to Last",  embody our dedication to preserve and grow our clients\' asset, and to continue providing our clients with creative ideas and solutions for operating effectively in a complex global economy.  BTL strives for excellence, we keep creating value and generating growth for our clients and shareholders with our outstanding financial services and products and continue to exceed all expectations.'
-          ]
+          title: this.$t("OurVision"),
+          texts: [this.$t("OurVisionContent")]
         },
         {
           src: "/images/slide2.jpg",
@@ -157,6 +155,21 @@ export default {
   font-size: 20px;
   cursor: pointer;
 }
+@media screen and (max-width: 414px) {
+  .background-content__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .background-content__title {
+    font-size: 25px;
+  }
+  .v-image {
+    width: 100vw;
+  }
+  .background-content {
+    width: 100vw;
+  }
+}
 </style>
 <style>
 .carousel-background .v-carousel__controls {
@@ -164,5 +177,10 @@ export default {
   left: calc(50vw - 110px);
   border-radius: 20px 20px 0px 0px;
   background-color: #0f4c81;
+}
+@media screen and (max-width: 414px) {
+  .carousel-background .v-carousel__controls {
+    display: none;
+  }
 }
 </style>

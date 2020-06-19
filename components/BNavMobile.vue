@@ -1,5 +1,5 @@
 <template>
-  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
+  <div :class="['b-nav-mobile', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
     <div>
       <div class="nav">
         <div class="navbar">
@@ -98,16 +98,16 @@ export default {
 </script>
 
 <style>
-.b-nav {
+.b-nav-mobile {
   position: fixed;
   top: 0px;
   transition: top 0.3s;
   z-index: 99;
 }
-.b-nav.hidden {
+.b-nav-mobile.hidden {
   top: -150px;
 }
-.b-nav ul {
+.b-nav-mobile ul {
   list-style: none;
 }
 .language {

@@ -120,6 +120,7 @@ export default {};
 .site-map {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 20px;
 }
 .site-map_block h4,
 .site-map_block a,
@@ -182,6 +183,18 @@ export default {};
   }
   .site-map_block h4::after {
     width: auto;
+  }
+  .site-map_block {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .site-map_block a,
+  .site-map_block li {
+    font-size: 12px;
+  }
+  .site-map_block h4::after {
+    width: 300px;
   }
 }
 </style>

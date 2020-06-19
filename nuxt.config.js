@@ -37,7 +37,6 @@ export default {
   plugins: [
     "@/plugins/vuescroll.js",
     "@/plugins/vuetify",
-    "@/plugins/vue-slientbox.js"
   ],
   /*
    ** Nuxt.js dev-modules
@@ -58,6 +57,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 };

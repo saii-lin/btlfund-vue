@@ -1,6 +1,7 @@
 <template>
   <div v-scroll="onScroll" class="body">
     <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
+    <b-nav-mobile ref="nav" :hidden="downward" :width="contentWidth"></b-nav-mobile>
     <div class="page-body" @click="forceToClose" ref="content">
       <nuxt />
     </div>
@@ -8,9 +9,11 @@
 </template>
 <script>
 import BNav from "~/components/BNav";
+import BNavMobile from "~/components/BNavMobile";
 export default {
   components: {
-    BNav
+    BNav,
+    BNavMobile
   },
   data: () => ({
     scrollTop: 0,
@@ -46,5 +49,16 @@ export default {
 a {
   text-decoration: none !important;
   color: inherit !important;
+}
+.b-nav-mobile {
+  display: none;
+}
+@media screen and (max-width: 414px) {
+  .b-nav {
+    display: none;
+  }
+  .b-nav-mobile {
+    display: block;
+  }
 }
 </style>
