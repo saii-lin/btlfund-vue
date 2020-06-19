@@ -1,11 +1,7 @@
 <template>
   <div class="carousel-background">
     <v-carousel height="800px" hide-controls>
-      <v-carousel-item
-        ref="carouselItems"
-        v-for="(item, i) in sources"
-        :key="i"
-      >
+      <v-carousel-item ref="carouselItems" v-for="(item, i) in sources" :key="i">
         <div class="background">
           <img :src="item.src" />
         </div>
@@ -16,13 +12,9 @@
               class="background-content__text"
               v-for="(text, index) in item.texts"
               :key="index"
-            >
-              {{ text }}
-            </p>
+            >{{ text }}</p>
             <nuxt-link :to="item.link">
-              <div class="background-content__more">
-                more
-              </div>
+              <!-- <div class="background-content__more">more</div> -->
             </nuxt-link>
           </div>
         </v-img>
@@ -168,6 +160,8 @@ export default {
   }
   .background-content {
     width: 100vw;
+    bottom: 0px;
+    top: auto;
   }
 }
 </style>

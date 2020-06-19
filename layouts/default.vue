@@ -1,7 +1,7 @@
 <template>
   <div v-scroll="onScroll" class="body">
     <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
-    <b-nav-mobile ref="nav" :hidden="downward" :width="contentWidth"></b-nav-mobile>
+    <b-nav-mobile ref="navMobile" :hidden="downward" :width="contentWidth"></b-nav-mobile>
     <div class="page-body" @click="forceToClose" ref="content">
       <nuxt />
     </div>
@@ -34,6 +34,7 @@ export default {
       this.downward = position.scrollTop > this.scrollTop;
       this.scrollTop = position.scrollTop;
       this.$refs.nav.forceToClose();
+      this.$refs.navMobile.forceToClose();
     }
   }
 };

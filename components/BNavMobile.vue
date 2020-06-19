@@ -1,11 +1,92 @@
 <template>
   <div :class="['b-nav-mobile', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
-    <div>
+    <nuxt-link class="to-home-link" to="/">
+      <img class="logo_pc" src="/images/Logo.png" alt />
+      <img class="hbg" src="/images/bg.png" alt />
+    </nuxt-link>
+    <ul class="menu_ph">
+      <li class="menu_ph_title">
+        About Us
+        <ul class="menu_ph_content">
+          <li>
+            <a href>Intro</a>
+          </li>
+          <li>
+            <a href>Our Core Values</a>
+          </li>
+          <li>
+            <a href>Our Clients</a>
+          </li>
+          <li>
+            <a href>Our Location</a>
+          </li>
+          <li>
+            <a href>Global Presence</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu_ph_title">
+        What we do
+        <ul class="menu_ph_content">
+          <li>
+            <a href>Asset Management</a>
+          </li>
+          <li>
+            <a href>Introducing Brokerage</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu_ph_title">Market Insight</li>
+      <li class="menu_ph_title">Forms</li>
+      <li class="menu_ph_title">
+        Resources and Education Center
+        <ul class="menu_ph_content">
+          <li>
+            <a href>Bond</a>
+          </li>
+          <li>
+            <a href>Digital Structure Note</a>
+          </li>
+          <li>
+            <a href>Equity Linked Notes</a>
+          </li>
+          <li>
+            <a href>Equity Structured Products Accumulator / Decumulator</a>
+          </li>
+          <li>
+            <a href>Exchange Traded Fund</a>
+          </li>
+          <li>
+            <a href>Options</a>
+          </li>
+          <li>
+            <a href>Glossary</a>
+          </li>
+          <li>
+            <a href>Q&A</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu_ph_title">Contact us</li>
+      <li class="menu_ph_title">
+        Language
+        <ul class="menu_ph_content">
+          <li>
+            <nuxt-link :to="switchLocalePath('en-us')">Eng</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link :to="switchLocalePath('zh-tw')">繁</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link :to="switchLocalePath('zh-cn')">简</nuxt-link>
+          </li>
+        </ul>
+      </li>
+      <li></li>
+    </ul>
+    <!-- <div>
       <div class="nav">
         <div class="navbar">
-          <nuxt-link class="to-home-link" to="/">
-            <img class="logo_pc" src="/images/Logo.png" alt />
-          </nuxt-link>
           <ul class="navbar-grid">
             <li>
               <input class="search" type="text" />
@@ -46,7 +127,7 @@
           </template>
         </ul>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -103,6 +184,7 @@ export default {
   top: 0px;
   transition: top 0.3s;
   z-index: 99;
+  background: #fff;
 }
 .b-nav-mobile.hidden {
   top: -150px;
@@ -129,6 +211,7 @@ export default {
 }
 .to-home-link {
   justify-self: start;
+  display: flex;
 }
 .logo_pc {
   width: 400px;
@@ -209,6 +292,19 @@ export default {
 .sub-menu-grid li:hover {
   background-color: #0f4c81;
   color: white;
+}
+/* ------------ph------------ */
+.hbg {
+  width: 45px;
+  height: 45px;
+  margin-top: 12px;
+}
+.menu_ph {
+  background: #6699cc;
+}
+.menu_ph_title {
+  color: #fff;
+  font-size: 16px;
 }
 @media screen and (max-width: 414px) {
   .logo_pc {
