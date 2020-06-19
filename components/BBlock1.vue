@@ -174,7 +174,7 @@ export default {
 <style>
 .carousel-background .v-carousel__controls {
   width: fit-content;
-  left: calc(50vw - 110px);
+  left: calc(50vw - 132px / 2);
   border-radius: 20px 20px 0px 0px;
   background-color: #0f4c81;
 }

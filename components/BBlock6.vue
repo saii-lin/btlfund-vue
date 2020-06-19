@@ -34,16 +34,18 @@
           </div>
         </div>
       </div>
-      <iframe
-        class="contact_map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1sen-US!2stw!4v1592365359864!5m2!1sen-US!2stw"
-        height="450"
-        frameborder="0"
-        style="border:0;"
-        allowfullscreen
-        aria-hidden="false"
-        tabindex="0"
-      ></iframe>
+      <div>
+        <iframe
+          class="contact_map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1sen-US!2stw!4v1592365359864!5m2!1sen-US!2stw"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
     </div>
   </div>
 </template>
@@ -63,8 +65,13 @@ export default {};
   padding: 20px;
 }
 .contact_content {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: auto;
+}
+.contact_map {
+  width: 100%;
 }
 .contact_font {
   display: grid;
