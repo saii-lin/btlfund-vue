@@ -3,27 +3,40 @@
     <div class="about_content about_content_top">
       <div class="about_pic about_pic1"></div>
       <div class="about_text about_text_top">
-        <h3>MARKET INSIGHT</h3>
+        <h3>{{ $t("index.block3.MarketInsightTitle") }}</h3>
         <p>
-          We seek to deliver to our clients leading market insight, helping them
-          to raise money, invest, and risk diversification across
-          multi-financial asset classes.
+          {{ $t("index.block3.MarketInsightTitleContent") }}
         </p>
       </div>
     </div>
     <div class="about_content about_content_bottom">
       <div class="about_text about_text_bottom">
         <h3>
-          OUR CORE VALUE:
+          {{ $t("index.block3.OurCoreValue:") }}
           <br />
-          <strong>E-T-H-I-C</strong>
+          <strong>{{ $t("index.block3.E-T-H-I-C") }}</strong>
         </h3>
         <ul>
-          <li><strong>E</strong>xcellence</li>
-          <li><strong>T</strong>eam Spirit</li>
-          <li><strong>H</strong>ard Work</li>
-          <li><strong>I</strong>ntegrity</li>
-          <li><strong>C</strong>onsideration</li>
+          <li>
+            <strong>{{ $t("index.block3.E") }}</strong
+            >{{ $t("index.block3.xcellence") }}
+          </li>
+          <li>
+            <strong>{{ $t("index.block3.T") }}</strong
+            >{{ $t("index.block3.eamSpirit") }}
+          </li>
+          <li>
+            <strong>{{ $t("index.block3.H") }}</strong
+            >{{ $t("index.block3.ardWork") }}
+          </li>
+          <li>
+            <strong>{{ $t("index.block3.I") }}</strong
+            >{{ $t("index.block3.ntegrity") }}
+          </li>
+          <li>
+            <strong>{{ $t("index.block3.C") }}</strong
+            >{{ $t("index.block3.onsideration") }}
+          </li>
         </ul>
       </div>
       <div class="about_pic about_pic2"></div>
@@ -44,25 +57,27 @@ export default {};
   justify-content: center;
 }
 .about_pic {
-  width: 35vw;
+  width: 40vw;
+  height: calc(40vw * 0.76);
   margin: 20px;
   background-size: cover;
 }
 .about_pic1 {
-  background-image: url(/istock/block2-3.png);
+  background-image: url(/images/block3-1.png);
 }
 .about_pic2 {
-  background-image: url(/istock/block2-4.png);
+  background-image: url(/images/block3-2.png);
 }
 .about_text {
-  width: 35vw;
+  width: 40vw;
+  align-self: center;
 }
 .about_text h3,
 .about_text p {
-  margin: 60px 20px 0;
+  margin: 30px 20px 0;
 }
 .about_text h3 {
-  color: #002f6c;
+  color: #0f4c81;
   font-size: 40px;
 }
 .about_text p {
@@ -75,11 +90,11 @@ export default {};
 }
 .about_text strong {
   color: red;
-  font-size: 40px;
+  font-size: 36px;
 }
 .about_text ul {
   list-style: square inside url("/images/list.png");
-  margin: 60px 0px 30px;
+  margin: 30px 0px 30px;
 }
 .about_text li {
   font-size: 20px;

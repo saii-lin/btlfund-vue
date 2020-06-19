@@ -4,7 +4,11 @@
       <div class="slide_pic">
         <div class="slide_text">
           <h2>Our Mission</h2>
-          <p>BTL will be trusted to reliably deliver innovative, exemplary and high performance financial services and products, for our clients whilst upholding the highest standards of integrity and quality.</p>
+          <p>
+            BTL will be trusted to reliably deliver innovative, exemplary and
+            high performance financial services and products, for our clients
+            whilst upholding the highest standards of integrity and quality.
+          </p>
           <div class="more">more</div>
         </div>
         <div class="slide_bar">
@@ -54,7 +58,7 @@ export default {};
 }
 .slide_bar {
   display: flex;
-  background: #002f6c67;
+  background: #0f4c8167;
   width: 120px;
   height: 35px;
   border-radius: 10px 10px 0 0;
