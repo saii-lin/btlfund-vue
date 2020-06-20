@@ -39,11 +39,9 @@
             <li
               v-if="!navItem.hidden"
               :key="`nav-item-${index}`"
-              @click="scrollto(navItem.scrollto)"
+              @click="scrollto(navItem)"
             >
-              <nuxt-link :to="navItem.link ? navItem.link : '#'">
-                {{ navItem.name }}
-              </nuxt-link>
+              {{ navItem.name }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
                   <nuxt-link
@@ -80,7 +78,7 @@
     </div>
   </div>
 </template>
-
+<script src=""></script>
 <script>
 import navItems from "@/assets/json/nav-items.json";
 export default {
@@ -128,9 +126,21 @@ export default {
       return this.$t(key.substr(3));
     },
     scrollto(target) {
+<<<<<<< HEAD
       this.$scrollTo(target, 2000, {
         container: ".body"
       });
+=======
+      if (target.link) {
+        if (this.$route.name.startsWith("index")) {
+          this.$scrollTo(target.scrollto, 1000, {
+            container: ".body"
+          });
+        } else {
+          this.$router.push({ path: this.localePath("/"), hash: "contactus" });
+        }
+      }
+>>>>>>> 3255db7b713108ae94ba1571fd3c6d6e976192d2
     }
   }
 };

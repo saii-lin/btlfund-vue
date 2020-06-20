@@ -27,6 +27,13 @@ export default {
     BBlock5,
     BBlock6,
     BFooter
+  },
+  mounted() {
+    if (this.$route.hash === "#contactus") {
+      this.$scrollTo(".contact", 1000, {
+        container: ".body"
+      });
+    }
   }
 };
 </script>
