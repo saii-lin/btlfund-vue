@@ -34,10 +34,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    "@/plugins/vuescroll.js",
-    "@/plugins/vuetify",
-  ],
+  plugins: ["@/plugins/vuescroll.js", "@/plugins/vuetify"],
   /*
    ** Nuxt.js dev-modules
    */
@@ -46,7 +43,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    ["vue-scrollto/nuxt", { duration: 666 }],
+    ["vue-scrollto/nuxt"],
     ["nuxt-i18n", i18nOptions],
     "nuxt-material-design-icons"
   ],
@@ -57,6 +54,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { }
+    extend(config, ctx) {}
   }
 };
