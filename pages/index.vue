@@ -19,6 +19,7 @@ import BBlock5 from "~/components/BBlock5.vue";
 import BBlock6 from "~/components/BBlock6.vue";
 import BFooter from "~/components/BFooter";
 export default {
+  scrollToTop: true,
   components: {
     BBlock1,
     BBlock2,

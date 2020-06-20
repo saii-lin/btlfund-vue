@@ -121,6 +121,14 @@ export default {};
     text-align: center;
   }
   @media screen and (max-width: 414px) {
+    .about {
+      margin-top: 30px;
+    }
+    .about_pic {
+      width: 100vw;
+      margin: 0px;
+      height: calc(100vw * 0.76);
+    }
     .about_text {
       width: 90vw;
     }

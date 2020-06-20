@@ -200,12 +200,7 @@ export default {
   top: 20px;
   right: 20px;
 }
-</style>
-<style>
-.lightbox-carousel .v-carousel__prev,
-.lightbox-carousel .v-carousel__next {
-  position: fixed;
-}
+
 @media screen and (max-width: 1000px) {
   .block4_pic {
     display: block !important;
@@ -219,11 +214,38 @@ export default {
   }
 }
 @media screen and (max-width: 414px) {
+  .member-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+  }
+  .member-grid__avatar {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 10px auto;
+  }
+  .member-grid__content {
+    overflow: scroll;
+    height: 260px;
+    margin: 10px;
+  }
   .block4 > h2 {
     font-size: 25px !important;
   }
   .block4_pic0 {
     height: 200px !important;
+  }
+}
+</style>
+<style>
+.lightbox-carousel .v-carousel__prev,
+.lightbox-carousel .v-carousel__next {
+  position: fixed;
+}
+@media screen and (max-width: 414px) {
+  .lightbox-carousel .v-carousel__prev,
+  .lightbox-carousel .v-carousel__next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
   }
 }
 </style>

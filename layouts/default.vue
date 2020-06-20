@@ -1,12 +1,19 @@
 <template>
   <div v-scroll="onScroll" class="body">
-    <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
     <b-nav-mobile
+      v-if="$vuetify.breakpoint.smAndDown"
       ref="navMobile"
       :hidden="downward"
       :width="contentWidth"
     ></b-nav-mobile>
-    <div class="page-body" @click="forceToClose" ref="content">
+    <b-nav v-else ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
+    <div
+      class="page-body"
+      ref="content"
+      :style="{
+        'margin-top': $vuetify.breakpoint.smAndDown ? '78px' : '145px'
+      }"
+    >
       <nuxt />
     </div>
   </div>
@@ -31,15 +38,10 @@ export default {
     });
   },
   methods: {
-    forceToClose() {
-      this.$refs.nav.forceToClose();
-    },
     onScroll(e, position) {
       this.downward =
         position.scrollTop > 145 && position.scrollTop > this.scrollTop;
       this.scrollTop = position.scrollTop;
-      this.$refs.nav.forceToClose();
-      this.$refs.navMobile.forceToClose();
     }
   }
 };
@@ -55,16 +57,5 @@ export default {
 a {
   text-decoration: none !important;
   color: inherit !important;
-}
-.b-nav-mobile {
-  display: none;
-}
-@media screen and (max-width: 414px) {
-  .b-nav {
-    display: none;
-  }
-  .b-nav-mobile {
-    display: block;
-  }
 }
 </style>

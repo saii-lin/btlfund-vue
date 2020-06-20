@@ -25,7 +25,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .what_content {
   display: flex;
   justify-content: center;
@@ -91,6 +91,11 @@ export default {};
   }
 }
 @media screen and (max-width: 414px) {
+  .what_pic {
+    width: 100vw;
+    margin: 0px;
+    height: calc(100vw * 0.76);
+  }
   .what_text h3 {
     font-size: 25px;
   }

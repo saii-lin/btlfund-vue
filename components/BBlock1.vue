@@ -142,6 +142,11 @@ export default {
   font-weight: bold;
 }
 @media screen and (max-width: 414px) {
+  .carousel-background,
+  .v-carousel,
+  .v-image {
+    height: calc(100vh - 78px) !important;
+  }
   .background-content__text {
     font-size: 14px;
     line-height: 20px;

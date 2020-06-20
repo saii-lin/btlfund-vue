@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .layout2 {
   background-image: url(/images/about-us.jpeg);
   width: 100%;
@@ -41,5 +41,10 @@ export default {
 }
 .layout2_title2 {
   margin-left: 170px;
+}
+@media screen and (max-width: 414px) {
+  .layout2_title2 {
+    margin-left: 0px;
+  }
 }
 </style>

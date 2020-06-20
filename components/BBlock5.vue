@@ -198,9 +198,9 @@ export default {
   }
   .block5_pic {
     background-size: cover;
-    width: 90vw;
+    width: 100vw;
     height: 300px;
-    margin: auto;
+    margin: 0px;
   }
   .block5_icon1 img {
     width: 100px;

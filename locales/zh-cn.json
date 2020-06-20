@@ -7,7 +7,8 @@
       "Forms": "(zh-cn)Forms",
       "ContactUs": "(zh-cn)Contact us",
       "ResourcesAndEducationCenter": "(zh-cn)Resources and Education Center",
-      "GoogleMap": "https://www.google.com/maps?ll=22.278507,114.168936&z=16&t=m&hl=zh-CN&gl=TW&mapclient=embed&cid=11557050173080441003"
+      "GoogleMap": "https://www.google.com/maps?ll=22.278507,114.168936&z=16&t=m&hl=zh-CN&gl=TW&mapclient=embed&cid=11557050173080441003",
+      "Language": "语言"
     },
     "block1": {
       "OurVision": "(zh-cn)Our Vision",
@@ -60,7 +61,7 @@
       "ExchangeTradedFund": "(zh-cn)Exchange Traded Fund",
       "Options": "(zh-cn)Options",
       "Glossary": "(zh-cn)Glossary",
-      "Q&A": "(zh-cn)Q&A"
+      "QA": "(zh-cn)Q&A"
     },
     "block6": {
       "ContactUs": "(zh-cn)Contact us",

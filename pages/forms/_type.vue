@@ -12,6 +12,7 @@ import BLayout2 from "~/components/BLayout2.vue";
 import BContent from "~/components/BContent.vue";
 import BFooterSiteMap from "~/components/BFooterSiteMap.vue";
 export default {
+  scrollToTop: true,
   components: {
     BLayout2,
     BContent,

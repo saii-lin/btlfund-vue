@@ -106,22 +106,6 @@ export default {
     }
   },
   methods: {
-    openNav() {
-      if (this.navOpened) {
-        this.subNavOpened = false;
-        this.navItemSelected = undefined;
-      }
-      this.navOpened = !this.navOpened;
-    },
-    forceToClose() {
-      this.navOpened = false;
-      this.subNavOpened = false;
-      this.navItemSelected = undefined;
-    },
-    selectNavItem(navItem) {
-      this.navItemSelected = navItem;
-      this.subNavOpened = true;
-    },
     locale(key) {
       return this.$t(key.substr(3));
     },
