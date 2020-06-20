@@ -103,63 +103,7 @@
   },
   {
     "name": "resource-and-education-center",
-    "pages": [
-      {
-        "name": "bond",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "digital-structure-note",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "equity-linked-notes",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "equity-structured-products-accumulator-decumulator",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "exchange-traded-fund",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "options",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "glossary",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      },
-      {
-        "name": "qa",
-        "title": "aboutus.GlobalPresence",
-        "texts": [
-          "aboutus.GlobalPresenceContent"
-        ]
-      }
-    ]
+    "title": "index.nav.ResourcesAndEducationCenter",
+    "pages": []
   }
 ]

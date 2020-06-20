@@ -36,8 +36,14 @@
       <div class="menu">
         <ul class="menu-grid">
           <template v-for="(navItem, index) in navItems">
-            <li v-if="!navItem.hidden" :key="`nav-item-${index}`">
-              {{ navItem.name }}
+            <li
+              v-if="!navItem.hidden"
+              :key="`nav-item-${index}`"
+              @click="scrollto(navItem.scrollto)"
+            >
+              <nuxt-link :to="navItem.link ? navItem.link : '#'">
+                {{ navItem.name }}
+              </nuxt-link>
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
                   <nuxt-link
@@ -120,6 +126,11 @@ export default {
     },
     locale(key) {
       return this.$t(key.substr(3));
+    },
+    scrollto(target) {
+      this.$scrollTo(target, 2000, {
+        container: ".body"
+      });
     }
   }
 };

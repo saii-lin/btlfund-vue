@@ -1,0 +1,666 @@
+<div class="container">
+  <div class="page-content">
+    <p style="font-weight: 400;">
+      <span class="txt_size_22px" style="color: #808000;"
+        ><strong>什麼是累積認購(沽)期權合約</strong><strong>?</strong></span
+      >
+    </p>
+    <p style="font-weight: 400;">
+      累積認購(沽)期權合約實際上是一系列合成遠期合約的結合，讓投資者按固定時間，以固定價格買入(賣出*)標的證券的合約。
+    </p>
+    <p style="font-weight: 400;">
+      對於累積認購期權合約，購買價格(行權價)通常會低於當前市場價格。而對於累積認沽期權合約，賣出價格通常會高於當前市場價格。
+    </p>
+    <p style="font-weight: 400;">
+      <strong>兩種累積期權合約可內嵌取消條款</strong
+      >，以每天收市價為觸發點，當標的證券的市價在收市時高於(低於*)取消價，合約便會終止。
+    </p>
+    <p style="font-weight: 400;">
+      <strong>杠杆條款</strong
+      >：當標的證券的市價低於(高於*)行權價的時候，投資者便需定時用行權價以杠杆倍數買入(賣出*)證券，直至合約結束。
+    </p>
+    <p style="font-weight: 400;">
+      <strong>保證股數買入</strong><strong>/賣出*條款</strong>：
+      如果在保證期內，取消條款生效,投資者仍可以以行權價買入(賣出*)保證之證券數量。保證證券數量&nbsp;=&nbsp;保證期天數x每天買入數量。證券的交收會在取消條款生效日的下一交易日發生。
+    </p>
+    <p style="font-weight: 400;">投資者要交付證券交收的印花稅。</p>
+    <p style="font-weight: 400;"><strong>特徵</strong></p>
+    <ul>
+      <li style="font-weight: 400;">
+        投資者有機會可以以低於(高於*)市場價的價格買入(賣出*)標的證券
+      </li>
+      <li style="font-weight: 400;">定期交收</li>
+    </ul>
+    <p style="font-weight: 400;"><strong>風險</strong></p>
+    <ul>
+      <li style="font-weight: 400;">
+        <strong>流動性風險</strong>–&nbsp;沒有二級市場，退出成本高
+      </li>
+      <li style="font-weight: 400;">
+        <strong>投資風險</strong
+        >–&nbsp;當市場向不利方向發展時，投資者依然需要以行權價買入(賣出*)預定之證券數量
+        ，可能導致重大損失
+      </li>
+      <li style="font-weight: 400;">
+        <strong>信用風險</strong>–&nbsp;投資者面對發行商/交易對手的信用風險
+      </li>
+      <li style="font-weight: 400;">
+        <strong>杠杆風險</strong
+        >(如適用)<strong>&nbsp;</strong>–&nbsp;可能加大損失
+      </li>
+      <li style="font-weight: 400;">
+        <strong>取消條款風險</strong
+        >–&nbsp;投資者的預期利潤會因取消條款而受到限制
+      </li>
+      <li style="font-weight: 400;">
+        <strong>市場計價風險</strong
+        >–&nbsp;保證金交易投資者,隨時要準備支付融資利息，並在追加保證金通知時支付足額保證金。保證金追加通知時間十分緊迫，若投資者不及時支付保證金，可能面臨合約被強制平倉，並需要支付很高的平倉費用。當股價走向相反方,投資者將招致損失，這亦是累積認購期權合約/累積認沽期權合約的風險。
+      </li>
+      <li style="font-weight: 400;">
+        <strong>交收風險</strong>–&nbsp;本風險是指交易對手無法履行協議的交易責任
+      </li>
+      <li style="font-weight: 400;">
+        累積認購期權合約投資者在股票交收前，並不擁有股息的分配權。
+      </li>
+    </ul>
+    <p style="font-weight: 400;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="txt_size_22px">*</span
+      >&nbsp;&nbsp;&nbsp;適用於累積認沽期權合約
+    </p>
+    <p style="font-weight: 400;">
+      <strong>累積認購期權合約條款</strong><strong>-例</strong>
+    </p>
+    <ul>
+      <li style="font-weight: 400;">發行商</li>
+      <li style="font-weight: 400;">標的股票</li>
+      <li style="font-weight: 400;">參考股票價值</li>
+      <li style="font-weight: 400;">行使價</li>
+      <li style="font-weight: 400;">合約期限</li>
+      <li style="font-weight: 400;">
+        取消價
+        (合約由T+0日開始檢測取消條件是否滿足，而股票成交數量由T+1日開始計算)
+      </li>
+      <li style="font-weight: 400;">
+        是否存在保證期：保證期指無論合約取消與否，投資者皆可以認購或認沽在保證期內的股票數目
+      </li>
+      <li style="font-weight: 400;">交收頻率</li>
+      <li style="font-weight: 400;">每日買賣股票數量</li>
+      <li style="font-weight: 400;">
+        合約名義價值=&nbsp;每日股票數量X合約天數X參考股票價值
+      </li>
+    </ul>
+    <p style="font-weight: 400;">
+      <strong>範例</strong><strong>&nbsp;1：累積認購期權合約</strong>
+    </p>
+    <p style="font-weight: 400;">
+      投資者想要買入ABC Co
+      Ltd的普通累積認購期權一年期合約，一個月的保證期，合約取消價為參考股票價值的103%，每月交收，投資者經理的佣金為合約總價值的0.3%，每日成交3,000股。假設一年有250個交易日。
+    </p>
+    <table class="aligncenter" style="font-weight: 400;" width="565">
+      <tbody>
+        <tr>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 277px;
+            "
+            width="277"
+          >
+            <span style="color: #333300;"><strong>行權價</strong></span>
+          </td>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 277px;
+            "
+            width="270"
+          >
+            <span style="color: #333300;">參考價的88.7%</span>
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>參考股票價值</strong></td>
+          <td width="270">5.25港元</td>
+        </tr>
+        <tr>
+          <td width="277"><strong>行使價</strong></td>
+          <td width="270">
+            5.25 x 88.7% = 4.6568港元
+            <p></p>
+            <p>(小數點後4位)</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>合約期限內最大買入股票數量</strong></td>
+          <td width="270">3,000 x 250 = 750,000股</td>
+        </tr>
+        <tr>
+          <td width="277"><strong>合約名義價值</strong></td>
+          <td width="270">750,000 x 5.25 = 3,937,500港元</td>
+        </tr>
+        <tr>
+          <td width="277">
+            <strong>最壞情況下最大交收金額<br /> </strong
+            ><strong>(沒有觸及取消價)</strong>
+          </td>
+          <td width="270">750,000 x 4.6568 = 3,429,600港元</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-weight: 400;">
+      <strong>範例</strong><strong>2：加杠杆累積認購期權合約</strong>
+    </p>
+    <p style="font-weight: 400;">
+      投資者想要買入ABC Co
+      Ltd的加杠杆累積認沽期權一年期合約，一個月的保證期，合約取消價為參考價的103%，每月交收，每日成交3,000股。假設一年有250個交易日。
+    </p>
+    <table class="aligncenter" style="font-weight: 400;" width="565">
+      <tbody>
+        <tr>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 277px;
+            "
+            width="277"
+          >
+            <span style="color: #333300;"><strong>行權價</strong></span>
+          </td>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 277px;
+            "
+            width="270"
+          >
+            <span style="color: #333300;">參考價的84.2%</span>
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>參考股票價值</strong></td>
+          <td width="270">5.25港元</td>
+        </tr>
+        <tr>
+          <td width="277"><strong>行使價</strong></td>
+          <td width="270">
+            5.25 x 84.2% = 4.4205港元
+            <p></p>
+            <p>(小數點後4位)</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>合約期限內最大買入股票數量</strong></td>
+          <td width="270">
+            3,000 x 250 x 2 = 1,500,000股<br />
+            (最壞情況)
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>合約名義價值</strong></td>
+          <td width="270">750,000 x 5.25 = 3,937,500港元</td>
+        </tr>
+        <tr>
+          <td width="277">
+            <strong>最壞情況下最大交收金額<br /> </strong
+            ><strong>(沒有觸及取消價)</strong>
+          </td>
+          <td width="270">1,500,000 x 4.4205 = 6,630,750港元</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-weight: 400;">
+      <strong
+        ><img
+          class="alignnone size-full wp-image-5290"
+          src="http://www.mafgl.com/wp-content/uploads/2018/09/accu_1_cht.jpg"
+          alt=""
+          width="556"
+          height="279"
+          srcset="
+            http://www.mafgl.com/wp-content/uploads/2018/09/accu_1_cht.jpg         556w,
+            http://www.mafgl.com/wp-content/uploads/2018/09/accu_1_cht-300x151.jpg 300w
+          "
+          sizes="(max-width: 556px) 100vw, 556px"
+      /></strong>
+    </p>
+    <p style="font-weight: 400;">
+      <strong
+        ><br />
+        範例</strong
+      ><strong>3：加杠杆累積認沽期權合約</strong>
+    </p>
+    <p style="font-weight: 400;">
+      投資者想要買入ABC Co
+      Ltd的加杠杆累積認沽期權一年期合約，一個月的保證期，合約取消價為參考價的97%，每兩周交收，每日成交3,000股。假設一年有248個交易日。
+    </p>
+    <table class="aligncenter" style="font-weight: 400;" width="565">
+      <tbody>
+        <tr>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 277px;
+            "
+            width="277"
+          >
+            <span style="color: #333300;"><strong>行權價</strong></span>
+          </td>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 277px;
+            "
+            width="270"
+          >
+            <span style="color: #333300;">參考價的116.88%</span>
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>參考股票價值</strong></td>
+          <td width="270">22.00港元</td>
+        </tr>
+        <tr>
+          <td width="277"><strong>行使價</strong></td>
+          <td width="270">
+            22.00 x 116.88% = 25.7136港元
+            <p></p>
+            <p>(小數點後4位)</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>合約期限內最大賣出股票數量</strong></td>
+          <td width="270">
+            3,000 x 248 x 2 = 1,488,000<br />
+            (最壞情況)
+          </td>
+        </tr>
+        <tr>
+          <td width="277"><strong>合約名義價值</strong></td>
+          <td width="270">744,000 x 22.00 = 16,368,000港元</td>
+        </tr>
+        <tr>
+          <td width="277">
+            <strong>最壞情況下最大交收金額<br /> </strong
+            ><strong>(沒有觸及取消價)</strong>
+          </td>
+          <td width="270">1,488,000 x 25.7136 = 38,261,836.80港元</td>
+        </tr>
+        <tr>
+          <td width="277">
+            <strong>假設一個月保證期有</strong
+            ><strong>20個交易日,保證賣出股票數量</strong>
+          </td>
+          <td width="270">60,000 股</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-weight: 400;">
+      <img
+        class="alignnone size-full wp-image-5293"
+        src="http://www.mafgl.com/wp-content/uploads/2018/09/accu_2_cht.jpg"
+        alt=""
+        width="556"
+        height="281"
+        srcset="
+          http://www.mafgl.com/wp-content/uploads/2018/09/accu_2_cht.jpg         556w,
+          http://www.mafgl.com/wp-content/uploads/2018/09/accu_2_cht-300x152.jpg 300w
+        "
+        sizes="(max-width: 556px) 100vw, 556px"
+      />
+    </p>
+    <p style="font-weight: 400;">
+      <span style="font-weight: 400;"
+        ><strong
+          ><br />
+          最壞情況</strong
+        ></span
+      >
+    </p>
+    <p style="font-weight: 400;">
+      對於累積認購期權合約，最壞情況是股價下跌至零
+      ，<strong>直到合約結束</strong>。在此情況下，投資者在合約到期前將以行權價買入最大股票數量。如果投資者將股票在市場立即賣出，投資者最大損失&nbsp;=(行權價&nbsp;–
+      0)X&nbsp;每天買入股票數量X&nbsp;合約天數。
+    </p>
+    <p style="font-weight: 400;">
+      對於累積認沽期權合約，最壞情況是股價一直在行權價以上運行，<strong>直到合約結束</strong>。理論上潛在虧損是無限的。
+    </p>
+    <p style="font-weight: 400;">
+      <span class="txt_size_22px" style="color: #808000;"
+        ><strong>產品風險</strong></span
+      >
+    </p>
+    <ul>
+      <li style="font-weight: 400;">產品風險定為非常高風險(不論年限)</li>
+      <li style="font-weight: 400;">產品複雜性定為複雜性產品</li>
+      <li style="font-weight: 400;">私人配售活動(場外交易)</li>
+      <li style="font-weight: 400;">只限專業投資者</li>
+    </ul>
+    <p style="font-weight: 400;">
+      <strong>情景分析：範例</strong><strong>&nbsp;1</strong>
+    </p>
+    <p style="font-weight: 400;">
+      投資者想買入一個1年期的Hello Co
+      Ltd的累積認購期權合約。行權價為參考價的90%，取消價為參考價的103%，本合約<strong>不設保證期</strong>，也沒有加杠杆。
+    </p>
+    <p style="font-weight: 400;">合約的細則如下:</p>
+    <table class="aligncenter" style="font-weight: 400;">
+      <tbody>
+        <tr>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 247px;
+            "
+            width="247"
+          >
+            <span style="color: #333300;"><strong>年限</strong></span>
+          </td>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 247px;
+            "
+            width="321"
+          >
+            <span style="color: #333300;">1年(假設250交易日)</span>
+          </td>
+        </tr>
+        <tr>
+          <td width="247"><strong>交易日</strong></td>
+          <td width="321">2010年8月4日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>第一個累積日</strong></td>
+          <td width="321">2010年8月5日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>最後一個累積日</strong></td>
+          <td width="321">2011年8月5日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>最後交收日</strong></td>
+          <td width="321">2011年8月9日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>行使價</strong></td>
+          <td width="321">
+            參考價的90%&nbsp;&nbsp;(行權價：90% x 4.00 = 3.60港元)
+          </td>
+        </tr>
+        <tr>
+          <td width="247"><strong>取消價</strong></td>
+          <td width="321">參考價103% (取消價：103% x 4.00 = 4.12港元)</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>參考價</strong><strong>&nbsp;</strong></td>
+          <td width="321">4.00港元</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>每天交易之股份</strong></td>
+          <td width="321">每天5,000股</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>合約名義價值</strong></td>
+          <td width="321">5000 x 250 x 4 = 5,000,000港元</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>最大成交金額</strong></td>
+          <td width="321">5000 x 250 x 3.6 = 4,500,000港元&nbsp;(最壞情況)</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-weight: 400;">
+      <strong>&nbsp;</strong><strong>情景</strong><strong>&nbsp;1</strong>
+    </p>
+    <p style="font-weight: 400;">
+      如果Hello Co
+      Ltd在交易日當天收市價高於取消價，累積期權合約終止，股票成交量&nbsp;= 0
+    </p>
+    <p style="font-weight: 400;">
+      <strong>情景</strong><strong>&nbsp;2</strong>
+    </p>
+    <p style="font-weight: 400;">
+      如果Hello Co
+      Ltd在T+10日收市價高於取消價，合約終止。(T+10日當天不計入累積買入股票數量)
+    </p>
+    <p style="font-weight: 400;">
+      累積買入股票數量&nbsp;= 9 x 5,000 = 45,000股
+    </p>
+    <p style="font-weight: 400;">
+      合約終止日+2日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取投資者資金&nbsp;=
+      45,000 x 3.6 = 162,000港元
+    </p>
+    <p style="font-weight: 400;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存入45,000股Hello
+      Co Ltd到投資者證券帳戶
+    </p>
+    <p style="font-weight: 400;">
+      <strong>情景</strong><strong>&nbsp;3</strong>
+    </p>
+    <p style="font-weight: 400;">
+      如果Hello Co Ltd在T+25日收市價高於取消價，合約終止(2010年9月8日)。
+    </p>
+    <p style="font-weight: 400;">
+      在2010年9月7日，投資者會收到第一個交收期裡所有的股票(假設第一個交收期有22個交易日)：&nbsp;22
+      x 5,000 = 110,000股
+    </p>
+    <p style="font-weight: 400;">
+      在2010年9月10日，投資者會收到第二個交收期裡兩天的股票：&nbsp;2 x 5000 =
+      10,000股
+    </p>
+    <p style="font-weight: 400;">
+      <strong>情景分析：範例&nbsp;</strong><strong>2</strong>
+    </p>
+    <p style="font-weight: 400;">
+      投資者想買入一個1年期的Hello Co
+      Ltd的累積認購期權合約。行權價為參考價的85%，取消價為參考價的103%，本合約<strong>設有保證期</strong>(第一期：22個交易日，由T+1至T+22)，也加杠杆。
+    </p>
+    <p style="font-weight: 400;">合約的細則如下:</p>
+    <table class="aligncenter" style="font-weight: 400;">
+      <tbody>
+        <tr>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 247px;
+            "
+            width="247"
+          >
+            <span style="color: #333300;"><strong>年限</strong></span>
+          </td>
+          <td
+            style="
+              border-color: #dedede;
+              background-color: #ffffff;
+              width: 247px;
+            "
+            width="321"
+          >
+            <span style="color: #333300;">1年(假設250交易日)</span>
+          </td>
+        </tr>
+        <tr>
+          <td width="247"><strong>交易日</strong></td>
+          <td width="321">2010年8月4日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>第一個累積日</strong></td>
+          <td width="321">2010年8月5日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>最後一個累積日</strong></td>
+          <td width="321">2011年8月5日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>最後交收日</strong></td>
+          <td width="321">2011年8月9日</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>行使價</strong></td>
+          <td width="321">
+            參考價的85%&nbsp;&nbsp;(行權價：85% x 4.00 = 3.40港元)
+          </td>
+        </tr>
+        <tr>
+          <td width="247"><strong>取消價</strong></td>
+          <td width="321">參考價103% (取消價：103% x 4.00 = 4.12港元)</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>參考價</strong><strong>&nbsp;</strong></td>
+          <td width="321">4.00港元</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>每天交易之股份</strong></td>
+          <td width="321">每天5,000股</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>合約名義價值</strong></td>
+          <td width="321">5000 x 250 x 4 = 5,000,000港元</td>
+        </tr>
+        <tr>
+          <td width="247"><strong>最大成交金額</strong></td>
+          <td width="321">
+            5000 x 250 x 3.4 x 2 = 8,500,000港元<br />
+            (最壞情況)
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="font-weight: 400;">
+      <strong>情景</strong><strong>&nbsp;1</strong>
+    </p>
+    <p style="font-weight: 400;">
+      如果Hello Co
+      Ltd在交易日當天收市價高於取消價，累積期權合約終止，股票累積數量&nbsp;= 0
+    </p>
+    <p style="font-weight: 400;">
+      <strong>情景</strong><strong>&nbsp;2</strong>
+    </p>
+    <p style="font-weight: 400;">
+      如果Hello Co Ltd在T+1日收市價高於取消價，合約終止。
+    </p>
+    <p style="font-weight: 400;">
+      累積買入股票數量&nbsp;= 22 x 5,000 = 110,000股(收回保證期所有股票)
+    </p>
+    <p style="font-weight: 400;">
+      合約終止日+2日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取投資者資金=110,000
+      x 3.4 = 374,000港元
+    </p>
+    <p style="font-weight: 400;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存入110,000股Hello
+      Co Ltd到投資者證券帳戶
+    </p>
+    <p style="font-weight: 400;">
+      <strong>情景</strong><strong>&nbsp;3</strong>
+    </p>
+    <p style="font-weight: 400;">
+      如果Hello Co
+      Ltd在T+1至T+5日收市價高於行使價，而T+6至T+9日(共四天)收市價低於行使價，在T+10日收市價高於取消價，合約終止
+      。
+    </p>
+    <p style="font-weight: 400;">
+      投資者會收到的股票數量= 18 x 5,000 + 4 x 2 x 5,000 = 130,000股
+    </p>
+    <p style="font-weight: 400;"><strong>合約條款上的風險披露聲明</strong></p>
+    <ol>
+      <li style="font-weight: 400;"><u>衍生工具的一般風險</u></li>
+    </ol>
+    <p style="font-weight: 400;">
+      累積認購期權合約/累積認沽期權合約是衍生產品，這是複雜的，並可能涉及重大風險。因此不可能準確預測投資者在此產品的回報，因為該回報取決於許多因素。本產品僅適合於擁有足夠金融和商業知識和經驗的成熟投資者，以評估相關風險。
+    </p>
+    <ol start="2">
+      <li style="font-weight: 400;"><u>不設本金保證</u></li>
+    </ol>
+    <p style="font-weight: 400;">
+      累積認購期權合約/累積認沽期權合約並不設有本金保證。
+    </p>
+    <ol start="3">
+      <li style="font-weight: 400;"><u>市場風險</u></li>
+    </ol>
+    <p style="font-weight: 400;">
+      投資累積認購期權合約/累積認沽期權合約涉及市場風險。影響該產品的市場價值的因素很多。標的股票價格變化是可以很突然及重大的，而且難以預測。標的股票價格變化可能影響投資者利益，對產品收益有負面影響。由於該產品要求投資者定期以行使價買/賣固定數量的股份，投資者可能遭受重大損失。
+    </p>
+    <ol start="4">
+      <li style="font-weight: 400;"><u>信貸風險</u></li>
+    </ol>
+    <p style="font-weight: 400;">
+      投資者是依賴發行商的信用可靠性，並承受它的信用風險。
+    </p>
+    <ol start="5">
+      <li style="font-weight: 400;"><u>二級市場及流動性風險</u></li>
+    </ol>
+    <p style="font-weight: 400;">
+      累積認購期權合約/累積認沽期權合約可能沒有一個流動的二級市場。該產品不在任何交易所交易，可能缺乏流動性。因此，投資者有機會不能把該產品賣于發行商，其聯繫公司，或其他買家，以及不能從其他交易商取得該產品的現貨價。投資者應留意該產品的期限，期限越長，提前終止合約的成本較高。
+    </p>
+    <ol start="6">
+      <li style="font-weight: 400;"><u>企業行動</u><u>/</u><u>特殊活動</u></li>
+    </ol>
+    <p style="font-weight: 400;">
+      其他風險可能影響該產品的價值，例如跟標的股票雙關的企業行動或特殊活動可能攤薄標的股票的價值。在某些情況下，發行商在企業行動後可以對產品進行調整。
+    </p>
+    <p style="font-weight: 400;">
+      <span class="txt_size_22px" style="color: #808000;"
+        ><strong>投資風險及投資適合性</strong></span
+      >
+    </p>
+    <p>
+      1.&nbsp;
+      &nbsp;投資涉及風險。投資衍生產品的價格可能會波動，有時甚至會大幅波動；投資衍生產品價格
+      可升可跌，甚至變成毫無價值。買賣特定投資衍生產品未必可賺取利潤，反而可能招致損失。往績數字並不說明未來表現。投資者在作出任何投資決定前，應仔細閱讀(就衍生產品而言)條款單張及其它相關文件以瞭解有關詳情，其後亦應定期查閱有關衍生產品的最新數據。
+    </p>
+    <p>
+      2.&nbsp;
+      &nbsp;衍生產品頗為複雜，且涉及多種風險。投資該等衍生產品的虧損風險可能極大，甚至損失全部資金。投資者應：(a)在下訂單前研究及瞭解衍生產品的結構；及(b)具備投資衍生產品的經驗，並在作出投資該等產品的決定前完全瞭解相關風險，確保該等產品適合其財政狀況及投資目標。
+    </p>
+    <p style="font-weight: 400;">
+      <span class="txt_size_22px" style="color: #808000;"
+        ><strong>投資衍生產品的特定風險</strong></span
+      >
+    </p>
+    <p>
+      1.&nbsp;
+      衍生產品通常涉及高度杠杆作用，故相關證券價格的小幅變動會造成價格的大幅變動。衍生產品的價值並不固定，會隨市場波動，而市場可能受眾多因素影響，包括經濟及/或政治環境的變化。因此，衍生產品的價格可能波動。
+    </p>
+    <p>
+      2.&nbsp; a)&nbsp;
+      投資者須願意承受投資的全部損失及任何佣金或其它交易費用，方可購買衍生產品。
+    </p>
+    <p>
+      b)&nbsp;
+      倘若衍生產品未獲行使，而相關股票交易所暫停相關證券的買賣，則有關衍生產品亦可能暫停買賣，二者暫停買賣的期間類似。
+    </p>
+    <p>
+      c)&nbsp;
+      倘若已觸發換股價，或根據有關的交易的有關協定、合約或確認書的條款及條件，投資者可能須交收或交付(視情況而定)相關證券，具體視特定衍生產品的結構而定。根據市況，投資者可能須以高於相關證券市價的價格交收相關證券，或以低於相關證券市價的價格交付相關證券而引致重大損失。投資有關衍生產品所造成的損失可能遠遠高於最初投資的金額。
+    </p>
+    <p>
+      d)&nbsp;
+      倘若發生特別事項或調整事項，如拆股、發行紅股或發生其它突發事項，造成相關股票已發行股份的數目、價值或權重變更，則交易對手/計算代理人可酌情調整合約條款(包括撤銷合約)，以反映新市況。倘發生有關特別事項或調整，投資者應向專業人士尋求獨立意見。
+    </p>
+    <p>
+      e)&nbsp;
+      產品可能在到期日前被提早終止合約，視規管衍生產品的條款及條件以及當前市場條款及條件而定。
+    </p>
+    <p>
+      f)&nbsp; 衍生產品的價值可能因評級機構(如Moody’s Investors Inc.或Standard
+      &amp; Poor’s Rating Services)調低評級而下降。
+    </p>
+    <p>
+      g)&nbsp;
+      結構性產品乃集合兩個或多個金融工具而成，可能包含一個或多個衍生產品。結構性產品可能具有高度風險，可能不適合眾多公眾人士，蓋因與金融工具或衍生產品相關的風險可能聯繫密切。因此，市場變動可能造成重大損失。涉足結構性產品交易之前，投資者應瞭解涉及的內在風險。尤其是，有關各金融工具或衍生產品的各項風險應個別評估，而結構性產品風險應進行整體評估。各結構性產品有其自身的風險特徵，鑒於可能的風險組合不計其數，本風險披露聲明不可能詳述任特定情況下可能產生的所有風險。投資者應注意，就結構性產品而言，購買者僅可向發行人主張權利。因此，應特別留意發行人風險。投資者應明白，倘若發行人違約，投資者可能損失全部投資。
+    </p>
+    <p>
+      h)&nbsp;
+      衍生產品相關證券的價格會波動，有時甚至會大幅波動。證券價格可漲可跌，甚至變得毫無價值。因此，買賣衍生產品可能不會獲利，而會虧損。尤其就若干衍生產品(如累積持貨票據)而言，根據市況，投資者可能須以高於相關證券市價的價格交收相關證券而引致重大損失。與之相似，就若干衍生產品(如累積沽貨票據)而言，投資者可能須以低於相關證券市價的價格交付相關證券而引致重大損失。投資有關衍生產品所造成的損失可能遠遠高於最初投資的金額。
+    </p>
+  </div>
+</div>

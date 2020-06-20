@@ -5,37 +5,53 @@
     <div class="block5_content">
       <div class="block5_icon">
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link :to="localePath('/resource-and-education-center/bond')">
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-2.png"
             ></v-img>
             <p>{{ $t("index.block5.Bond") }}</p>
-          </a>
+          </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link
+            :to="
+              localePath(
+                '/resource-and-education-center/digital-structure-notes'
+              )
+            "
+          >
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-3.png"
             ></v-img>
             <p>{{ $t("index.block5.DigitalStructureNote") }}</p>
-          </a>
+          </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link
+            :to="
+              localePath('/resource-and-education-center/equity-linked-notes')
+            "
+          >
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-4.png"
             ></v-img>
             <p>{{ $t("index.block5.EquityLinkedNotes") }}</p>
-          </a>
+          </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link
+            :to="
+              localePath(
+                '/resource-and-education-center/equity-structured-products-accumulator-decumulator'
+              )
+            "
+          >
             <v-img
               :width="size"
               :height="size"
@@ -48,12 +64,16 @@
                 )
               }}
             </p>
-          </a>
+          </nuxt-link>
         </div>
       </div>
       <div class="block5_icon">
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link
+            :to="
+              localePath('/resource-and-education-center/exchange-traded-fund')
+            "
+          >
             <v-img
               :width="size"
               :height="size"
@@ -62,37 +82,39 @@
             <p>
               {{ $t("index.block5.ExchangeTradedFund") }}
             </p>
-          </a>
+          </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link :to="localePath('/resource-and-education-center/options')">
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-7.png"
             ></v-img>
             <p>{{ $t("index.block5.Options") }}</p>
-          </a>
+          </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/glossary')"
+          >
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-8.png"
             ></v-img>
             <p>{{ $t("index.block5.Glossary") }}</p>
-          </a>
+          </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <a href>
+          <nuxt-link :to="localePath('/resource-and-education-center/qa')">
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-9.png"
             ></v-img>
             <p>{{ $t("index.block5.Q&A") }}</p>
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>

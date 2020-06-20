@@ -1,18 +1,24 @@
 <template>
   <div class="carousel-background b-block1">
     <v-carousel height="800px" hide-controls>
-      <v-carousel-item ref="carouselItems" v-for="(item, i) in sources" :key="i">
+      <v-carousel-item
+        ref="carouselItems"
+        v-for="(item, i) in sources"
+        :key="i"
+      >
         <div class="background">
           <img :src="item.src" />
         </div>
-        <v-img :src="item.src">
+        <v-img position="bottom center" :src="item.src">
           <div class="background-content">
             <h2 class="background-content__title">{{ item.title }}</h2>
             <p
               class="background-content__text"
               v-for="(text, index) in item.texts"
               :key="index"
-            >{{ text }}</p>
+            >
+              {{ text }}
+            </p>
           </div>
         </v-img>
       </v-carousel-item>
