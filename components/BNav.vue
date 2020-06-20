@@ -74,7 +74,7 @@
     </div>
   </div>
 </template>
-
+<script src=""></script>
 <script>
 import navItems from "@/assets/json/nav-items.json";
 export default {

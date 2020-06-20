@@ -2,75 +2,96 @@
   <div :class="['b-nav-mobile', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
     <nuxt-link class="to-home-link" to="/">
       <img class="logo_pc" src="/images/Logo.png" alt />
-      <img class="hbg" src="/images/bg.png" alt />
+      <img class="hbg" src="/images/bg.png" alt @click="active1 = !active1" />
     </nuxt-link>
-    <ul class="menu_ph">
-      <li class="menu_ph_title">
-        About Us
-        <ul class="menu_ph_content">
+    <ul :class="['menu_ph', active1 ? 'active' : '']">
+      <li class="menu_ph_title" @click="active2 = !active2">
+        <div class="title_flex">
+          About
+          <div class="triangle4"></div>
+        </div>
+
+        <ul :class="['menu_ph_content', active2 ? 'active' : '']">
           <li>
-            <a href>Intro</a>
+            <a href="/about-us/intro">Intro</a>
           </li>
           <li>
-            <a href>Our Core Values</a>
+            <a href="/about-us/our-core-values">Our Core Values</a>
           </li>
           <li>
-            <a href>Our Clients</a>
+            <a href="/about-us/our-clients">Our Clients</a>
           </li>
           <li>
-            <a href>Our Location</a>
+            <a href="$t:index.nav.GoogleMap">Our Location</a>
           </li>
           <li>
-            <a href>Global Presence</a>
+            <a href="/about-us/global-presence">Global Presence</a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu_ph_title" @click="active3 = !active3">
+        <div class="title_flex">
+          What we do
+          <div class="triangle4"></div>
+        </div>
+        <ul :class="['menu_ph_content', active3 ? 'active' : '']">
+          <li>
+            <a href="/what-we-do/asset-management">Asset Management</a>
+          </li>
+          <li>
+            <a href="/what-we-do/introducing-brokerage">Introducing Brokerage</a>
           </li>
         </ul>
       </li>
       <li class="menu_ph_title">
-        What we do
-        <ul class="menu_ph_content">
+        <a href="/market-insight/market-commentary">Market Insight</a>
+      </li>
+      <li class="menu_ph_title">
+        <a htef="/forms/brokerage-forms">Forms</a>
+      </li>
+      <li class="menu_ph_title" @click="active4 = !active4">
+        <div class="title_flex">
+          Resources and Education Center
+          <div class="triangle4"></div>
+        </div>
+        <ul :class="['menu_ph_content', active4 ? 'active' : '']">
           <li>
-            <a href>Asset Management</a>
+            <a href="/resource-and-education-center/bond">Bond</a>
           </li>
           <li>
-            <a href>Introducing Brokerage</a>
+            <a href="/resource-and-education-center/digital-structure-note">Digital Structure Note</a>
+          </li>
+          <li>
+            <a href="/resource-and-education-center/equity-linked-notes">Equity Linked Notes</a>
+          </li>
+          <li>
+            <a
+              href="/resource-and-education-center/equity-structured-products-accumulator-decumulator"
+            >Equity Structured Products Accumulator / Decumulator</a>
+          </li>
+          <li>
+            <a href="/resource-and-education-center/exchange-traded-fund">Exchange Traded Fund</a>
+          </li>
+          <li>
+            <a href="/resource-and-education-center/options">Options</a>
+          </li>
+          <li>
+            <a href="/resource-and-education-center/glossary">Glossary</a>
+          </li>
+          <li>
+            <a href="/resource-and-education-center/qa">Q&A</a>
           </li>
         </ul>
       </li>
-      <li class="menu_ph_title">Market Insight</li>
-      <li class="menu_ph_title">Forms</li>
       <li class="menu_ph_title">
-        Resources and Education Center
-        <ul class="menu_ph_content">
-          <li>
-            <a href>Bond</a>
-          </li>
-          <li>
-            <a href>Digital Structure Note</a>
-          </li>
-          <li>
-            <a href>Equity Linked Notes</a>
-          </li>
-          <li>
-            <a href>Equity Structured Products Accumulator / Decumulator</a>
-          </li>
-          <li>
-            <a href>Exchange Traded Fund</a>
-          </li>
-          <li>
-            <a href>Options</a>
-          </li>
-          <li>
-            <a href>Glossary</a>
-          </li>
-          <li>
-            <a href>Q&A</a>
-          </li>
-        </ul>
+        <a href="/#contactus">Contact us</a>
       </li>
-      <li class="menu_ph_title">Contact us</li>
-      <li class="menu_ph_title">
-        Language
-        <ul class="menu_ph_content">
+      <li class="menu_ph_title" @click="active5 = !active5">
+        <div class="title_flex">
+          Language
+          <div class="triangle4"></div>
+        </div>
+        <ul :class="['menu_ph_content', active5 ? 'active' : '']">
           <li>
             <nuxt-link :to="switchLocalePath('en-us')">Eng</nuxt-link>
           </li>
@@ -84,56 +105,8 @@
       </li>
       <li></li>
     </ul>
-    <!-- <div>
-      <div class="nav">
-        <div class="navbar">
-          <ul class="navbar-grid">
-            <li>
-              <input class="search" type="text" />
-            </li>
-            <li>
-              <img src="/images/nav1.png" />
-            </li>
-            <li>
-              <nuxt-link :to="switchLocalePath('en-us')">Eng</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link :to="switchLocalePath('zh-tw')">繁</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link :to="switchLocalePath('zh-cn')">简</nuxt-link>
-            </li>
-            <li>
-              <a href>
-                <img src="/images/nav2.png" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="menu">
-        <ul class="menu-grid">
-          <template v-for="(navItem, index) in navItems">
-            <li v-if="!navItem.hidden" :key="`nav-item-${index}`">
-              {{ navItem.name }}
-              <ul class="sub-menu-grid" v-if="navItem.subNavItems">
-                <template v-for="(subNavItem, jndex) in navItem.subNavItems">
-                  <nuxt-link
-                    :to="localePath(subNavItem.link)"
-                    :key="`nav-item-${index}-${jndex}`"
-                  >
-                    <li>{{ subNavItem.name }}</li>
-                  </nuxt-link>
-                </template>
-              </ul>
-            </li>
-          </template>
-        </ul>
-      </div>
-    </div>-->
   </div>
 </template>
-
 <script>
 import navItems from "@/assets/json/nav-items.json";
 export default {
@@ -149,7 +122,12 @@ export default {
     navItems,
     navItemSelected: undefined,
     navOpened: false,
-    subNavOpened: false
+    subNavOpened: false,
+    active1: false,
+    active2: false,
+    active3: false,
+    active4: false,
+    active5: false
   }),
   computed: {
     subNavItems() {
@@ -299,15 +277,54 @@ export default {
 /* ------------ph------------ */
 .hbg {
   width: 45px;
-  height: 45px;
+  height: 40px;
   margin-top: 12px;
 }
 .menu_ph {
   background: #6699cc;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.menu_ph.active {
+  background: #6699cc;
+  height: calc(100vh - 76px);
+  overflow-y: scroll;
 }
 .menu_ph_title {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.menu_ph_content {
+  font-size: 14px;
+  height: 0;
+  transition: 0.5s;
+}
+.menu_ph_content.active {
+  height: auto;
+}
+.menu_ph > li {
+  padding: 10px;
+}
+.menu_ph_content > li {
+  padding: 15px;
+}
+.title_flex {
+  display: flex;
+}
+.triangle4 {
+  border-color: #fff transparent transparent transparent;
+  border-style: solid solid solid solid;
+
+  /* 設定邊框依上、下；左右，各為一群組，相同群組須設定為相同尺寸，調整尺寸可拼湊出任意形狀的三角形 */
+  border-width: 10px 5px 3px 5px;
+
+  /* 設定 width、height 可更好理解原理 */
+  height: 0px;
+  width: 0px;
+  margin: 5px;
 }
 @media screen and (max-width: 414px) {
   .logo_pc {

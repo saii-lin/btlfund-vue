@@ -1,9 +1,6 @@
 <template>
   <div>
-    <p>
-      Our investment strategy, customised for and fully transparent to each
-      client, is designed to create steady, long term compounding of wealth.
-    </p>
+    <p>{{$t("whatwedo.AssetManagementContent")}}</p>
   </div>
 </template>
 
