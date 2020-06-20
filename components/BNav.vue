@@ -126,11 +126,6 @@ export default {
       return this.$t(key.substr(3));
     },
     scrollto(target) {
-<<<<<<< HEAD
-      this.$scrollTo(target, 2000, {
-        container: ".body"
-      });
-=======
       if (target.link) {
         if (this.$route.name.startsWith("index")) {
           this.$scrollTo(target.scrollto, 1000, {
@@ -140,7 +135,6 @@ export default {
           this.$router.push({ path: this.localePath("/"), hash: "contactus" });
         }
       }
->>>>>>> 3255db7b713108ae94ba1571fd3c6d6e976192d2
     }
   }
 };
