@@ -1,56 +1,65 @@
 <template>
-  <div
-    :class="['b-nav-mobile', hidden ? 'hidden' : '']"
-    :style="{ width: `${width}px` }"
-  >
-    <nuxt-link class="to-home-link" to="/">
-      <img class="logo_pc" src="/images/Logo.png" alt />
+  <div :class="['b-nav-mobile', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
+    <div class="to-home-link">
+      <nuxt-link :to="localePath('/')">
+        <img class="logo_pc" src="/images/Logo.png" alt />
+      </nuxt-link>
       <img class="hbg" src="/images/bg.png" alt @click="active1 = !active1" />
-    </nuxt-link>
+    </div>
     <ul :class="['menu_ph', active1 ? 'active' : '']">
       <li class="menu_ph_title" @click="active2 = !active2">
         <div class="title_flex">
-          About
+          {{ $t("index.nav.AboutUs") }}
           <div class="triangle4"></div>
         </div>
 
         <ul :class="['menu_ph_content', active2 ? 'active' : '']">
           <li>
-            <a href="/about-us/intro">Intro</a>
+            <nuxt-link :to="localePath('/about-us/intro')">{{ $t("aboutus.Intro") }}</nuxt-link>
           </li>
           <li>
-            <a href="/about-us/our-core-values">Our Core Values</a>
+            <nuxt-link
+              :to="localePath('/about-us/our-core-values')"
+            >{{ $t("aboutus.OurCoreValues") }}</nuxt-link>
           </li>
           <li>
-            <a href="/about-us/our-clients">Our Clients</a>
+            <nuxt-link :to="localePath('/about-us/our-clients')">{{ $t("aboutus.OurClients") }}</nuxt-link>
           </li>
           <li>
-            <a href="$t:index.nav.GoogleMap">Our Location</a>
+            <nuxt-link :to="localePath('$t:index.nav.GoogleMap')">{{ $t("aboutus.OurLocation") }}</nuxt-link>
           </li>
           <li>
-            <a href="/about-us/global-presence">Global Presence</a>
+            <nuxt-link
+              :to="localePath('/about-us/global-presence')"
+            >{{ $t("aboutus.GlobalPresence") }}</nuxt-link>
           </li>
         </ul>
       </li>
       <li class="menu_ph_title" @click="active3 = !active3">
         <div class="title_flex">
-          What we do
+          {{ $t("index.nav.WhatWeDo") }}
           <div class="triangle4"></div>
         </div>
         <ul :class="['menu_ph_content', active3 ? 'active' : '']">
           <li>
-            <a href="/what-we-do/asset-management">Asset Management</a>
+            <nuxt-link
+              :to="localePath('/what-we-do/asset-management')"
+            >{{ $t("whatwedo.AssetManagement") }}</nuxt-link>
           </li>
           <li>
-            <a href="/what-we-do/introducing-brokerage">Introducing Brokerage</a>
+            <nuxt-link
+              :to="localePath('/what-we-do/introducing-brokerage')"
+            >{{ $t("whatwedo.IntroducingBrokerage") }}</nuxt-link>
           </li>
         </ul>
       </li>
       <li class="menu_ph_title">
-        <a href="/market-insight/market-commentary">Market Insight</a>
+        <nuxt-link
+          :to="localePath('/market-insight/market-commentary')"
+        >{{ $t("index.nav.MarketInsight") }}</nuxt-link>
       </li>
       <li class="menu_ph_title">
-        <a htef="/forms/brokerage-forms">Forms</a>
+        <nuxt-link :to="localePath('/forms/brokerage-forms')">{{ $t("index.nav.Forms") }}</nuxt-link>
       </li>
       <li class="menu_ph_title" @click="active4 = !active4">
         <div class="title_flex">
@@ -59,35 +68,47 @@
         </div>
         <ul :class="['menu_ph_content', active4 ? 'active' : '']">
           <li>
-            <a href="/resource-and-education-center/bond">Bond</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/bond')"
+            >{{ $t("block5.Bond") }}</nuxt-link>
           </li>
           <li>
-            <a href="/resource-and-education-center/digital-structure-note">Digital Structure Note</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/digital-structure-note')"
+            >{{ $t("block5.DigitalStructureNote") }}</nuxt-link>
           </li>
           <li>
-            <a href="/resource-and-education-center/equity-linked-notes">Equity Linked Notes</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/equity-linked-notes')"
+            >{{ $t("block5.EquityLinkedNotes") }}</nuxt-link>
           </li>
           <li>
-            <a
-              href="/resource-and-education-center/equity-structured-products-accumulator-decumulator"
-            >Equity Structured Products Accumulator / Decumulator</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/equity-structured-products-accumulator-decumulator')"
+            >{{ $t("block5.EquityStructuredProductsAccumulatorDecumulator") }}</nuxt-link>
           </li>
           <li>
-            <a href="/resource-and-education-center/exchange-traded-fund">Exchange Traded Fund</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/exchange-traded-fund')"
+            >{{ $t("block5.ExchangeTradedFund") }}</nuxt-link>
           </li>
           <li>
-            <a href="/resource-and-education-center/options">Options</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/options')"
+            >{{ $t("block5.Options") }}</nuxt-link>
           </li>
           <li>
-            <a href="/resource-and-education-center/glossary">Glossary</a>
+            <nuxt-link
+              :to="localePath('/resource-and-education-center/glossary')"
+            >{{ $t("block5.Glossary") }}</nuxt-link>
           </li>
           <li>
-            <a href="/resource-and-education-center/qa">Q&A</a>
+            <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("block5.Q&A") }}</nuxt-link>
           </li>
         </ul>
       </li>
       <li class="menu_ph_title">
-        <a href="/#contactus">Contact us</a>
+        <nuxt-link :to="localePath('/#contactus')">{{ $t("block6.ContactUs") }}</nuxt-link>
       </li>
       <li class="menu_ph_title" @click="active5 = !active5">
         <div class="title_flex">

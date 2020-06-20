@@ -4,56 +4,60 @@
       <h4>About Us</h4>
       <ul>
         <li>
-          <a href="/about-us/intro">Intro</a>
+          <nuxt-link :to="localePath('/about-us/intro')">{{ $t("aboutus.Intro") }}</nuxt-link>
         </li>
         <li>
-          <a href="/about-us/our-core-values">Our Core Values</a>
+          <nuxt-link :to="localePath('/about-us/our-core-values')">{{ $t("aboutus.OurCoreValues") }}</nuxt-link>
         </li>
         <li>
-          <a href="/about-us/our-clients">Our Clients</a>
+          <nuxt-link :to="localePath('/about-us/our-clients')">{{ $t("aboutus.OurClients") }}</nuxt-link>
         </li>
         <li>
-          <a href="$t:index.nav.GoogleMap">Our Location</a>
+          <nuxt-link :to="localePath('$t:index.nav.GoogleMap')">{{ $t("aboutus.OurLocation") }}</nuxt-link>
         </li>
         <li>
-          <a href="/about-us/global-presence">Global Presence</a>
+          <nuxt-link
+            :to="localePath('/about-us/global-presence')"
+          >{{ $t("aboutus.GlobalPresence") }}</nuxt-link>
         </li>
       </ul>
     </div>
     <div class="site-map_block">
-      <h4>What we do</h4>
+      <h4>{{ $t("index.nav.WhatWeDo") }}</h4>
       <ul>
         <li>
-          <a href="/what-we-do/asset-management">Asset Management</a>
+          <nuxt-link
+            :to="localePath('/what-we-do/asset-management')"
+          >{{ $t("whatwedo.AssetManagement") }}</nuxt-link>
         </li>
         <li>
-          <a href="/what-we-do/introducing-brokerage">Introducing Brokerage</a>
+          <nuxt-link
+            :to="localePath('/what-we-do/introducing-brokerage')"
+          >{{ $t("whatwedo.IntroducingBrokerage") }}</nuxt-link>
         </li>
       </ul>
     </div>
     <div class="site-map_block h4_a">
       <a href>
-        <h4>Market Insight</h4>
+        <h4>{{ $t("index.nav.MarketInsight") }}</h4>
       </a>
       <ul>
         <li>
-          <a href="/market-insight/market-commentary">Market Commentary</a>
+          <a href="/market-insight/market-commentary">{{ $t("whatwedo.MarketCommentary") }}</a>
         </li>
         <li>
-          <a href="/market-insight/special-editions">Special Editions</a>
+          <a href="/market-insight/special-editions">{{ $t("whatwedo.Special Editions") }}</a>
         </li>
       </ul>
     </div>
     <div class="site-map_block h4_a">
-      <a href>
-        <h4>Forms</h4>
-      </a>
+      <h4>{{ $t("index.nav.Forms") }}</h4>
       <ul>
         <li>
-          <a href="/forms/asset-management-forms">Asset Management Forms</a>
+          <a href="/forms/asset-management-forms">{{ $t("forms.AssetManagementForms") }}</a>
         </li>
         <li>
-          <a href="/forms/brokerage-forms">Brokerage Forms</a>
+          <a href="/forms/brokerage-forms">{{ $t("forms.BrokerageForms") }}</a>
         </li>
       </ul>
     </div>
@@ -61,60 +65,67 @@
       <h4>Resources and Education Center</h4>
       <ul>
         <li>
-          <a href="/resource-and-education-center/bond">Bond</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/bond')"
+          >{{ $t("index.block5.Bond") }}</nuxt-link>
         </li>
         <li>
-          <a href="/resource-and-education-center/digital-structure-note">Digital Structure Note</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/digital-structure-note')"
+          >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link>
         </li>
         <li>
-          <a href="/resource-and-education-center/equity-linked-notes">Equity Linked Notes</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/equity-linked-notes')"
+          >{{ $t("index.block5.EquityLinkedNotes") }}</nuxt-link>
         </li>
         <li>
-          <a
-            href="/resource-and-education-center/equity-structured-products-accumulator-decumulator"
-          >Equity Structured Products Accumulator / Decumulator</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/equity-structured-products-accumulator-decumulator')"
+          >{{ $t("index.block5.EquityStructuredProductsAccumulatorDecumulator") }}</nuxt-link>
         </li>
         <li>
-          <a href="/resource-and-education-center/exchange-traded-fund">Exchange Traded Fund</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/exchange-traded-fund')"
+          >{{ $t("index.block5.ExchangeTradedFund") }}</nuxt-link>
         </li>
         <li>
-          <a href="/resource-and-education-center/options">Options</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/options')"
+          >{{ $t("index.block5.Options") }}</nuxt-link>
         </li>
         <li>
-          <a href="/resource-and-education-center/glossary">Glossary</a>
+          <nuxt-link
+            :to="localePath('/resource-and-education-center/glossary')"
+          >{{ $t("index.block5.Glossary") }}</nuxt-link>
         </li>
         <li>
-          <a href="/resource-and-education-center/qa">Q&A</a>
+          <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("block5.Q&A") }}</nuxt-link>
         </li>
       </ul>
     </div>
-    <div class="site-map_block contact">
-      <h4>Contact us</h4>
+    <div class="site-map_block">
+      <h4>{{ $t("index.block6.ContactUs") }}</h4>
 
       <ul>
-        <li>Address:</li>
-        <li>12/F, Chung Nam Building, 1 Lockhart Road, Hong Kong</li>
+        <li>{{ $t("index.block6.Address") }}</li>
+        <li>{{ $t("index.block6.12FChungNamBuilding1LockhartRoadHongKong") }}</li>
       </ul>
 
       <ul>
-        <li>Hotline: +852 3701 7000</li>
-        <li>Fax: +852 3701 7099</li>
+        <li>{{ $t("index.block6.Hotline") }}</li>
+        <li>{{ $t("index.block6.Fax") }}</li>
       </ul>
 
       <ul>
-        <li>Asset Management Services</li>
+        <li>{{ $t("index.block6.AssetManagementServices") }}</li>
         <li>ams@btlfund.com.hk</li>
       </ul>
 
       <ul>
-        <li>Brokerage Services</li>
+        <li>{{ $t("index.block6.BrokerageServices") }}</li>
         <li>info@btlfund.com.hk</li>
       </ul>
-
-      <div>
-        <p></p>
-        <p></p>
-      </div>
     </div>
   </div>
 </template>
@@ -159,17 +170,11 @@ export default {};
 .site-map_block a {
   text-decoration: none;
 }
-.site-map_block a:hover {
-  color: #ccc;
-}
 .site-map_block li {
   padding: 5px;
 }
 .contact ul {
   margin-bottom: 15px;
-}
-.h4_a h4:hover {
-  color: #ccc;
 }
 @media screen and (max-width: 1500px) {
   .site-map {

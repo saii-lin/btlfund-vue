@@ -1,8 +1,5 @@
 <template>
-  <div
-    :class="['b-nav', hidden ? 'hidden' : '']"
-    :style="{ width: `${width}px` }"
-  >
+  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
     <div>
       <div class="nav">
         <div class="navbar">
@@ -36,14 +33,8 @@
       <div class="menu">
         <ul class="menu-grid">
           <template v-for="(navItem, index) in navItems">
-            <li
-              v-if="!navItem.hidden"
-              :key="`nav-item-${index}`"
-              @click="scrollto(navItem.scrollto)"
-            >
-              <nuxt-link :to="navItem.link ? navItem.link : '#'">
-                {{ navItem.name }}
-              </nuxt-link>
+            <li v-if="!navItem.hidden" :key="`nav-item-${index}`" @click="scrollto(navItem)">
+              {{ navItem.name }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
                   <nuxt-link
@@ -128,9 +119,15 @@ export default {
       return this.$t(key.substr(3));
     },
     scrollto(target) {
-      this.$scrollTo(target, 2000, {
-        container: ".body"
-      });
+      if (target.link) {
+        if (this.$route.name.startsWith("index")) {
+          this.$scrollTo(target.scrollto, 1000, {
+            container: ".body"
+          });
+        } else {
+          this.$router.push({ path: this.localePath("/"), hash: "contactus" });
+        }
+      }
     }
   }
 };
