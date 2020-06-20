@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <v-dialog v-model="dialog" max-width="1000px">
+    <v-dialog data-app v-model="dialog" max-width="1000px">
       <v-card>
         <v-btn class="close-btn" icon dark @click="dialog = false">
           <v-icon large>close</v-icon>

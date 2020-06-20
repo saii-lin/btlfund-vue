@@ -1,5 +1,8 @@
 <template>
-  <div :class="['b-nav-mobile', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
+  <div
+    :class="['b-nav-mobile', hidden ? 'hidden' : '']"
+    :style="{ width: `${width}px` }"
+  >
     <nuxt-link class="to-home-link" to="/">
       <img class="logo_pc" src="/images/Logo.png" alt />
       <img class="hbg" src="/images/bg.png" alt @click="active1 = !active1" />

@@ -1,7 +1,11 @@
 <template>
   <div v-scroll="onScroll" class="body">
     <b-nav ref="nav" :hidden="downward" :width="contentWidth"></b-nav>
-    <b-nav-mobile ref="navMobile" :hidden="downward" :width="contentWidth"></b-nav-mobile>
+    <b-nav-mobile
+      ref="navMobile"
+      :hidden="downward"
+      :width="contentWidth"
+    ></b-nav-mobile>
     <div class="page-body" @click="forceToClose" ref="content">
       <nuxt />
     </div>
@@ -31,7 +35,8 @@ export default {
       this.$refs.nav.forceToClose();
     },
     onScroll(e, position) {
-      this.downward = position.scrollTop > this.scrollTop;
+      this.downward =
+        position.scrollTop > 145 && position.scrollTop > this.scrollTop;
       this.scrollTop = position.scrollTop;
       this.$refs.nav.forceToClose();
       this.$refs.navMobile.forceToClose();
@@ -45,7 +50,7 @@ export default {
   overflow-y: scroll;
 }
 .page-body {
-  margin-top: 150px;
+  margin-top: 145px;
 }
 a {
   text-decoration: none !important;
