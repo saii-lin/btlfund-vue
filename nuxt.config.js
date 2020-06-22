@@ -1,12 +1,12 @@
 import i18nOptions from "./locales/i18n";
 
 export default {
-  mode: "spa",
+  mode: "universal",
   /*
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "銀信資產管理有限公司",
+    title: "銀信資產管理有限公司",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
