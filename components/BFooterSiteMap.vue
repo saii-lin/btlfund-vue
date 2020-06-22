@@ -191,6 +191,7 @@ export default {
 .site-map_block h4 {
   font-size: 22px;
   position: relative;
+  margin-bottom: 20px;
 }
 .site-map_block h4::after {
   content: "";
@@ -224,6 +225,9 @@ export default {
   }
   .site-map_block_large {
     grid-column: 2/-1;
+  }
+  .site-map_block ul {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 1000px) {
