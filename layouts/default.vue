@@ -16,7 +16,7 @@
     >
       <nuxt />
     </div>
-    <b-top></b-top>
+    <b-top v-if="showGoToTopBtn"></b-top>
   </div>
 </template>
 <script>
@@ -32,7 +32,8 @@ export default {
   data: () => ({
     scrollTop: 0,
     downward: false,
-    contentWidth: 0
+    contentWidth: 0,
+    showGoToTopBtn: false
   }),
   mounted() {
     this.contentWidth = this.$refs.content.offsetWidth;
@@ -45,6 +46,7 @@ export default {
       this.downward =
         position.scrollTop > 145 && position.scrollTop > this.scrollTop;
       this.scrollTop = position.scrollTop;
+      this.showGoToTopBtn = position.scrollTop > 0;
     }
   }
 };
