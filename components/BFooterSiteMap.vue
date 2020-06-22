@@ -43,10 +43,10 @@
       </a>
       <ul>
         <li>
-          <a href="/market-insight/market-commentary">{{ $t("whatwedo.MarketCommentary") }}</a>
+          <a href="/market-insight/market-commentary">{{ $t("marketinsight.MarketCommentary") }}</a>
         </li>
         <li>
-          <a href="/market-insight/special-editions">{{ $t("whatwedo.Special Editions") }}</a>
+          <a href="/market-insight/special-editions">{{ $t("marketinsight.SpecialEditions") }}</a>
         </li>
       </ul>
     </div>
@@ -62,7 +62,7 @@
       </ul>
     </div>
     <div class="site-map_block">
-      <h4>Resources and Education Center</h4>
+      <h4>{{ $t("index.nav.ResourcesAndEducationCenter") }}</h4>
       <ul>
         <li>
           <nuxt-link
@@ -71,7 +71,7 @@
         </li>
         <li>
           <nuxt-link
-            :to="localePath('/resource-and-education-center/digital-structure-note')"
+            :to="localePath('/resource-and-education-center/digital-structure-notes')"
           >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link>
         </li>
         <li>
@@ -152,6 +152,7 @@ export default {};
 .site-map_block h4 {
   font-size: 18px;
   position: relative;
+  margin-bottom: 20px;
 }
 .site-map_block h4::after {
   content: "";
@@ -180,6 +181,9 @@ export default {};
   .site-map {
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+  .site-map_block ul {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 1000px) {
