@@ -31,11 +31,12 @@ export default {
         x => x.name === "resource-and-education-center"
       );
       if (target) {
-        // const page = target.pages.find(x => x.name === this.$route.params.type);
+        const page = target.pages.find(x => x.name === this.$route.params.type);
         return {
           layout: {
-            title: this.$t(target.title)
-            // subTitle: this.$t(page.title)
+            title: this.$t(target.title),
+            image: target.image,
+            subTitle: this.$t(page.title)
           },
           content: {
             // texts: page.texts

@@ -88,7 +88,7 @@
             <nuxt-link
               :to="
                 localePath(
-                  '/resource-and-education-center/digital-structure-note'
+                  '/resource-and-education-center/digital-structure-notes'
                 )
               "
               >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link

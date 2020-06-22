@@ -42,7 +42,7 @@ export default {
 
 <style>
 .content {
-  min-height: 30vh;
+  padding-bottom: 20px;
 }
 .content p {
   font-size: 20px;

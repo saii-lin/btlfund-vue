@@ -1,6 +1,7 @@
 [
   {
     "name": "about-us",
+    "image": "/images/about-us.jpeg",
     "title": "index.nav.AboutUs",
     "pages": [
       {
@@ -45,6 +46,7 @@
   },
   {
     "name": "what-we-do",
+    "image": "/images/what-we-do.jpeg",
     "title": "index.nav.WhatWeDo",
     "pages": [
       {
@@ -71,6 +73,7 @@
   },
   {
     "name": "market-insight",
+    "image": "/images/market-insight.jpeg",
     "title": "index.nav.MarketInsight",
     "pages": [
       {
@@ -87,6 +90,7 @@
   },
   {
     "name": "forms",
+    "image": "/images/forms.jpeg",
     "title": "index.nav.Forms",
     "pages": [
       {
@@ -103,7 +107,41 @@
   },
   {
     "name": "resource-and-education-center",
+    "image": "/images/resources-and-education-center.jpeg",
     "title": "index.nav.ResourcesAndEducationCenter",
-    "pages": []
+    "pages": [
+      {
+        "name": "bond",
+        "title": "resourcesandeducationcenter.Bond"
+      },
+      {
+        "name": "digital-structure-notes",
+        "title": "resourcesandeducationcenter.DigitalStructureNote"
+      },
+      {
+        "name": "equity-linked-notes",
+        "title": "resourcesandeducationcenter.EquityLinkedNotes"
+      },
+      {
+        "name": "equity-structured-products-accumulator-decumulator",
+        "title": "resourcesandeducationcenter.EquityStructuredProductsAccumulatorDecumulator"
+      },
+      {
+        "name": "exchange-traded-fund",
+        "title": "resourcesandeducationcenter.ExchangeTradedFund"
+      },
+      {
+        "name": "options",
+        "title": "resourcesandeducationcenter.Options"
+      },
+      {
+        "name": "glossary",
+        "title": "resourcesandeducationcenter.Glossary"
+      },
+      {
+        "name": "qa",
+        "title": "resourcesandeducationcenter.QA"
+      }
+    ]
   }
 ]

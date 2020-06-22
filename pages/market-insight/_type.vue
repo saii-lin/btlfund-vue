@@ -29,7 +29,8 @@ export default {
         return {
           layout: {
             title: this.$t(target.title),
-            subTitle: this.$t(page.title)
+            subTitle: this.$t(page.title),
+            image: target.image
           },
           content: {
             texts: page.texts

@@ -113,7 +113,7 @@
               :height="size"
               src="/images/block5-9.png"
             ></v-img>
-            <p>{{ $t("index.block5.Q&A") }}</p>
+            <p>{{ $t("index.block5.QA") }}</p>
           </nuxt-link>
         </div>
       </div>
@@ -176,8 +176,9 @@ export default {
 }
 .block5_icon1 .v-image:hover {
   transform: translateY(-15px);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .block5_icon {
     display: grid;
     grid-template-columns: auto auto;

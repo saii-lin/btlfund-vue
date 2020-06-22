@@ -1,6 +1,6 @@
 <template>
-  <div class="contact">
-    <h2>{{ $t("index.block6.ContactUs") }}</h2>
+  <div class="contact" :style="{ color: fontColor }">
+    <h2 v-if="withTitle">{{ $t("index.block6.ContactUs") }}</h2>
     <div class="contact_content">
       <div class="contact_text">
         <div class="contact_font">
@@ -53,7 +53,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    withTitle: {
+      type: Boolean,
+      default: true
+    },
+    fontColor: {
+      type: String,
+      default: "#0f4c81"
+    }
+  }
+};
 </script>
 
 <style>
@@ -61,7 +72,6 @@ export default {};
   margin: 20px 0px;
 }
 .contact h2 {
-  color: #0f4c81;
   font-size: 50px;
   text-align: center;
   padding: 20px;
@@ -69,6 +79,7 @@ export default {};
 .contact_content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
   width: 90%;
   margin: auto;
 }
@@ -86,7 +97,6 @@ export default {};
 }
 .contact_font .info {
   font-size: 20px;
-  color: #0f4c81;
   align-self: center;
 }
 .contact_font__4x {
@@ -110,7 +120,7 @@ export default {};
     display: block;
   }
   .contact_text {
-    width: 50vw;
+    width: fit-content;
     margin: 0 auto;
   }
   .contact_map {
@@ -120,9 +130,6 @@ export default {};
   }
 }
 @media screen and (max-width: 414px) {
-  .contact_text {
-    width: 95vw;
-  }
   .contact_text .info {
     font-size: 14px;
   }

@@ -75,7 +75,7 @@ export default {};
 .what_bottom_text {
   margin-bottom: 50px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   .what_content {
     display: block;
   }

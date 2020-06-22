@@ -182,24 +182,13 @@
     "BrokerageForms": "(zh-cn)Brokerage Forms"
   },
   "resourcesandeducationcenter": {
-    "Q&AQ": "(zh-cn)How to open an investment account?",
-    "Q&AA": "(zh-cn)BTL operates introducing broker business, and will help you to open an account at Interactive Brokers (Hong Kong)('IBHK'). BTL will be responsible for the 'Know Your Client' account opening procedure and conduct due diligence check of client as well. You are required to fill in and sign the 'Individual Client Information' form, and pass back to BTL together with a personal ID copy and relevant address proof.",
-    "Q&AQ2": "(zh-cn)What is the relationship between me and BTL?",
-    "Q&AA2": "(zh-cn)BTL will act as an introducing broker, so that you will be a client of Interactive Brokers (Hong Kong) subsequently. IBHK will act as the custodian as well. BTL will helps you in the account opening progress and assists you in trading at the IBHK platform.",
-    "Q&AQ3": "(zh-cn)How to activate the account?",
-    "Q&AA3": "(zh-cn)You need to deposit USD10,000 (USD based account) or HKD80,000 (HKD based account) through cheque or by wire transfer in order to activate the account.",
-    "Q&AQ4": "(zh-cn)How to deposit funds?",
-    "Q&AA4": "(zh-cn)Cheque deposit:",
-    "Q&AA4-1": "(zh-cn)The cheque shall be made payable to 'Interactive Brokers LLC'. Please have the account number written at the back of the cheque, and mail to:",
-    "Q&AA4-2": "(zh-cn)“Interactive Brokers (Hong Kong)",
-    "Q&AA4-3": "(zh-cn)Suite 1512, Two Pacific Place, 88 Queensway, Admiralty, Hong Kong.",
-    "Q&AA4-4": "(zh-cn)You can refer to:",
-    "Q&AA4-5": "(zh-cn)https://www.interactivebrokers.com.hk/cn/software/acctmgmt/accountmanagementusersguide/fundsmgmt/depositing_funds.htm#HT_deposit",
-    "Q&AA4-6": "(zh-cn)Wire deposit:",
-    "Q&AA4-7": "(zh-cn)You will need to login to the Interactive Brokers account and send out a wire deposit instruction. The system will provide you with the details needed for wire deposit. Please refer to:",
-    "Q&AA4-8": "(zh-cn)https://www.interactivebrokers.com.hk/cn/software/acctmgmt/accountmanagementusersguide/fundsmgmt/depositing_funds.htm#HT_deposit",
-    "Q&AQ5": "(zh-cn)How to withdraw funds?",
-    "Q&AA5": "(zh-cn)You will need to login to the Interactive Brokers account and send out a withdrawal instruction. IBHK only support wire deposit. Client is entitled a free withdrawal each month (recipient bank fee will still need to be bear by client). For details, please refer to:",
-    "Q&AA5-1": "(zh-cn)https://www.interactivebrokers.com.hk/cn/software/acctmgmt/accountmanagementusersguide/fundsmgmt/withdrawing_funds.htm"
+    "Bond": "(zh-cn)Bond",
+    "DigitalStructureNote": "(zh-cn)Digital Structure Note",
+    "EquityLinkedNotes": "(zh-cn)Equity Linked Notes",
+    "EquityStructuredProductsAccumulatorDecumulator": "(zh-cn)Equity Structured Products Accumulator / Decumulator",
+    "ExchangeTradedFund": "(zh-cn)Exchange Traded Fund",
+    "Options": "(zh-cn)Options",
+    "Glossary": "(zh-cn)Glossary",
+    "QA": "(zh-cn)Q&A"
   }
 }

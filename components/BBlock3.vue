@@ -106,7 +106,7 @@ export default {};
 .about_text_top p {
   margin-bottom: 150px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   .about_content {
     display: block;
   }

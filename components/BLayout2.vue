@@ -1,5 +1,5 @@
 <template>
-  <div class="layout2">
+  <div class="layout2" :style="{ backgroundImage: `url(${data.image})` }">
     <div class="layout2_text">
       <div class="layout2_title layout2_title1">{{ data.title }}</div>
       <div class="layout2_title layout2_title2">{{ data.subTitle }}</div>
@@ -22,7 +22,6 @@ export default {
 
 <style scoped>
 .layout2 {
-  background-image: url(/images/about-us.jpeg);
   width: 100%;
   height: 80vh;
   background-size: cover;
