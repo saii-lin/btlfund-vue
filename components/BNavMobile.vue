@@ -383,4 +383,9 @@ export default {
     width: 300px;
   }
 }
+@media screen and (max-width: 320px) {
+  .logo_pc {
+    width: 250px;
+  }
+}
 </style>

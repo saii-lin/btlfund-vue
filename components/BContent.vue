@@ -42,6 +42,9 @@ export default {
   line-height: 30px;
   /* color: #0f4c81; */
 }
+.content li {
+  padding: 10px;
+}
 @media screen and (max-width: 414px) {
   .content p {
     font-size: 14px;

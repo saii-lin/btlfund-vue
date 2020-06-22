@@ -16,15 +16,18 @@
     >
       <nuxt />
     </div>
+    <b-top></b-top>
   </div>
 </template>
 <script>
 import BNav from "~/components/BNav";
 import BNavMobile from "~/components/BNavMobile";
+import BTop from "~/components/BTop";
 export default {
   components: {
     BNav,
-    BNavMobile
+    BNavMobile,
+    BTop
   },
   data: () => ({
     scrollTop: 0,
