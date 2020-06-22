@@ -4,17 +4,13 @@
       <div class="what_pic what_pic1"></div>
       <div class="what_text what_top_text">
         <h3>{{ $t("index.block2.AssetManagementTitle") }}</h3>
-        <p>
-          {{ $t("index.block2.AssetManagementTitleContent") }}
-        </p>
+        <p>{{ $t("index.block2.AssetManagementTitleContent") }}</p>
       </div>
     </div>
     <div class="what_content what_content_bottom">
       <div class="what_text what_bottom_text">
         <h3>{{ $t("index.block2.IntroducingBrokerageTitle") }}</h3>
-        <p>
-          {{ $t("index.block2.IntroducingBrokerageContent") }}
-        </p>
+        <p>{{ $t("index.block2.IntroducingBrokerageContent") }}</p>
       </div>
       <div class="what_pic what_pic2"></div>
     </div>
@@ -88,6 +84,10 @@ export default {};
   }
   .what_bottom_text {
     padding-bottom: 50px;
+  }
+  .what_pic {
+    margin: 0 auto;
+    width: 60vw;
   }
 }
 @media screen and (max-width: 414px) {

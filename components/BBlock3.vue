@@ -4,9 +4,7 @@
       <div class="about_pic about_pic1"></div>
       <div class="about_text about_text_top">
         <h3>{{ $t("index.block3.MarketInsightTitle") }}</h3>
-        <p>
-          {{ $t("index.block3.MarketInsightTitleContent") }}
-        </p>
+        <p>{{ $t("index.block3.MarketInsightTitleContent") }}</p>
       </div>
     </div>
     <div class="about_content about_content_bottom">
@@ -18,24 +16,24 @@
         </h3>
         <ul>
           <li>
-            <strong>{{ $t("index.block3.E") }}</strong
-            >{{ $t("index.block3.xcellence") }}
+            <strong>{{ $t("index.block3.E") }}</strong>
+            {{ $t("index.block3.xcellence") }}
           </li>
           <li>
-            <strong>{{ $t("index.block3.T") }}</strong
-            >{{ $t("index.block3.eamSpirit") }}
+            <strong>{{ $t("index.block3.T") }}</strong>
+            {{ $t("index.block3.eamSpirit") }}
           </li>
           <li>
-            <strong>{{ $t("index.block3.H") }}</strong
-            >{{ $t("index.block3.ardWork") }}
+            <strong>{{ $t("index.block3.H") }}</strong>
+            {{ $t("index.block3.ardWork") }}
           </li>
           <li>
-            <strong>{{ $t("index.block3.I") }}</strong
-            >{{ $t("index.block3.ntegrity") }}
+            <strong>{{ $t("index.block3.I") }}</strong>
+            {{ $t("index.block3.ntegrity") }}
           </li>
           <li>
-            <strong>{{ $t("index.block3.C") }}</strong
-            >{{ $t("index.block3.onsideration") }}
+            <strong>{{ $t("index.block3.C") }}</strong>
+            {{ $t("index.block3.onsideration") }}
           </li>
         </ul>
       </div>
@@ -120,6 +118,11 @@ export default {};
   .about_text h3 {
     text-align: center;
   }
+  .about_pic {
+    margin: 10px auto;
+    width: 60vw;
+  }
+
   @media screen and (max-width: 414px) {
     .about {
       margin-top: 30px;

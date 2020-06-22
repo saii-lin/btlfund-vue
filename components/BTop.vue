@@ -13,7 +13,7 @@ export default {};
   position: fixed;
   bottom: 50px;
   right: 50px;
-  z-index: 100;
+  z-index: 98;
   width: 50px;
   cursor: pointer;
   transition: 0.5s;

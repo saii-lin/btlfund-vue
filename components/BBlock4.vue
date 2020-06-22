@@ -30,33 +30,17 @@
         <v-btn class="close-btn" icon dark @click="dialog = false">
           <v-icon large>close</v-icon>
         </v-btn>
-        <v-carousel
-          class="lightbox-carousel"
-          :cycle="false"
-          height="500px"
-          hide-delimiters
-        >
-          <v-carousel-item
-            ref="carouselItems"
-            v-for="(item, i) in members"
-            :key="i"
-          >
+        <v-carousel class="lightbox-carousel" :cycle="false" height="500px" hide-delimiters>
+          <v-carousel-item ref="carouselItems" v-for="(item, i) in members" :key="i">
             <div class="member-grid">
-              <v-img
-                :width="size"
-                :height="size"
-                :src="item.src"
-                class="member-grid__avatar"
-              ></v-img>
+              <v-img :width="size" :height="size" :src="item.src" class="member-grid__avatar"></v-img>
               <div class="member-grid__content">
                 <h2 class="member-grid__content__title">{{ item.title }}</h2>
                 <p
                   class="member-grid__content__text"
                   v-for="(text, index) in item.texts"
                   :key="index"
-                >
-                  {{ text }}
-                </p>
+                >{{ text }}</p>
               </div>
             </div>
           </v-carousel-item>
@@ -207,6 +191,7 @@ export default {
   }
   .block4_pic0 {
     width: 80vw !important;
+    height: 300px;
     margin: 20px auto !important;
   }
   .block4 > h2 {
