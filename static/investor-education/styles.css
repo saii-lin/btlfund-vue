@@ -17,6 +17,10 @@ td {
     font-weight: bold;
 }
 
+li {
+    padding: 10px;
+}
+
 @media screen and (max-width:414px) {
     .size-full {
         width: 95vw !important;
