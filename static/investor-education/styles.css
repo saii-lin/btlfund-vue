@@ -7,8 +7,11 @@ body {
     color: black !important;
 }
 
+table {
+    width: 100%;
+}
+
 td {
-    width: auto !important;
     padding: 20px;
 }
 
