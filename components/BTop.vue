@@ -1,11 +1,19 @@
 <template>
-  <div class="top">
+  <div class="top" @click="scrollToTop">
     <img src="/images/top.png" alt />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      this.$scrollTo(".page-body", 1000, {
+        container: ".body"
+      });
+    }
+  }
+};
 </script>
 
 <style>
