@@ -1,5 +1,5 @@
 <template>
-  <div v-scroll="onScroll" class="body">
+  <div v-scroll="onScroll" class="body" ref="body">
     <b-nav-mobile
       v-if="$vuetify.breakpoint.smAndDown"
       ref="navMobile"
@@ -48,6 +48,11 @@ export default {
       this.scrollTop = position.scrollTop;
       this.showGoToTopBtn =
         position.scrollTop > this.$vuetify.breakpoint.height;
+    }
+  },
+  watch: {
+    $route() {
+      this.$refs.body.scrollTop = 0;
     }
   }
 };
