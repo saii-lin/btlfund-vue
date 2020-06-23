@@ -48,7 +48,7 @@
                     v-if="subNavItem.link.startsWith('/')"
                     :to="
                       localePath(
-                        subNavItem.link.startsWith('$t')
+                        subNavItem.link.startsWith('/$t')
                           ? locale(subNavItem.link)
                           : subNavItem.link
                       )

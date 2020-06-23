@@ -46,7 +46,8 @@ export default {
       this.downward =
         position.scrollTop > 145 && position.scrollTop > this.scrollTop;
       this.scrollTop = position.scrollTop;
-      this.showGoToTopBtn = position.scrollTop > 0;
+      this.showGoToTopBtn =
+        position.scrollTop > this.$vuetify.breakpoint.height;
     }
   }
 };
