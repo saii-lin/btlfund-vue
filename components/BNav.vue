@@ -11,10 +11,10 @@
           </nuxt-link>
           <ul class="navbar-grid">
             <li>
-              <input class="search" type="text" />
+              <!-- <input class="search" type="text" /> -->
             </li>
             <li>
-              <img src="/images/nav1.png" />
+              <!-- <img src="/images/nav1.png" /> -->
             </li>
             <li>
               <nuxt-link :to="switchLocalePath('en-us')">Eng</nuxt-link>
