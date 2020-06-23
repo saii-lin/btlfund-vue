@@ -378,7 +378,17 @@ export default {
   width: 0px;
   margin: 5px;
 }
+@media screen and (max-width: 768px) {
+  .hbg {
+    display: block;
+  }
+}
 @media screen and (max-width: 414px) {
+  .logo_pc {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 375px) {
   .logo_pc {
     width: 300px;
   }
