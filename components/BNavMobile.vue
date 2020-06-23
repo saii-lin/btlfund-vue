@@ -245,6 +245,7 @@ export default {
 .to-home-link {
   justify-self: start;
   display: flex;
+  justify-content: space-between;
 }
 .logo_pc {
   width: 400px;
@@ -330,7 +331,7 @@ export default {
 .hbg {
   width: 45px;
   height: 40px;
-  margin-top: 12px;
+  margin: 20px;
 }
 .menu_ph {
   background: #6699cc;
@@ -378,14 +379,13 @@ export default {
   width: 0px;
   margin: 5px;
 }
-@media screen and (max-width: 768px) {
-  .hbg {
-    display: block;
-  }
-}
+
 @media screen and (max-width: 414px) {
   .logo_pc {
     width: 350px;
+  }
+  .hbg {
+    margin: 15px;
   }
 }
 @media screen and (max-width: 375px) {
