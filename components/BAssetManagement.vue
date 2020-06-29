@@ -38,6 +38,12 @@
               class="amc_title2"
             >{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent3.ConsolidatedBalanceSheet") }}</div>
             <p>{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent3.ConsolidatedBalanceSheetContent") }}</p>
+          </li>
+          <li>
+            <div
+              class="amc_title2"
+            >{{ $t("whatwedo.AssetManagementContent2.OtherInvestmentServices") }}</div>
+            <p>{{ $t("whatwedo.AssetManagementContent2.OtherInvestmentServicesContent") }}</p>
             <p>{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent3.ConsolidatedBalanceSheetContent2") }}</p>
             <p>{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent3.ConsolidatedBalanceSheetContent3") }}</p>
           </li>

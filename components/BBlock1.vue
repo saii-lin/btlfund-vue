@@ -1,11 +1,7 @@
 <template>
   <div class="carousel-background b-block1">
     <v-carousel height="800px" hide-controls>
-      <v-carousel-item
-        ref="carouselItems"
-        v-for="(item, i) in sources"
-        :key="i"
-      >
+      <v-carousel-item ref="carouselItems" v-for="(item, i) in sources" :key="i">
         <div class="background">
           <img :src="item.src" />
         </div>
@@ -16,9 +12,7 @@
               class="background-content__text"
               v-for="(text, index) in item.texts"
               :key="index"
-            >
-              {{ text }}
-            </p>
+            >{{ text }}</p>
           </div>
         </v-img>
       </v-carousel-item>
@@ -56,16 +50,16 @@ export default {
           src: "/images/slide2.jpg",
           title: this.$t("index.block1.OurMission"),
           link: "#",
-          texts: [
-            this.$t("index.block1.OurMissionContent"),
-            this.$t("index.block1.OurMissionContent2")
-          ]
+          texts: [this.$t("index.block1.OurMissionContent")]
         },
         {
           src: "/images/slide3.jpeg",
           title: this.$t("index.block1.OurDifference"),
           link: "#",
-          texts: [this.$t("index.block1.OurDifferenceContent")]
+          texts: [
+            this.$t("index.block1.OurDifferenceContent"),
+            this.$t("index.block1.OurMissionContent2")
+          ]
         }
       ]
     };

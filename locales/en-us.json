@@ -14,8 +14,8 @@
       "OurVision": "Our Vision",
       "OurVisionContent": "BTL is inspired from a phrase \"Built to Last\",  embody our dedication to preserve and grow our clients' asset, and to continue providing our clients with creative ideas and solutions for operating effectively in a complex global economy.  BTL strives for excellence, we keep creating value and generating growth for our clients and shareholders with our outstanding financial services and products and continue to exceed all expectations.",
       "OurMission": "Our Mission",
-      "OurMissionContent": "BTL will be trusted to reliably deliver innovative, exemplary and high performance financial services and products, for our clients whilst upholding the highest standards of integrity and quality.",
-      "OurMissionContent2": "BTL values the trust and confidence our clients placed in us and strive to consistently and steadfastly deliver innovative and exemplary financial services and outstanding performance to them whilst upholding the highest standard of integrity and quality.",
+      "OurMissionContent": "BTL values the trust and confidence our clients placed in us and strive to consistently and steadfastly deliver innovative and exemplary financial services and outstanding performance to them whilst upholding the highest standard of integrity and quality.",
+      "OurMissionContent2": "BTL is fully committed to putting clients' interests as our top priority. We tailor our exceptional services and portfolio management to meet each client's unique needs.",
       "OurDifference": "Our Difference",
       "OurDifferenceContent": "As opposed to beating a benchmark, growing our clients' assets is at the very core of our business.  BTL is fully committed to putting clients' interests as our top priority.  We tailor our exceptional services and portfolio management to meet each client's unique needs."
     },
@@ -75,7 +75,7 @@
     }
   },
   "aboutus": {
-    "Intro": "Intro",
+    "Intro": "Introduction",
     "IntroContent": "BTL Asset Management Company Limited ('BTL') is duly authorized and licensed by the Hong Kong Securities and Futures Commission to conduct business in Types 1, 2, 4, 5 & 9 regulated activities, namely dealing in securities through other securities dealers and advising on securities and future contracts, as well as asset management.",
     "OurCoreValues": "Our Core Values",
     "OurCoreValuesContent": "Our core values : E-T-H-I-C",
@@ -141,6 +141,7 @@
           "DebtSecurities": "Debt Securities",
           "DerivativeWarrants": "Derivative Warrants",
           "InitialPublicOfferings": "Initial Public Offerings (IPO)",
+          "PrivatePlacement": "Private Placement",
           "ExchangeTradedFund(ETF)": "Exchange Traded Fund (ETF)"
         },
         "Futures&Options": "Futures & Options",

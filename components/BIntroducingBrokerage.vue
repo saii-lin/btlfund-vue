@@ -27,20 +27,32 @@
               class="amc_title2"
             >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts") }}</div>
             <div class="amc_content2">
-              <div
-                class="amc_title3"
-              >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.Futures") }}</div>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent2") }}</p>
-              <ul>
-                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.Flexibility") }}</li>
-                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.Diversity") }}</li>
-                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.BeneficialMarketConditions") }}</li>
-                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.CostEffective") }}</li>
-                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.LowBarriersToEntry") }}</li>
-              </ul>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent4") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.CallableBullAndBearContracts") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.RealEstateInvestmentTrusts") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.DebtSecurities") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.DerivativeWarrants") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.InitialPublicOfferings") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.PrivatePlacement") }}</p>
+              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.ExchangeTradedFund(ETF)") }}</p>
             </div>
+          </li>
+          <li>
+            <div
+              class="amc_title2"
+            >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options") }}</div>
+            <div
+              class="amc_title3"
+            >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.Futures") }}</div>
+            <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent") }}</p>
+            <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent2") }}</p>
+            <ul>
+              <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.Flexibility") }}</li>
+              <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.Diversity") }}</li>
+              <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.BeneficialMarketConditions") }}</li>
+              <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.CostEffective") }}</li>
+              <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.LowBarriersToEntry") }}</li>
+            </ul>
+            <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent4") }}</p>
           </li>
           <li>
             <div class="amc_content2">
