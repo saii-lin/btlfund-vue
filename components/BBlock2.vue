@@ -25,9 +25,10 @@ export default {};
 .what_content {
   display: flex;
   justify-content: center;
+  margin-bottom:80px ;
 }
 .what_pic {
-  width: 40vw;
+  width: 35vw;
   margin: 20px;
   height: calc(40vw * 0.76);
   background-size: cover;

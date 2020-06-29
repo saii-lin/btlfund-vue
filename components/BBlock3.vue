@@ -53,9 +53,10 @@ export default {};
 .about_content {
   display: flex;
   justify-content: center;
+  margin: 80px;
 }
 .about_pic {
-  width: 40vw;
+  width: 35vw;
   height: calc(40vw * 0.76);
   margin: 20px;
   background-size: cover;

@@ -1,8 +1,5 @@
 <template>
-  <div
-    :class="['b-nav', hidden ? 'hidden' : '']"
-    :style="{ width: `${width}px` }"
-  >
+  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
     <div>
       <div class="nav">
         <div class="navbar">
@@ -36,11 +33,7 @@
       <div class="menu">
         <ul class="menu-grid">
           <template v-for="(navItem, index) in navItems">
-            <li
-              v-if="!navItem.hidden"
-              :key="`nav-item-${index}`"
-              @click="scrollto(navItem)"
-            >
+            <li v-if="!navItem.hidden" :key="`nav-item-${index}`" @click="scrollto(navItem)">
               {{ navItem.name }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
@@ -160,6 +153,7 @@ export default {
 .logo_pc {
   width: 400px;
   padding: 10px 20px;
+  margin-left: 90px;
 }
 .navbar-grid {
   display: grid;
@@ -167,6 +161,7 @@ export default {
   justify-items: center;
   align-items: center;
   width: 400px;
+  margin-right: 90px;
 }
 .navbar-grid .search {
   border-color: #cdd2d1;

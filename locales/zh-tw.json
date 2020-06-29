@@ -98,13 +98,14 @@
     "AssetManagementContent2": {
       "InvestmentAdvisoryMandates": "投資諮詢委託要求",
       "InvestmentAdvisoryMandatesContent": "投資諮詢委託要求節奏明快，以及互相串聯。金融市場現在需要投資者顧問的持續關注及立即反應。我們的投資專家團隊與我們的客戶共同留意市場，同時也監視著風險。客戶可透過我們專家團隊以其專業知識為客戶特別制定的投資諮詢服務獲利。",
+      "DiscretionaryMandates": "全權委託要求",
       "DiscretionaryMandatesContent": "允許投資專家替您代管您的財富。",
       "DiscretionaryMandatesContent2": "您的時間是寶貴的，這也是為什麼您希望將投資決策委託給經驗豐富的投資專家。BTL的投資顧問會為您進行全面的 “認識您的客戶(KYC)” 流程，來瞭解您的實際需要和情況(個人和財務)，並據此確保您的投資策略滿足您的個人目標，財務需求及風險偏好。透過全面監督您的投資組合及持續的複審，來確保其符合您當前的情況。",
       "ExternalAssetManager": "外部資產管理",
       "ExternalAssetManagerContent1": "BTL與世界上一級的私人銀行共同提供定制的外部資產管理平臺",
       "ExternalAssetManagerContent2": "這使我們的客戶能受惠於只提供與專業投資者的產品、服務和投資機會。",
       "ExternalAssetManagerContent3": {
-        "SummaryOfKeyBenefits:": "(zh-tw)Summary of key benefits:",
+        "SummaryOfKeyBenefits:": "",
         "CompetitivePricing": "具競爭性的定價",
         "CompetitivePricingContent": "我們與超過五間不同託管商建立了良好的關係，並與其協商了具有吸引力的條款。這使客戶能從只向私人銀行客戶提供的定價結構中受益。",
         "Research": "研究",
@@ -135,61 +136,61 @@
         },
         "OtherInvestmentProducts": "其他投資服務",
         "OtherInvestmentProducts2": {
-          "CallableBullAndBearContracts": "Callable Bull and Bear Contracts 牛熊證",
-          "RealEstateInvestmentTrusts": "Real Estate Investment Trusts (REITs) 房地產投資信託基金",
-          "DebtSecurities": "Debt Securities 債券",
-          "DerivativeWarrants": "Derivative Warrants 衍生權證(窩輪)",
-          "InitialPublicOfferings": "Initial Public Offerings (IPO) 首次公開招股",
-          "PrivatePlacement":"私下募集(私募)",
-          "ExchangeTradedFund(ETF)": "Exchange Traded Fund (ETF) 交易所買賣基金"
+          "CallableBullAndBearContracts": " 牛熊證",
+          "RealEstateInvestmentTrusts": "房地產投資信託基金",
+          "DebtSecurities": " 債券",
+          "DerivativeWarrants": "衍生權證(窩輪)",
+          "InitialPublicOfferings": "首次公開招股",
+          "PrivatePlacement": " 私下募集(私募)",
+          "ExchangeTradedFund(ETF)": "交易所買賣基金"
         },
         "Futures&Options": "期貨與期權",
         "Futures&Options2": {
-          "Futures": "(zh-tw)Futures",
-          "FuturesContent": "(zh-tw)Futures are commonly-used derivatives contracts that both hedgers and speculators use on a variety of underlying securities. A futures contract represents a commitment to buy or sell a predefined amount of the underlying assets, e.g. stock, energy resources, metals, agricultural products, etc. at a predetermined price on a specified future date. ",
-          "FuturesContent2": "(zh-tw)In comparison to other securities, futures exhibit many characteristics that offer traders unique opportunities. Whether you're an intraday, day, or swing trader, these markets are attractive venues for maximising return on capital.  The five primary advantages are:",
+          "Futures": " 期貨",
+          "FuturesContent": " 期貨是套期保值者和投機者常用在各種目標證券上的衍生品合約。期貨合約代表對目標資產，例如股票、能源、金屬、農產品等，承諾按合約預定的數量，並在特定的日期以預定的價格買入或賣出。 ",
+          "FuturesContent2": "與其他證券相比，期貨具有許多特徵，可為交易者提供獨特的機會。無論您是日內交易者，還是波段交易者，這些市場對於資本回報率最大化是很有吸引力的場所。五項主要優點為: ",
           "FuturesContent3": {
-            "Flexibility": "(zh-tw)Flexibility",
-            "Diversity": "(zh-tw)Diversity",
-            "BeneficialMarketConditions": "(zh-tw)Beneficial market conditions",
-            "CostEffective": "(zh-tw)Cost effective",
-            "LowBarriersToEntry": "(zh-tw)Low barriers to entry"
+            "Flexibility": "靈活性",
+            "Diversity": "多樣性",
+            "BeneficialMarketConditions": "利於市場條件",
+            "CostEffective": "高成本效益",
+            "LowBarriersToEntry": "低准入門檻"
           },
-          "FuturesContent4": "(zh-tw)In the financial arena, spotting opportunity is the name of the game. Futures facilitate a wealth of trade-related functions, from capital preservation to active speculation.",
-          "Options": "(zh-tw)Options",
-          "OptionsContent": "(zh-tw)Options are financial instruments that are derivatives based on the value of underlying securities such as stocks. An options contract offers the buyer the opportunity to buy or sell—depending on the type of contract they hold—the underlying asset. Unlike futures, the holder is not required to buy or sell the asset if they choose not to.",
-          "OptionsContent2": "(zh-tw)Options offer investors more strategic (and financial) leeway than they can get by simply buying, selling or shorting stocks. Traders can use options to protect against portfolio losses, snag a stock for less than it sells on the open market (or sell it for more), increase the return on an existing or new position, and lower the risk on speculative bets in all sorts of market conditions.",
-          "OptionsContent3": "(zh-tw)The three primary advantages are:",
-          "OptionsContent4": "(zh-tw)Requires a smaller initial outlay than buying the stock",
-          "OptionsContent5": "(zh-tw)Gives an investor time to see how things play out",
-          "OptionsContent6": "(zh-tw)Can protect investors from downside risk on stocks they own",
-          "OptionsContent7": "(zh-tw)To learn more about future trading, please refer to the following information:",
-          "OptionsContent8": "(zh-tw)HONG KONG FUTURES MARGIN & SPECIFICATION",
-          "OptionsContent9": "(zh-tw)GLOBAL FUTURES MARGIN & SPECIFICATION",
-          "OptionsContent10": "(zh-tw)FUTURES NOTICE BOARD",
-          "OptionsContent11": "(zh-tw)FEE TABLES",
-          "HYPERLINK": "(zh-tw)HYPER LINK"
+          "FuturesContent4": "在金融領域的競爭舞臺中，尋找合適契機才是王道。從資產保值到活躍投機交易，期貨促進了與貿易相關的各種功能。",
+          "Options": "期權",
+          "OptionsContent": "期權是基於目標證券(例如股票)價值的衍生金融工具。期權合約針對目標物，依據他們持有的合約類型，為買家提供了買賣的機會。",
+          "OptionsContent2": "期權為投資者在購入，賣出或沽空上之策略(還有財務)提供了更多的操作空間。交易者可使用期權來對沖投資組合的損失，或以低於在公開市場上的價格購買(或是以更高價格出售)股票，在各種各樣的特定市場條件上增加既有或新頭寸上的回報，並降低投機上的風險。",
+          "OptionsContent3": "三個主要優點為:",
+          "OptionsContent4": "與購買股票相比，所需的初始成本更少",
+          "OptionsContent5": "給予投資者時間來靜觀其變",
+          "OptionsContent6": "可以保護投資者免受其擁有股票下跌的風險",
+          "OptionsContent7": "瞭解更多有關期貨的交易詳情，可參考以下資訊：",
+          "OptionsContent8": "香港期貨按金及合約細則",
+          "OptionsContent9": "環球期貨按金及合約細則",
+          "OptionsContent10": "期貨告示板",
+          "OptionsContent11": "收費表",
+          "HYPERLINK": ""
         }
       }
     }
   },
   "marketinsight": {
-    "MarketInsightContent": "(zh-tw)We seek to deliver to our clients leading market insight, helping them to raise money, invest, and risk diversification across multi-financial asset classes.",
-    "MarketCommentary": "(zh-tw)Market Commentary",
-    "SpecialEditions": "(zh-tw)Special Editions"
+    "MarketInsightContent": "我們向客戶提供領先的市場洞察資訊，協助客戶對跨類別金融資產投資和分散風險。",
+    "MarketCommentary": "市場評論",
+    "SpecialEditions": "特別報告"
   },
   "forms": {
-    "AssetManagementForms": "(zh-tw)Asset Management Forms",
-    "BrokerageForms": "(zh-tw)Brokerage Forms"
+    "AssetManagementForms": "資產管理表格",
+    "BrokerageForms": "證券期貨表格"
   },
   "resourcesandeducationcenter": {
-    "Bond": "(zh-tw)Bond",
-    "DigitalStructureNote": "(zh-tw)Digital Structure Note",
-    "EquityLinkedNotes": "(zh-tw)Equity Linked Notes",
-    "EquityStructuredProductsAccumulatorDecumulator": "(zh-tw)Equity Structured Products Accumulator / Decumulator",
-    "ExchangeTradedFund": "(zh-tw)Exchange Traded Fund",
-    "Options": "(zh-tw)Options",
-    "Glossary": "(zh-tw)Glossary",
-    "QA": "(zh-tw)Q&A"
+    "Bond": "債券",
+    "DigitalStructureNote": "二值期權票據",
+    "EquityLinkedNotes": "股票挂鉤票據",
+    "EquityStructuredProductsAccumulatorDecumulator": "股權結構性產品 – 累積認購(沽)期權合約",
+    "ExchangeTradedFund": "交易所買賣基金",
+    "Options": "期權",
+    "Glossary": "詞彙表",
+    "QA": "常見問題"
   }
 }

@@ -45,7 +45,7 @@
             >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.Futures") }}</div>
             <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent") }}</p>
             <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent2") }}</p>
-            <ul>
+            <ul class="ul_marien">
               <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.Flexibility") }}</li>
               <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.Diversity") }}</li>
               <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.BeneficialMarketConditions") }}</li>
@@ -102,6 +102,9 @@ export default {};
 .amc_title3 {
   margin: 10px 50px;
   font-weight: bold;
+}
+.ul_marien {
+  margin-left: 50px;
 }
 .amc_content2 > ul {
   margin-left: 50px;
