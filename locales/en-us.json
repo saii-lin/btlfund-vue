@@ -61,7 +61,15 @@
       "ExchangeTradedFund": "Exchange Traded Fund",
       "Options": "Options",
       "Glossary": "Glossary",
-      "QA": "Q&A"
+      "QA": "Q&A",
+      "BondBrief": "Bond is a debt security in which the authorized issuer owes the holders a debt and is obliged to repay the principal and the interest (the coupon) at a later date, termed maturity. In other words, a bond is simply a loan but in the form of a security.",
+      "DigitalStructureNoteBrief": "Digital Payoff: Payoff of a digital structure is usually a fixed amount, which will be paid if the predefined condition(s) regarding the underlying is met.",
+      "EquityLinkedNotesBrief": "It is a structured (derivative linked) product, wrapped in Note Form, which is linked to the performance of underlying stock(s)",
+      "EquityStructuredProductsAccumulatorDecumulatorBrief": "It is a series of forward contract for clients to buy (sell*) the reference share at a pre-determined price in each Exchange Business Day during the life of contract.",
+      "ExchangeTradedFundBrief": "Exchange Traded Funds (ETFs) are one of the fastest growing investment products in the world. There are currently 37 ETFs listed on the HKEx and the number continues to expand.",
+      "OptionsBrief": "Option: The right, but not the obligation, for the holder to buy or sell a certain securities, at a certain rate, at / by a certain date in the future.",
+      "GlossaryBrief": "A shares: Domestic shares of Mainland companies denominated and traded in RMB and exclusively by Mainland residents only.",
+      "QABrief": "Hong Kong Stock Market: Hong Kong Exchanges and Clearing Limited (HKEx) is the market operator of the securities trading and clearing systems. It consists of a Main Board and the Growth Enterprise Market (GEM) board for stock trading."
     },
     "block6": {
       "ContactUs": "Contact us",

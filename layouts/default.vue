@@ -17,23 +17,29 @@
       <nuxt />
     </div>
     <b-top v-if="showGoToTopBtn"></b-top>
+    <v-dialog v-model="disclaimDialog" max-width="80vw" persistent>
+      <b-disclaim @close="disclaimDialog = false"></b-disclaim>
+    </v-dialog>
   </div>
 </template>
 <script>
 import BNav from "~/components/BNav";
 import BNavMobile from "~/components/BNavMobile";
 import BTop from "~/components/BTop";
+import BDisclaim from "~/components/BDisclaim";
 export default {
   components: {
     BNav,
     BNavMobile,
-    BTop
+    BTop,
+    BDisclaim
   },
   data: () => ({
     scrollTop: 0,
     downward: false,
     contentWidth: 0,
-    showGoToTopBtn: false
+    showGoToTopBtn: false,
+    disclaimDialog: true
   }),
   mounted() {
     this.contentWidth = this.$refs.content.offsetWidth;

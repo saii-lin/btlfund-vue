@@ -1,5 +1,8 @@
 <template>
-  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
+  <div
+    :class="['b-nav', hidden ? 'hidden' : '']"
+    :style="{ width: `${width}px` }"
+  >
     <div>
       <div class="nav">
         <div class="navbar">
@@ -33,8 +36,12 @@
       <div class="menu">
         <ul class="menu-grid">
           <template v-for="(navItem, index) in navItems">
-            <li v-if="!navItem.hidden" :key="`nav-item-${index}`" @click="scrollto(navItem)">
-              {{ navItem.name }}
+            <li
+              v-if="!navItem.hidden"
+              :key="`nav-item-${index}`"
+              @click="scrollto(navItem)"
+            >
+              {{ $t(navItem.text) }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
                   <nuxt-link
@@ -48,7 +55,7 @@
                     "
                     :key="`nav-item-${index}-${jndex}`"
                   >
-                    <li>{{ subNavItem.name }}</li>
+                    <li>{{ $t(subNavItem.text) }}</li>
                   </nuxt-link>
                   <a
                     v-else
@@ -60,7 +67,7 @@
                     "
                     target="_blank"
                   >
-                    <li>{{ subNavItem.name }}</li>
+                    <li>{{ $t(subNavItem.text) }}</li>
                   </a>
                 </template>
               </ul>
