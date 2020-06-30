@@ -41,7 +41,7 @@
               :key="`nav-item-${index}`"
               @click="scrollto(navItem)"
             >
-              {{ navItem.name }}
+              {{ $t(navItem.text) }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
                   <nuxt-link
@@ -55,7 +55,7 @@
                     "
                     :key="`nav-item-${index}-${jndex}`"
                   >
-                    <li>{{ subNavItem.name }}</li>
+                    <li>{{ $t(subNavItem.text) }}</li>
                   </nuxt-link>
                   <a
                     v-else
@@ -67,7 +67,7 @@
                     "
                     target="_blank"
                   >
-                    <li>{{ subNavItem.name }}</li>
+                    <li>{{ $t(subNavItem.text) }}</li>
                   </a>
                 </template>
               </ul>

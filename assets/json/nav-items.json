@@ -1,101 +1,125 @@
 [
   {
     "name": "About Us",
+    "text": "index.nav.AboutUs",
     "subNavItems": [
       {
         "name": "Intro",
+        "text": "aboutus.Intro",
         "link": "/about-us/intro"
       },
       {
         "name": "Our Core Values",
+        "text": "aboutus.OurCoreValues",
         "link": "/about-us/our-core-values"
       },
       {
         "name": "Our Clients",
+        "text": "aboutus.OurClients",
         "link": "/about-us/our-clients"
       },
       {
         "name": "Our Location",
+        "text": "aboutus.OurLocation",
         "link": "$t:index.nav.GoogleMap"
       },
       {
         "name": "Global Presence",
+        "text": "aboutus.GlobalPresence",
         "link": "/about-us/global-presence"
       }
     ]
   },
   {
     "name": "What we do",
+    "text": "index.nav.WhatWeDo",
     "subNavItems": [
       {
         "name": "Asset Management",
+        "text": "whatwedo.AssetManagement",
         "link": "/what-we-do/asset-management"
       },
       {
         "name": "Introducing Brokerage",
+        "text": "whatwedo.IntroducingBrokerage",
         "link": "/what-we-do/introducing-brokerage"
       }
     ]
   },
   {
     "name": "Market Insight",
+    "text": "index.nav.MarketInsight",
     "subNavItems": [
       {
         "name": "Market Commentary",
+        "text": "marketinsight.MarketCommentary",
         "link": "/market-insight/market-commentary"
       },
       {
         "name": "Special Editions",
+        "text": "marketinsight.SpecialEditions",
         "link": "/market-insight/special-editions"
       }
     ]
   },
   {
     "name": "Forms",
+    "text": "index.nav.Forms",
     "subNavItems": [
       {
         "name": "Asset Management Forms",
+        "text": "forms.AssetManagementForms",
         "link": "/forms/asset-management-forms"
       },
       {
         "name": "Brokerage Forms",
+        "text": "forms.BrokerageForms",
         "link": "/forms/brokerage-forms"
       }
     ]
   },
   {
     "name": "Resource and Education Center",
+    "text": "index.nav.ResourcesAndEducationCenter",
     "subNavItems": [
       {
         "name": "Bond",
+        "text": "resourcesandeducationcenter.Bond",
         "link": "/resource-and-education-center/bond"
       },
       {
         "name": "Digital Structure Note",
+        "text": "resourcesandeducationcenter.DigitalStructureNote",
         "link": "/resource-and-education-center/digital-structure-notes"
       },
       {
         "name": "Equity Linked Notes",
+        "text": "resourcesandeducationcenter.EquityLinkedNotes",
         "link": "/resource-and-education-center/equity-linked-notes"
       },
       {
         "name": "Equity Structured Products Accumulator / Decumulator",
+        "text": "resourcesandeducationcenter.EquityStructuredProductsAccumulatorDecumulator",
         "link": "/resource-and-education-center/equity-structured-products-accumulator-decumulator"
       },
       {
         "name": "Exchange Traded Fund",
+        "text": "resourcesandeducationcenter.ExchangeTradedFund",
         "link": "/resource-and-education-center/exchange-traded-fund"
       },
       {
         "name": "Options",
+        "text": "resourcesandeducationcenter.Options",
         "link": "/resource-and-education-center/options"
       },
       {
         "name": "Glossary",
+        "text": "resourcesandeducationcenter.Glossary",
         "link": "/resource-and-education-center/glossary"
       },
       {
         "name": "Q&A",
+        "text": "resourcesandeducationcenter.QA",
         "link": "/resource-and-education-center/qa"
       }
     ],
@@ -103,6 +127,7 @@
   },
   {
     "name": "Contact us",
+    "text": "index.nav.ContactUs",
     "link": "/#contactus",
     "scrollto": ".contact"
   }

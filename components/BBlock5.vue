@@ -5,14 +5,25 @@
     <div class="block5_content">
       <div class="block5_icon">
         <div class="block5_icon1">
-          <nuxt-link :to="localePath('/resource-and-education-center/bond')">
+          <div class="icon-front">
             <v-img
               :width="size"
               :height="size"
               src="/images/block5-2.png"
             ></v-img>
             <p>{{ $t("index.block5.Bond") }}</p>
-          </nuxt-link>
+          </div>
+          <div class="icon-back">
+            <div class="icon-back__title">{{ $t("index.block5.Bond") }}</div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.BondBrief") }}
+            </div>
+            <div class="icon-back__more">
+              <nuxt-link :to="localePath('/resource-and-education-center/bond')"
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
+            </div>
+          </div>
         </div>
         <div class="block5_icon1">
           <nuxt-link
@@ -164,9 +175,11 @@ export default {
 .block5_icon1 {
   width: 20vw;
   margin: 30px;
+  position: relative;
+  height: 254px;
 }
 .block5_icon1 p {
-  font-size: 25px;
+  font-size: 16px;
   padding: 10px;
 }
 .block5_icon1 .v-image {
@@ -174,9 +187,35 @@ export default {
   display: block;
   transition: 0.5s;
 }
-.block5_icon1 .v-image:hover {
-  transform: translateY(-15px);
-  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5);
+.icon-front {
+  border: 2px white solid;
+  padding-top: 26px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.icon-back {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  transition: 0.2s;
+  opacity: 0;
+  padding: 20px;
+}
+.block5_icon1:hover .icon-back {
+  top: 0px;
+  opacity: 1;
+}
+.icon-back__title {
+  font-size: 18px;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+.icon-back__more {
+  padding: 20px 0px;
+  font-weight: bold;
 }
 @media screen and (max-width: 1000px) {
   .block5_icon {
