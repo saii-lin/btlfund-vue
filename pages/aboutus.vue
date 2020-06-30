@@ -2,14 +2,14 @@
   <div>
     <b-layout2 :data="pageData.layout"></b-layout2>
     <div class="about">
-      <div class="about_content">
+      <div class="about_content" id="intro">
         <div class="about_text">
           <h2>{{ $t("aboutus.Intro") }}</h2>
           <p>{{ $t("aboutus.IntroContent") }}</p>
         </div>
         <div class="about_pic about_pic3"></div>
       </div>
-      <div class="about_content">
+      <div class="about_content" id="our-core-values">
         <div class="about_pic about_pic4"></div>
         <div class="about_text">
           <h2>{{ $t("aboutus.OurCoreValues") }}</h2>
@@ -23,14 +23,14 @@
           </ul>
         </div>
       </div>
-      <div class="about_content">
+      <div class="about_content" id="our-clients">
         <div class="about_text">
           <h2>{{ $t("aboutus.OurClients") }}</h2>
           <p>{{ $t("aboutus.OurClientsContent") }}</p>
         </div>
         <div class="about_pic about_pic5"></div>
       </div>
-      <div class="about_content">
+      <div class="about_content" id="global-presence">
         <div class="about_pic about_pic6"></div>
         <div class="about_text">
           <h2>{{ $t("aboutus.GlobalPresence") }}</h2>
@@ -58,36 +58,44 @@
 <script>
 import pageContents from "@/assets/json/page-contents.json";
 import BLayout2 from "~/components/BLayout2.vue";
-import BContent from "~/components/BContent.vue";
 import BFooterSiteMap from "~/components/BFooterSiteMap.vue";
 export default {
   scrollToTop: true,
   components: {
     BLayout2,
-    BContent,
     BFooterSiteMap
   },
   data: () => ({
     pageContents
   }),
+  mounted() {
+    this.scrollto();
+  },
   computed: {
     pageData() {
       const target = pageContents.find(x => x.name === "about-us");
       if (target) {
-        const page = target.pages.find(x => x.name === this.$route.params.type);
-        if (page) {
-          return {
-            layout: {
-              title: this.$t(target.title),
-              subTitle: this.$t(page.title),
-              image: target.image
-            },
-            content: {
-              texts: page.texts
-            }
-          };
-        }
+        return {
+          layout: {
+            title: this.$t(target.title),
+            image: target.image
+          }
+        };
       }
+    }
+  },
+  methods: {
+    scrollto() {
+      if (location.hash) {
+        this.$scrollTo(location.hash, 1000, {
+          container: ".body"
+        });
+      }
+    }
+  },
+  watch: {
+    $route() {
+      this.scrollto();
     }
   }
 };

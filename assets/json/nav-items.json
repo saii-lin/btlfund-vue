@@ -6,17 +6,17 @@
       {
         "name": "Intro",
         "text": "aboutus.Intro",
-        "link": "/about-us/intro"
+        "link": "/aboutus#intro"
       },
       {
         "name": "Our Core Values",
         "text": "aboutus.OurCoreValues",
-        "link": "/about-us/our-core-values"
+        "link": "/aboutus#our-core-values"
       },
       {
         "name": "Our Clients",
         "text": "aboutus.OurClients",
-        "link": "/about-us/our-clients"
+        "link": "/aboutus#our-clients"
       },
       {
         "name": "Our Location",
@@ -26,7 +26,7 @@
       {
         "name": "Global Presence",
         "text": "aboutus.GlobalPresence",
-        "link": "/about-us/global-presence"
+        "link": "/aboutus#global-presence"
       }
     ]
   },
