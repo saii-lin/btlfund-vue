@@ -44,7 +44,7 @@
     "block4": {
       "MeetTheTeam": "管理团队",
       "ReadMore": "更多",
-      "MrTangChiHong": "邓志 康先生| 负责人员/行政总裁",
+      "MrTangChiHong": "邓志康先生| 负责人员/行政总裁",
       "MrTangChiHongContent": "邓先生于银行及金融业界拥有超过三十年的经验，曾于中外资本的公司工作，具有广阔的环球视野，尤其擅长于证券和期货市场。作为资深业界人士，邓先生曾为高淨值客户提供财富管理服务，投资资产种类涵盖证券、债券、期货及期权等。除此以外，他亦对不同的后勤日常营运富有管理经验，精于管理交易、结算、客户服务及风险管理等。邓先生于高诚集团(Crosby Group)工作时，亦曾与工作伙伴一同管理公司的对冲基金投资组合。邓先生亦曾参与建立数间金融仲介人公司的前期营运，拥有全面的管理才能和经验。",
       "MrTangChiHongContent2": "邓先生曾于多家一线金融公司担任管理层，包括格林期货(香港)、汇富金融(Kingsway Financial Services Group)、宝盛证券(Boom Securities)、高诚集团、渣打银行-私人银行部(Standard Chartered Bank International Private Banking)等。",
       "MrLuiChiLung": "雷子龙先生| 负责人员",
@@ -136,8 +136,8 @@
         },
         "OtherInvestmentProducts": "其他投资服务",
         "OtherInvestmentProducts2": {
-          "CallableBullAndBearContracts": "Callable Bull and Bear Contracts 牛熊证",
-          "RealEstateInvestmentTrusts": "Real Estate Investment Trusts (REITs) 房地产投资信託基金",
+          "CallableBullAndBearContracts": "牛熊证",
+          "RealEstateInvestmentTrusts": "房地产投资信託基金",
           "DebtSecurities": " 债券",
           "DerivativeWarrants": "衍生权证(窝轮)",
           "InitialPublicOfferings": "首次公开招股",

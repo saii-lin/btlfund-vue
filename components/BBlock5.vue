@@ -6,11 +6,7 @@
       <div class="block5_icon">
         <div class="block5_icon1">
           <nuxt-link :to="localePath('/resource-and-education-center/bond')">
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-2.png"
-            ></v-img>
+            <v-img :width="size" :height="size" src="/images/block5-2.png"></v-img>
             <p>{{ $t("index.block5.Bond") }}</p>
           </nuxt-link>
         </div>
@@ -22,11 +18,7 @@
               )
             "
           >
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-3.png"
-            ></v-img>
+            <v-img :width="size" :height="size" src="/images/block5-3.png"></v-img>
             <p>{{ $t("index.block5.DigitalStructureNote") }}</p>
           </nuxt-link>
         </div>
@@ -36,11 +28,7 @@
               localePath('/resource-and-education-center/equity-linked-notes')
             "
           >
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-4.png"
-            ></v-img>
+            <v-img :width="size" :height="size" src="/images/block5-4.png"></v-img>
             <p>{{ $t("index.block5.EquityLinkedNotes") }}</p>
           </nuxt-link>
         </div>
@@ -52,16 +40,12 @@
               )
             "
           >
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-5.png"
-            ></v-img>
+            <v-img :width="size" :height="size" src="/images/block5-5.png"></v-img>
             <p>
               {{
-                $t(
-                  "index.block5.EquityStructuredProductsAccumulatorDecumulator"
-                )
+              $t(
+              "index.block5.EquityStructuredProductsAccumulatorDecumulator"
+              )
               }}
             </p>
           </nuxt-link>
@@ -74,45 +58,25 @@
               localePath('/resource-and-education-center/exchange-traded-fund')
             "
           >
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-6.png"
-            ></v-img>
-            <p>
-              {{ $t("index.block5.ExchangeTradedFund") }}
-            </p>
+            <v-img :width="size" :height="size" src="/images/block5-6.png"></v-img>
+            <p>{{ $t("index.block5.ExchangeTradedFund") }}</p>
           </nuxt-link>
         </div>
         <div class="block5_icon1">
           <nuxt-link :to="localePath('/resource-and-education-center/options')">
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-7.png"
-            ></v-img>
+            <v-img :width="size" :height="size" src="/images/block5-7.png"></v-img>
             <p>{{ $t("index.block5.Options") }}</p>
           </nuxt-link>
         </div>
         <div class="block5_icon1">
-          <nuxt-link
-            :to="localePath('/resource-and-education-center/glossary')"
-          >
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-8.png"
-            ></v-img>
+          <nuxt-link :to="localePath('/resource-and-education-center/glossary')">
+            <v-img :width="size" :height="size" src="/images/block5-8.png"></v-img>
             <p>{{ $t("index.block5.Glossary") }}</p>
           </nuxt-link>
         </div>
         <div class="block5_icon1">
           <nuxt-link :to="localePath('/resource-and-education-center/qa')">
-            <v-img
-              :width="size"
-              :height="size"
-              src="/images/block5-9.png"
-            ></v-img>
+            <v-img :width="size" :height="size" src="/images/block5-9.png"></v-img>
             <p>{{ $t("index.block5.QA") }}</p>
           </nuxt-link>
         </div>
@@ -142,7 +106,7 @@ export default {
   margin: 0;
 }
 .block5_pic {
-  background-image: url(/images/block5-1.png);
+  background-image: url(/images/block5-1.jpg);
   background-size: cover;
   background-position-y: bottom;
   width: 100%;

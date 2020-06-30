@@ -41,7 +41,7 @@ export default {
     return {
       sources: [
         {
-          src: "/images/slide1.jpeg",
+          src: "/images/slide1.jpg",
           link: "#",
           title: this.$t("index.block1.OurVision"),
           texts: [this.$t("index.block1.OurVisionContent")]
@@ -53,7 +53,7 @@ export default {
           texts: [this.$t("index.block1.OurMissionContent")]
         },
         {
-          src: "/images/slide3.jpeg",
+          src: "/images/slide3.jpg",
           title: this.$t("index.block1.OurDifference"),
           link: "#",
           texts: [

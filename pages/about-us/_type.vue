@@ -95,16 +95,16 @@ export default {
 
 <style>
 .about_pic3 {
-  background-image: url(/images/about3.png);
+  background-image: url(/images/about3.jpg);
 }
 .about_pic4 {
-  background-image: url(/images/about4.png);
+  background-image: url(/images/about4.jpg);
 }
 .about_pic5 {
-  background-image: url(/images/about5.png);
+  background-image: url(/images/about5.jpg);
 }
 .about_pic6 {
-  background-image: url(/images/about6.png);
+  background-image: url(/images/about6.jpg);
 }
 .about_text h2 {
   font-size: 35px;

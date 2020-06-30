@@ -10,8 +10,9 @@
               class="amc_title2"
             >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Securities") }}</div>
             <div class="amc_content2">
-              <div class="amc_title3"></div>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Securities2.HongKongMarketContent") }}</p>
+              <div
+                class="amc_title3"
+              >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Securities2.HongKongMarketContent") }}</div>
               <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Securities2.HongKongMarketContent2") }}</p>
             </div>
             <div class="amc_content2">
@@ -27,13 +28,15 @@
               class="amc_title2"
             >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts") }}</div>
             <div class="amc_content2">
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.CallableBullAndBearContracts") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.RealEstateInvestmentTrusts") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.DebtSecurities") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.DerivativeWarrants") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.InitialPublicOfferings") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.PrivatePlacement") }}</p>
-              <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.ExchangeTradedFund(ETF)") }}</p>
+              <ul>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.CallableBullAndBearContracts") }}</li>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.RealEstateInvestmentTrusts") }}</li>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.DebtSecurities") }}</li>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.DerivativeWarrants") }}</li>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.InitialPublicOfferings") }}</li>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.PrivatePlacement") }}</li>
+                <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.OtherInvestmentProducts2.ExchangeTradedFund(ETF)") }}</li>
+              </ul>
             </div>
           </li>
           <li>
@@ -100,24 +103,28 @@ export default {};
 
 <style>
 .amc_title3 {
-  margin: 10px 50px;
+  margin: 10px 40px;
   font-weight: bold;
+  font-size: 16px;
 }
 .ul_marien {
-  margin-left: 50px;
+  margin-left: 30px;
+  padding: 0;
 }
 .amc_content2 > ul {
-  margin-left: 50px;
+  margin-left: 30px;
+  padding: 0;
 }
-.amc_content2 > ul > li {
-  padding: 10px;
+.amc_content2 li,
+.ul_marien li {
+  font-size: 16px !important;
 }
 .amc_content2 strong {
   color: red;
 }
-@media screen and (max-width: 414px) {
+/* @media screen and (max-width: 414px) {
   .amc_content2 > ul {
     margin-left: 30px;
   }
-}
+} */
 </style>

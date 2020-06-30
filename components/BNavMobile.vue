@@ -219,9 +219,7 @@ export default {
   z-index: 99;
   background: #fff;
 }
-.logo_pc {
-  margin-left: 0px;
-}
+
 .b-nav-mobile.hidden {
   top: -150px;
 }
@@ -383,6 +381,11 @@ export default {
   margin: 5px;
 }
 
+@media screen and (max-width: 960px) {
+  .logo_pc {
+    margin-left: 0px;
+  }
+}
 @media screen and (max-width: 414px) {
   .logo_pc {
     width: 350px;

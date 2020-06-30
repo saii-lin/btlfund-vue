@@ -25,7 +25,7 @@ export default {};
 .what_content {
   display: flex;
   justify-content: center;
-  margin-bottom:80px ;
+  margin-bottom: 80px;
 }
 .what_pic {
   width: 35vw;
@@ -61,10 +61,10 @@ export default {};
   color: #fff;
 }
 .what_pic1 {
-  background-image: url(/images/block2-1.png);
+  background-image: url(/images/block2-1.jpg);
 }
 .what_pic2 {
-  background-image: url(/images/block2-2.png);
+  background-image: url(/images/block2-2.jpg);
 }
 .what_top_text {
   margin-bottom: 150px;

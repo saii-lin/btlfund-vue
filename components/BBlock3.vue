@@ -62,10 +62,10 @@ export default {};
   background-size: cover;
 }
 .about_pic1 {
-  background-image: url(/images/block3-1.png);
+  background-image: url(/images/block3-1.jpg);
 }
 .about_pic2 {
-  background-image: url(/images/block3-2.png);
+  background-image: url(/images/block3-2.jpg);
 }
 .about_text {
   width: 40vw;

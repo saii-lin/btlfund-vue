@@ -64,19 +64,15 @@ ul {
 .amc_title {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 20px;
+  margin: 20px;
 }
 .amc_content p {
   font-size: 16px !important;
-  margin-left: 30px !important;
+  margin-left: 40px !important;
 }
 .amc_title2 {
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 30px;
   font-size: 16px;
-}
-.amc_content > ul > li p {
-  margin-left: 50px !important;
-  font-size: 16px !important;
 }
 </style>
