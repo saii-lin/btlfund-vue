@@ -1,7 +1,56 @@
 <template>
   <div>
     <b-layout2 :data="pageData.layout"></b-layout2>
-    <b-content :data="pageData.content"></b-content>
+    <div class="about">
+      <div class="about_content">
+        <div class="about_text">
+          <h2>{{ $t("aboutus.Intro") }}</h2>
+          <p>{{ $t("aboutus.IntroContent") }}</p>
+        </div>
+        <div class="about_pic about_pic3"></div>
+      </div>
+      <div class="about_content">
+        <div class="about_pic about_pic4"></div>
+        <div class="about_text">
+          <h2>{{ $t("aboutus.OurCoreValues") }}</h2>
+          <p>{{ $t("aboutus.OurCoreValuesContent") }}</p>
+          <ul>
+            <li>{{ $t("aboutus.OurCoreValuesContent2.Excellence") }}</li>
+            <li>{{ $t("aboutus.OurCoreValuesContent2.TeamSpirit") }}</li>
+            <li>{{ $t("aboutus.OurCoreValuesContent2.HardWork") }}</li>
+            <li>{{ $t("aboutus.OurCoreValuesContent2.Integrity ") }}</li>
+            <li>{{ $t("aboutus.OurCoreValuesContent2.Consideration") }}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about_content">
+        <div class="about_text">
+          <h2>{{ $t("aboutus.OurClients") }}</h2>
+          <p>{{ $t("aboutus.OurClientsContent") }}</p>
+        </div>
+        <div class="about_pic about_pic5"></div>
+      </div>
+      <div class="about_content">
+        <div class="about_pic about_pic6"></div>
+        <div class="about_text">
+          <h2>{{ $t("aboutus.GlobalPresence") }}</h2>
+          <p>{{ $t("aboutus.GlobalPresenceContent") }}</p>
+        </div>
+      </div>
+      <div class="about_location">
+        <h2>{{ $t("aboutus.OurLocation") }}</h2>
+        <iframe
+          class="about_map"
+          :src="$t('index.block6.GoogleMap')"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+    </div>
     <b-footer-site-map></b-footer-site-map>
   </div>
 </template>
@@ -44,4 +93,42 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.about_pic3 {
+  background-image: url(/images/about3.png);
+}
+.about_pic4 {
+  background-image: url(/images/about4.png);
+}
+.about_pic5 {
+  background-image: url(/images/about5.png);
+}
+.about_pic6 {
+  background-image: url(/images/about6.png);
+}
+.about_text h2 {
+  font-size: 35px;
+}
+.about_text p {
+  margin: 15px 0 !important;
+}
+.about_text ul {
+  list-style: none !important;
+  margin: 10px 0 !important;
+  padding: 0;
+}
+.about_text li {
+  line-height: 25px;
+  padding-bottom: 5px;
+}
+.about_map {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.about_location h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+</style>

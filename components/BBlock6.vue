@@ -5,9 +5,7 @@
       <div class="contact_text">
         <div class="contact_font">
           <img src="/images/contact1.png" alt />
-          <div class="info">
-            {{ $t("index.block6.12FChungNamBuilding1LockhartRoadHongKong") }}
-          </div>
+          <div class="info">{{ $t("index.block6.12FChungNamBuilding1LockhartRoadHongKong") }}</div>
         </div>
         <div class="contact_font contact_font__4x">
           <div>

@@ -160,6 +160,7 @@ export default {
 .logo_pc {
   width: 400px;
   padding: 10px 20px;
+  margin-left: 90px;
 }
 .navbar-grid {
   display: grid;
@@ -167,6 +168,7 @@ export default {
   justify-items: center;
   align-items: center;
   width: 400px;
+  margin-right: 90px;
 }
 .navbar-grid .search {
   border-color: #cdd2d1;

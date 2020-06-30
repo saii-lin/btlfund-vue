@@ -219,6 +219,9 @@ export default {
   z-index: 99;
   background: #fff;
 }
+.logo_pc {
+  margin-left: 0px;
+}
 .b-nav-mobile.hidden {
   top: -150px;
 }

@@ -24,6 +24,11 @@ li {
     padding: 10px;
 }
 
+.question-text, .question-num {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 @media screen and (max-width:414px) {
     .size-full {
         width: 95vw !important;

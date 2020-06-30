@@ -1,195 +1,196 @@
 {
   "index": {
     "nav": {
-      "AboutUs": "(zh-cn)About Us",
-      "WhatWeDo": "(zh-cn)What we do",
-      "MarketInsight": "(zh-cn)Market Insight",
-      "Forms": "(zh-cn)Forms",
-      "ContactUs": "(zh-cn)Contact us",
-      "ResourcesAndEducationCenter": "(zh-cn)Resources and Education Center",
-      "GoogleMap": "https://www.google.com/maps?ll=22.278507,114.168936&z=16&t=m&hl=zh-CN&gl=TW&mapclient=embed&cid=11557050173080441003",
+      "AboutUs": "关于我们",
+      "WhatWeDo": "产品与服务",
+      "MarketInsight": "市场观点",
+      "Forms": "表格下载",
+      "ContactUs": "连络我们",
+      "ResourcesAndEducationCenter": "资源教育中心",
+      "GoogleMap": "https://www.google.com/maps/place/%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%BB%88/@22.278507,114.168936,16z/data=!4m5!3m4!1s0x0:0xa062e3e689d390ab!8m2!3d22.2785068!4d114.1689358?hl=zh-cn",
       "Language": "语言"
     },
     "block1": {
-      "OurVision": "(zh-cn)Our Vision",
-      "OurVisionContent": "(zh-cn)BTL is inspired from a phrase \"Built to Last\",  embody our dedication to preserve and grow our clients' asset, and to continue providing our clients with creative ideas and solutions for operating effectively in a complex global economy.  BTL strives for excellence, we keep creating value and generating growth for our clients and shareholders with our outstanding financial services and products and continue to exceed all expectations.",
-      "OurMission": "(zh-cn)Our Mission",
-      "OurMissionContent": "(zh-cn)BTL will be trusted to reliably deliver innovative, exemplary and high performance financial services and products, for our clients whilst upholding the highest standards of integrity and quality.",
-      "OurMissionContent2": "(zh-cn)BTL values the trust and confidence our clients placed in us and strive to consistently and steadfastly deliver innovative and exemplary financial services and outstanding performance to them whilst upholding the highest standard of integrity and quality.",
-      "OurDifference": "(zh-cn)Our Difference",
-      "OurDifferenceContent": "(zh-cn)As opposed to beating a benchmark, growing our clients' assets is at the very core of our business.  BTL is fully committed to putting clients' interests as our top priority.  We tailor our exceptional services and portfolio management to meet each client's unique needs."
+      "OurVision": "我们的愿景",
+      "OurVisionContent": "BTL的灵感源于”屹立不摇”，体现我们致力于不止保持、且提高客户资产收益之决心，并持续地为我们的客户提供创新的想法以及应对方案，确保在越趋複杂的全球经济中能有效地运作。BTL追求卓越，透过我们出色的金融服务及产品以为客户及股东达致超乎预期的价值及增长。",
+      "OurMission": "我们的使命",
+      "OurMissionContent": "BTL重视客户对我们的信任，于坚持最高的诚信标准以及品质的同时，致力持续且坚定不移地为他们提供创新且优异的金融服务和出色的绩效。",
+      "OurMissionContent2": "BTL致力将客户利益放在首位。我们量身定制非凡的服务以及投资组合以满足每个客户的独特需求。",
+      "OurDifference": "我们的差异",
+      "OurDifferenceContent": "与只求超越一般指标指数相比，我们业务的核心着眼于持续提升客户资产收益。我们提供合适的金融方案提升投资者整体回报、创造坚稳的实力以投资于未来，以及建立稳健的平臺以达致持续性的增长。"
     },
     "block2": {
-      "AssetManagementTitle": "(zh-cn)ASSET MANAGEMENT",
-      "AssetManagementTitleContent": "(zh-cn)Our investment strategy, customised for and fully transparent to each client, is designed to create steady, long term compounding of wealth.",
-      "IntroducingBrokerageTitle": "(zh-cn)INTRODUCING BROKERAGE",
-      "IntroducingBrokerageContent": "(zh-cn)BTL is committed to serving the introducing brokerage services in most of the major equity and futures markets worldwide including Hong Kong and US. Our transparent, low commissions and financing rates, and support for best price executions minimize your costs to help you maximize your returns."
+      "AssetManagementTitle": "资产管理",
+      "AssetManagementTitleContent": "我们的投资策略是专为个别客户量身订制的投资解决方案，且是完全透明的，旨在创建稳定，长期可持续性增长的财富。",
+      "IntroducingBrokerageTitle": "经纪仲介业务",
+      "IntroducingBrokerageContent": "BTL致力于在包括香港和美国的全球主要的股票和期货市场中提供经纪仲介服务。凭藉着我们强大的公司背景，配合我们专业团队能为客人快速建立交易帐户，我们的客户可以在盈透证券尖端的一站式平臺上交易。我们透明及低廉的佣金和融资利率、强大交易平台支援的最佳化指令执行力可将成本最小化，使客户获得最大的收益。"
     },
     "block3": {
-      "MarketInsightTitle": "(zh-cn)MARKET INSIGHT",
-      "MarketInsightTitleContent": "(zh-cn)We seek to deliver to our clients leading market insight, helping them to raise money, invest, and risk diversification across multi-financial asset classes.",
-      "OurCoreValue:": "(zh-cn)OUR CORE VALUE:",
-      "E-T-H-I-C": "(zh-cn)E-T-H-I-C",
-      "E": "(zh-cn)E",
-      "xcellence": "(zh-cn)xcellence",
-      "T": "(zh-cn)T",
-      "eamSpirit": "(zh-cn)eam Spirit",
-      "H": "(zh-cn)H",
-      "ardWork": "(zh-cn)ard Work",
-      "I": "(zh-cn)I",
-      "ntegrity": "(zh-cn)ntegrity",
-      "C": "(zh-cn)C",
-      "onsideration": "(zh-cn)onsideration"
+      "MarketInsightTitle": "市场观点",
+      "MarketInsightTitleContent": "我们向客户提供领先的市场洞察资讯，协助客户对跨类别金融资产投资和分散风险。",
+      "OurCoreValue:": "我们的核心价值观：",
+      "E-T-H-I-C": "E-T-H-I-C (道德)",
+      "E": "E",
+      "xcellence": "卓越(Excellence)",
+      "T": "T",
+      "eamSpirit": "团队精神(Team Spirit)",
+      "H": "H",
+      "ardWork": "努力(Hard Work)",
+      "I": "I",
+      "ntegrity": "诚信(Integrity)",
+      "C": "C",
+      "onsideration": "考量(Consideration)"
     },
     "block4": {
-      "MeetTheTeam": "(zh-cn)MEET THE TEAM",
-      "ReadMore": "(zh-cn)Read More",
-      "MrTangChiHong": "(zh-cn)Mr. Tang Chi Hong, Eric - Responsible Officer / Chief Executive Officer",
-      "MrTangChiHongContent": "(zh-cn)Mr. Tang has been in the banking and finance industry for over 30 years with global exposure and a strong focus in the securities and futures sector. His experience ranged from wealth management services for high-net-worth individuals in all major asset classes including equities, fixed income products, futures and options, to different functions in operations, particularly dealing, settlement, client services and risk management. He once co-managed an in-house Hedge Fund Portfolio when he worked with the Crosby Group. Above all, he commands invaluable practical skills in new start-up with all-round experience in managing the daily operations of an investment intermediary.",
-      "MrTangChiHongContent2": "(zh-cn)Mr. Tang previously held management position at various prominent companies including Green Futures (Hong Kong) Ltd., Kingsway Financial Services Group, Boom Securities, Crosby Group, Standard Chartered Bank International Private Banking and South China Securities after starting off at several reputable brokerages including Charles Schwab, Paine Webber and Richardson Greenshields of Canada.",
-      "MrLuiChiLung": "(zh-cn)Mr. Lui Chi Lung , Louis - Responsible Officer",
-      "MrLuiChiLungContent": "(zh-cn)Mr. Lui has established his career in the private banking and asset management sector over the past 25 years. During the period, he has been working for several major European banks, as well as managing a portfolio of hundred millions US dollar of assets under management(AUM). He was once the non-executive director of a Hong Kong listed company. Mr. Lui possesses extensive knowledge in various types of investment products, covering equities, fixed income, mutual funds, private equities, to structured derivative products. He also has experience in managing a loan portfolio for his high net-worth individual customers.",
-      "MrYeungChungWingMichel": "(zh-cn)Mr. Yeung Chung Wing, Michel - General Manager / Compliance & Operations      ",
-      "MrYeungChungWingMichelContent": "(zh-cn)Mr. Yeung is a management accountant and an experienced banker for over 15 years. Previously, he headed the finance and administration function of a licensed mobile telecommunications provider in Hong Kong. He will assist to monitoring compliance issues and general administration matters, the accounting/finance function and daily business operations."
+      "MeetTheTeam": "管理团队",
+      "ReadMore": "更多",
+      "MrTangChiHong": "邓志 康先生| 负责人员/行政总裁",
+      "MrTangChiHongContent": "邓先生于银行及金融业界拥有超过三十年的经验，曾于中外资本的公司工作，具有广阔的环球视野，尤其擅长于证券和期货市场。作为资深业界人士，邓先生曾为高淨值客户提供财富管理服务，投资资产种类涵盖证券、债券、期货及期权等。除此以外，他亦对不同的后勤日常营运富有管理经验，精于管理交易、结算、客户服务及风险管理等。邓先生于高诚集团(Crosby Group)工作时，亦曾与工作伙伴一同管理公司的对冲基金投资组合。邓先生亦曾参与建立数间金融仲介人公司的前期营运，拥有全面的管理才能和经验。",
+      "MrTangChiHongContent2": "邓先生曾于多家一线金融公司担任管理层，包括格林期货(香港)、汇富金融(Kingsway Financial Services Group)、宝盛证券(Boom Securities)、高诚集团、渣打银行-私人银行部(Standard Chartered Bank International Private Banking)等。",
+      "MrLuiChiLung": "雷子龙先生| 负责人员",
+      "MrLuiChiLungContent": "雷先生于私人银行及资产管理界有超过二十五年的工作经验，先后为多家欧资大银行服务，最高曾管理以亿计美元的资产。他亦曾担任香港上市公司非执行董事职务。雷先生对不同的投资产品如证券、债券、互惠基金、私募基金等结构性投资产品等都有深广的认识，并有为高资产淨值客户管理借贷投资组合。",
+      "MrYeungChungWingMichel": "杨颂荣先生|总经理/法规及营运部门",
+      "MrYeungChungWingMichelContent": "杨先生为工商管理硕士, 现为澳洲管理会计师公会会员及英国财务会计师公会资深会员，曾于多间香港欧资日资商业银行及商界工作超过20年。又曾服务一本地政府授权电讯服务供应商领导金融及人事行政部门。杨先生参予本公司前期成立, 现时直接向邓志康先生负责, 协助公司监管法规事宜及处理行政、公司会计、财务及一般营运。"
     },
     "block5": {
-      "RescourcesAndEducationCenter": "(zh-cn)RESCOURCES AND EDUCATION CENTER",
-      "Bond": "(zh-cn)Bond",
-      "DigitalStructureNote": "(zh-cn)Digital Structure Note",
-      "EquityLinkedNotes": "(zh-cn)Equity Linked Notes",
-      "EquityStructuredProductsAccumulatorDecumulator": "(zh-cn)Equity Structured Products Accumulator / De-cumulator",
-      "ExchangeTradedFund": "(zh-cn)Exchange Traded Fund",
-      "Options": "(zh-cn)Options",
-      "Glossary": "(zh-cn)Glossary",
-      "QA": "(zh-cn)Q&A"
+      "RescourcesAndEducationCenter": "资源教育中心",
+      "Bond": "债券",
+      "DigitalStructureNote": "二值期权票据",
+      "EquityLinkedNotes": "股票挂钩票据",
+      "EquityStructuredProductsAccumulatorDecumulator": "股权结构性产品 – 累积认购(沽)期权合约",
+      "ExchangeTradedFund": "交易所买卖基金",
+      "Options": "期权",
+      "Glossary": "词彙表",
+      "QA": "常见问题"
     },
     "block6": {
-      "ContactUs": "(zh-cn)Contact us",
-      "Address": "(zh-cn)Address",
-      "12FChungNamBuilding1LockhartRoadHongKong": "(zh-cn)12/F, Chung Nam Building, 1 Lockhart Road, Hong Kong",
-      "Hotline": "(zh-cn)Hotline: +852 3701 7000",
-      "Fax": "(zh-cn)Fax: +852 3701 7099",
-      "AssetManagementServices": "(zh-cn)Asset Management Services",
-      "BrokerageServices": "(zh-cn)Brokerage Services",
-      "GoogleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1szh-CN!2stw!4v1592365359864!5m2!1szh-CN!2stw"
+      "ContactUs": "连络我们",
+      "Address": "地址",
+      "12FChungNamBuilding1LockhartRoadHongKong": "香港骆克道1号中南大厦12楼",
+      "Hotline": "电话: +852 3701 7000",
+      "Fax": "传真: +852 3701 7099",
+      "AssetManagementServices": "资产管理服务",
+      "BrokerageServices": "经纪服务",
+      "GoogleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1szh-cn!2stw!4v1592365359864!5m2!1szh-cn!2stw"
     }
   },
   "aboutus": {
-    "Intro": "(zh-cn)Intro",
-    "IntroContent": "(zh-cn)BTL Asset Management Company Limited ('BTL') is duly authorized and licensed by the Hong Kong Securities and Futures Commission to conduct business in Types 1, 2, 4, 5 & 9 regulated activities, namely dealing in securities through other securities dealers and advising on securities and future contracts, as well as asset management.",
-    "OurCoreValues": "(zh-cn)Our Core Values",
-    "OurCoreValuesContent": "(zh-cn)Our core values : E-T-H-I-C",
+    "Intro": "公司简介",
+    "IntroContent": "BTL资产管理有限公司(“BTL”)已获得香港证券及期货事务监察委员会的正式授权和许可，可以持牌机构的名义从事第1, 2, 4, 5及9类的受监管活动，即通过其他交易商进行证券及期货合约交易、为证券和期货合约提供建议以及资产管理服务。",
+    "OurCoreValues": "我们的核心价值",
+    "OurCoreValuesContent": "我们的核心价值观：E-T-H-I-C (道德)",
     "OurCoreValuesContent2": {
-      "Excellence": "(zh-cn)Excellence – We expect nothing less than the best from our team of investment professionals. We always put our client first.",
-      "TeamSpirit": "(zh-cn)Team Spirit – We assist others and are supportive of their endeavours and ideas. We celebrate success together.",
-      "HardWork": "(zh-cn)Hard Work – We believe hard work plus dreams plus dedication is equivalent to success.",
-      "Integrity ": "(zh-cn)Integrity – We give independent advice, avoiding all conflicts of interest. We ensure personal and collective accountability.",
-      "Consideration": "(zh-cn)Consideration – We encourage individual development and are frank about our opinions."
+      "Excellence": "卓越(Excellence)– 我们要求BTL的投资专家团队为客户提供最卓越的服务，并将客户永远放在第一位。",
+      "TeamSpirit": "团队精神(Team Spirit) – 我们强调团队合作，互相扶持，且支持每位团员各展所长。我们同心同行，一起庆祝成功。",
+      "HardWork": "努力(Hard Work) – 我们深信努力加上梦想和奉献等于成功。",
+      "Integrity ": "诚信(Integrity) – 我们提供独立的建议，避免一切利益冲突。我们确保对个人及公众尽责。",
+      "Consideration": "考量(Consideration) – 我们鼓励个人發展，并忠于自己的观点。"
     },
-    "OurClients": "(zh-cn)Our Clients",
-    "OurClientsContent": "(zh-cn)Our clients include high net-worth individuals, financial institutions, corporate pension funds, family offices, private and public listed companies and other institutional investors.",
-    "OurLocation": "(zh-cn)Our Location",
-    "GlobalPresence": "(zh-cn)Global Presence",
-    "GlobalPresenceContent": "(zh-cn)BTL has well-established and strong alliances with financial intermediaries and distribution channels throughout favourable jurisdictions including Hong Kong, China, Taiwan, Japan, and ASIAN countries. It is primed to enable business referrals and connect clients with global financial markets."
+    "OurClients": "我们的客户",
+    "OurClientsContent": "我们的客户包含高淨值个人，金融机构，企业养老金，家族企业，私人及上市公司，以及其他机构投资者。",
+    "OurLocation": "所在位置",
+    "GlobalPresence": "全球业务",
+    "GlobalPresenceContent": "BTL与香港，中国，臺湾，日本和亚洲等国家内的金融仲介机构和分销管道建立了牢固的联盟。BTL旨在推动业务并将客户和全球金融市场联繫起来。"
   },
   "whatwedo": {
-    "AssetManagement": "(zh-cn)Asset Management",
-    "AssetManagementContent": "(zh-cn)Our investment strategy, customised for and fully transparent to each client, is designed to create steady, long term compounding of wealth.",
+    "AssetManagement": "资产管理",
+    "AssetManagementContent": "BTL向机构投资者，家族办公室和高淨值个人提供专业的多元资产配置服务，包括投资谘询委託，全权委託和外部资产管理。我们的投资经理都拥有管理世界一流全球投资管理公司所积累的专业知识，经验丰富的团队拥有在不同市场週期下管理投资组合的经验。",
     "AssetManagementContent2": {
-      "InvestmentAdvisoryMandates": "(zh-cn)Investment Advisory mandates",
-      "InvestmentAdvisoryMandatesContent": "(zh-cn)Fast-paced, interconnected, and increasingly complicated, the financial markets now require an investor's constant attention and immediate response. Our team of investment experts stands by with our clients to monitor the markets while keeping an eye on the risks. Profit from their expertise by choosing our customised investment advisory mandate.",
-      "DiscretionaryMandates": "(zh-cn)Discretionary mandates",
-      "DiscretionaryMandatesContent": "(zh-cn)Allow an investment professional to manage your wealth on your behalf.",
-      "DiscretionaryMandatesContent2": "(zh-cn)Your time is precious, which is why you would like to delegate investment decisions to an experienced investment professional. BTL's investment advisor will take the time to conduct comprehensive KYC process in order to fully understand your situation, personal and financial, to ensure that your investment strategy meets your individual objectives, requirements, and risk profile. Thorough portfolio monitoring paired with ongoing reviews ensure that your investment activities are always in line with your current circumstances.",
-      "ExternalAssetManager": "(zh-cn)External Asset Manager",
-      "ExternalAssetManagerContent1": "(zh-cn)BTL offers an bespoke external asset management platform along with first tiers private banks.",
-      "ExternalAssetManagerContent2": "(zh-cn) This allows our client to benefit from an unrestricted range of products, services and investment opportunities, as well as the other business divisions at BTL.",
+      "InvestmentAdvisoryMandates": "投资谘询委託要求",
+      "InvestmentAdvisoryMandatesContent": "投资谘询委託要求节奏明快，以及互相串联。金融市场现在需要投资者顾问的持续关注及立即反应。我们的投资专家团队与我们的客户共同留意市场，同时也监视着风险。客户可透过我们专家团队以其专业知识为客户特别制定的投资谘询服务获利。",
+      "DiscretionaryMandates": "全权委託要求",
+      "DiscretionaryMandatesContent": "允许投资专家替您代管您的财富。",
+      "DiscretionaryMandatesContent2": "您的时间是宝贵的，这也是为什麽您希望将投资决策委託给经验丰富的投资专家。BTL的投资顾问会为您进行全面的 “认识您的客户(KYC)” 流程，来瞭解您的实际需要和情况(个人和财务)，并据此确保您的投资策略满足您的个人目标，财务需求及风险偏好。透过全面监督您的投资组合及持续的複审，来确保其符合您当前的情况。",
+      "ExternalAssetManager": "外部资产管理",
+      "ExternalAssetManagerContent1": "BTL与世界上一级的私人银行共同提供定制的外部资产管理平臺",
+      "ExternalAssetManagerContent2": "这使我们的客户能受惠于只提供与专业投资者的产品、服务和投资机会。",
       "ExternalAssetManagerContent3": {
-        "SummaryOfKeyBenefits:": "(zh-cn)Summary of key benefits:",
-        "CompetitivePricing": "(zh-cn)COMPETITIVE PRICING",
-        "CompetitivePricingContent": "(zh-cn)We have negotiated attractive terms with over 7 different custody providers whom we have a well-established relationship with. This allows your clients to benefit from pricing structures they wouldn’t otherwise be able to achieve ",
-        "Research": "(zh-cn)RESEARCH",
-        "ResearchContent": "(zh-cn)Clients benefit from receiving regular market updates as generated by our Research Desk and our third party research providers.",
-        "ConsolidatedBalanceSheet": "(zh-cn)CONSOLIDATED BALANCE SHEET",
-        "ConsolidatedBalanceSheetContent": "(zh-cn)This allows clients to see their all of their assets at a glance, which in turn allows you to provide your clients holistic advice on their total balance sheet",
-        "ConsolidatedBalanceSheetContent2": "(zh-cn)Assist in structuring of private equity fund to maximise returns and realise long term success for investors.",
-        "ConsolidatedBalanceSheetContent3": "(zh-cn)Engagement and liaison services which link up both buy-side and sell-side for investment purposes and opportunities."
+        "SummaryOfKeyBenefits:": "",
+        "CompetitivePricing": "具竞争性的定价",
+        "CompetitivePricingContent": "我们与超过五间不同託管商建立了良好的关係，并与其协商了具有吸引力的条款。这使客户能从只向私人银行客户提供的定价结构中受益。",
+        "Research": "研究",
+        "ResearchContent": "客户会从我们的研究部还有与我们紧密合作的研究机构收到定期提供的市场更新，并从中受益。",
+        "ConsolidatedBalanceSheet": "综合资产负债表",
+        "ConsolidatedBalanceSheetContent": "这使客户可以一目了然地查看个人拥有的多元资产配置，并让我们能够透过他们资产负债表进而提供整体的建议。",
+        "ConsolidatedBalanceSheetContent2": "协助建构私募股权基金/产品来为投资者们达致最大化收益且实现长期的成功。",
+        "ConsolidatedBalanceSheetContent3": "提供联络资讯服务将潜在买卖双方对接，提供了更畅通、更直接的沟通渠道，促成投资机会。"
       },
-      "OtherInvestmentServices": "(zh-cn)Other Investment Services",
-      "OtherInvestmentServicesContent": "(zh-cn)Leveraging our extended network in Hong Kong, China and Taiwan, Japan, and ASEAN countries, BTL strives to offer and deliver to clients exemplary investment management services with a hands-on approach in the following arenas:"
+      "OtherInvestmentServices": "其他投资服务",
+      "OtherInvestmentServicesContent": "凭藉我们在香港，中国和臺湾，日本和东盟等国家的外部网路，BTL致力于以事必躬亲的方式在以下领域提供优越的投资服务:"
     },
-    "IntroducingBrokerage": "(zh-cn)Introducing Brokerage",
+    "IntroducingBrokerage": "经纪仲介业务",
     "IntroducingBrokerage2": {
-      "Overview&Benefits": "(zh-cn)Overview & Benefits",
-      "Overview&BenefitsContent": "(zh-cn)BTL is committed to serving the introducing brokerage services in most of the major equity and futures markets worldwide including Hong Kong and US.  With our strong company background, speedy account set up process with our professional team, our clients can enjoy trading with sophisticated one-stop Interactive Brokers trading trading platform. Our transparent, low commissions and financing rates, and support for best price executions minimize your costs to help you maximize your returns.",
+      "Overview&Benefits": "概述和益处",
+      "Overview&BenefitsContent": "BTL致力于在包括香港和美国的全球主要的股票和期货市场中提供经纪仲介服务。凭藉着我们强大的公司背景，配合我们专业团队能为客人快速建立交易帐户，我们的客户可以在+L79盈透证券尖端的一站式平臺上交易。我们透明及低廉的佣金和融资利率、强大交易平台支援的最佳化指令执行力可将成本最小化，使客户获得最大的收益。",
       "Overview&BenefitsContent2": {
-        "Securities": "(zh-cn)Securities",
+        "Securities": " 证券",
         "Securities2": {
-          "HongKongMarket": "(zh-cn)Hong Kong Market",
-          "HongKongMarketContent": "(zh-cn)Hong Kong is one of the most world's premier international financial centres.  It is Asia's third-largest in terms of market capitalization behind the Tokyo Stock Exchange and Shanghai Stock Exchange, and the fourth single largest stock market in the world.  Market capitalisation was $34.0 trillion at the end of May 2020, an increase of 10 per cent from $31.0 trillion for the same period last year.",
-          "HongKongMarketContent2": "(zh-cn)The trading volume of the mature equity market of Hong Kong is ever growing, largely due to with the aid of the listing fervour of the Mainland China's enterprises in recent years. In addition, the market is also benefited from the Shanghai-Hong Kong / Shenzhen-Hong Kong Stock Connect Programs which open a gateway to investing in Mainland's A share market, making Hong Kong undoubtedly the most preferred investment market of the Asia-Pacific region."
+          "HongKongMarket": "证券 - 香港市场",
+          "HongKongMarketContent": "证券 - 香港市场",
+          "HongKongMarketContent2": "近年，成熟的香港股票市场交易量一直保持稳定增长，很大程度归功于中国大陆企业积极赴港上市的热潮。此外，香港股票市场也受益于上海-香港/深圳-香港的股市互联互通计划，为投资者打开了庞大中国A股市场的大门，这使香港无庸置疑地成为了亚太区最受欢迎的投资市场。"
         },
-        "GlobalMarket": "(zh-cn)Global Market",
+        "GlobalMarket": "证券 - 全球市场",
         "GlobalMarket2": {
-          "GlobalMarketContent": "(zh-cn)On the international level, in terms of market capacity, trading volume, completeness of regulation and the development of the derivative market, the United States remained to be the world's leading economy which attracts investors worldwide.  Apart from equity investments, commodity trading in gold, crude oil and various agricultural products through the global futures markets provides further possibilities for the investors looking for profits.",
-          "GlobalMarketContent2": "(zh-cn)As of September 2019, there are almost 5,000 companies listed on the New York Stock Exchange and NASDAQ with a total market capitalisation over US$28.5 trillion. Unlike companies listed in certain markets that only publish semi-annual or annual results, listed companies in the US release company results quarterly adhering to high transparency standards, which allows investors to access relevant data and information easily and which makes the US stock market an ideal investment market."
+          "GlobalMarketContent": "在国际上，就市场容量、交易量、监管的完整性和金融衍生市场的發展，美国仍然是最受世界各地投资者欢迎的世界领先经济体。除了股票市场外，黄金、原油、以及林林总总的农产品等，透过全球期货市场进行交易，为积极寻求利润的投资者提供了更进一步的获利空间。",
+          "GlobalMarketContent2": "截至2019年9月，将近有5,000家公司在纽约证券交易所和纳斯达克交易所上市，总市值超过28.5兆美金。与在某些市场上只需發佈半年度或年度业绩的要求不同，在美国上市的公司需要遵循更高透明度的标准，公司得發佈季度业绩，让投资者能够轻鬆地获取相关资料和资讯，而这使美国股票市场成为理想的投资市场。"
         },
-        "OtherInvestmentProducts": "(zh-cn)Other Investment Products",
+        "OtherInvestmentProducts": "其他投资服务",
         "OtherInvestmentProducts2": {
-          "CallableBullAndBearContracts": "(zh-cn)Callable Bull and Bear Contracts",
-          "RealEstateInvestmentTrusts": "(zh-cn)Real Estate Investment Trusts (REITs)",
-          "DebtSecurities": "(zh-cn)Debt Securities",
-          "DerivativeWarrants": "(zh-cn)Derivative Warrants",
-          "InitialPublicOfferings": "(zh-cn)Initial Public Offerings (IPO)",
-          "ExchangeTradedFund(ETF)": "(zh-cn)Exchange Traded Fund (ETF)"
+          "CallableBullAndBearContracts": "Callable Bull and Bear Contracts 牛熊证",
+          "RealEstateInvestmentTrusts": "Real Estate Investment Trusts (REITs) 房地产投资信託基金",
+          "DebtSecurities": " 债券",
+          "DerivativeWarrants": "衍生权证(窝轮)",
+          "InitialPublicOfferings": "首次公开招股",
+          "PrivatePlacement": " 私下募集(私募)",
+          "ExchangeTradedFund(ETF)": "交易所买卖基金"
         },
-        "Futures&Options": "(zh-cn)Futures & Options",
+        "Futures&Options": "期货与期权",
         "Futures&Options2": {
-          "Futures": "(zh-cn)Futures",
-          "FuturesContent": "(zh-cn)Futures are commonly-used derivatives contracts that both hedgers and speculators use on a variety of underlying securities. A futures contract represents a commitment to buy or sell a predefined amount of the underlying assets, e.g. stock, energy resources, metals, agricultural products, etc. at a predetermined price on a specified future date. ",
-          "FuturesContent2": "(zh-cn)In comparison to other securities, futures exhibit many characteristics that offer traders unique opportunities. Whether you're an intraday, day, or swing trader, these markets are attractive venues for maximising return on capital.  The five primary advantages are:",
+          "Futures": " 期货",
+          "FuturesContent": " 期货是套期保值者和投机者常用在各种目标证券上的衍生品合约。期货合约代表对目标资产，例如股票、能源、金属、农产品等，承诺按合约预定的数量，并在特定的日期以预定的价格买入或卖出。 ",
+          "FuturesContent2": "与其他证券相比，期货具有许多特徵，可为交易者提供独特的机会。无论您是日内交易者，还是波段交易者，这些市场对于资本回报率最大化是很有吸引力的场所。五项主要优点为: ",
           "FuturesContent3": {
-            "Flexibility": "(zh-cn)Flexibility",
-            "Diversity": "(zh-cn)Diversity",
-            "BeneficialMarketConditions": "(zh-cn)Beneficial market conditions",
-            "CostEffective": "(zh-cn)Cost effective",
-            "LowBarriersToEntry": "(zh-cn)Low barriers to entry"
+            "Flexibility": "灵活性",
+            "Diversity": "多样性",
+            "BeneficialMarketConditions": "利于市场条件",
+            "CostEffective": "高成本效益",
+            "LowBarriersToEntry": "低准入门槛"
           },
-          "FuturesContent4": "(zh-cn)In the financial arena, spotting opportunity is the name of the game. Futures facilitate a wealth of trade-related functions, from capital preservation to active speculation.",
-          "Options": "(zh-cn)Options",
-          "OptionsContent": "(zh-cn)Options are financial instruments that are derivatives based on the value of underlying securities such as stocks. An options contract offers the buyer the opportunity to buy or sell—depending on the type of contract they hold—the underlying asset. Unlike futures, the holder is not required to buy or sell the asset if they choose not to.",
-          "OptionsContent2": "(zh-cn)Options offer investors more strategic (and financial) leeway than they can get by simply buying, selling or shorting stocks. Traders can use options to protect against portfolio losses, snag a stock for less than it sells on the open market (or sell it for more), increase the return on an existing or new position, and lower the risk on speculative bets in all sorts of market conditions.",
-          "OptionsContent3": "(zh-cn)The three primary advantages are:",
-          "OptionsContent4": "(zh-cn)Requires a smaller initial outlay than buying the stock",
-          "OptionsContent5": "(zh-cn)Gives an investor time to see how things play out",
-          "OptionsContent6": "(zh-cn)Can protect investors from downside risk on stocks they own",
-          "OptionsContent7": "(zh-cn)To learn more about future trading, please refer to the following information:",
-          "OptionsContent8": "(zh-cn)HONG KONG FUTURES MARGIN & SPECIFICATION",
-          "OptionsContent9": "(zh-cn)GLOBAL FUTURES MARGIN & SPECIFICATION",
-          "OptionsContent10": "(zh-cn)FUTURES NOTICE BOARD",
-          "OptionsContent11": "(zh-cn)FEE TABLES",
-          "HYPERLINK": "(zh-cn)HYPER LINK"
+          "FuturesContent4": "在金融领域的竞争舞臺中，寻找合适契机才是王道。从资产保值到活跃投机交易，期货促进了与贸易相关的各种功能。",
+          "Options": "期权",
+          "OptionsContent": "期权是基于目标证券(例如股票)价值的衍生金融工具。期权合约针对目标物，依据他们持有的合约类型，为买家提供了买卖的机会。",
+          "OptionsContent2": "期权为投资者在购入，卖出或沽空上之策略(还有财务)提供了更多的操作空间。交易者可使用期权来对冲投资组合的损失，或以低于在公开市场上的价格购买(或是以更高价格出售)股票，在各种各样的特定市场条件上增加既有或新头寸上的回报，并降低投机上的风险。",
+          "OptionsContent3": "三个主要优点为:",
+          "OptionsContent4": "与购买股票相比，所需的初始成本更少",
+          "OptionsContent5": "给予投资者时间来静观其变",
+          "OptionsContent6": "可以保护投资者免受其拥有股票下跌的风险",
+          "OptionsContent7": "瞭解更多有关期货的交易详情，可参考以下资讯：",
+          "OptionsContent8": "香港期货按金及合约细则",
+          "OptionsContent9": "环球期货按金及合约细则",
+          "OptionsContent10": "期货告示板",
+          "OptionsContent11": "收费表",
+          "HYPERLINK": ""
         }
       }
     }
   },
   "marketinsight": {
-    "MarketInsightContent": "(zh-cn)We seek to deliver to our clients leading market insight, helping them to raise money, invest, and risk diversification across multi-financial asset classes.",
-    "MarketCommentary": "(zh-cn)Market Commentary",
-    "SpecialEditions": "(zh-cn)Special Editions"
+    "MarketInsightContent": "我们向客户提供领先的市场洞察资讯，协助客户对跨类别金融资产投资和分散风险。",
+    "MarketCommentary": "市场评论",
+    "SpecialEditions": "特别报告"
   },
   "forms": {
-    "AssetManagementForms": "(zh-cn)Asset Management Forms",
-    "BrokerageForms": "(zh-cn)Brokerage Forms"
+    "AssetManagementForms": "资产管理表格",
+    "BrokerageForms": "证券期货表格"
   },
   "resourcesandeducationcenter": {
-    "Bond": "(zh-cn)Bond",
-    "DigitalStructureNote": "(zh-cn)Digital Structure Note",
-    "EquityLinkedNotes": "(zh-cn)Equity Linked Notes",
-    "EquityStructuredProductsAccumulatorDecumulator": "(zh-cn)Equity Structured Products Accumulator / Decumulator",
-    "ExchangeTradedFund": "(zh-cn)Exchange Traded Fund",
-    "Options": "(zh-cn)Options",
-    "Glossary": "(zh-cn)Glossary",
-    "QA": "(zh-cn)Q&A"
+    "Bond": "债券",
+    "DigitalStructureNote": "二值期权票据",
+    "EquityLinkedNotes": "股票挂钩票据",
+    "EquityStructuredProductsAccumulatorDecumulator": "股权结构性产品 – 累积认购(沽)期权合约",
+    "ExchangeTradedFund": "交易所买卖基金",
+    "Options": "期权",
+    "Glossary": "词彙表",
+    "QA": "常见问题"
   }
 }
