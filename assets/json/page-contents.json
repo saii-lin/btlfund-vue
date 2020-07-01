@@ -1,7 +1,7 @@
 [
   {
     "name": "about-us",
-    "image": "/images/about-us.jpeg",
+    "image": "/images/about-us.jpg",
     "title": "index.nav.AboutUs",
     "pages": [
       {
@@ -46,7 +46,7 @@
   },
   {
     "name": "what-we-do",
-    "image": "/images/what-we-do.jpeg",
+    "image": "/images/what-we-do.jpg",
     "title": "index.nav.WhatWeDo",
     "pages": [
       {
@@ -73,7 +73,7 @@
   },
   {
     "name": "market-insight",
-    "image": "/images/market-insight.jpeg",
+    "image": "/images/market-insight.jpg",
     "title": "index.nav.MarketInsight",
     "pages": [
       {
@@ -90,7 +90,7 @@
   },
   {
     "name": "forms",
-    "image": "/images/forms.jpeg",
+    "image": "/images/forms.jpg",
     "title": "index.nav.Forms",
     "pages": [
       {
@@ -107,7 +107,7 @@
   },
   {
     "name": "resource-and-education-center",
-    "image": "/images/resources-and-education-center.jpeg",
+    "image": "/images/resources-and-education-center.jpg",
     "title": "index.nav.ResourcesAndEducationCenter",
     "pages": [
       {

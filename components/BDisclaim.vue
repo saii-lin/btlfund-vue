@@ -7,29 +7,18 @@
           :key="index"
           ripple
           :href="`#tab-${locale.value}`"
-        >
-          {{ locale.text }}
-        </v-tab>
+        >{{ locale.text }}</v-tab>
         <v-tab-item value="tab-enus">
           <v-card flat>
-            <b-disclaim-content-enus
-              @agree="agree"
-              @cancel="cancel"
-            ></b-disclaim-content-enus>
+            <b-disclaim-content-enus @agree="agree" @cancel="cancel"></b-disclaim-content-enus>
           </v-card>
         </v-tab-item>
         <v-tab-item value="tab-zhtw">
-          <b-disclaim-content-zhtw
-            @agree="agree"
-            @cancel="cancel"
-          ></b-disclaim-content-zhtw>
+          <b-disclaim-content-zhtw @agree="agree" @cancel="cancel"></b-disclaim-content-zhtw>
         </v-tab-item>
         <v-tab-item value="tab-zhcn">
           <v-card flat>
-            <b-disclaim-content-zhcn
-              @agree="agree"
-              @cancel="cancel"
-            ></b-disclaim-content-zhcn>
+            <b-disclaim-content-zhcn @agree="agree" @cancel="cancel"></b-disclaim-content-zhcn>
           </v-card>
         </v-tab-item>
       </v-tabs>
@@ -57,6 +46,9 @@ export default {
   methods: {
     cancel() {
       location.href = "about:blank";
+      // window.opener = null;
+      // window.open("", "_self");
+      // window.close();
     },
     agree() {
       this.$emit("close");

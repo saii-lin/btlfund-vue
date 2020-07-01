@@ -37,7 +37,7 @@
           <p>{{ $t("aboutus.GlobalPresenceContent") }}</p>
         </div>
       </div>
-      <div class="about_location">
+      <!-- <div class="about_location">
         <h2>{{ $t("aboutus.OurLocation") }}</h2>
         <iframe
           class="about_map"
@@ -49,7 +49,7 @@
           aria-hidden="false"
           tabindex="0"
         ></iframe>
-      </div>
+      </div>-->
     </div>
     <b-footer-site-map></b-footer-site-map>
   </div>

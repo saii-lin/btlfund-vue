@@ -162,16 +162,16 @@ export default {
   background: #1057b4;
 }
 .block4_pic1 {
-  background-image: url(/images/block4-1.png);
+  background: #0f4c81;
 }
 .block4_pic2 {
-  background-image: url(/images/block4-2.png);
+  background: #0f4c81;
 }
 .block4_pic3 {
-  background-image: url(/images/block4-3.png);
+  background: #0f4c81;
 }
 .block4_pic4 {
-  background-image: url(/images/block4-4.png);
+  background: #0f4c81;
 }
 .member-grid {
   display: grid;
