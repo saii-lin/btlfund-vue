@@ -123,32 +123,34 @@ export default {};
     margin: 10px auto;
     width: 60vw;
   }
-
-  @media screen and (max-width: 414px) {
-    .about {
-      margin-top: 30px;
-    }
-    .about_pic {
-      width: 100vw;
-      margin: 0px;
-      height: calc(100vw * 0.76);
-    }
-    .about_text {
-      width: 90vw;
-    }
-    .about_text h3 {
-      font-size: 25px;
-    }
-    .about_text strong {
-      font-size: 20px;
-    }
-    .about_text p {
-      font-size: 14px;
-      line-height: 20px;
-    }
-    .about_text li {
-      font-size: 14px;
-    }
+}
+@media screen and (max-width: 414px) {
+  .about {
+    margin-top: 30px;
+  }
+  .about_pic {
+    width: 100vw;
+    margin: 0px;
+    height: calc(100vw * 0.76);
+  }
+  .about_text {
+    width: 90vw;
+  }
+  .about_text h3 {
+    font-size: 25px;
+  }
+  .about_text strong {
+    font-size: 20px;
+  }
+  .about_text p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .about_text li {
+    font-size: 14px;
+  }
+  .about_content {
+    margin: 0px;
   }
 }
 </style>

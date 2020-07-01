@@ -116,13 +116,15 @@ export default {
 }
 .about_text h2 {
   font-size: 35px;
+  margin: 15px 20px !important;
 }
+.about_text h2,
 .about_text p {
-  margin: 15px 0 !important;
+  margin: 15px 20px !important;
 }
 .about_text ul {
   list-style: none !important;
-  margin: 10px 0 !important;
+  margin: 15px 20px !important;
   padding: 0;
 }
 .about_text li {

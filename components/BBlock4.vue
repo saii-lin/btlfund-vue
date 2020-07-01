@@ -45,7 +45,7 @@
               <v-img
                 :width="size"
                 :height="size"
-                :src="item.src"
+                src=""
                 class="member-grid__avatar"
               ></v-img>
               <div class="member-grid__content">

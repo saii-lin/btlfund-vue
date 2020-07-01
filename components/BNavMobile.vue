@@ -1,5 +1,8 @@
 <template>
-  <div :class="['b-nav-mobile', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
+  <div
+    :class="['b-nav-mobile', hidden ? 'hidden' : '']"
+    :style="{ width: `${width}px` }"
+  >
     <div class="to-home-link">
       <nuxt-link :to="localePath('/')">
         <img class="logo_pc" src="/images/Logo.png" alt />
@@ -15,38 +18,28 @@
 
         <ul :class="['menu_ph_content', active2 ? 'active' : '']">
           <li>
-            <nuxt-link :to="localePath('/about-us/intro')">
-              {{
-              $t("aboutus.Intro")
-              }}
+            <nuxt-link :to="localePath('/aboutus#intro')">
+              {{ $t("aboutus.Intro") }}
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/about-us/our-core-values')">
-              {{
-              $t("aboutus.OurCoreValues")
-              }}
+            <nuxt-link :to="localePath('/aboutus#our-core-values')">
+              {{ $t("aboutus.OurCoreValues") }}
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/about-us/our-clients')">
-              {{
-              $t("aboutus.OurClients")
-              }}
+            <nuxt-link :to="localePath('/aboutus#our-clients')">
+              {{ $t("aboutus.OurClients") }}
             </nuxt-link>
           </li>
           <li>
             <nuxt-link :to="localePath('$t:index.nav.GoogleMap')">
-              {{
-              $t("aboutus.OurLocation")
-              }}
+              {{ $t("aboutus.OurLocation") }}
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/about-us/global-presence')">
-              {{
-              $t("aboutus.GlobalPresence")
-              }}
+            <nuxt-link :to="localePath('/aboutus#global-presence')">
+              {{ $t("aboutus.GlobalPresence") }}
             </nuxt-link>
           </li>
         </ul>
@@ -59,32 +52,24 @@
         <ul :class="['menu_ph_content', active3 ? 'active' : '']">
           <li>
             <nuxt-link :to="localePath('/what-we-do/asset-management')">
-              {{
-              $t("whatwedo.AssetManagement")
-              }}
+              {{ $t("whatwedo.AssetManagement") }}
             </nuxt-link>
           </li>
           <li>
             <nuxt-link :to="localePath('/what-we-do/introducing-brokerage')">
-              {{
-              $t("whatwedo.IntroducingBrokerage")
-              }}
+              {{ $t("whatwedo.IntroducingBrokerage") }}
             </nuxt-link>
           </li>
         </ul>
       </li>
       <li class="menu_ph_title">
         <nuxt-link :to="localePath('/market-insight/market-commentary')">
-          {{
-          $t("index.nav.MarketInsight")
-          }}
+          {{ $t("index.nav.MarketInsight") }}
         </nuxt-link>
       </li>
       <li class="menu_ph_title">
         <nuxt-link :to="localePath('/forms/brokerage-forms')">
-          {{
-          $t("index.nav.Forms")
-          }}
+          {{ $t("index.nav.Forms") }}
         </nuxt-link>
       </li>
       <li class="menu_ph_title" @click="active4 = !active4">
@@ -96,7 +81,8 @@
           <li>
             <nuxt-link
               :to="localePath('/resource-and-education-center/bond')"
-            >{{ $t("index.block5.Bond") }}</nuxt-link>
+              >{{ $t("index.block5.Bond") }}</nuxt-link
+            >
           </li>
           <li>
             <nuxt-link
@@ -105,14 +91,16 @@
                   '/resource-and-education-center/digital-structure-notes'
                 )
               "
-            >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link>
+              >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link
+            >
           </li>
           <li>
             <nuxt-link
               :to="
                 localePath('/resource-and-education-center/equity-linked-notes')
               "
-            >{{ $t("index.block5.EquityLinkedNotes") }}</nuxt-link>
+              >{{ $t("index.block5.EquityLinkedNotes") }}</nuxt-link
+            >
           </li>
           <li>
             <nuxt-link
@@ -123,9 +111,9 @@
               "
             >
               {{
-              $t(
-              "index.block5.EquityStructuredProductsAccumulatorDecumulator"
-              )
+                $t(
+                  "index.block5.EquityStructuredProductsAccumulatorDecumulator"
+                )
               }}
             </nuxt-link>
           </li>
@@ -136,32 +124,31 @@
                   '/resource-and-education-center/exchange-traded-fund'
                 )
               "
-            >{{ $t("index.block5.ExchangeTradedFund") }}</nuxt-link>
+              >{{ $t("index.block5.ExchangeTradedFund") }}</nuxt-link
+            >
           </li>
           <li>
             <nuxt-link
               :to="localePath('/resource-and-education-center/options')"
-            >{{ $t("index.block5.Options") }}</nuxt-link>
+              >{{ $t("index.block5.Options") }}</nuxt-link
+            >
           </li>
           <li>
             <nuxt-link
               :to="localePath('/resource-and-education-center/glossary')"
-            >{{ $t("index.block5.Glossary") }}</nuxt-link>
+              >{{ $t("index.block5.Glossary") }}</nuxt-link
+            >
           </li>
           <li>
             <nuxt-link :to="localePath('/resource-and-education-center/qa')">
-              {{
-              $t("index.block5.QA")
-              }}
+              {{ $t("index.block5.QA") }}
             </nuxt-link>
           </li>
         </ul>
       </li>
       <li class="menu_ph_title">
         <nuxt-link :to="localePath('/#contactus')">
-          {{
-          $t("index.block6.ContactUs")
-          }}
+          {{ $t("index.block6.ContactUs") }}
         </nuxt-link>
       </li>
       <li class="menu_ph_title" @click="active5 = !active5">
