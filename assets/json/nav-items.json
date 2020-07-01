@@ -53,12 +53,12 @@
       {
         "name": "Market Commentary",
         "text": "marketinsight.MarketCommentary",
-        "link": "/market-insight/market-commentary"
+        "link": "/marketinsight#market-commentary"
       },
       {
         "name": "Special Editions",
         "text": "marketinsight.SpecialEditions",
-        "link": "/market-insight/special-editions"
+        "link": "/marketinsight#special-editions"
       }
     ]
   },
@@ -69,12 +69,12 @@
       {
         "name": "Asset Management Forms",
         "text": "forms.AssetManagementForms",
-        "link": "/forms/asset-management-forms"
+        "link": "/forms#asset-management-forms"
       },
       {
         "name": "Brokerage Forms",
         "text": "forms.BrokerageForms",
-        "link": "/forms/brokerage-forms"
+        "link": "/forms#brokerage-forms"
       }
     ]
   },

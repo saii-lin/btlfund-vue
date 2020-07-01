@@ -4,10 +4,10 @@
     <div class="market">
       <p>{{ $t("index.block3.MarketInsightTitleContent") }}</p>
       <ul>
-        <li>
+        <li id="market-commentary">
           <a href>{{ $t("marketinsight.MarketCommentary") }}</a>
         </li>
-        <li>
+        <li id="special-editions">
           <a href>{{ $t("marketinsight.SpecialEditions") }}</a>
         </li>
       </ul>
@@ -19,34 +19,44 @@
 <script>
 import pageContents from "@/assets/json/page-contents.json";
 import BLayout2 from "~/components/BLayout2.vue";
-import BContent from "~/components/BContent.vue";
 import BFooterSiteMap from "~/components/BFooterSiteMap.vue";
 export default {
   components: {
     scrollToTop: true,
     BLayout2,
-    BContent,
     BFooterSiteMap
   },
   data: () => ({
     pageContents
   }),
+  mounted() {
+    this.scrollto();
+  },
   computed: {
     pageData() {
       const target = pageContents.find(x => x.name === "market-insight");
       if (target) {
-        const page = target.pages.find(x => x.name === this.$route.params.type);
         return {
           layout: {
             title: this.$t(target.title),
-            subTitle: this.$t(page.title),
             image: target.image
-          },
-          content: {
-            texts: page.texts
           }
         };
       }
+    }
+  },
+  methods: {
+    scrollto() {
+      if (location.hash) {
+        this.$scrollTo(location.hash, 1000, {
+          container: ".body"
+        });
+      }
+    }
+  },
+  watch: {
+    $route() {
+      this.scrollto();
     }
   }
 };

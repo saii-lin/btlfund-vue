@@ -5,17 +5,17 @@
         <h4>{{ $t("index.nav.AboutUs") }}</h4>
         <ul>
           <li>
-            <nuxt-link :to="localePath('/about-us/intro')">{{
+            <nuxt-link :to="localePath('/aboutus#intro')">{{
               $t("aboutus.Intro")
             }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/about-us/our-core-values')">{{
+            <nuxt-link :to="localePath('/aboutus#our-core-values')">{{
               $t("aboutus.OurCoreValues")
             }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/about-us/our-clients')">{{
+            <nuxt-link :to="localePath('/aboutus#our-clients')">{{
               $t("aboutus.OurClients")
             }}</nuxt-link>
           </li>
@@ -25,7 +25,7 @@
             }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/about-us/global-presence')">{{
+            <nuxt-link :to="localePath('/aboutus#global-presence')">{{
               $t("aboutus.GlobalPresence")
             }}</nuxt-link>
           </li>
@@ -52,12 +52,12 @@
         </a>
         <ul>
           <li>
-            <a href="/market-insight/market-commentary">{{
+            <a href="/marketinsight#market-commentary">{{
               $t("marketinsight.MarketCommentary")
             }}</a>
           </li>
           <li>
-            <a href="/market-insight/special-editions">{{
+            <a href="/marketinsight#special-editions">{{
               $t("marketinsight.SpecialEditions")
             }}</a>
           </li>
@@ -67,12 +67,12 @@
         <h4>{{ $t("index.nav.Forms") }}</h4>
         <ul>
           <li>
-            <a href="/forms/asset-management-forms">{{
+            <a href="/forms#asset-management-forms">{{
               $t("forms.AssetManagementForms")
             }}</a>
           </li>
           <li>
-            <a href="/forms/brokerage-forms">{{
+            <a href="/forms#brokerage-forms">{{
               $t("forms.BrokerageForms")
             }}</a>
           </li>

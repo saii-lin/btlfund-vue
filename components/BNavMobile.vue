@@ -63,12 +63,12 @@
         </ul>
       </li>
       <li class="menu_ph_title">
-        <nuxt-link :to="localePath('/market-insight/market-commentary')">
+        <nuxt-link :to="localePath('/market-insight#market-commentary')">
           {{ $t("index.nav.MarketInsight") }}
         </nuxt-link>
       </li>
       <li class="menu_ph_title">
-        <nuxt-link :to="localePath('/forms/brokerage-forms')">
+        <nuxt-link :to="localePath('/forms#brokerage-forms')">
           {{ $t("index.nav.Forms") }}
         </nuxt-link>
       </li>
