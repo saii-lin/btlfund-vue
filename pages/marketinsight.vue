@@ -4,25 +4,19 @@
     <div class="market">
       <p>{{ $t("index.block3.MarketInsightTitleContent") }}</p>
       <ul>
-<<<<<<< HEAD:pages/marketinsight.vue
-        <li id="market-commentary">
-          <a href>{{ $t("marketinsight.MarketCommentary") }}</a>
-        </li>
-        <li id="special-editions">
-          <a href>{{ $t("marketinsight.SpecialEditions") }}</a>
-=======
         <li>
           <a
             href="/pdf/Market Review Mar 2020.pdf"
             download="Market Review Mar 2020.pdf"
-          >{{ $t("marketinsight.MarketCommentary") }}</a>
+            >{{ $t("marketinsight.MarketCommentary") }}</a
+          >
         </li>
         <li>
           <a
             href="/pdf/1810.HK March 2019.pdf"
             download="1810.HK March 2019.pdf"
-          >{{ $t("marketinsight.SpecialEditions") }}</a>
->>>>>>> 9ae613b2719664d4ae8bac79d2634c7662c6bb8b:pages/market-insight/_type.vue
+            >{{ $t("marketinsight.SpecialEditions") }}</a
+          >
         </li>
       </ul>
     </div>
