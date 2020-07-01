@@ -47,19 +47,17 @@
         </ul>
       </div>
       <div class="site-map_block h4_a">
-        <a href>
-          <h4>{{ $t("index.nav.MarketInsight") }}</h4>
-        </a>
+        <h4>{{ $t("index.nav.MarketInsight") }}</h4>
         <ul>
           <li>
-            <a href="/marketinsight#market-commentary">{{
+            <nuxt-link :to="localePath('/marketinsight#market-commentary')">{{
               $t("marketinsight.MarketCommentary")
-            }}</a>
+            }}</nuxt-link>
           </li>
           <li>
-            <a href="/marketinsight#special-editions">{{
+            <nuxt-link :to="localePath('/marketinsight#special-editions')">{{
               $t("marketinsight.SpecialEditions")
-            }}</a>
+            }}</nuxt-link>
           </li>
         </ul>
       </div>
@@ -67,14 +65,14 @@
         <h4>{{ $t("index.nav.Forms") }}</h4>
         <ul>
           <li>
-            <a href="/forms#asset-management-forms">{{
+            <nuxt-link :to="localePath('/forms#asset-management-forms')">{{
               $t("forms.AssetManagementForms")
-            }}</a>
+            }}</nuxt-link>
           </li>
           <li>
-            <a href="/forms#brokerage-forms">{{
+            <nuxt-link :to="localePath('/forms#brokerage-forms')">{{
               $t("forms.BrokerageForms")
-            }}</a>
+            }}</nuxt-link>
           </li>
         </ul>
       </div>
