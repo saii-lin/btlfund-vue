@@ -4,16 +4,18 @@
     <div class="market">
       <p>{{ $t("index.block3.MarketInsightTitleContent") }}</p>
       <ul>
+        <div class="market_title">{{ $t("marketinsight.MarketCommentary") }}</div>
         <li id="market-commentary">
-          <a href="/pdf/Market Review Mar 2020.pdf" download
-            >{{ $t("marketinsight.MarketCommentary") }}: Market Review Mar
-            2020.pdf</a
-          >
-        </li>
-        <li id="special-editions">
-          <a href="/pdf/1810.HK March 2019.pdf" download
-            >{{ $t("marketinsight.SpecialEditions") }}: 1810.HK March 2019.pdf
+          <a href="/pdf/Market Review Mar 2020.pdf" download>
+            Market Review Mar
+            2020.pdf
           </a>
+        </li>
+      </ul>
+      <ul>
+        <div class="market_title">{{ $t("marketinsight.SpecialEditions") }}</div>
+        <li id="special-editions">
+          <a href="/pdf/1810.HK March 2019.pdf" download>1810.HK March 2019.pdf</a>
         </li>
       </ul>
     </div>
@@ -75,11 +77,12 @@ export default {
 .market li {
   padding: 10px;
 }
-.market a {
-  font-size: 20px;
-  font-weight: bold;
-}
+
 .market a:hover {
   color: rgb(117, 117, 117) !important;
+}
+.market_title {
+  font-size: 20px;
+  font-weight: bold;
 }
 </style>
