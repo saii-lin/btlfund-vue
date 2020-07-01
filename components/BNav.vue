@@ -124,7 +124,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .b-nav {
   position: fixed;
   top: 0px;
