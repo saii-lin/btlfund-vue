@@ -7,12 +7,12 @@
           {{ $t("forms.AssetManagementForms") }}
         </div>
         <li>
-          <a href="/pdf/銀信資產管理有限公司 - 客戶資料表格.xps"
+          <a href="/pdf/銀信資產管理有限公司 - 客戶資料表格.xps" download
             >銀信資產管理有限公司 - 客戶資料表格.xps</a
           >
         </li>
         <li>
-          <a href="/pdf/銀信資產管理有限公司 - 投資管理協議書.xps"
+          <a href="/pdf/銀信資產管理有限公司 - 投資管理協議書.xps" download
             >銀信資產管理有限公司 - 投資管理協議書.xps</a
           >
         </li>
@@ -22,51 +22,55 @@
           {{ $t("forms.BrokerageForms") }}
         </div>
         <li>
-          <a href="/pdf/海外帳戶稅務合規法案(公司).xps"
+          <a href="/pdf/海外帳戶稅務合規法案(公司).xps" download
             >海外帳戶稅務合規法案(公司).xps</a
           >
         </li>
         <li>
-          <a href="/pdf/海外帳戶稅務合規法案(個人).xps"
+          <a href="/pdf/海外帳戶稅務合規法案(個人).xps" download
             >海外帳戶稅務合規法案(個人).xps</a
           >
         </li>
         <li>
-          <a href="/pdf/專業投資者 Ver1.3 082018.pdf"
+          <a href="/pdf/專業投資者 Ver1.3 082018.pdf" download
             >專業投資者 Ver1.3 082018.pdf</a
           >
         </li>
         <li>
-          <a href="/pdf/CRS-ControllingPerson(chi).pdf"
+          <a href="/pdf/CRS-ControllingPerson(chi).pdf" download
             >CRS-ControllingPerson(chi).pdf</a
           >
         </li>
         <li>
-          <a href="/pdf/CRS-ControllingPerson(eng).pdf"
+          <a href="/pdf/CRS-ControllingPerson(eng).pdf" download
             >CRS-ControllingPerson(chi).pdf</a
           >
         </li>
         <li>
-          <a href="/pdf/CRS-Entity(chi).pdf">CRS-Entity(chi).pdf</a>
+          <a href="/pdf/CRS-Entity(chi).pdf" download>CRS-Entity(chi).pdf</a>
         </li>
         <li>
-          <a href="/pdf/CRS-Entity(chi).pdf">CRS-Entity(eng).pdf</a>
+          <a href="/pdf/CRS-Entity(chi).pdf" download>CRS-Entity(eng).pdf</a>
         </li>
         <li>
-          <a href="/pdf/CRS-Individual(chi) Ver1.1.pdf"
+          <a href="/pdf/CRS-Individual(chi) Ver1.1.pdf" download
             >CRS-Individual(chi) Ver1.1.pdf</a
           >
         </li>
         <li>
-          <a href="/pdf/CRS-Individual(eng).pdf">CRS-Individual(eng).pdf</a>
+          <a href="/pdf/CRS-Individual(eng).pdf" download
+            >CRS-Individual(eng).pdf</a
+          >
         </li>
         <li>
-          <a href="/pdf/Professional Investors (eng) Mar 2019 Ver 1.2.pdf"
+          <a
+            href="/pdf/Professional Investors (eng) Mar 2019 Ver 1.2.pdf"
+            download
             >Professional Investors (eng) Mar 2019 Ver 1.2.pdf</a
           >
         </li>
         <li>
-          <a href="/pdf/W-8BEN.pdf">W-8BEN.pdf</a>
+          <a href="/pdf/W-8BEN.pdf" download>W-8BEN.pdf</a>
         </li>
       </ul>
     </div>

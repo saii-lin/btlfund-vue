@@ -4,19 +4,16 @@
     <div class="market">
       <p>{{ $t("index.block3.MarketInsightTitleContent") }}</p>
       <ul>
-        <li>
-          <a
-            href="/pdf/Market Review Mar 2020.pdf"
-            download="Market Review Mar 2020.pdf"
-            >{{ $t("marketinsight.MarketCommentary") }}</a
+        <li id="market-commentary">
+          <a href="/pdf/Market Review Mar 2020.pdf" download
+            >{{ $t("marketinsight.MarketCommentary") }}: Market Review Mar
+            2020.pdf</a
           >
         </li>
-        <li>
-          <a
-            href="/pdf/1810.HK March 2019.pdf"
-            download="1810.HK March 2019.pdf"
-            >{{ $t("marketinsight.SpecialEditions") }}</a
-          >
+        <li id="special-editions">
+          <a href="/pdf/1810.HK March 2019.pdf" download
+            >{{ $t("marketinsight.SpecialEditions") }}: 1810.HK March 2019.pdf
+          </a>
         </li>
       </ul>
     </div>
