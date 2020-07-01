@@ -189,7 +189,12 @@
   },
   "forms": {
     "AssetManagementForms": "Asset Management Forms",
-    "BrokerageForms": "Brokerage Forms"
+    "BrokerageForms": "Brokerage Forms",
+    "ClientInformationForm": "Client Information Form",
+    "InvestmentManagementAgreement": "Investment Management Agreement",
+    "CorporateFATCASelf-Certification": "Corporate FATCA Self-Certification",
+    "IndividualFATCASelf-Certification": "Individual FATCA Self-Certification",
+    "professionalinvestor": "professional investor"
   },
   "resourcesandeducationcenter": {
     "Bond": "Bond",

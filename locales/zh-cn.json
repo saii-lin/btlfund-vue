@@ -189,7 +189,12 @@
   },
   "forms": {
     "AssetManagementForms": "资产管理表格",
-    "BrokerageForms": "证券期货表格"
+    "BrokerageForms": "证券期货表格",
+    "ClientInformationForm": "客户资料表",
+    "InvestmentManagementAgreement": "投资管理协议书",
+    "CorporateFATCASelf-Certification": "公司《海外帐户税务合规法案》自行认证",
+    "IndividualFATCASelf-Certification": "个人《海外帐户税务合规法案》自行认证",
+    "professionalinvestor": "专业投资者"
   },
   "resourcesandeducationcenter": {
     "Bond": "债券",

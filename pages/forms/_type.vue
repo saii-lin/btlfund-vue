@@ -1,7 +1,53 @@
 <template>
   <div>
     <b-layout2 :data="pageData.layout"></b-layout2>
-    <b-content :data="pageData.content"></b-content>
+    <div class="forms">
+      <ul>
+        <div class="forms_title">{{ $t("forms.AssetManagementForms") }}</div>
+        <li>
+          <a href="/pdf/銀信資產管理有限公司 - 客戶資料表格.xps">{{ $t("forms.ClientInformationForm") }}</a>
+        </li>
+        <li>
+          <a href="/pdf/銀信資產管理有限公司 - 投資管理協議書.xps">{{ $t("forms.InvestmentManagementAgreement") }}</a>
+        </li>
+      </ul>
+      <ul>
+        <div class="forms_title">{{ $t("forms.BrokerageForms") }}</div>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+        <li>
+          <a href></a>
+        </li>
+      </ul>
+    </div>
     <b-footer-site-map></b-footer-site-map>
   </div>
 </template>
@@ -42,4 +88,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.forms_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.forms li {
+  padding: 10px;
+}
+.forms a:hover {
+  color: rgb(117, 117, 117) !important;
+}
+</style>

@@ -1,7 +1,17 @@
 <template>
   <div>
     <b-layout2 :data="pageData.layout"></b-layout2>
-    <b-content :data="pageData.content"></b-content>
+    <div class="market">
+      <p>{{ $t("index.block3.MarketInsightTitleContent") }}</p>
+      <ul>
+        <li>
+          <a href>{{ $t("marketinsight.MarketCommentary") }}</a>
+        </li>
+        <li>
+          <a href>{{ $t("marketinsight.SpecialEditions") }}</a>
+        </li>
+      </ul>
+    </div>
     <b-footer-site-map></b-footer-site-map>
   </div>
 </template>
@@ -42,4 +52,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.market p {
+  font-size: 20px;
+  margin: 20px;
+}
+.market li {
+  padding: 10px;
+}
+.market a {
+  font-size: 20px;
+  font-weight: bold;
+}
+.market a:hover {
+  color: rgb(117, 117, 117) !important;
+}
+</style>
