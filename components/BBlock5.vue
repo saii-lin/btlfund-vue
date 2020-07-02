@@ -6,27 +6,41 @@
       <div class="block5_icon">
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-2.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-2.png"
+            ></v-img>
             <p>{{ $t("index.block5.Bond") }}</p>
           </div>
           <div class="icon-back">
             <div class="icon-back__title">{{ $t("index.block5.Bond") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.BondBrief") }}</div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.BondBrief") }}
+            </div>
             <div class="icon-back__more">
-              <nuxt-link
-                :to="localePath('/resource-and-education-center/bond')"
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+              <nuxt-link :to="localePath('/resource-and-education-center/bond')"
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-3.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-3.png"
+            ></v-img>
             <p>{{ $t("index.block5.DigitalStructureNote") }}</p>
           </div>
           <div class="icon-back">
-            <div class="icon-back__title">{{ $t("index.block5.DigitalStructureNote") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.DigitalStructureNoteBrief") }}</div>
+            <div class="icon-back__title">
+              {{ $t("index.block5.DigitalStructureNote") }}
+            </div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.DigitalStructureNoteBrief") }}
+            </div>
             <div class="icon-back__more">
               <nuxt-link
                 :to="
@@ -34,18 +48,27 @@
                     '/resource-and-education-center/digital-structure-notes'
                   )
                 "
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-4.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-4.png"
+            ></v-img>
             <p>{{ $t("index.block5.EquityLinkedNotes") }}</p>
           </div>
           <div class="icon-back">
-            <div class="icon-back__title">{{ $t("index.block5.EquityLinkedNotes") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.EquityLinkedNotesBrief") }}</div>
+            <div class="icon-back__title">
+              {{ $t("index.block5.EquityLinkedNotes") }}
+            </div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.EquityLinkedNotesBrief") }}
+            </div>
             <div class="icon-back__more">
               <nuxt-link
                 :to="
@@ -53,34 +76,39 @@
                     '/resource-and-education-center/equity-linked-notes'
                   )
                 "
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-5.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-5.png"
+            ></v-img>
             <p>
               {{
-              $t(
-              "index.block5.EquityStructuredProductsAccumulatorDecumulator"
-              )
+                $t(
+                  "index.block5.EquityStructuredProductsAccumulatorDecumulator"
+                )
               }}
             </p>
           </div>
           <div class="icon-back">
             <div class="icon-back__title">
               {{
-              $t(
-              "index.block5.EquityStructuredProductsAccumulatorDecumulator"
-              )
+                $t(
+                  "index.block5.EquityStructuredProductsAccumulatorDecumulator"
+                )
               }}
             </div>
             <div class="icon-back__content">
               {{
-              $t(
-              "index.block5.EquityStructuredProductsAccumulatorDecumulatorBrief"
-              )
+                $t(
+                  "index.block5.EquityStructuredProductsAccumulatorDecumulatorBrief"
+                )
               }}
             </div>
             <div class="icon-back__more">
@@ -90,7 +118,8 @@
                     '/resource-and-education-center/equity-structured-products-accumulator-decumulator'
                   )
                 "
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
@@ -98,12 +127,20 @@
       <div class="block5_icon">
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-6.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-6.png"
+            ></v-img>
             <p>{{ $t("index.block5.ExchangeTradedFund") }}</p>
           </div>
           <div class="icon-back">
-            <div class="icon-back__title">{{ $t("index.block5.ExchangeTradedFund") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.ExchangeTradedFundBrief") }}</div>
+            <div class="icon-back__title">
+              {{ $t("index.block5.ExchangeTradedFund") }}
+            </div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.ExchangeTradedFundBrief") }}
+            </div>
             <div class="icon-back__more">
               <nuxt-link
                 :to="
@@ -111,52 +148,75 @@
                     '/resource-and-education-center/exchange-traded-fund'
                   )
                 "
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-7.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-7.png"
+            ></v-img>
             <p>{{ $t("index.block5.Options") }}</p>
           </div>
           <div class="icon-back">
             <div class="icon-back__title">{{ $t("index.block5.Options") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.OptionsBrief") }}</div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.OptionsBrief") }}
+            </div>
             <div class="icon-back__more">
               <nuxt-link
                 :to="localePath('/resource-and-education-center/options')"
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-8.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-8.png"
+            ></v-img>
             <p>{{ $t("index.block5.Glossary") }}</p>
           </div>
           <div class="icon-back">
-            <div class="icon-back__title">{{ $t("index.block5.Glossary") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.GlossaryBrief") }}</div>
+            <div class="icon-back__title">
+              {{ $t("index.block5.Glossary") }}
+            </div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.GlossaryBrief") }}
+            </div>
             <div class="icon-back__more">
               <nuxt-link
                 :to="localePath('/resource-and-education-center/glossary')"
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
         <div class="block5_icon1">
           <div class="icon-front">
-            <v-img :width="size" :height="size" src="/images/block5-9.png"></v-img>
+            <v-img
+              :width="size"
+              :height="size"
+              src="/images/block5-9.png"
+            ></v-img>
             <p>{{ $t("index.block5.QA") }}</p>
           </div>
           <div class="icon-back">
             <div class="icon-back__title">{{ $t("index.block5.QA") }}</div>
-            <div class="icon-back__content">{{ $t("index.block5.QABrief") }}</div>
+            <div class="icon-back__content">
+              {{ $t("index.block5.QABrief") }}
+            </div>
             <div class="icon-back__more">
-              <nuxt-link
-                :to="localePath('/resource-and-education-center/qa')"
-              >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link>
+              <nuxt-link :to="localePath('/resource-and-education-center/qa')"
+                >{{ $t("index.block4.ReadMore") }} &gt;</nuxt-link
+              >
             </div>
           </div>
         </div>
@@ -271,6 +331,9 @@ export default {
   .block5_icon {
     display: grid;
     grid-template-columns: auto;
+  }
+  .block5_icon1 {
+    width: 80vw;
   }
 }
 @media screen and (max-width: 414px) {
