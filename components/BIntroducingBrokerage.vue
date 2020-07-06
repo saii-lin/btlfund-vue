@@ -1,15 +1,15 @@
 <template>
   <div>
+    <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&Benefits") }}</p>
+    <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent") }}</p>
     <div class="int">
-      <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&Benefits") }}</p>
-      <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent") }}</p>
       <div class="amc_pic">
         <div class="amc_text amc_text6">
           <div class="amc_pic_bg">
             <div
               class="amc_title"
             >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Securities") }}</div>
-            <div class="amc_flex">
+            <div class="amc_grid">
               <div class="amc_text2">
                 <div class="amc_pic_border">
                   <div
@@ -62,7 +62,7 @@
             <div
               class="amc_title"
             >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options") }}</div>
-            <div class="amc_flex">
+            <div class="amc_grid">
               <div class="amc_text2 amc_text">
                 <div class="amc_pic_border">
                   <div
@@ -132,7 +132,67 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+.amc {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-row-gap: 5px;
+}
+.amc_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.amc_pic_bg {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 15px;
+}
+.amc_title {
+  color: #fff;
+  padding: 10px;
+}
+.amc_content {
+  color: #fff;
+  padding: 2px 2px 2px 10px;
+}
+.amc_content {
+  font-size: 16px;
+  line-height: 25px;
+}
+.amc_pic {
+}
+.amc_grid {
+  display: grid;
+  margin-top: 20px;
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+}
+.amc_text6 .amc_grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+.amc_text7 .amc_grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+.amc_grid .other-services {
+  grid-column: 1/-1;
+  border: none;
+  padding: 0px;
+}
+.amc_title2 {
+  padding: 5px 5px 5px 10px;
+}
+.amc_text2 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+}
+.amc_text2 .amc_content {
+  font-size: 14px;
+}
 .int {
   width: 90%;
   margin: 0 auto;
@@ -143,7 +203,7 @@ export default {};
 .int .amc_title {
   text-align: center;
 }
-.int .amc_flex {
+.int .amc_grid {
   justify-content: center;
 }
 .amc_text6 {
@@ -152,18 +212,11 @@ export default {};
   width: 100%;
   margin: auto;
 }
-.amc_pic_border {
-  border: 1px solid #ffffff6c;
-  height: 100%;
-}
 .amc_text7 {
   background-image: url(/images/what-we-do2-2.jpg);
   background-size: cover;
   width: 100%;
   margin: auto;
-}
-.amc_text7 .amc_text2 {
-  width: 50%;
 }
 .int ul {
   padding: 5px;
@@ -171,6 +224,7 @@ export default {};
 }
 .int li {
   font-size: 14px;
+  padding-left: 30px;
 }
 .int strong {
   color: red;
