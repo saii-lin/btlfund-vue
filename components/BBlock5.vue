@@ -193,7 +193,7 @@ export default {
   background-size: cover;
   background-position-y: bottom;
   width: 100%;
-  height: 1000px;
+  height: 450px;
 }
 .block5_icon {
   display: flex;

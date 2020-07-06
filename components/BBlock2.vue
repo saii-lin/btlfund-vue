@@ -22,15 +22,18 @@ export default {};
 </script>
 
 <style scoped>
+.what {
+  margin-top: 150px;
+}
 .what_content {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
 .what_pic {
-  width: 35vw;
+  width: 30vw;
   margin: 20px;
-  height: calc(40vw * 0.76);
+  height: calc(30vw * 0.76);
   background-size: cover;
 }
 .what_text {
@@ -45,7 +48,7 @@ export default {};
   font-style: italic;
 }
 .what_text h3 {
-  font-size: 36px;
+  font-size: calc(2.5rem + 1vw);
 }
 .what_text p {
   font-size: 20px;

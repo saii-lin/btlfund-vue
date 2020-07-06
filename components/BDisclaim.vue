@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="b-disclaim">
     <v-card-text>
       <v-tabs centered color="transparent" slider-color="black" grow>
         <v-tab
@@ -57,4 +57,58 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.b-disclaim .panel-heading1 {
+  font-size: 20px;
+  margin: 20px auto;
+  width: fit-content;
+}
+.b-disclaim .alert {
+  border-radius: 15px;
+  padding: 10px 15px;
+
+  margin: 20px 10px;
+}
+.b-disclaim .panel-body h4 {
+  font-size: 18px;
+}
+.b-disclaim .btn {
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+}
+.b-disclaim .btn-danger {
+  border: 1px solid #000;
+  transition: 0.5s;
+}
+.b-disclaim .btn-success {
+  border: 1px solid #000;
+  transition: 0.5s;
+  background: #000;
+  color: #fff;
+}
+.b-disclaim .btn-success:hover {
+  background: rgb(71, 71, 71);
+  color: #fff;
+}
+.b-disclaim .btn-danger:hover {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+.b-disclaim .v-card__actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.b-disclaim form {
+  display: grid;
+  justify-self: end;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.v-card__actions {
+  background: rgb(238, 238, 238);
+}
+.v-card__text {
+  background: rgb(238, 238, 238);
+}
+</style>

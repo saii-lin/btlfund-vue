@@ -56,8 +56,8 @@ export default {};
   margin: 80px;
 }
 .about_pic {
-  width: 35vw;
-  height: calc(40vw * 0.76);
+  width: 30vw;
+  height: calc(30vw * 0.76);
   margin: 20px;
   background-size: cover;
 }
@@ -73,11 +73,11 @@ export default {};
 }
 .about_text h3,
 .about_text p {
-  margin: 30px 20px 0;
+  margin: 10px 20px 0;
 }
 .about_text h3 {
   color: #0f4c81;
-  font-size: 40px;
+  font-size: calc(2.5rem + 1vw);
 }
 .about_text p {
   font-size: 20px;
@@ -93,11 +93,11 @@ export default {};
 }
 .about_text ul {
   list-style: square inside url("/images/list.png");
-  margin: 30px 0px 30px;
+  margin: 0px 0px;
 }
 .about_text li {
   font-size: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .about_text li strong {
   margin-left: 10px;

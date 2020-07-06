@@ -126,8 +126,8 @@ export default {
   justify-content: center;
 }
 .block4_pic0 {
-  width: 34vw;
-  height: calc(34vw * 0.7);
+  width: 20vw;
+  height: calc(25vw * 0.7);
   margin: 15px;
   background-size: cover;
   cursor: pointer;

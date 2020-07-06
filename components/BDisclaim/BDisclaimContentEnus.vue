@@ -1,10 +1,10 @@
 <template>
-  <v-card flat color="#fff8e9">
+  <v-card flat>
     <v-card-text>
       <div id="show_overflow" class="panel panel-default dis_content">
         <div class="panel-heading1">
           <span name="text_switch">Disclaimer:</span
-          ><span name="text_switch" style="color:#CD7F32"
+          ><span name="text_switch" 
             >Hong Kong - Professional Investor</span
           >
         </div>
@@ -18,17 +18,17 @@
                 provided on this website. After you have read the information
                 set out below, please click on the button adjacent to the
                 sentence,</span
-              ><span name="text_switch" style="color:red"
+              ><span name="text_switch" 
                 >「I have read and agree to the above information」</span
               ><span name="text_switch">
                 to acknowledge that you have read and understood the information
                 and accept the terms and conditions set out therein, otherwise
                 click</span
-              ><span name="text_switch" style="color:red">「Cancel」</span
+              ><span name="text_switch" >「Cancel」</span
               ><span name="text_switch"> to leave the website.</span>
             </p>
             <p style="text-indent: 2em;">
-              <b style="color:#c3496a"
+              <b 
                 ><span name="text_switch"
                   >The information of the website you are about to access is
                   intended for the Professional Investors / Accredited &amp;
@@ -40,7 +40,7 @@
             </p>
           </div>
           <h4
-            style="height:30px;width:100%;border-bottom:1px solid #CD7F32;color:#1a6b60"
+            style="height:30px;width:100%;border-bottom:1px solid ;"
           >
             <span name="text_switch"
               >Does not constitute an offer / local restriction</span
@@ -79,7 +79,7 @@
             >
           </p>
           <h4
-            style="height:30px;width:100%;border-bottom:1px solid #CD7F32;color:#1a6b60"
+            style="height:30px;width:100%;border-bottom:1px solid ;"
           >
             <span name="text_switch">Website published</span>
           </h4>
@@ -129,11 +129,11 @@
             >
           </p>
           <h4
-            style="height:30px;width:100%;border-bottom:1px solid #CD7F32;color:#c3496a"
+            style="height:30px;width:100%;border-bottom:1px solid ;"
           >
             <span name="text_switch">Risk warning</span>
           </h4>
-          <p style="text-indent: 2em;color:#c3496a">
+          <p style="text-indent: 2em;">
             <b
               ><span name="text_switch"
                 >Investment involves risks. Past performance does not
@@ -185,40 +185,5 @@ export default {};
 </script>
 
 <style>
-.panel-heading1 {
-  font-size: 20px;
-  margin: 20px auto;
-  width: fit-content;
-}
-.alert {
-  background-color: #ffffcc;
-  border-radius: 15px;
-  padding: 10px 15px;
-  border: 1px #ffcccc solid;
-  margin: 20px 10px;
-}
-.panel-body h4 {
-  font-size: 18px;
-}
-.btn {
-  color: white;
-  border-radius: 5px;
-  padding: 5px;
-}
-.btn-success {
-  background-color: green;
-}
-.btn-danger {
-  background-color: red;
-}
-.v-card__actions {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-form {
-  display: grid;
-  justify-self: end;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-}
+
 </style>

@@ -17,7 +17,7 @@
       <nuxt />
     </div>
     <b-top v-if="showGoToTopBtn"></b-top>
-    <v-dialog v-model="disclaimDialog" max-width="80vw" persistent>
+    <v-dialog v-model="disclaimDialog" max-width="670px" persistent>
       <b-disclaim @close="disclaimDialog = false"></b-disclaim>
     </v-dialog>
   </div>
