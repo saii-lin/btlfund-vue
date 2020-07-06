@@ -202,6 +202,12 @@ export default {
 }
 
 @media screen and (max-width: 1000px) {
+  .block4 > .member-grid {
+    grid-template-columns: 1fr;
+  }
+  .block4 > .member-grid > .member-grid__avatar {
+    justify-self: center;
+  }
   .block4_pic {
     display: block !important;
   }
@@ -209,9 +215,16 @@ export default {
     width: 80vw !important;
     height: 300px;
     margin: 20px auto !important;
+    position: relative;
   }
   .block4 > h2 {
     font-size: 40px !important;
+  }
+  .block4_pic0 h2 {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
   }
 }
 @media screen and (max-width: 414px) {
