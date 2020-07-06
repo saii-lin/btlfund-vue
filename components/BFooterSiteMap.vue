@@ -1,33 +1,43 @@
 <template>
-  <div class="site-map">
+  <div class="site-map" v-show="false">
     <div class="site-map__grid">
       <div class="site-map_block">
         <h4>{{ $t("index.nav.AboutUs") }}</h4>
         <ul>
           <li>
-            <nuxt-link :to="localePath('/aboutus#intro')">{{
+            <nuxt-link :to="localePath('/aboutus#intro')">
+              {{
               $t("aboutus.Intro")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/aboutus#our-core-values')">{{
+            <nuxt-link :to="localePath('/aboutus#our-core-values')">
+              {{
               $t("aboutus.OurCoreValues")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/aboutus#our-clients')">{{
+            <nuxt-link :to="localePath('/aboutus#our-clients')">
+              {{
               $t("aboutus.OurClients")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('$t:index.nav.GoogleMap')">{{
+            <nuxt-link :to="localePath('$t:index.nav.GoogleMap')">
+              {{
               $t("aboutus.OurLocation")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/aboutus#global-presence')">{{
+            <nuxt-link :to="localePath('/aboutus#global-presence')">
+              {{
               $t("aboutus.GlobalPresence")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -35,14 +45,18 @@
         <h4>{{ $t("index.nav.WhatWeDo") }}</h4>
         <ul>
           <li>
-            <nuxt-link :to="localePath('/what-we-do/asset-management')">{{
+            <nuxt-link :to="localePath('/what-we-do/asset-management')">
+              {{
               $t("whatwedo.AssetManagement")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/what-we-do/introducing-brokerage')">{{
+            <nuxt-link :to="localePath('/what-we-do/introducing-brokerage')">
+              {{
               $t("whatwedo.IntroducingBrokerage")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -50,14 +64,18 @@
         <h4>{{ $t("index.nav.MarketInsight") }}</h4>
         <ul>
           <li>
-            <nuxt-link :to="localePath('/marketinsight#market-commentary')">{{
+            <nuxt-link :to="localePath('/marketinsight#market-commentary')">
+              {{
               $t("marketinsight.MarketCommentary")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/marketinsight#special-editions')">{{
+            <nuxt-link :to="localePath('/marketinsight#special-editions')">
+              {{
               $t("marketinsight.SpecialEditions")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -65,14 +83,18 @@
         <h4>{{ $t("index.nav.Forms") }}</h4>
         <ul>
           <li>
-            <nuxt-link :to="localePath('/forms#asset-management-forms')">{{
+            <nuxt-link :to="localePath('/forms#asset-management-forms')">
+              {{
               $t("forms.AssetManagementForms")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/forms#brokerage-forms')">{{
+            <nuxt-link :to="localePath('/forms#brokerage-forms')">
+              {{
               $t("forms.BrokerageForms")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -82,8 +104,7 @@
           <li>
             <nuxt-link
               :to="localePath('/resource-and-education-center/bond')"
-              >{{ $t("index.block5.Bond") }}</nuxt-link
-            >
+            >{{ $t("index.block5.Bond") }}</nuxt-link>
           </li>
           <li>
             <nuxt-link
@@ -92,16 +113,14 @@
                   '/resource-and-education-center/digital-structure-notes'
                 )
               "
-              >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link
-            >
+            >{{ $t("index.block5.DigitalStructureNote") }}</nuxt-link>
           </li>
           <li>
             <nuxt-link
               :to="
                 localePath('/resource-and-education-center/equity-linked-notes')
               "
-              >{{ $t("index.block5.EquityLinkedNotes") }}</nuxt-link
-            >
+            >{{ $t("index.block5.EquityLinkedNotes") }}</nuxt-link>
           </li>
           <li>
             <nuxt-link
@@ -110,12 +129,13 @@
                   '/resource-and-education-center/equity-structured-products-accumulator-decumulator'
                 )
               "
-              >{{
-                $t(
-                  "index.block5.EquityStructuredProductsAccumulatorDecumulator"
-                )
-              }}</nuxt-link
             >
+              {{
+              $t(
+              "index.block5.EquityStructuredProductsAccumulatorDecumulator"
+              )
+              }}
+            </nuxt-link>
           </li>
           <li>
             <nuxt-link
@@ -124,25 +144,24 @@
                   '/resource-and-education-center/exchange-traded-fund'
                 )
               "
-              >{{ $t("index.block5.ExchangeTradedFund") }}</nuxt-link
-            >
+            >{{ $t("index.block5.ExchangeTradedFund") }}</nuxt-link>
           </li>
           <li>
             <nuxt-link
               :to="localePath('/resource-and-education-center/options')"
-              >{{ $t("index.block5.Options") }}</nuxt-link
-            >
+            >{{ $t("index.block5.Options") }}</nuxt-link>
           </li>
           <li>
             <nuxt-link
               :to="localePath('/resource-and-education-center/glossary')"
-              >{{ $t("index.block5.Glossary") }}</nuxt-link
-            >
+            >{{ $t("index.block5.Glossary") }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{
+            <nuxt-link :to="localePath('/resource-and-education-center/qa')">
+              {{
               $t("index.block5.QA")
-            }}</nuxt-link>
+              }}
+            </nuxt-link>
           </li>
         </ul>
       </div>
