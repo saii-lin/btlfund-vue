@@ -41,7 +41,7 @@ export default {
 .layout2_title2 {
   margin-left: 170px;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
   .layout2_title2 {
     margin-left: 0px;
   }
