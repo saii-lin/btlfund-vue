@@ -1,7 +1,7 @@
 <template>
   <div>
+    <p>{{$t("whatwedo.AssetManagementContent")}}</p>
     <div class="amc">
-      <p>{{$t("whatwedo.AssetManagementContent")}}</p>
       <div class="amc_pic">
         <div class="amc_text amc_text3">
           <div class="amc_pic_bg">
@@ -127,7 +127,6 @@ export default {};
   background-image: url(/images/what-we-do1-3.jpg);
   background-size: cover;
   width: 100%;
-  margin: 6px 3px;
   margin: auto;
 }
 .amc_pic {
