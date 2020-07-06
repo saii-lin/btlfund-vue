@@ -95,6 +95,9 @@ export default {};
   }
 }
 @media screen and (max-width: 414px) {
+  .what {
+    margin-top: 50px;
+  }
   .what_pic {
     width: 100vw;
     margin: 0px;
