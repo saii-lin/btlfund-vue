@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>{{$t("whatwedo.AssetManagementContent")}}</p>
     <div class="amc">
+      <p>{{$t("whatwedo.AssetManagementContent")}}</p>
       <div class="amc_pic">
         <div class="amc_text amc_text3">
           <div class="amc_pic_bg">
@@ -82,7 +82,6 @@
         </div>
       </div>
     </div>
- 
   </div>
 </template>
 
@@ -91,6 +90,10 @@ export default {};
 </script>
 
 <style>
+.amc {
+  max-width: 90%;
+  margin: 0 auto;
+}
 .amc_title {
   font-size: 20px;
   font-weight: bold;
@@ -105,7 +108,7 @@ export default {};
   padding: 10px 10px 0px;
 }
 .amc_text {
-  width: 45%;
+  width: 50%;
   margin: 6px 3px;
 }
 .amc_content {
@@ -123,7 +126,8 @@ export default {};
 .amc_text5 {
   background-image: url(/images/what-we-do1-3.jpg);
   background-size: cover;
-  width: 91%;
+  width: 100%;
+  margin: 6px 3px;
   margin: auto;
 }
 .amc_pic {
