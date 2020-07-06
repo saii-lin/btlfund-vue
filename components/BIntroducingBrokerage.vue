@@ -227,4 +227,12 @@ export default {};
 .int strong {
   color: red;
 }
+@media screen and (max-width: 700px) {
+  .amc_text6 .amc_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .amc_text7 .amc_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 </style>

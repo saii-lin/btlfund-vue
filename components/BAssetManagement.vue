@@ -158,4 +158,18 @@ export default {};
 .amc_text2 .amc_content {
   font-size: 14px;
 }
+@media screen and (max-width: 500px) {
+.amc_pic {
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+}
+.amc_grid {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+}
+}
 </style>
