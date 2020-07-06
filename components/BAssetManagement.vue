@@ -127,10 +127,6 @@ export default {};
   background-image: url(/images/what-we-do1-3.jpg);
   background-size: cover;
   width: 100%;
-<<<<<<< HEAD
-=======
-  margin: auto;
->>>>>>> 5305e8b04eeb4364805fd0e5b73fc307ee4f492e
 }
 .amc_pic {
   display: grid;
