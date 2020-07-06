@@ -1,62 +1,53 @@
 <template>
   <div class="block4">
     <h2>{{ $t("index.block4.MeetTheTeam") }}</h2>
+    <div class="member-grid" v-if="members.length > 0">
+      <v-img :width="size" :height="size" src class="member-grid__avatar"></v-img>
+      <div class="member-grid__content">
+        <h2 class="member-grid__content__title">{{ members[0].title }}</h2>
+        <p
+          class="member-grid__content__text"
+          v-for="(text, index) in members[0].texts"
+          :key="index"
+        >{{ text }}</p>
+      </div>
+    </div>
     <div class="block4_pic">
       <div class="block4_pic0 block4_pic1" @click="openDialog(0)">
         <div class="block4_btn0">
           <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
         </div>
+        <h2 class="member-grid__content__text" v-if="members.length > 0">{{members[1].title}}</h2>
       </div>
       <div class="block4_pic0 block4_pic2" @click="openDialog(1)">
         <div class="block4_btn0">
           <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
         </div>
+        <h2 class="member-grid__content__text" v-if="members.length > 0">{{members[2].title}}</h2>
       </div>
-    </div>
-    <div class="block4_pic">
       <div class="block4_pic0 block4_pic3" @click="openDialog(2)">
         <div class="block4_btn0">
           <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
         </div>
-      </div>
-      <div class="block4_pic0 block4_pic4" @click="openDialog(3)">
-        <div class="block4_btn0">
-          <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
-        </div>
+        <h2 class="member-grid__content__text" v-if="members.length > 0">{{members[3].title}}</h2>
       </div>
     </div>
-    <v-dialog data-app v-model="dialog" max-width="1000px">
+    <v-dialog data-app v-model="dialog" max-width="800px">
       <v-card>
         <v-btn class="close-btn" icon dark @click="dialog = false">
           <v-icon large>close</v-icon>
         </v-btn>
-        <v-carousel
-          class="lightbox-carousel"
-          :cycle="false"
-          height="500px"
-          hide-delimiters
-        >
-          <v-carousel-item
-            ref="carouselItems"
-            v-for="(item, i) in members"
-            :key="i"
-          >
+        <v-carousel class="lightbox-carousel" :cycle="false" height="fit-content" hide-delimiters>
+          <v-carousel-item ref="carouselItems" v-for="(item, i) in members.slice(1)" :key="i">
             <div class="member-grid">
-              <v-img
-                :width="size"
-                :height="size"
-                src=""
-                class="member-grid__avatar"
-              ></v-img>
+              <v-img :width="size" :height="size" src class="member-grid__avatar"></v-img>
               <div class="member-grid__content">
                 <h2 class="member-grid__content__title">{{ item.title }}</h2>
                 <p
                   class="member-grid__content__text"
                   v-for="(text, index) in item.texts"
                   :key="index"
-                >
-                  {{ text }}
-                </p>
+                >{{ text }}</p>
               </div>
             </div>
           </v-carousel-item>
@@ -71,7 +62,7 @@ export default {
   data: () => ({
     dialog: false,
     members: [],
-    size: 450
+    size: 200
   }),
   mounted() {
     this.members = [
@@ -112,7 +103,14 @@ export default {
 <style scoped>
 .block4 {
   background: #cdd2d1;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
+}
+.block4 > .member-grid {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-column-gap: 30px;
+  width: 80%;
+  margin: auto;
 }
 .block4 > h2 {
   font-size: 50px;
@@ -144,6 +142,7 @@ export default {
 .block4_btn0 {
   width: 100%;
   height: 100%;
+  margin-bottom: 10px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
 }
@@ -175,11 +174,12 @@ export default {
 }
 .member-grid {
   display: grid;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 250px auto;
 }
 .member-grid__avatar {
   margin: 20px;
-  justify-self: center;
+  justify-self: end;
+  background: #0f4c81;
 }
 .member-grid__content {
   margin: 20px;

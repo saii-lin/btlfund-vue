@@ -168,7 +168,7 @@
 <script>
 export default {
   data: () => ({
-    size: 150
+    size: 100
   })
 };
 </script>
@@ -209,10 +209,10 @@ export default {
   margin-top: 20px;
 }
 .block5_icon1 {
-  width: 20vw;
+  width: 300px;
   margin: 30px;
   position: relative;
-  height: 254px;
+  height: 220px;
 }
 .block5_icon1 p {
   font-size: 16px;

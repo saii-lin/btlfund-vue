@@ -1,11 +1,7 @@
 <template>
   <div class="carousel-background b-block1">
-    <v-carousel height="800px" hide-controls>
-      <v-carousel-item
-        ref="carouselItems"
-        v-for="(item, i) in sources"
-        :key="i"
-      >
+    <v-carousel height="600px" hide-controls hide-delimiters>
+      <v-carousel-item ref="carouselItems" v-for="(item, i) in sources" :key="i">
         <div class="background">
           <img :src="item.src" />
         </div>
@@ -16,9 +12,7 @@
               class="background-content__text"
               v-for="(text, index) in item.texts"
               :key="index"
-            >
-              {{ text }}
-            </p>
+            >{{ text }}</p>
           </div>
         </v-img>
       </v-carousel-item>
@@ -78,7 +72,6 @@ export default {
 }
 .carousel-background {
   position: relative;
-  height: 800px;
 }
 .shadow {
   position: absolute;
@@ -89,7 +82,7 @@ export default {
 }
 .v-image {
   height: 100%;
-  width: calc(80vh * 16 / 9);
+  width: 80%;
   margin: auto;
 }
 .v-carousel {
@@ -98,7 +91,6 @@ export default {
 .background {
   width: 100vw;
   top: -72px;
-  height: 700px;
   bottom: 0;
   position: absolute;
   overflow: hidden;
@@ -126,7 +118,7 @@ export default {
   background: rgba(255, 255, 255, 0.8);
   width: 500px;
   position: absolute;
-  top: 33%;
+  bottom: 0px;
   padding: 10px;
 }
 .background-content__title {
@@ -142,11 +134,6 @@ export default {
   font-weight: bold;
 }
 @media screen and (max-width: 414px) {
-  .carousel-background,
-  .v-carousel,
-  .v-image {
-    height: calc(100vh - 78px) !important;
-  }
   .background-content__text {
     font-size: 14px;
     line-height: 20px;
