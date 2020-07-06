@@ -1,7 +1,7 @@
 <template>
   <div>
+    <p>{{$t("whatwedo.AssetManagementContent")}}</p>
     <div class="amc">
-      <p>{{$t("whatwedo.AssetManagementContent")}}</p>
       <div class="amc_pic">
         <div class="amc_text amc_text3">
           <div class="amc_pic_bg">
@@ -36,10 +36,7 @@
           <div
             class="amc_content"
           >{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent2") }}</div>
-          <div
-            class="amc_content"
-          >{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent3.SummaryOfKeyBenefits:") }}</div>
-          <div class="amc_flex">
+          <div class="amc_grid">
             <div class="amc_text2">
               <div
                 class="amc_title2"
@@ -64,7 +61,7 @@
                 class="amc_content"
               >{{ $t("whatwedo.AssetManagementContent2.ExternalAssetManagerContent3.CompetitivePricingContent") }}</div>
             </div>
-            <div class="amc_text2">
+            <div class="amc_text2 other-services">
               <div
                 class="amc_title2"
               >{{ $t("whatwedo.AssetManagementContent2.OtherInvestmentServices") }}</div>
@@ -93,6 +90,9 @@ export default {};
 .amc {
   max-width: 90%;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-row-gap: 5px;
 }
 .amc_title {
   font-size: 20px;
@@ -101,15 +101,15 @@ export default {};
 .amc_pic_bg {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
+  padding: 15px;
 }
-.amc_title,
+.amc_title {
+  color: #fff;
+  padding: 10px;
+}
 .amc_content {
   color: #fff;
-  padding: 10px 10px 0px;
-}
-.amc_text {
-  width: 50%;
-  margin: 6px 3px;
+  padding: 2px 2px 2px 10px;
 }
 .amc_content {
   font-size: 16px;
@@ -127,26 +127,33 @@ export default {};
   background-image: url(/images/what-we-do1-3.jpg);
   background-size: cover;
   width: 100%;
-  margin: 6px 3px;
-  margin: auto;
 }
 .amc_pic {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5px;
 }
-.amc_flex {
-  display: flex;
-  justify-content: space-between;
+.amc_grid {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+}
+.amc_grid .other-services {
+  grid-column: 1/-1;
+  border: none;
+  padding: 0px;
 }
 .amc_title2 {
-  padding: 5px 10px 0px;
+  padding: 5px 5px 5px 10px;
 }
 .amc_text2 {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
-  width: 33%;
-  margin: 5px;
+  border: 1px solid white;
+  padding: 10px;
 }
 .amc_text2 .amc_content {
   font-size: 14px;
