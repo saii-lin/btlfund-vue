@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&Benefits") }}</p>
-    <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent") }}</p>
     <div class="int">
+      <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&Benefits") }}</p>
+      <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent") }}</p>
       <div class="amc_pic">
         <div class="amc_text amc_text6">
           <div class="amc_pic_bg">
@@ -160,8 +160,6 @@ export default {};
 .amc_content {
   font-size: 16px;
   line-height: 25px;
-}
-.amc_pic {
 }
 .amc_grid {
   display: grid;

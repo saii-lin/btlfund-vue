@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>{{$t("whatwedo.AssetManagementContent")}}</p>
     <div class="amc">
+      <p>{{$t("whatwedo.AssetManagementContent")}}</p>
       <div class="amc_pic">
         <div class="amc_text amc_text3">
           <div class="amc_pic_bg">
