@@ -102,7 +102,7 @@ export default {
 
 <style scoped>
 .block4 {
-  background: #cdd2d1;
+  background: #fff;
   padding-bottom: 100px;
 }
 .block4 > .member-grid {
@@ -117,7 +117,7 @@ export default {
   padding: 30px;
   width: fit-content;
   margin: auto;
-  color: white;
+  color: #0f4c81;
 }
 .block4_pic {
   display: flex;

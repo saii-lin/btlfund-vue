@@ -96,14 +96,18 @@ export default {
   color: #fff;
 }
 .b-disclaim .v-card__actions {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: center;
 }
 .b-disclaim form {
-  display: grid;
-  justify-self: end;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+   display: flex;
+  justify-content: center;
+}
+.btn{
+  margin: 5px;
+}
+.btn span{
+  padding: 10px;
 }
 .v-card__actions {
   background: rgb(238, 238, 238);

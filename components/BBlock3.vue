@@ -53,7 +53,6 @@ export default {};
 .about_content {
   display: flex;
   justify-content: center;
-  margin: 80px;
 }
 .about_pic {
   width: 30vw;
@@ -79,6 +78,9 @@ export default {};
   color: #0f4c81;
   font-size: calc(2.5rem + 1vw);
 }
+.about_content_bottom h3 {
+  color: #fff;
+}
 .about_text p {
   font-size: 20px;
   line-height: 30px;
@@ -88,7 +90,7 @@ export default {};
   font-style: italic;
 }
 .about_text strong {
-  color: red;
+  color: #3C2373;
   font-size: 36px;
 }
 .about_text ul {
@@ -104,6 +106,12 @@ export default {};
 }
 .about_text_top p {
   margin-bottom: 150px;
+}
+.about_content_top {
+  margin-bottom: 80px;
+}
+.about_content_bottom {
+  background: #cdd2d1;
 }
 @media screen and (max-width: 1000px) {
   .about_content {

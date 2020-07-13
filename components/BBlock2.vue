@@ -43,16 +43,16 @@ export default {};
 .what_text h3,
 .what_text p {
   margin: 30px 20px 0;
+  
 }
-.what_text p {
-  font-style: italic;
-}
+
 .what_text h3 {
   font-size: calc(2.5rem + 1vw);
 }
 .what_text p {
   font-size: 20px;
   line-height: 30px;
+  font-style: italic;
 }
 .what_top_text h3 {
   color: #0f4c81;
@@ -85,6 +85,7 @@ export default {};
   }
   .what_text h3 {
     text-align: center;
+    
   }
   .what_bottom_text {
     padding-bottom: 50px;
