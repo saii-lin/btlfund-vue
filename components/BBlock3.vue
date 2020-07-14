@@ -55,9 +55,9 @@ export default {};
   justify-content: center;
 }
 .about_pic {
-  width: 30vw;
-  height: calc(30vw * 0.76);
+  width: 50vw;
   margin: 20px;
+  height: calc(40vw * 0.76);
   background-size: cover;
 }
 .about_pic1 {
@@ -67,7 +67,7 @@ export default {};
   background-image: url(/images/block3-2.jpg);
 }
 .about_text {
-  width: 40vw;
+  width: 25vw;
   align-self: center;
 }
 .about_text h3,
@@ -90,7 +90,7 @@ export default {};
   font-style: italic;
 }
 .about_text strong {
-  color: #3C2373;
+  color: #3c2373;
   font-size: 36px;
 }
 .about_text ul {

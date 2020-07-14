@@ -7,7 +7,7 @@
       "Forms": "表格下载",
       "ContactUs": "连络我们",
       "ResourcesAndEducationCenter": "资源教育中心",
-      "GoogleMap": "https://www.google.com/maps/place/%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%BB%88/@22.278507,114.168936,16z/data=!4m5!3m4!1s0x0:0xa062e3e689d390ab!8m2!3d22.2785068!4d114.1689358?hl=zh-cn",
+      "GoogleMap": "https://www.google.com/maps/place/%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%BB%88/@22.278507,114.168936,16z/data=!4m5!3m4!1s0x0:0xa062e3e689d390ab!8m2!3d22.2785068!4d114.1689358?hl=zh-TW",
       "Language": "语言"
     },
     "block1": {
@@ -62,14 +62,14 @@
       "Options": "期权",
       "Glossary": "词彙表",
       "QA": "常见问题",
-      "BondBrief": "债券是投资者凭以定期获得利息、到期归还本金及利息的证书。发债人须于债券到期日前按期支付早前承诺的利息，并在到期日于指定价格向债券持有人归还本金。简单来说，债券是一种证券形式的贷款。",
+      "BondBrief": "债券是投资者凭以定期获得利息、到期归还本金及利息的证书。發债人须于债券到期日前按期支付早前承诺的利息，并在到期日于指定价格向债券持有人归还本金。简单来说，债券是一种证券形式的贷款。",
       "DigitalStructureNoteBrief": "产品收益: 二值期权票据的收益一般是固定的金额，如果满足了预设的条件，将可收到该笔收益。",
       "EquityLinkedNotesBrief": "它是一种结构性（金融衍生）产品，以票据形式出现，回报视单一股票，股票指数或股票组合而定。为投资者提供较货币市场工具所赚取的息口为高的机会。",
       "EquityStructuredProductsAccumulatorDecumulatorBrief": "累积认购(沽)期权合约实际上是一系列合成远期合约的结合，让投资者按固定时间，以固定价格买入(卖出*)标的证券的合约。",
-      "ExchangeTradedFundBrief": "交易所买卖基金系列是全球增长速度最快的投资产品之一。目前共有37只在香港交易所上市的交易所买卖基金，上市基金数字正逐年递增中。",
+      "ExchangeTradedFundBrief": "交易所买卖基金系列是全球增长速度最快的投资産品之一。目前共有37只在香港交易所上市的交易所买卖基金，上市基金数字正逐年递增中。",
       "OptionsBrief": "期权: 期权持有人在未来某一特定日期以特定价格购买或出售一定数量的特定标的资产的权利，但并非义务(即非必要执行此权利)。",
-      "GlossaryBrief": "A股: 内地公司的内资股， 以人民币交易及作面值，买卖双方必须是内地居民。",
-      "QABrief": "香港股票市场:   香港交易及结算所有限公司（香港交易所）是香港证券交易及结算系统的市场营运机构。香港交易所设有主板及创业板，供投资者进行股票买卖。"
+      "GlossaryBrief": "A股: 内地公司的内资股，以人民币交易及作面值，买卖双方必须是内地居民。",
+      "QABrief": "香港股票市场: 香港交易及结算所有限公司（香港交易所）是香港证券交易及结算系统的市场营运机构。香港交易所设有主板及创业板，供投资者进行股票买卖。"
     },
     "block6": {
       "ContactUs": "连络我们",
@@ -79,7 +79,7 @@
       "Fax": "传真: +852 3701 7099",
       "AssetManagementServices": "资产管理服务",
       "BrokerageServices": "经纪服务",
-      "GoogleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1szh-cn!2stw!4v1592365359864!5m2!1szh-cn!2stw"
+      "GoogleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9863530812327!2d114.16674711473063!3d22.278506785334827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404005d9e374527%3A0xa062e3e689d390ab!2z5Lit5Y2X5aSn5buI!5e0!3m2!1szh-TW!2stw!4v1592365359864!5m2!1szh-TW!2stw"
     }
   },
   "aboutus": {
@@ -106,9 +106,11 @@
     "AssetManagementContent2": {
       "InvestmentAdvisoryMandates": "投资谘询委託要求",
       "InvestmentAdvisoryMandatesContent": "投资谘询委託要求节奏明快，以及互相串联。金融市场现在需要投资者顾问的持续关注及立即反应。我们的投资专家团队与我们的客户共同留意市场，同时也监视着风险。客户可透过我们专家团队以其专业知识为客户特别制定的投资谘询服务获利。",
+      "InvestmentAdvisoryMandatesContent2": "在资深理财专家协助下, 逐鹿全球金融市场",
       "DiscretionaryMandates": "全权委託要求",
       "DiscretionaryMandatesContent": "允许投资专家替您代管您的财富。",
       "DiscretionaryMandatesContent2": "您的时间是宝贵的，这也是为什麽您希望将投资决策委託给经验丰富的投资专家。BTL的投资顾问会为您进行全面的 “认识您的客户(KYC)” 流程，来瞭解您的实际需要和情况(个人和财务)，并据此确保您的投资策略满足您的个人目标，财务需求及风险偏好。透过全面监督您的投资组合及持续的複审，来确保其符合您当前的情况。",
+      "DiscretionaryMandatesContent3": " 允许投资专家替您代管您的财富 ",
       "ExternalAssetManager": "外部资产管理",
       "ExternalAssetManagerContent1": "BTL与世界上一级的私人银行共同提供定制的外部资产管理平臺",
       "ExternalAssetManagerContent2": "这使我们的客户能受惠于只提供与专业投资者的产品、服务和投资机会。",
@@ -123,8 +125,10 @@
         "ConsolidatedBalanceSheetContent2": "协助建构私募股权基金/产品来为投资者们达致最大化收益且实现长期的成功。",
         "ConsolidatedBalanceSheetContent3": "提供联络资讯服务将潜在买卖双方对接，提供了更畅通、更直接的沟通渠道，促成投资机会。"
       },
+      "ExternalAssetManagerContent4": " 根据您的目标、需求和风险要求量身定制合适的方案",
       "OtherInvestmentServices": "其他投资服务",
-      "OtherInvestmentServicesContent": "凭藉我们在香港，中国和臺湾，日本和东盟等国家的外部网路，BTL致力于以事必躬亲的方式在以下领域提供优越的投资服务:"
+      "OtherInvestmentServicesContent": "凭藉我们在香港，中国和臺湾，日本和东盟等国家的外部网路，BTL致力于以事必躬亲的方式在以下领域提供优越的投资服务:",
+      "OtherInvestmentServicesContent2": "提供多样化的投资服务，助您在瞬息万变的市场中捉紧投资机会"
     },
     "IntroducingBrokerage": "经纪仲介业务",
     "IntroducingBrokerage2": {
@@ -135,16 +139,18 @@
         "Securities2": {
           "HongKongMarket": "证券 - 香港市场",
           "HongKongMarketContent": "香港是全球最主要的国际金融中心之一。 就市值而言，它是亚洲第三大的市场，仅次于东京证券交易所和上海证券交易所，也是全球第四大的单一股票市场。截至于2020年5月，市值达到了34兆美金，比去年同期的31兆美金增长了10%。",
-          "HongKongMarketContent2": "近年，成熟的香港股票市场交易量一直保持稳定增长，很大程度归功于中国大陆企业积极赴港上市的热潮。此外，香港股票市场也受益于上海-香港/深圳-香港的股市互联互通计划，为投资者打开了庞大中国A股市场的大门，这使香港无庸置疑地成为了亚太区最受欢迎的投资市场。"
+          "HongKongMarketContent2": "近年，成熟的香港股票市场交易量一直保持稳定增长，很大程度归功于中国大陆企业积极赴港上市的热潮。此外，香港股票市场也受益于上海-香港/深圳-香港的股市互联互通计划，为投资者打开了庞大中国A股市场的大门，这使香港无庸置疑地成为了亚太区最受欢迎的投资市场。",
+          "HongKongMarketContent3": "BTL为您提供灵活和度身设计的股票交易平臺，提供多样化的投资方式供您选择，以及即时市场资讯查询服务，助您时刻抓紧每个投资良机"
         },
         "GlobalMarket": "证券 - 全球市场",
         "GlobalMarket2": {
           "GlobalMarketContent": "在国际上，就市场容量、交易量、监管的完整性和金融衍生市场的發展，美国仍然是最受世界各地投资者欢迎的世界领先经济体。除了股票市场外，黄金、原油、以及林林总总的农产品等，透过全球期货市场进行交易，为积极寻求利润的投资者提供了更进一步的获利空间。",
-          "GlobalMarketContent2": "截至2019年9月，将近有5,000家公司在纽约证券交易所和纳斯达克交易所上市，总市值超过28.5兆美金。与在某些市场上只需發佈半年度或年度业绩的要求不同，在美国上市的公司需要遵循更高透明度的标准，公司得發佈季度业绩，让投资者能够轻鬆地获取相关资料和资讯，而这使美国股票市场成为理想的投资市场。"
+          "GlobalMarketContent2": "截至2019年9月，将近有5,000家公司在纽约证券交易所和纳斯达克交易所上市，总市值超过28.5兆美金。与在某些市场上只需發佈半年度或年度业绩的要求不同，在美国上市的公司需要遵循更高透明度的标准，公司得發佈季度业绩，让投资者能够轻鬆地获取相关资料和资讯，而这使美国股票市场成为理想的投资市场。",
+          "GlobalMarketContent3": "BTL在全球主要股票市场均可提供全面的经纪服务，包括美国、澳洲、加拿大、法国、德国、日本、和英国等。如欲进一步了解，请按此内容将于新视窗显示。"
         },
         "OtherInvestmentProducts": "其他投资服务",
         "OtherInvestmentProducts2": {
-          "CallableBullAndBearContracts": "牛熊证",
+          "CallableBullAndBearContracts": " 牛熊证",
           "RealEstateInvestmentTrusts": "房地产投资信託基金",
           "DebtSecurities": " 债券",
           "DerivativeWarrants": "衍生权证(窝轮)",
@@ -165,6 +171,7 @@
             "LowBarriersToEntry": "低准入门槛"
           },
           "FuturesContent4": "在金融领域的竞争舞臺中，寻找合适契机才是王道。从资产保值到活跃投机交易，期货促进了与贸易相关的各种功能。",
+          "FuturesContent5": "期权是基于目标证券(例如股票)价值的衍生金融工具。",
           "Options": "期权",
           "OptionsContent": "期权是基于目标证券(例如股票)价值的衍生金融工具。期权合约针对目标物，依据他们持有的合约类型，为买家提供了买卖的机会。",
           "OptionsContent2": "期权为投资者在购入，卖出或沽空上之策略(还有财务)提供了更多的操作空间。交易者可使用期权来对冲投资组合的损失，或以低于在公开市场上的价格购买(或是以更高价格出售)股票，在各种各样的特定市场条件上增加既有或新头寸上的回报，并降低投机上的风险。",
@@ -177,6 +184,7 @@
           "OptionsContent9": "环球期货按金及合约细则",
           "OptionsContent10": "期货告示板",
           "OptionsContent11": "收费表",
+          "OptionsContent12": "期货是套期保值者和投机者常用在各种目标证券上的衍生品合约",
           "HYPERLINK": ""
         }
       }

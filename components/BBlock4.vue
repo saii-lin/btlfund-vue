@@ -62,7 +62,7 @@ export default {
   data: () => ({
     dialog: false,
     members: [],
-    size: 200
+    size: 210
   }),
   mounted() {
     this.members = [
@@ -108,8 +108,8 @@ export default {
 .block4 > .member-grid {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-column-gap: 30px;
-  width: 80%;
+  /* grid-column-gap: 30px; */
+  width: 82%;
   margin: auto;
 }
 .block4 > h2 {
@@ -121,12 +121,12 @@ export default {
 }
 .block4_pic {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .block4_pic0 {
-  width: 20vw;
-  height: calc(25vw * 0.7);
-  margin: 15px;
+  width: 15vw;
+  height: calc(21vw * 0.7);
+  /* margin: 20px; */
   background-size: cover;
   cursor: pointer;
 }

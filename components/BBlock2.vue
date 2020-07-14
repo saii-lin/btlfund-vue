@@ -31,19 +31,18 @@ export default {};
   margin-bottom: 80px;
 }
 .what_pic {
-  width: 30vw;
+  width: 50vw;
   margin: 20px;
-  height: calc(30vw * 0.76);
+  height: calc(40vw * 0.76);
   background-size: cover;
 }
 .what_text {
-  width: 40vw;
+  width: 25vw;
   align-self: center;
 }
 .what_text h3,
 .what_text p {
   margin: 30px 20px 0;
-  
 }
 
 .what_text h3 {
@@ -85,7 +84,6 @@ export default {};
   }
   .what_text h3 {
     text-align: center;
-    
   }
   .what_bottom_text {
     padding-bottom: 50px;

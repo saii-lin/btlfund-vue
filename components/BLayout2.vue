@@ -23,12 +23,12 @@ export default {
 <style scoped>
 .layout2 {
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   background-size: cover;
   position: relative;
 }
 .layout2_text {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   position: absolute;
   bottom: 0;
 }
@@ -37,6 +37,8 @@ export default {
   padding: 10px;
   color: #333333;
   font-weight: bold;
+   font-family: 'MS Gothic';
+
 }
 .layout2_title2 {
   margin-left: 170px;

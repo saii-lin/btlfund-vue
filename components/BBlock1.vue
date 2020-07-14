@@ -115,7 +115,7 @@ export default {
   opacity: 0.2;
 }
 .background-content {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   width: 500px;
   position: absolute;
   bottom: 0px;
@@ -130,7 +130,7 @@ export default {
   font-size: 20px;
   line-height: 30px;
   padding: 10px;
-  margin: 0;
+  margin: 0 auto;
   font-weight: bold;
 }
 @media screen and (max-width: 414px) {

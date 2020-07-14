@@ -106,9 +106,11 @@
     "AssetManagementContent2": {
       "InvestmentAdvisoryMandates": "Investment Advisory mandates",
       "InvestmentAdvisoryMandatesContent": "Fast-paced, interconnected, and increasingly complicated, the financial markets now require an investor's constant attention and immediate response. Our team of investment experts stands by with our clients to monitor the markets while keeping an eye on the risks. Profit from their expertise by choosing our customised investment advisory mandate.",
+      "InvestmentAdvisoryMandatesContent2": "Navigate the global financial markets with a competent professional at your side",
       "DiscretionaryMandates": "Discretionary mandates",
       "DiscretionaryMandatesContent": "Allow an investment professional to manage your wealth on your behalf.",
       "DiscretionaryMandatesContent2": "Your time is precious, which is why you would like to delegate investment decisions to an experienced investment professional. BTL's investment advisor will take the time to conduct comprehensive KYC process in order to fully understand your situation, personal and financial, to ensure that your investment strategy meets your individual objectives, requirements, and risk profile. Thorough portfolio monitoring paired with ongoing reviews ensure that your investment activities are always in line with your current circumstances.",
+      "DiscretionaryMandatesContent3": " Allow an investment professional to manage your wealth on your behalf, ",
       "ExternalAssetManager": "External Asset Manager",
       "ExternalAssetManagerContent1": "BTL offers an bespoke external asset management platform along with first tiers private banks.",
       "ExternalAssetManagerContent2": " This allows our client to benefit from an unrestricted range of products, services and investment opportunities, as well as the other business divisions at BTL.",
@@ -123,8 +125,10 @@
         "ConsolidatedBalanceSheetContent2": "Assist in structuring of private equity fund to maximise returns and realise long term success for investors.",
         "ConsolidatedBalanceSheetContent3": "Engagement and liaison services which link up both buy-side and sell-side for investment purposes and opportunities."
       },
+      "ExternalAssetManagerContent4": "Expertly Tailored to Your Goals, Needs and Risk Requirements.",
       "OtherInvestmentServices": "Other Investment Services",
-      "OtherInvestmentServicesContent": "Leveraging our extended network in Hong Kong, China and Taiwan, Japan, and ASEAN countries, BTL strives to offer and deliver to clients exemplary investment management services with a hands-on approach in the following arenas:"
+      "OtherInvestmentServicesContent": "Leveraging our extended network in Hong Kong, China and Taiwan, Japan, and ASEAN countries, BTL strives to offer and deliver to clients exemplary investment management services with a hands-on approach in the following arenas:\"BTL is inspired from a phrase \"Built to Last\",  embody our dedication to preserve and grow our clients' asset, and to continue providing our clients with creative ideas and solutions for operating effectively in a complex global economy.  BTL strives for excellence, we keep creating value and generating growth for our clients and shareholders with our outstanding financial services and products and continue to exceed all expectations.",
+      "OtherInvestmentServicesContent2": "BTL provides a wide array of investment services for our clients to capture the investment opportunities in the ever-changing markets BTL"
     },
     "IntroducingBrokerage": "Introducing Brokerage",
     "IntroducingBrokerage2": {
@@ -135,12 +139,14 @@
         "Securities2": {
           "HongKongMarket": "Hong Kong Market",
           "HongKongMarketContent": "Hong Kong is one of the most world's premier international financial centres.  It is Asia's third-largest in terms of market capitalization behind the Tokyo Stock Exchange and Shanghai Stock Exchange, and the fourth single largest stock market in the world.  Market capitalisation was $34.0 trillion at the end of May 2020, an increase of 10 per cent from $31.0 trillion for the same period last year.",
-          "HongKongMarketContent2": "The trading volume of the mature equity market of Hong Kong is ever growing, largely due to with the aid of the listing fervour of the Mainland China's enterprises in recent years. In addition, the market is also benefited from the Shanghai-Hong Kong / Shenzhen-Hong Kong Stock Connect Programs which open a gateway to investing in Mainland's A share market, making Hong Kong undoubtedly the most preferred investment market of the Asia-Pacific region."
+          "HongKongMarketContent2": "The trading volume of the mature equity market of Hong Kong is ever growing, largely due to with the aid of the listing fervour of the Mainland China's enterprises in recent years. In addition, the market is also benefited from the Shanghai-Hong Kong / Shenzhen-Hong Kong Stock Connect Programs which open a gateway to investing in Mainland's A share market, making Hong Kong undoubtedly the most preferred investment market of the Asia-Pacific region.",
+          "HongKongMarketContent3": "BTL offers flexible and customised stock trading platform with multi-channel order placement services and real-time stock market information."
         },
         "GlobalMarket": "Global Market",
         "GlobalMarket2": {
           "GlobalMarketContent": "On the international level, in terms of market capacity, trading volume, completeness of regulation and the development of the derivative market, the United States remained to be the world's leading economy which attracts investors worldwide.  Apart from equity investments, commodity trading in gold, crude oil and various agricultural products through the global futures markets provides further possibilities for the investors looking for profits.",
-          "GlobalMarketContent2": "As of September 2019, there are almost 5,000 companies listed on the New York Stock Exchange and NASDAQ with a total market capitalisation over US$28.5 trillion. Unlike companies listed in certain markets that only publish semi-annual or annual results, listed companies in the US release company results quarterly adhering to high transparency standards, which allows investors to access relevant data and information easily and which makes the US stock market an ideal investment market."
+          "GlobalMarketContent2": "As of September 2019, there are almost 5,000 companies listed on the New York Stock Exchange and NASDAQ with a total market capitalisation over US$28.5 trillion. Unlike companies listed in certain markets that only publish semi-annual or annual results, listed companies in the US release company results quarterly adhering to high transparency standards, which allows investors to access relevant data and information easily and which makes the US stock market an ideal investment market.",
+          "GlobalMarketContent3": "BTL offers comprehensive trading services in major stock markets around the world, including the United States, Australia, Canada, France, Germany, Japan, the United Kingdom, and more. For more information, please click here"
         },
         "OtherInvestmentProducts": "Other Investment Products",
         "OtherInvestmentProducts2": {
@@ -165,6 +171,7 @@
             "LowBarriersToEntry": "Low barriers to entry"
           },
           "FuturesContent4": "In the financial arena, spotting opportunity is the name of the game. Futures facilitate a wealth of trade-related functions, from capital preservation to active speculation.",
+          "FuturesContent5": "Futures are commonly-used derivatives contracts that both hedgers and speculators use on a variety of underlying securities.",
           "Options": "Options",
           "OptionsContent": "Options are financial instruments that are derivatives based on the value of underlying securities such as stocks. An options contract offers the buyer the opportunity to buy or sell—depending on the type of contract they hold—the underlying asset. Unlike futures, the holder is not required to buy or sell the asset if they choose not to.",
           "OptionsContent2": "Options offer investors more strategic (and financial) leeway than they can get by simply buying, selling or shorting stocks. Traders can use options to protect against portfolio losses, snag a stock for less than it sells on the open market (or sell it for more), increase the return on an existing or new position, and lower the risk on speculative bets in all sorts of market conditions.",
@@ -177,7 +184,8 @@
           "OptionsContent9": "GLOBAL FUTURES MARGIN & SPECIFICATION",
           "OptionsContent10": "FUTURES NOTICE BOARD",
           "OptionsContent11": "FEE TABLES",
-          "HYPERLINK": "HYPER LINK"
+          "HYPERLINK": "HYPER LINK",
+          "OptionsContent12": "Options are financial instruments that are derivatives based on the value of underlying securities such as stocks."
         }
       }
     }
