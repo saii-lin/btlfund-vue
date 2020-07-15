@@ -78,8 +78,9 @@ export default {
   padding: 5px;
 }
 .b-disclaim .btn-danger {
-  border: 1px solid #000;
   transition: 0.5s;
+  background: #fff;
+  font-weight: bold;
 }
 .b-disclaim .btn-success {
   border: 1px solid #000;
@@ -100,13 +101,14 @@ export default {
   justify-content: center;
 }
 .b-disclaim form {
-   display: flex;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
 }
-.btn{
+.btn {
   margin: 5px;
 }
-.btn span{
+.btn span {
   padding: 10px;
 }
 .v-card__actions {

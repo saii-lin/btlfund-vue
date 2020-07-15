@@ -124,7 +124,7 @@ export default {
   justify-content: space-evenly;
 }
 .block4_pic0 {
-  width: 15vw;
+  width: 210px;
   height: calc(21vw * 0.7);
   /* margin: 20px; */
   background-size: cover;

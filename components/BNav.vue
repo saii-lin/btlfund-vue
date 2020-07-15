@@ -1,8 +1,5 @@
 <template>
-  <div
-    :class="['b-nav', hidden ? 'hidden' : '']"
-    :style="{ width: `${width}px` }"
-  >
+  <div :class="['b-nav', hidden ? 'hidden' : '']" :style="{ width: `${width}px` }">
     <div>
       <div class="nav">
         <div class="navbar">
@@ -26,9 +23,9 @@
               <nuxt-link :to="switchLocalePath('zh-cn')">简</nuxt-link>
             </li>
             <li>
-              <a href>
-                <img src="/images/nav2.png" />
-              </a>
+              <nuxt-link :to="localePath('/login')">
+                <img class="nav-login" src="/images/nav2.png" />
+              </nuxt-link>
             </li>
           </ul>
         </div>
@@ -36,11 +33,7 @@
       <div class="menu">
         <ul class="menu-grid">
           <template v-for="(navItem, index) in navItems">
-            <li
-              v-if="!navItem.hidden"
-              :key="`nav-item-${index}`"
-              @click="scrollto(navItem)"
-            >
+            <li v-if="!navItem.hidden" :key="`nav-item-${index}`" @click="scrollto(navItem)">
               {{ $t(navItem.text) }}
               <ul class="sub-menu-grid" v-if="navItem.subNavItems">
                 <template v-for="(subNavItem, jndex) in navItem.subNavItems">
@@ -130,6 +123,9 @@ export default {
   top: 0px;
   transition: top 0.3s;
   z-index: 99;
+}
+.nav-login {
+  width: 20px;
 }
 .b-nav.hidden {
   top: -150px;

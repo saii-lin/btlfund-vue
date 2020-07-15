@@ -115,7 +115,7 @@ export default {
   opacity: 0.2;
 }
 .background-content {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
   width: 500px;
   position: absolute;
   bottom: 0px;

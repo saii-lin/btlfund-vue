@@ -202,7 +202,17 @@
     "InvestmentManagementAgreement": "投資管理協議書",
     "CorporateFATCASelf-Certification": "公司《海外帳戶稅務合規法案》自行認證",
     "IndividualFATCASelf-Certification": "個人《海外帳戶稅務合規法案》自行認證",
-    "professionalinvestor": "專業投資者"
+    "download": "請按此下載",
+    "ClientInformationFormIndividual": "客戶資料表",
+    "SelfCertificationFormIndividual(EN)": "自我證明表格個人(EN)",
+    "SelfCertificationFormIndividual(CN)": "自我證明表格個人(CN)",
+    "SelfCertificationFormControllingPerson(EN)": "自我證明表格-控權人(EN)",
+    "SelfCertificationFormControllingPerson(CN)": "自我證明表格-控權人(CN)",
+    "SelfCertificationFormEntity(EN)": "自我證明表格-實體(EN)",
+    "SelfCertificationFormEntity(CN)": "自我證明表格-實體(CN)",
+    "ProfessionalInvestors(EN)": "專業投資者(EN)",
+    "ProfessionalInvestors(CN)": "專業投資者(CN)",
+    "W-8BEN": "W-8BEN"
   },
   "resourcesandeducationcenter": {
     "Bond": "債券",
@@ -213,5 +223,9 @@
     "Options": "期權",
     "Glossary": "詞彙表",
     "QA": "常見問題"
+  },
+  "login": {
+    "LoginSystemIsUnderConstruction": "LOGIN系統正在建設中",
+    "BackToHomepage": "返回首頁"
   }
 }

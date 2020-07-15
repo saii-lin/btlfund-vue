@@ -51,7 +51,7 @@ export default {};
 .what_text p {
   font-size: 20px;
   line-height: 30px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 .what_top_text h3 {
   color: #0f4c81;

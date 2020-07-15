@@ -2,14 +2,14 @@
   <div>
     <b-layout2 :data="pageData.layout"></b-layout2>
     <div class="about">
-      <div class="about_content" id="intro">
+      <div class="about_content about_content2" id="intro">
         <div class="about_text">
           <h2>{{ $t("aboutus.Intro") }}</h2>
           <p>{{ $t("aboutus.IntroContent") }}</p>
         </div>
         <div class="about_pic about_pic3"></div>
       </div>
-      <div class="about_content" id="our-core-values">
+      <div class="about_content about_content2" id="our-core-values">
         <div class="about_pic about_pic4"></div>
         <div class="about_text">
           <h2>{{ $t("aboutus.OurCoreValues") }}</h2>
@@ -23,14 +23,14 @@
           </ul>
         </div>
       </div>
-      <div class="about_content" id="our-clients">
+      <div class="about_content about_content2" id="our-clients">
         <div class="about_text">
           <h2>{{ $t("aboutus.OurClients") }}</h2>
           <p>{{ $t("aboutus.OurClientsContent") }}</p>
         </div>
         <div class="about_pic about_pic5"></div>
       </div>
-      <div class="about_content" id="global-presence">
+      <div class="about_content about_content2" id="global-presence">
         <div class="about_pic about_pic6"></div>
         <div class="about_text">
           <h2>{{ $t("aboutus.GlobalPresence") }}</h2>
@@ -102,11 +102,15 @@ export default {
 </script>
 
 <style>
+.about_content2 {
+  margin: 100px;
+}
 .about_pic3 {
   background-image: url(/images/about3.jpg);
 }
 .about_pic4 {
   background-image: url(/images/about4.jpg);
+  height: 600px;
 }
 .about_pic5 {
   background-image: url(/images/about5.jpg);
@@ -140,5 +144,11 @@ export default {
   font-size: 35px;
   text-align: center;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 500px) {
+  .about_pic4 {
+    background-image: url(/images/about4.jpg);
+    height: calc(40vw * 0.76);
+  }
 }
 </style>

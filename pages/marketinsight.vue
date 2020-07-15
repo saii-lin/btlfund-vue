@@ -85,17 +85,21 @@ export default {
 <style>
 .market_p {
   font-size: 20px;
-  margin: 15px 0;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  max-width: 70%;
 }
 .market {
   width: 90%;
   margin: 0 auto;
 }
 .market_pic {
-  width: 200px;
+  width: 100%;
 }
 .market_content {
-  width: 200px;
+  width: 25%;
   background: rgb(240, 239, 239);
 }
 .market1 {
@@ -109,6 +113,7 @@ export default {
   font-size: 16px;
   color: rgb(54, 52, 150);
   font-weight: bold;
+  margin: 0;
 }
 .market_text {
   font-size: 14px;
@@ -120,5 +125,15 @@ export default {
 .market_title {
   font-size: 20px;
   font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+  .market_content {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .market_p {
+    margin: 20px auto;
+    max-width: 80%;
+  }
 }
 </style>

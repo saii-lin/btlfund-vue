@@ -10,9 +10,7 @@
     <div class="about_content about_content_bottom">
       <div class="about_text about_text_bottom">
         <h3>
-          {{ $t("index.block3.OurCoreValue:") }}
-          <br />
-          <strong>{{ $t("index.block3.E-T-H-I-C") }}</strong>
+          {{ $t("index.block3.E-T-H-I-C") }}
         </h3>
         <ul>
           <li>
@@ -85,10 +83,10 @@ export default {};
   font-size: 20px;
   line-height: 30px;
 }
-.about_text p,
+/* .about_text p,
 .about_text li {
   font-style: italic;
-}
+} */
 .about_text strong {
   color: #3c2373;
   font-size: 36px;
