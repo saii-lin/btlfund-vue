@@ -150,5 +150,8 @@ export default {
     background-image: url(/images/about4.jpg);
     height: calc(40vw * 0.76);
   }
+  .about_content2 {
+    margin: 0px;
+  }
 }
 </style>
