@@ -110,7 +110,7 @@ export default {
 }
 .about_pic4 {
   background-image: url(/images/about4.jpg);
-  height: 600px;
+  height: 600px !important;
 }
 .about_pic5 {
   background-image: url(/images/about5.jpg);
