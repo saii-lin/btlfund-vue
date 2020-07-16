@@ -118,10 +118,7 @@
                     <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.CostEffective") }}</li>
                     <li>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent3.LowBarriersToEntry") }}</li>
                   </ul>
-                  <div
-                    v-show="amc_text7__show === 'amc_text11'"
-                    class="amc_content"
-                  >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options2.FuturesContent2") }}</div>
+
                   <div
                     v-show="amc_text7__show === ''"
                     class="amc_content"
@@ -233,12 +230,9 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   height: 320px;
 }
-.amc_text6 .amc_grid.active {
-  grid-template-columns: repeat(1, 1fr);
-}
 .amc_text7 .amc_grid {
   grid-template-columns: repeat(2, 1fr);
-  height: 320px;
+  height: 350px;
 }
 .amc_title2 {
   padding: 5px 5px 5px 10px;
@@ -282,21 +276,6 @@ export default {
   background-image: url(/images/what-we-do2-5.jpg);
   background-size: cover;
 }
-.amc_text8.active {
-  display: none;
-}
-.amc_text9.active {
-  display: none;
-}
-.amc_text10.active {
-  display: none;
-}
-.amc_text11.active {
-  display: none;
-}
-.amc_text12.active {
-  display: none;
-}
 .int ul {
   padding: 5px;
   list-style: none;
@@ -311,9 +290,16 @@ export default {
 @media screen and (max-width: 700px) {
   .amc_text6 .amc_grid {
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    height: inherit;
   }
   .amc_text7 .amc_grid {
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    height: inherit;
+  }
+  .amc_pic_bg {
+    min-height: 200px;
   }
 }
 </style>

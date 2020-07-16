@@ -253,5 +253,11 @@ export default {
     grid-column-gap: 5px;
     grid-row-gap: 20px;
   }
+  .amc_text3 {
+    grid-column: 4/-1;
+  }
+  .amc_text4 {
+    grid-column: 4/-1;
+  }
 }
 </style>
