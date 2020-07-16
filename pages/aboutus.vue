@@ -110,7 +110,7 @@ export default {
 }
 .about_pic4 {
   background-image: url(/images/about4.jpg);
-  height: 600px !important;
+  height: 600px;
 }
 .about_pic5 {
   background-image: url(/images/about5.jpg);
@@ -147,8 +147,7 @@ export default {
 }
 @media screen and (max-width: 500px) {
   .about_pic4 {
-    background-image: url(/images/about4.jpg);
-    height: calc(40vw * 0.76);
+    height: calc(100vw * 0.76);
   }
   .about_content2 {
     margin: 0px;
