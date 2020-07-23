@@ -232,7 +232,7 @@ export default {
 }
 .amc_text7 .amc_grid {
   grid-template-columns: repeat(2, 1fr);
-  height: 350px;
+  height: 400px;
 }
 .amc_title2 {
   padding: 5px 5px 5px 10px;
@@ -271,10 +271,12 @@ export default {
 .amc_text11 {
   background-image: url(/images/what-we-do2-4.jpg);
   background-size: cover;
+  background-position: center;
 }
 .amc_text12 {
   background-image: url(/images/what-we-do2-5.jpg);
   background-size: cover;
+  background-position: center;
 }
 .int ul {
   padding: 5px;
@@ -288,7 +290,6 @@ export default {
   color: red;
 }
 @media screen and (max-width: 1920px) {
-  
 }
 @media screen and (max-width: 700px) {
   .amc_text6 .amc_grid {
