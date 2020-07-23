@@ -47,11 +47,11 @@
   {
     "name": "what-we-do",
     "image": "/images/what-we-do.jpg",
-    "title": "index.nav.WhatWeDo",
+    "title": "",
     "pages": [
       {
         "name": "asset-management",
-        "title": "whatwedo.AssetManagement",
+        "title": "whatwedo.ASSETMANAGEMENT",
         "texts": [
           {
             "type": "component",
@@ -61,7 +61,7 @@
       },
       {
         "name": "introducing-brokerage",
-        "title": "whatwedo.IntroducingBrokerage",
+        "title": "whatwedo.INTRODUCINGBROKERAGE",
         "texts": [
           {
             "type": "component",

@@ -156,18 +156,12 @@ export default {
   grid-template-rows: 1fr auto;
   grid-row-gap: 5px;
 }
+
 .amc_title {
   font-size: 20px;
   font-weight: bold;
 }
-.amc_pic_bg {
-  background: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  padding: 15px;
-  transition: 0.5s;
-  cursor: pointer;
-  min-height: 250px;
-}
+
 .amc_pic_bg:hover {
   background: rgba(105, 77, 0, 0.5);
 }
@@ -183,9 +177,7 @@ export default {
   font-size: 16px;
   line-height: 25px;
 }
-.amc_text {
-  min-height: 250px;
-}
+
 .amc_text3 {
   background-image: url(/images/what-we-do1-1.jpg);
   background-size: cover;
@@ -208,13 +200,7 @@ export default {
   width: 100%;
   grid-column: 4/-1;
 }
-.amc_pic {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 5px;
-  min-height: 505px;
-}
+
 .amc_grid {
   display: grid;
   margin-top: 20px;
@@ -240,6 +226,36 @@ export default {
 .amc_text2 .amc_content {
   font-size: 14px;
 }
+.amc_pic_bg {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+  min-height: 500px;
+}
+.amc_text {
+  min-height: 500px;
+}
+.amc_pic {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  min-height: 750px;
+}
+@media screen and (max-width: 1440px) {
+  .amc_pic {
+    min-height: 505px;
+  }
+  .amc_pic_bg {
+    min-height: 380px;
+  }
+  .amc_text {
+    min-height: 380px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .amc_pic {
     grid-template-columns: repeat(1, 1fr);

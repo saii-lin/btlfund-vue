@@ -287,6 +287,9 @@ export default {
 .int strong {
   color: red;
 }
+@media screen and (max-width: 1920px) {
+  
+}
 @media screen and (max-width: 700px) {
   .amc_text6 .amc_grid {
     grid-template-columns: repeat(1, 1fr);

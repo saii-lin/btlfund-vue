@@ -124,7 +124,7 @@
           <h4 style="height:30px;width:100%;border-bottom:1px solid ;">
             <span name="text_switch">Risk warning</span>
           </h4>
-          <p >
+          <p>
             <b>
               <span name="text_switch">
                 Investment involves risks. Past performance does not
@@ -146,7 +146,7 @@
     <v-card-actions>
       <form action role="form">
         <button type="button" class="btn btn-success sureRead" @click="$emit('agree')">
-          <span name="text_switch">AGREED</span>
+          <span name="text_switch">AGREE</span>
         </button>
         <button type="button" class="btn btn-danger cancle" @click="$emit('cancel')">
           <span name="text_switch">CANCEL</span>

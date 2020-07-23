@@ -132,6 +132,7 @@ export default {
   padding: 10px;
   margin: 0 auto;
   font-weight: bold;
+  text-align: justify;
 }
 @media screen and (max-width: 414px) {
   .background-content__text {

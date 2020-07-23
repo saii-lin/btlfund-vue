@@ -104,13 +104,14 @@ export default {
 .block4 {
   background: #fff;
   padding-bottom: 100px;
+  max-width: 80%;
+  margin: 100px auto;
 }
 .block4 > .member-grid {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 250px auto;
   /* grid-column-gap: 30px; */
-  width: 82%;
-  margin: auto;
+  width: 100%;
 }
 .block4 > h2 {
   font-size: 50px;
@@ -121,11 +122,12 @@ export default {
 }
 .block4_pic {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 0 20px;
 }
 .block4_pic0 {
   width: 210px;
-  height: calc(21vw * 0.7);
+  height: 210px;
   /* margin: 20px; */
   background-size: cover;
   cursor: pointer;
@@ -184,6 +186,7 @@ export default {
 .member-grid__content {
   margin: 20px;
   align-self: center;
+  text-align: justify;
 }
 .member-grid__content__title {
   font-size: 20px;

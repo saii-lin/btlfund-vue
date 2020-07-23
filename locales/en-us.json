@@ -2,9 +2,12 @@
   "index": {
     "nav": {
       "AboutUs": "About Us",
+      "ABOUTUS": "ABOUT US",
       "WhatWeDo": "What we do",
       "MarketInsight": "Market Insight",
+      "MARKETINSIGHT": "MARKET INSIGHT",
       "Forms": "Forms",
+      "FORMS": "FORMS",
       "ContactUs": "Contact us",
       "ResourcesAndEducationCenter": "Resources and Education Center",
       "GoogleMap": "https://www.google.com/maps/place/Chung+Nam+Building/@22.278507,114.168936,16z/data=!4m5!3m4!1s0x0:0xa062e3e689d390ab!8m2!3d22.2785068!4d114.1689358?hl=en-US",
@@ -29,7 +32,7 @@
       "MarketInsightTitle": "MARKET INSIGHT",
       "MarketInsightTitleContent": "We seek to deliver to our clients leading market insight, helping them to raise money, invest, and risk diversification across multi-financial asset classes.",
       "OurCoreValue:": "OUR CORE VALUE:",
-      "E-T-H-I-C":"ETHIC",
+      "E-T-H-I-C": "ETHIC",
       "E": "E",
       "xcellence": "xcellence",
       "T": "T",
@@ -72,7 +75,7 @@
       "QABrief": "Hong Kong Stock Market: Hong Kong Exchanges and Clearing Limited (HKEx) is the market operator of the securities trading and clearing systems. It consists of a Main Board and the Growth Enterprise Market (GEM) board for stock trading."
     },
     "block6": {
-      "ContactUs": "Contact us",
+      "ContactUs": "CONTACT US",
       "Address": "Address",
       "12FChungNamBuilding1LockhartRoadHongKong": "12/F, Chung Nam Building, 1 Lockhart Road, Hong Kong",
       "Hotline": "Hotline: +852 3701 7000",
@@ -102,6 +105,7 @@
   },
   "whatwedo": {
     "AssetManagement": "Asset Management",
+    "ASSETMANAGEMENT": "ASSET MANAGEMENT",
     "AssetManagementContent": "Our investment strategy, customised for and fully transparent to each client, is designed to create steady, long term compounding of wealth.",
     "AssetManagementContent2": {
       "InvestmentAdvisoryMandates": "Investment Advisory mandates",
@@ -131,6 +135,7 @@
       "OtherInvestmentServicesContent2": "BTL provides a wide array of investment services for our clients to capture the investment opportunities in the ever-changing markets BTL"
     },
     "IntroducingBrokerage": "Introducing Brokerage",
+    "INTRODUCINGBROKERAGE": "INTRODUCING BROKERAGE",
     "IntroducingBrokerage2": {
       "Overview&Benefits": "Overview & Benefits",
       "Overview&BenefitsContent": "BTL is committed to serving the introducing brokerage services in most of the major equity and futures markets worldwide including Hong Kong and US.  With our strong company background, speedy account set up process with our professional team, our clients can enjoy trading with sophisticated one-stop Interactive Brokers trading trading platform. Our transparent, low commissions and financing rates, and support for best price executions minimize your costs to help you maximize your returns.",

@@ -173,6 +173,7 @@ export default {
   font-size: 16px;
   font-weight: bold;
 }
+
 .form_text,
 .forms_title2,
 .download {
@@ -198,9 +199,23 @@ export default {
   color: rgb(150, 116, 43) !important;
 }
 .forms_title {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   margin: 20px;
+  text-align: center;
+  position: relative;
+  margin: 100px 0;
+}
+.forms_title::after {
+  content: "";
+  position: absolute;
+  top: 150%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #ccc;
+  width: 95%;
+  margin: auto;
 }
 .forms li {
   padding: 10px;

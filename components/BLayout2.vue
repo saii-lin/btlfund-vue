@@ -23,7 +23,7 @@ export default {
 <style scoped>
 .layout2 {
   width: 100%;
-  height: 60vh;
+  height: 600px;
   background-size: cover;
   position: relative;
 }
@@ -31,18 +31,22 @@ export default {
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   bottom: 0;
+  padding: 10px 0px;
 }
 .layout2_title {
   font-size: 50px;
-  padding: 10px;
   color: #333333;
   font-weight: bold;
-   font-family: 'MS Gothic';
-
+  font-family: "MS Gothic";
+  text-transform: uppercase;
+  padding: 0 10px;
 }
-.layout2_title2 {
+/* .layout2_title1{
+padding: 10px;
+} */
+/* .layout2_title2 {
   margin-left: 170px;
-}
+} */
 @media screen and (max-width: 500px) {
   .layout2_title2 {
     margin-left: 0px;
