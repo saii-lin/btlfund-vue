@@ -9,9 +9,7 @@
     </div>
     <div class="about_content about_content_bottom">
       <div class="about_text about_text_bottom">
-        <h3>
-          {{ $t("index.block3.E-T-H-I-C") }}
-        </h3>
+        <h3>{{ $t("index.block3.E-T-H-I-C") }}</h3>
         <ul>
           <li>
             <strong>{{ $t("index.block3.E") }}</strong>
@@ -141,6 +139,8 @@ export default {};
   }
   .about_text {
     width: 90vw;
+    
+    
   }
   .about_text h3 {
     font-size: 25px;
@@ -151,6 +151,8 @@ export default {};
   .about_text p {
     font-size: 14px;
     line-height: 20px;
+    text-align: justify;
+    
   }
   .about_text li {
     font-size: 14px;

@@ -125,6 +125,7 @@ export default {
 .about_text h2,
 .about_text p {
   margin: 15px 20px !important;
+  text-align: justify;
 }
 .about_text ul {
   list-style: none !important;
@@ -134,6 +135,7 @@ export default {
 .about_text li {
   line-height: 25px;
   padding-bottom: 5px;
+  text-align: justify;
 }
 .about_map {
   width: 80%;
