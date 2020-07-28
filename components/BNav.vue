@@ -14,7 +14,7 @@
               <!-- <img src="/images/nav1.png" /> -->
             </li>
             <li>
-              <nuxt-link :to="switchLocalePath('en-us')">Eng</nuxt-link>
+              <nuxt-link :to="switchLocalePath('en-us')">ENG</nuxt-link>
             </li>
             <li>
               <nuxt-link :to="switchLocalePath('zh-tw')">繁</nuxt-link>
@@ -175,6 +175,9 @@ export default {
 .navbar-grid .search:focus {
   border-color: #0f4c81;
   outline: none;
+}
+.navbar-grid li{
+font-size: 16px;
 }
 .search_pic {
   width: 35px;

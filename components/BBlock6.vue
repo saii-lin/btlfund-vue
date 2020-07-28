@@ -72,7 +72,7 @@ export default {
 .contact h2 {
   font-size: 50px;
   text-align: center;
-  padding: 20px;
+  padding: 40px 50px 60px;
 }
 .contact_content {
   display: grid;

@@ -227,5 +227,12 @@
   "login": {
     "LoginSystemIsUnderConstruction": "LOGIN系统正在建设中",
     "BackToHomepage": "返回首页"
+  },
+  "footer": {
+    "WealthBuildingIsTheMasteringOfQualityAndQuantity": "理财重质.创富重量",
+    "©2020-BTLAssetManagementCompanyLtd": "©2020-BTL Asset Management Company Ltd",
+    "FollowUs": "关注我们：",
+    "FAQ": "常见问题",
+    "Disclaimers&PrivacyPolicyStatements": "免责声明及私隐政策"
   }
 }

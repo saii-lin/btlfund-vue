@@ -168,8 +168,8 @@
 <script>
 export default {
   data: () => ({
-    size: 100
-  })
+    size: 100,
+  }),
 };
 </script>
 
@@ -183,7 +183,7 @@ export default {
 .block5 h2 {
   background: #0f4c81;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
   font-size: 50px;
   text-align: center;
   margin: 0;

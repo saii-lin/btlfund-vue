@@ -5,9 +5,9 @@ html {
 }
 
 h3, h2 {
-  font-family: 'MS Gothic';
+  font-family: 'MS Gothic', "微軟正黑體", "微軟雅黑體", "Microsoft JhengHei", "Arial", "sans-serif";
 }
 
-p, div,strong {
-  font-family: 'Yu Gothic Medium';
+p, div, strong {
+  font-family: 'Yu Gothic Medium', "微軟正黑體", "微軟雅黑體", "Microsoft JhengHei", "Arial", "sans-serif";
 }

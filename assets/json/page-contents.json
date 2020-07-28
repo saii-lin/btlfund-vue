@@ -51,7 +51,7 @@
     "pages": [
       {
         "name": "asset-management",
-        "title": "whatwedo.ASSETMANAGEMENT",
+        "title": "whatwedo.AssetManagement",
         "texts": [
           {
             "type": "component",
@@ -61,7 +61,7 @@
       },
       {
         "name": "introducing-brokerage",
-        "title": "whatwedo.INTRODUCINGBROKERAGE",
+        "title": "whatwedo.IntroducingBrokerage",
         "texts": [
           {
             "type": "component",

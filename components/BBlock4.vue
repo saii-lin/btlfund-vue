@@ -62,7 +62,7 @@ export default {
   data: () => ({
     dialog: false,
     members: [],
-    size: 210
+    size: 210,
   }),
   mounted() {
     this.members = [
@@ -71,32 +71,32 @@ export default {
         title: this.$t("index.block4.MrTangChiHong"),
         texts: [
           this.$t("index.block4.MrTangChiHongContent"),
-          this.$t("index.block4.MrTangChiHongContent2")
-        ]
+          this.$t("index.block4.MrTangChiHongContent2"),
+        ],
       },
       {
         src: "/images/block4-2.png",
         title: this.$t("index.block4.MrLuiChiLung"),
-        texts: [this.$t("index.block4.MrLuiChiLungContent")]
+        texts: [this.$t("index.block4.MrLuiChiLungContent")],
       },
       {
         src: "/images/block4-3.png",
         title: this.$t("index.block4.MrYeungChungWingMichel"),
-        texts: [this.$t("index.block4.MrYeungChungWingMichelContent")]
+        texts: [this.$t("index.block4.MrYeungChungWingMichelContent")],
       },
       {
         src: "/images/block4-4.png",
         title: "",
-        texts: []
-      }
+        texts: [],
+      },
     ];
   },
   methods: {
     openDialog(index) {
       this.dialog = true;
       this.$refs.carouselItems[index].toggle();
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -115,7 +115,7 @@ export default {
 }
 .block4 > h2 {
   font-size: 50px;
-  padding: 30px;
+  padding: 20px;
   width: fit-content;
   margin: auto;
   color: #0f4c81;

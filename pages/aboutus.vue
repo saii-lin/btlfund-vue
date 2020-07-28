@@ -63,41 +63,41 @@ export default {
   scrollToTop: true,
   components: {
     BLayout2,
-    BFooterSiteMap
+    BFooterSiteMap,
   },
   data: () => ({
-    pageContents
+    pageContents,
   }),
   mounted() {
     this.scrollto();
   },
   computed: {
     pageData() {
-      const target = pageContents.find(x => x.name === "about-us");
+      const target = pageContents.find((x) => x.name === "about-us");
       if (target) {
         return {
           layout: {
             title: this.$t(target.title),
-            image: target.image
-          }
+            image: target.image,
+          },
         };
       }
-    }
+    },
   },
   methods: {
     scrollto() {
       if (location.hash) {
         this.$scrollTo(location.hash, 1000, {
-          container: ".body"
+          container: ".body",
         });
       }
-    }
+    },
   },
   watch: {
     $route() {
       this.scrollto();
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -110,7 +110,7 @@ export default {
 }
 .about_pic4 {
   background-image: url(/images/about4.jpg);
-  height: 600px;
+  height: 600px !important;
 }
 .about_pic5 {
   background-image: url(/images/about5.jpg);

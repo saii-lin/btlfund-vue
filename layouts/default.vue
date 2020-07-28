@@ -20,6 +20,7 @@
     <v-dialog v-model="disclaimDialog" max-width="670px" persistent>
       <b-disclaim @close="disclaimDialog = false"></b-disclaim>
     </v-dialog>
+    <b-footer></b-footer>
   </div>
 </template>
 <script>
@@ -27,19 +28,21 @@ import BNav from "~/components/BNav";
 import BNavMobile from "~/components/BNavMobile";
 import BTop from "~/components/BTop";
 import BDisclaim from "~/components/BDisclaim";
+import BFooter from "~/components/BFooter";
 export default {
   components: {
     BNav,
     BNavMobile,
     BTop,
-    BDisclaim
+    BDisclaim,
+    BFooter,
   },
   data: () => ({
     scrollTop: 0,
     downward: false,
     contentWidth: 0,
     showGoToTopBtn: false,
-    disclaimDialog: true
+    disclaimDialog: true,
   }),
   mounted() {
     this.contentWidth = this.$refs.content.offsetWidth;
@@ -54,13 +57,13 @@ export default {
       this.scrollTop = position.scrollTop;
       this.showGoToTopBtn =
         position.scrollTop > this.$vuetify.breakpoint.height;
-    }
+    },
   },
   watch: {
     $route() {
       this.$refs.body.scrollTop = 0;
-    }
-  }
+    },
+  },
 };
 </script>
 <style>

@@ -232,5 +232,13 @@
   "login": {
     "LoginSystemIsUnderConstruction": "LOGIN system is under construction",
     "BackToHomepage": "Back to home"
+  },
+  "footer":{
+    "WealthBuildingIsTheMasteringOfQualityAndQuantity":"Wealth Building Is The Mastering Of Quality And Quantity",
+    "©2020-BTLAssetManagementCompanyLtd":"©2020-BTL Asset Management Company Ltd",
+    "FollowUs":"Follow us：",
+    "FAQ":"FAQ",
+    "Disclaimers&PrivacyPolicyStatements":"Disclaimers & Privacy Policy Statements"
+
   }
 }

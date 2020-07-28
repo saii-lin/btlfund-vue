@@ -164,4 +164,11 @@ export default {};
 .v-card__text {
   background: #eee;
 }
+/* p {
+  text-align: justify;
+} */
+.alert-warning {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 </style>

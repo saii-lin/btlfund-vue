@@ -17,7 +17,6 @@ import BBlock3 from "~/components/BBlock3.vue";
 import BBlock4 from "~/components/BBlock4.vue";
 import BBlock5 from "~/components/BBlock5.vue";
 import BBlock6 from "~/components/BBlock6.vue";
-import BFooter from "~/components/BFooter";
 export default {
   scrollToTop: true,
   components: {
@@ -27,15 +26,14 @@ export default {
     BBlock4,
     BBlock5,
     BBlock6,
-    BFooter
   },
   mounted() {
     if (this.$route.hash === "#contactus") {
       this.$scrollTo(".contact", 1000, {
-        container: ".body"
+        container: ".body",
       });
     }
-  }
+  },
 };
 </script>
 

@@ -37,7 +37,7 @@ export default {
   font-size: 50px;
   color: #333333;
   font-weight: bold;
-  font-family: "MS Gothic";
+  font-family: "MS Gothic", "微軟正黑體", "微軟雅黑體", "Microsoft JhengHei", "Arial", "sans-serif";
   text-transform: uppercase;
   padding: 0 10px;
 }

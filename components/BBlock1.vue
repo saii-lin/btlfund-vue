@@ -125,6 +125,7 @@ export default {
   font-size: 50px;
   padding: 10px;
   margin: 0;
+  color: #585858;
 }
 .background-content__text {
   font-size: 20px;
@@ -133,6 +134,7 @@ export default {
   margin: 0 auto;
   font-weight: bold;
   text-align: justify;
+   color: #414141;
 }
 @media screen and (max-width: 414px) {
   .background-content__text {

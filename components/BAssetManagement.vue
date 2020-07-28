@@ -142,9 +142,9 @@
 export default {
   data() {
     return {
-      amc_text__show: ""
+      amc_text__show: "",
     };
-  }
+  },
 };
 </script>
 
@@ -199,6 +199,7 @@ export default {
   background-size: cover;
   width: 100%;
   grid-column: 4/-1;
+  background-position: center;
 }
 
 .amc_grid {
