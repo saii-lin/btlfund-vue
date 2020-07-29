@@ -182,6 +182,7 @@ export default {
   background-image: url(/images/what-we-do1-1.jpg);
   background-size: cover;
   grid-column: 1/3;
+  background-position: center;
 }
 .amc_text4 {
   background-image: url(/images/what-we-do1-2.jpg);

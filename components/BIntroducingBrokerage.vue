@@ -8,7 +8,7 @@
           <div
             class="amc_title"
           >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Securities") }}</div>
-          <div class="amc_grid">
+          <div :class="['amc_grid', amc_text6__show !== '' ? 'amc_grid__expand' : '']">
             <div
               class="amc_text2 amc_text8"
               v-show="amc_text6__show === 'amc_text8' || amc_text6__show === ''"
@@ -91,7 +91,10 @@
           <div
             class="amc_title"
           >{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent2.Futures&Options") }}</div>
-          <div class="amc_grid">
+          <div
+            :class="['amc_grid', amc_text7__show !== '' ? 'amc_grid__expand' : '']"
+            class="amc_grid"
+          >
             <div
               class="amc_text2 amc_text11"
               v-show="amc_text7__show === 'amc_text11' || amc_text7__show === ''"
@@ -186,9 +189,9 @@ export default {
   data() {
     return {
       amc_text6__show: "",
-      amc_text7__show: ""
+      amc_text7__show: "",
     };
-  }
+  },
 };
 </script>
 
@@ -230,9 +233,15 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   height: 320px;
 }
+.amc_text6 .amc_grid__expand {
+  height: 950px;
+}
 .amc_text7 .amc_grid {
   grid-template-columns: repeat(2, 1fr);
-  height: 400px;
+  height: 500px;
+}
+.amc_text7 .amc_grid__expand {
+  height: 950px;
 }
 .amc_title2 {
   padding: 5px 5px 5px 10px;
@@ -288,8 +297,6 @@ export default {
 }
 .int strong {
   color: red;
-}
-@media screen and (max-width: 1920px) {
 }
 @media screen and (max-width: 700px) {
   .amc_text6 .amc_grid {
