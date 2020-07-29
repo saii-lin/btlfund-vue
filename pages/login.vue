@@ -1,13 +1,15 @@
 <template>
   <div>
     <div class="login">
-      <div class="login_content">
-        <div class="login_title">{{ $t("login.LoginSystemIsUnderConstruction") }}</div>
-        <div class="login_btn">
-          <nuxt-link
-            class="to-home-link back_home"
-            :to="localePath('/')"
-          >{{ $t("login.BackToHomepage") }}</nuxt-link>
+      <div class="login_bg">
+        <div class="login_content">
+          <div class="login_title">{{ $t("login.LoginSystemIsUnderConstruction") }}</div>
+          <div class="login_btn">
+            <nuxt-link
+              class="to-home-link back_home"
+              :to="localePath('/')"
+            >{{ $t("login.BackToHomepage") }}</nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -26,6 +28,11 @@ export default {};
   height: 82vh;
   margin: 0;
   position: relative;
+}
+.login_bg {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
 }
 .login_content {
   position: absolute;

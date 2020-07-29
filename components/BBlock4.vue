@@ -215,7 +215,7 @@ export default {
     display: block !important;
   }
   .block4_pic0 {
-    width: 80vw !important;
+    width: 70vw !important;
     height: 300px;
     margin: 20px auto !important;
     position: relative;

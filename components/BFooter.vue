@@ -28,7 +28,8 @@
       <ul class="footer_flex footer_ul2">
         <li>{{ $t("footer.©2020-BTLAssetManagementCompanyLtd") }}</li>
         <li class="footer_line">
-          <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("footer.FAQ") }}</nuxt-link>
+          <a href>{{ $t("footer.FAQ") }}</a>
+          <!-- <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("footer.FAQ") }}</nuxt-link> -->
         </li>
         <li>
           <a href>{{ $t("footer.Disclaimers&PrivacyPolicyStatements") }}</a>
@@ -111,5 +112,31 @@ export default {};
   transform: translatey(-50%);
   border-left: 1px solid #fff;
   height: 10px;
+}
+@media screen and (max-width: 500px) {
+  .footer_title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .footer_content {
+    padding: 20px;
+  }
+  .footer_title::after {
+    top: 120%;
+    width: 200px;
+  }
+  .footer_ul2 {
+    display: grid;
+  }
+  .footer_ul2 li {
+    text-align: center;
+    padding: 10px;
+  }
+  .footer_line::after {
+    border-right: 0px solid #fff;
+  }
+  .footer_line::before {
+    border-left: 0px solid #fff;
+  }
 }
 </style>
