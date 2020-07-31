@@ -88,7 +88,7 @@ export default {
   line-height: 30px;
   text-align: center;
   display: block;
-  margin: 20px auto;
+  margin: 50px auto;
   max-width: 70%;
 }
 .market {

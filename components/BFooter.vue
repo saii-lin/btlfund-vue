@@ -117,6 +117,7 @@ export default {};
   .footer_title {
     font-size: 30px;
     margin-bottom: 20px;
+    padding: 5px;
   }
   .footer_content {
     padding: 20px;
@@ -125,12 +126,15 @@ export default {};
     top: 120%;
     width: 200px;
   }
+  .footer_ul1 li {
+    padding: 5px;
+  }
   .footer_ul2 {
     display: grid;
   }
   .footer_ul2 li {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
   .footer_line::after {
     border-right: 0px solid #fff;

@@ -251,6 +251,9 @@ export default {
   .block4_pic0 {
     height: 200px !important;
   }
+  .block4 {
+    margin: 10px auto;
+  }
 }
 </style>
 <style>
