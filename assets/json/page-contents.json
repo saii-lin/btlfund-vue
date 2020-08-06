@@ -57,7 +57,8 @@
             "type": "component",
             "name": "BAssetManagement"
           }
-        ]
+        ],
+        "backgroundPosition": "center bottom"
       },
       {
         "name": "introducing-brokerage",

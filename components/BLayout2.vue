@@ -1,5 +1,8 @@
 <template>
-  <div class="layout2" :style="{ backgroundImage: `url(${data.image})` }">
+  <div
+    class="layout2"
+    :style="{ backgroundImage: `url(${data.image})`}"
+  >
     <div class="layout2_text">
       <div class="layout2_title layout2_title1">{{ data.title }}</div>
       <div class="layout2_title layout2_title2">{{ data.subTitle }}</div>
@@ -14,9 +17,9 @@ export default {
       type: Object,
       default() {
         return {};
-      }
-    }
-  }
+      },
+    },
+  },
 };
 </script>
 
@@ -26,6 +29,7 @@ export default {
   height: 600px;
   background-size: cover;
   position: relative;
+  /* background-position: center bottom; */
 }
 .layout2_text {
   background: rgba(255, 255, 255, 0.5);
@@ -37,7 +41,8 @@ export default {
   font-size: 50px;
   color: #333333;
   font-weight: bold;
-  font-family: "MS Gothic", "微軟正黑體", "微軟雅黑體", "Microsoft JhengHei", "Arial", "sans-serif";
+  font-family: "MS Gothic", "微軟正黑體", "微軟雅黑體", "Microsoft JhengHei",
+    "Arial", "sans-serif";
   text-transform: uppercase;
   padding: 0 10px;
 }
@@ -51,5 +56,8 @@ padding: 10px;
   .layout2_title2 {
     margin-left: 0px;
   }
+  .layout2 {
+  height: 250px;
+}
 }
 </style>

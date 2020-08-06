@@ -4,21 +4,21 @@
       <h2 class="footer_title">{{ $t("footer.WealthBuildingIsTheMasteringOfQualityAndQuantity") }}</h2>
       <ul class="footer_flex footer_ul1">
         <li class="footer_follow">{{ $t("footer.FollowUs") }}</li>
-        <li>
+        <!-- <li>
           <a href>
             <img src="/images/footer1.png" alt />
           </a>
-        </li>
+        </li>-->
         <li>
           <a href>
             <img src="/images/footer2.png" alt />
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href>
             <img src="/images/footer3.png" alt />
           </a>
-        </li>
+        </li>-->
         <li>
           <a href>
             <img src="/images/footer4.png" alt />
@@ -28,8 +28,8 @@
       <ul class="footer_flex footer_ul2">
         <li>{{ $t("footer.©2020-BTLAssetManagementCompanyLtd") }}</li>
         <li class="footer_line">
-          <a href>{{ $t("footer.FAQ") }}</a>
-          <!-- <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("footer.FAQ") }}</nuxt-link> -->
+          <!-- <a href>{{ $t("footer.FAQ") }}</a> -->
+          <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("footer.FAQ") }}</nuxt-link>
         </li>
         <li>
           <a href>{{ $t("footer.Disclaimers&PrivacyPolicyStatements") }}</a>

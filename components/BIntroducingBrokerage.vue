@@ -1,8 +1,10 @@
 <template>
   <div>
     <div class="int">
-      <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&Benefits") }}</p>
-      <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent") }}</p>
+      <div class="int_title">
+        <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&Benefits") }}</p>
+        <p>{{ $t("whatwedo.IntroducingBrokerage2.Overview&BenefitsContent") }}</p>
+      </div>
       <div class="amc_pic">
         <div class="amc_text amc_text6">
           <div
@@ -196,6 +198,9 @@ export default {
 </script>
 
 <style scoped>
+.int_title {
+  margin: 100px auto;
+}
 .amc_title {
   font-size: 20px;
   font-weight: bold;
@@ -311,6 +316,11 @@ export default {
   }
   .amc_pic_bg {
     min-height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .int_title {
+    margin: 50px auto;
   }
 }
 </style>

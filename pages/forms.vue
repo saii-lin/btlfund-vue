@@ -156,6 +156,9 @@ export default {
 </script>
 
 <style>
+.forms{
+  margin:100px auto;
+}
 .forms_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

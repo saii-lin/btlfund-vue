@@ -104,7 +104,7 @@ export default {
 .block4 {
   background: #fff;
   padding-bottom: 100px;
-  max-width: 80%;
+  max-width: 78%;
   margin: 100px auto;
 }
 .block4 > .member-grid {

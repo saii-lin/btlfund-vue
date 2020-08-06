@@ -160,5 +160,8 @@ export default {};
   .about_content {
     margin: 0px;
   }
+  .about_text_bottom{
+    padding: 20px;
+  }
 }
 </style>

@@ -38,7 +38,7 @@
               </b>
             </p>
           </div>
-          <h4 style="height:30px;width:100%;border-bottom:1px solid ;">
+          <h4 style="width:100%;border-bottom:1px solid ;">
             <span name="text_switch">Does not constitute an offer / local restriction</span>
           </h4>
           <p>
@@ -161,6 +161,9 @@ export default {};
 </script>
 
 <style>
+h4{
+  height:30px;
+}
 .v-card__text {
   background: #eee;
 }
@@ -171,4 +174,10 @@ export default {};
   margin: 0 !important;
   padding: 0 !important;
 }
+@media screen and (max-width: 500px) {
+h4{
+  height:50px;
+}
+}
+
 </style>

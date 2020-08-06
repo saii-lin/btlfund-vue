@@ -156,7 +156,9 @@ export default {
   grid-template-rows: 1fr auto;
   grid-row-gap: 5px;
 }
-
+.amc>p{
+  margin: 100px auto;
+}
 .amc_title {
   font-size: 20px;
   font-weight: bold;
@@ -277,5 +279,8 @@ export default {
   .amc_text4 {
     grid-column: 4/-1;
   }
+  .amc>p{
+  margin: 50px auto;
+}
 }
 </style>

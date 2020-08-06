@@ -17,32 +17,34 @@ export default {
   components: {
     BLayout2,
     BContent,
-    BFooterSiteMap
+    BFooterSiteMap,
   },
   data: () => ({
-    pageContents
+    pageContents,
   }),
   computed: {
     pageData() {
-      const target = pageContents.find(x => x.name === "what-we-do");
+      const target = pageContents.find((x) => x.name === "what-we-do");
       if (target) {
-        const page = target.pages.find(x => x.name === this.$route.params.type);
+        const page = target.pages.find(
+          (x) => x.name === this.$route.params.type
+        );
         return {
           layout: {
             title: this.$t(target.title),
             subTitle: this.$t(page.title),
-            image: target.image
+            image: target.image,
+            backgroundPosition: page.backgroundPosition,
           },
           content: {
-            texts: page.texts
-          }
+            texts: page.texts,
+          },
         };
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style scoped>
-
 </style>
