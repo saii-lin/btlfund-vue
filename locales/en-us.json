@@ -207,8 +207,8 @@
     "ClientInformationForm(CNC)": "Client Information Form–Individual/Joint Account(EN/CNC)",
     "InvestmentManagementAgreement(CN)": "Investment Management Agreement–Individual/Joint Account(EN/CN)",
     "InvestmentManagementAgreement(CNC)": "Investment Management Agreement–Individual/Joint Account(EN/CNC)",
-    "ClientInformationForm–CorporateAccount(CN)": "Client Information Form–Corporate Account(CN)",
-    "ClientInformationForm–CorporateAccount(CNC)": "Client Information Form–Corporate Account(CNC)",
+    "ClientInformationForm–CorporateAccount(CN)": "Client Information Form–Corporate Account(EN/CN)",
+    "ClientInformationForm–CorporateAccount(CNC)": "Client Information Form–Corporate Account(EN/CNC)",
     "InvestmentManagementAgreement-CorporateAccount(CN)": "Investment Management Agreement–Corporate Account(EN/CN)",
     "InvestmentManagementAgreement-CorporateAccount(CNC)": "Investment Management Agreement–Corporate Account(EN/CNC)",
     "CorporateFATCASelf-Certification(CN)": "Corporate FATCA Self-Certification(EN/CN)",
@@ -227,7 +227,7 @@
     "ProfessionalInvestors(EN)": "Professional Investors(EN)",
     "ProfessionalInvestors(CN)": "Professional Investors(CN)",
     "ProfessionalInvestors(CNC)": "Professional Investors(CNC)",
-    "W-8BEN": "W-8BEN(EN)"
+    "W-8BEN": "W-8BEN"
   },
   "resourcesandeducationcenter": {
     "Bond": "Bond",

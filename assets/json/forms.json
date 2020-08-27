@@ -1,0 +1,181 @@
+[
+  {
+    "text": "forms.ClientInformationForm(CN)",
+    "link": "/pdf/BTL individual agreement & information form Aug 2020 (Eng + Trad Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.ClientInformationForm(CNC)",
+    "link": "/pdf/BTL individual agreement & information form Aug 2020 (Eng + Simp Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.InvestmentManagementAgreement(CN)",
+    "link": "/pdf/BTL Individual Investment Management Agreement Aug 2020 (Eng + Trad Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.InvestmentManagementAgreement(CNC)",
+    "link": "/pdf/BTL Individual Investment Management Agreement Aug 2020 (Eng + Simp Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.ClientInformationForm–CorporateAccount(CN)",
+    "link": "/pdf/BTL Company agreement & information form Aug 2020 (Eng + Trad Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.ClientInformationForm–CorporateAccount(CNC)",
+    "link": "/pdf/BTL Company agreement & information form Aug 2020 (Eng + Simp Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.InvestmentManagementAgreement-CorporateAccount(CN)",
+    "link": "/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Trad Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.InvestmentManagementAgreement-CorporateAccount(CNC)",
+    "link": "/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Simp Chi).pdf.pdf",
+    "locales": [
+      "en-us",
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.CorporateFATCASelf-Certification(CN)",
+    "link": "/pdf/海外帳戶稅務合規法案(公司).xps",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.IndividualFATCASelf-Certification(CN)",
+    "link": "/pdf/Individual FATCA Self-Certification Ver1.2 082018 (Eng, Trad Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.IndividualFATCASelf-Certification(CNC)",
+    "link": "/pdf/Individual FATCA Self-Certification Ver1.2 082018 (Eng, Simp Chi).pdf",
+    "locales": [
+      "en-us",
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.ProfessionalInvestors(EN)",
+    "link": "/pdf/Professional Investors (eng) Mar 2019 Ver 1.2.pdf",
+    "locales": [
+      "en-us"
+    ]
+  },
+  {
+    "text": "forms.ProfessionalInvestors(CN)",
+    "link": "/pdf/專業投資者 Ver1.3 082018.pdf",
+    "locales": [
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.ProfessionalInvestors(CNC)",
+    "link": "/pdf/專業投資者 (simp chi).pdf",
+    "locales": [
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormControllingPerson(EN)",
+    "link": "/pdf/CRS-ControllingPerson(eng).pdf",
+    "locales": [
+      "en-us"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormControllingPerson(CN)",
+    "link": "/pdf/CRS-ControllingPerson(chi).pdf",
+    "locales": [
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormControllingPerson(CNC)",
+    "link": "/pdf/CRS-ControllingPerson(simp chi).pdf",
+    "locales": [
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormIndividual(EN)",
+    "link": "/pdf/CRS-ControllingPerson(eng).pdf",
+    "locales": [
+      "en-us"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormIndividual(CN)",
+    "link": "/pdf/CRS-Individual(chi) Ver1.1.pdf",
+    "locales": [
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormIndividual(CNC)",
+    "link": "/pdf/CRS-Individual(simp chi) Ver1.1.pdf",
+    "locales": [
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormEntity(EN)",
+    "link": "/pdf/CRS-Entity(eng).pdf",
+    "locales": [
+      "en-us"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormEntity(CN)",
+    "link": "/pdf/CRS-ControllingPerson(chi).pdf",
+    "locales": [
+      "zh-tw"
+    ]
+  },
+  {
+    "text": "forms.SelfCertificationFormEntity(CNC)",
+    "link": "/pdf/CRS-ControllingPerson(simp chi).pdf",
+    "locales": [
+      "zh-cn"
+    ]
+  },
+  {
+    "text": "forms.W-8BEN",
+    "link": "/pdf/W-8BEN.pdf",
+    "locales": [
+      "en-us"
+    ]
+  }
+]

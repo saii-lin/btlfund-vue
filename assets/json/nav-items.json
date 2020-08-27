@@ -65,18 +65,7 @@
   {
     "name": "Forms",
     "text": "index.nav.Forms",
-    "subNavItems": [
-      {
-        "name": "Asset Management Forms",
-        "text": "Forms(ENG)",
-        "link": "/forms#asset-management-forms"
-      },
-      {
-        "name": "Brokerage Forms",
-        "text": "表格(繁/簡)",
-        "link": "/forms#brokerage-forms"
-      }
-    ]
+    "link": "/forms"
   },
   {
     "name": "Resource and Education Center",

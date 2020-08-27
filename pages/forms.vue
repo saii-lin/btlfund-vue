@@ -3,298 +3,33 @@
     <b-layout2 :data="pageData.layout"></b-layout2>
     <div class="forms">
       <div id="asset-management-forms" class="forms_title">Forms(ENG)</div>
-      <div class="forms_grid">
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ClientInformationForm(CN)") }}</div>
+      <div class="forms_flex">
+        <div v-for="(form, index) in forms_onlyEnus" :key="index" class="forms_content">
+          <div class="forms_title2">{{ $t(form.text) }}</div>
           <div class="form_text">{{ $t("forms.download") }}</div>
           <div class="download">
             <a
               class="download_a"
-              href="/pdf/BTL individual agreement & information form Aug 2020 (Eng + Trad Chi).pdf"
+              :href="form.link"
               download
             >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.InvestmentManagementAgreement(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Individual Investment Management Agreement Aug 2020 (Eng + Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ClientInformationForm–CorporateAccount(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Company agreement & information form Aug 2020 (Eng + Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div
-            class="forms_title2"
-          >{{ $t("forms.InvestmentManagementAgreement-CorporateAccount(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.CorporateFATCASelf-Certification(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/海外帳戶稅務合規法案(公司).xps" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.IndividualFATCASelf-Certification(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/Individual FATCA Self-Certification Ver1.2 082018 (Eng, Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ProfessionalInvestors(EN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/Professional Investors (eng) Mar 2019 Ver 1.2.pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormControllingPerson(EN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-ControllingPerson(eng).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormIndividual(EN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-Individual(eng).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormEntity(EN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-Entity(cng).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.W-8BEN") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/W-8BEN.pdf" download>PDF</a>
           </div>
         </div>
       </div>
       <div id="brokerage-forms" class="forms_title">表格(繁/簡)</div>
       <div class="forms_grid">
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ClientInformationForm(CN)") }}</div>
+        <div v-for="(form, index) in forms_others" :key="index" class="forms_content">
+          <div class="forms_title2">{{ $t(form.text) }}</div>
           <div class="form_text">{{ $t("forms.download") }}</div>
           <div class="download">
             <a
               class="download_a"
-              href="/pdf/BTL individual agreement & information form Aug 2020 (Eng + Trad Chi).pdf"
+              :href="form.link"
               download
             >PDF</a>
           </div>
         </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.InvestmentManagementAgreement(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Individual Investment Management Agreement Aug 2020 (Eng + Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ClientInformationForm–CorporateAccount(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Company agreement & information form Aug 2020 (Eng + Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div
-            class="forms_title2"
-          >{{ $t("forms.InvestmentManagementAgreement-CorporateAccount(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.CorporateFATCASelf-Certification(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/海外帳戶稅務合規法案(公司).xps" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.IndividualFATCASelf-Certification(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/Individual FATCA Self-Certification Ver1.2 082018 (Eng, Trad Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ProfessionalInvestors(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/專業投資者 Ver1.3 082018.pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormControllingPerson(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-ControllingPerson(chi).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormIndividual(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-Individual(chi) Ver1.1.pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormEntity(CN)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-Entity(chi).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ClientInformationForm(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL individual agreement & information form Aug 2020 (Eng + Simp Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.InvestmentManagementAgreement(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Individual Investment Management Agreement Aug 2020 (Eng + Simp Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ClientInformationForm–CorporateAccount(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Company agreement & information form Aug 2020 (Eng + Simp Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div
-            class="forms_title2"
-          >{{ $t("forms.InvestmentManagementAgreement-CorporateAccount(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Simp Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.CorporateFATCASelf-Certification(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/海外帳戶稅務合規法案(公司).xps" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.IndividualFATCASelf-Certification(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a
-              class="download_a"
-              href="/pdf/Individual FATCA Self-Certification Ver1.2 082018 (Eng, simp Chi).pdf"
-              download
-            >PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.ProfessionalInvestors(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/專業投資者 (simp chi).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormControllingPerson(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-ControllingPerson(simp chi).pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormIndividual(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-Individual(simp chi) Ver1.1.pdf" download>PDF</a>
-          </div>
-        </div>
-        <div class="forms_content">
-          <div class="forms_title2">{{ $t("forms.SelfCertificationFormEntity(CNC)") }}</div>
-          <div class="form_text">{{ $t("forms.download") }}</div>
-          <div class="download">
-            <a class="download_a" href="/pdf/CRS-Entity(simp chi)" download>PDF</a>
-          </div>
-        </div>
-      </div>
+      </div> 
     </div>
     <b-footer-site-map></b-footer-site-map>
   </div>
@@ -304,6 +39,7 @@
 import pageContents from "@/assets/json/page-contents.json";
 import BLayout2 from "~/components/BLayout2.vue";
 import BFooterSiteMap from "~/components/BFooterSiteMap.vue";
+import forms from "@/assets/json/forms.json";
 export default {
   scrollToTop: true,
   components: {
@@ -317,6 +53,12 @@ export default {
     this.scrollto();
   },
   computed: {
+    forms_onlyEnus() {
+      return forms.filter(f => f.locales.includes('en-us') && f.locales.length === 1)
+    },
+    forms_others() {
+      return forms.filter(f1 => !this.forms_onlyEnus.map(f2 => f2.text).includes(f1.text))
+    },
     pageData() {
       const target = pageContents.find((x) => x.name === "forms");
       if (target) {
@@ -353,9 +95,9 @@ export default {
 .forms_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
-.forms_flax {
+.forms_flex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }

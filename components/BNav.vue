@@ -104,12 +104,16 @@ export default {
     },
     scrollto(target) {
       if (target.link) {
-        if (this.$route.name.startsWith("index")) {
-          this.$scrollTo(target.scrollto, 1000, {
-            container: ".body"
-          });
+        if(target.scrollto) {
+          if (this.$route.name.startsWith("index")) {
+            this.$scrollTo(target.scrollto, 1000, {
+              container: ".body"
+            });
+          } else {
+            this.$router.push({ path: this.localePath("/"), hash: "contactus" });
+          }
         } else {
-          this.$router.push({ path: this.localePath("/"), hash: "contactus" });
+          this.$router.push({ path: this.localePath(target.link) })
         }
       }
     }
