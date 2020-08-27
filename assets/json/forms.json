@@ -57,7 +57,7 @@
   },
   {
     "text": "forms.InvestmentManagementAgreement-CorporateAccount(CNC)",
-    "link": "/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Simp Chi).pdf.pdf",
+    "link": "/pdf/BTL Company Investment Management Agreement Aug 2020 (Eng +Simp Chi).pdf",
     "locales": [
       "en-us",
       "zh-cn"
@@ -131,7 +131,7 @@
   },
   {
     "text": "forms.SelfCertificationFormIndividual(EN)",
-    "link": "/pdf/CRS-ControllingPerson(eng).pdf",
+    "link": "/pdf/CRS-Individual(eng).pdf",
     "locales": [
       "en-us"
     ]
@@ -159,14 +159,14 @@
   },
   {
     "text": "forms.SelfCertificationFormEntity(CN)",
-    "link": "/pdf/CRS-ControllingPerson(chi).pdf",
+    "link": "/pdf/CRS-Entity(chi).pdf",
     "locales": [
       "zh-tw"
     ]
   },
   {
     "text": "forms.SelfCertificationFormEntity(CNC)",
-    "link": "/pdf/CRS-ControllingPerson(simp chi).pdf",
+    "link": "/pdf/CRS-Entity(simp chi).pdf.pdf",
     "locales": [
       "zh-cn"
     ]
