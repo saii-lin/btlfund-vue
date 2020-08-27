@@ -68,12 +68,12 @@
     "subNavItems": [
       {
         "name": "Asset Management Forms",
-        "text": "forms.AssetManagementForms",
+        "text": "Forms(ENG)",
         "link": "/forms#asset-management-forms"
       },
       {
         "name": "Brokerage Forms",
-        "text": "forms.BrokerageForms",
+        "text": "表格(繁/簡)",
         "link": "/forms#brokerage-forms"
       }
     ]

@@ -10,9 +10,7 @@
           </a>
         </li>-->
         <li>
-          <a href>
-            <img src="/images/footer2.png" alt />
-          </a>
+          <img src="/images/footer2.png" alt />
         </li>
         <!-- <li>
           <a href>
@@ -20,9 +18,7 @@
           </a>
         </li>-->
         <li>
-          <a href>
-            <img src="/images/footer4.png" alt />
-          </a>
+          <img src="/images/footer4.png" alt />
         </li>
       </ul>
       <ul class="footer_flex footer_ul2">
@@ -31,9 +27,7 @@
           <!-- <a href>{{ $t("footer.FAQ") }}</a> -->
           <nuxt-link :to="localePath('/resource-and-education-center/qa')">{{ $t("footer.FAQ") }}</nuxt-link>
         </li>
-        <li>
-          <a href>{{ $t("footer.Disclaimers&PrivacyPolicyStatements") }}</a>
-        </li>
+        <li>{{ $t("footer.Disclaimers&PrivacyPolicyStatements") }}</li>
       </ul>
     </div>
   </div>

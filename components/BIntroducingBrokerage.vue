@@ -262,7 +262,7 @@ export default {
 }
 .int {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 .int .amc_pic {
   margin: 5px;
@@ -321,6 +321,10 @@ export default {
 @media screen and (max-width: 500px) {
   .int_title {
     margin: 50px auto;
+  }
+  .int {
+    width: 90%;
+    margin: 0 auto 0px;
   }
 }
 </style>

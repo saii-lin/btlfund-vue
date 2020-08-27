@@ -151,12 +151,12 @@ export default {
 <style scoped>
 .amc {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   display: grid;
   grid-template-rows: 1fr auto;
   grid-row-gap: 5px;
 }
-.amc>p{
+.amc > p {
   margin: 100px auto;
 }
 .amc_title {
@@ -279,8 +279,11 @@ export default {
   .amc_text4 {
     grid-column: 4/-1;
   }
-  .amc>p{
-  margin: 50px auto;
-}
+  .amc > p {
+    margin: 50px auto;
+  }
+  .amc {
+    margin: 0 auto 0px;
+  }
 }
 </style>

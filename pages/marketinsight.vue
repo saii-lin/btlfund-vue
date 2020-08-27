@@ -44,41 +44,41 @@ export default {
   components: {
     scrollToTop: true,
     BLayout2,
-    BFooterSiteMap
+    BFooterSiteMap,
   },
   data: () => ({
-    pageContents
+    pageContents,
   }),
   mounted() {
     this.scrollto();
   },
   computed: {
     pageData() {
-      const target = pageContents.find(x => x.name === "market-insight");
+      const target = pageContents.find((x) => x.name === "market-insight");
       if (target) {
         return {
           layout: {
             title: this.$t(target.title),
-            image: target.image
-          }
+            image: target.image,
+          },
         };
       }
-    }
+    },
   },
   methods: {
     scrollto() {
       if (location.hash) {
         this.$scrollTo(location.hash, 1000, {
-          container: ".body"
+          container: ".body",
         });
       }
-    }
+    },
   },
   watch: {
     $route() {
       this.scrollto();
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -93,7 +93,7 @@ export default {
 }
 .market {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 .market_pic {
   width: 100%;
@@ -134,6 +134,9 @@ export default {
   .market_p {
     margin: 20px auto;
     max-width: 80%;
+  }
+  .market {
+    margin: 0 auto 0px;
   }
 }
 </style>
