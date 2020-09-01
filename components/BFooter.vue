@@ -10,7 +10,7 @@
           </a>
         </li>-->
         <li>
-          <img src="/images/footer2.png" alt />
+          <a href="https://www.linkedin.com/company/btl-asset-management-limited/"><img src="/images/footer2.png" alt /></a>
         </li>
         <!-- <li>
           <a href>

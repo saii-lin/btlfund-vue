@@ -14,14 +14,14 @@
         </div>
       </div>
       <div class="market_title" id="special-editions">{{ $t("marketinsight.SpecialEditions") }}</div>
-      <div class="market_grid">
-        <div v-for="(report, index) in specialEditions" :key="index" class="market_content">
+      <div class="market_grid Special">
+        <!-- <div v-for="(report, index) in specialEditions" :key="index" class="market_content">
           <a :href="report.link" download>
             <img class="market_pic" :src="report.src" alt />
             <p class="market_content_title">{{report.title}}</p>
             <p class="market_text">{{report.text}}</p>
           </a>
-        </div>
+        </div>-->
       </div>
     </div>
     <b-footer-site-map></b-footer-site-map>
@@ -98,6 +98,7 @@ export default {
 }
 .market_pic {
   width: 100%;
+  /* height: 220px; */
 }
 .market_content {
   width: 80%;
@@ -129,6 +130,9 @@ export default {
 .market_title {
   font-size: 20px;
   font-weight: bold;
+}
+.Special {
+  height: 300px;
 }
 @media screen and (max-width: 900px) {
   .market_grid {
