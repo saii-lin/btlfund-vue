@@ -3,16 +3,12 @@
     <b-layout2 :data="pageData.layout"></b-layout2>
     <div class="forms">
       <div id="asset-management-forms" class="forms_title">Forms(ENG)</div>
-      <div class="forms_flex">
+      <div class="forms_grid">
         <div v-for="(form, index) in forms_onlyEnus" :key="index" class="forms_content">
           <div class="forms_title2">{{ $t(form.text) }}</div>
           <div class="form_text">{{ $t("forms.download") }}</div>
           <div class="download">
-            <a
-              class="download_a"
-              :href="form.link"
-              download
-            >PDF</a>
+            <a class="download_a" :href="form.link" download>PDF</a>
           </div>
         </div>
       </div>
@@ -22,14 +18,10 @@
           <div class="forms_title2">{{ $t(form.text) }}</div>
           <div class="form_text">{{ $t("forms.download") }}</div>
           <div class="download">
-            <a
-              class="download_a"
-              :href="form.link"
-              download
-            >PDF</a>
+            <a class="download_a" :href="form.link" download>PDF</a>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
     <b-footer-site-map></b-footer-site-map>
   </div>
@@ -54,10 +46,14 @@ export default {
   },
   computed: {
     forms_onlyEnus() {
-      return forms.filter(f => f.locales.includes('en-us') && f.locales.length === 1)
+      return forms.filter(
+        (f) => f.locales.includes("en-us") && f.locales.length === 1
+      );
     },
     forms_others() {
-      return forms.filter(f1 => !this.forms_onlyEnus.map(f2 => f2.text).includes(f1.text))
+      return forms.filter(
+        (f1) => !this.forms_onlyEnus.map((f2) => f2.text).includes(f1.text)
+      );
     },
     pageData() {
       const target = pageContents.find((x) => x.name === "forms");
@@ -93,11 +89,6 @@ export default {
   margin: 100px auto;
 }
 .forms_grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-.forms_flex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -158,10 +149,6 @@ export default {
 }
 @media screen and (max-width: 800px) {
   .forms_grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .forms_flax {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }

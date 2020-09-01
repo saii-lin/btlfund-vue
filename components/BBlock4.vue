@@ -2,7 +2,7 @@
   <div class="block4">
     <h2>{{ $t("index.block4.MeetTheTeam") }}</h2>
     <div class="member-grid" v-if="members.length > 0">
-      <v-img :width="size" :height="size" src class="member-grid__avatar"></v-img>
+      <v-img :width="size" :height="size" src="/images/block4-1.jpg" class="member-grid__avatar"></v-img>
       <div class="member-grid__content">
         <h2 class="member-grid__content__title">{{ members[0].title }}</h2>
         <p
@@ -40,11 +40,15 @@
         <v-carousel class="lightbox-carousel" :cycle="false" height="fit-content" hide-delimiters>
           <v-carousel-item ref="carouselItems" v-for="(item, i) in members.slice(1)" :key="i">
             <div class="member-grid">
-              <v-img :width="size" :height="size" src class="member-grid__avatar"></v-img>
-              <div class="member-grid__content">
-                <h2 class="member-grid__content__title">{{ item.title }}</h2>
+              <v-img :width="size" :height="size" :src="item.src" class="member-grid__avatar"></v-img>
+              <div
+                class="member-grid__content member-grid__content__text member-grid__content__text_scroll"
+              >
+                <h2
+                  class="member-grid__content__title member-grid__content__text_padding"
+                >{{ item.title }}</h2>
                 <p
-                  class="member-grid__content__text"
+                  class="member-grid__content__text_padding"
                   v-for="(text, index) in item.texts"
                   :key="index"
                 >{{ text }}</p>
@@ -67,7 +71,7 @@ export default {
   mounted() {
     this.members = [
       {
-        src: "/images/block4-1.png",
+        src: "/images/block4-1.jpg",
         title: this.$t("index.block4.MrTangChiHong"),
         texts: [
           this.$t("index.block4.MrTangChiHongContent"),
@@ -75,19 +79,27 @@ export default {
         ],
       },
       {
-        src: "/images/block4-2.png",
+        src: "/images/block4-2.jpg",
         title: this.$t("index.block4.MrLuiChiLung"),
         texts: [this.$t("index.block4.MrLuiChiLungContent")],
       },
       {
-        src: "/images/block4-3.png",
-        title: this.$t("index.block4.MrYeungChungWingMichel"),
-        texts: [this.$t("index.block4.MrYeungChungWingMichelContent")],
+        src: "/images/block4-3.jpg",
+        title: this.$t("index.block4.MrChanKaiChunClay"),
+        texts: [
+          this.$t("index.block4.MrChanKaiChunClayContent"),
+          this.$t("index.block4.MrChanKaiChunClayContent2"),
+          this.$t("index.block4.MrChanKaiChunClayContent3"),
+        ],
       },
       {
-        src: "/images/block4-4.png",
-        title: "",
-        texts: [],
+        src: "/images/block4-4.jpg",
+        title: this.$t("index.block4.MrJoeYu"),
+        texts: [
+          this.$t("index.block4.MrJoeYuContent"),
+          this.$t("index.block4.MrJoeYuContent2"),
+          this.$t("index.block4.MrJoeYuContent3"),
+        ],
       },
     ];
   },
@@ -103,9 +115,9 @@ export default {
 <style scoped>
 .block4 {
   background: #fff;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   max-width: 78%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 .block4 > .member-grid {
   display: grid;
@@ -123,7 +135,7 @@ export default {
 .block4_pic {
   display: flex;
   justify-content: space-between;
-  margin: 0 20px;
+  margin: 60px 20px;
 }
 .block4_pic0 {
   width: 210px;
@@ -163,13 +175,13 @@ export default {
   background: #1057b4;
 }
 .block4_pic1 {
-  background: #0f4c81;
+  background-image: url(/images/block4-2.jpg);
 }
 .block4_pic2 {
-  background: #0f4c81;
+  background-image: url(/images/block4-3.jpg);
 }
 .block4_pic3 {
-  background: #0f4c81;
+  background-image: url(/images/block4-4.jpg);
 }
 .block4_pic4 {
   background: #0f4c81;
@@ -181,7 +193,7 @@ export default {
 .member-grid__avatar {
   margin: 20px;
   justify-self: end;
-  background: #0f4c81;
+  /* background: #0f4c81; */
 }
 .member-grid__content {
   margin: 20px;
@@ -194,6 +206,15 @@ export default {
 }
 .member-grid__content__text {
   font-size: 16px;
+}
+.member-grid__content__text_scroll {
+  max-height: 265px;
+  overflow-y: scroll;
+}
+.member-grid__content__text_padding {
+  padding: 15px;
+  margin: 0;
+  line-height: 25px;
 }
 .v-dialog__content--active {
   background: #000000d0;

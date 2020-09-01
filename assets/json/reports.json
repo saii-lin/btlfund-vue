@@ -1,0 +1,24 @@
+{
+    "MarketCommentary": [
+        {
+            "title": "Market Review Mar 2020",
+            "text": "2019 年环球事件不断，美联储停止紧缩政策，更在今年 10 月开始每月购买600 亿美元短债、中美贸易谈判反覆、人民币跌破关键水平、英国脱欧等…环球不明朗因素在上升。",
+            "link": "/reports/Market Review Mar 2020.pdf",
+            "src": "/images/market1.jpg"
+        },
+        {
+            "title": "Market Review Mar 2020",
+            "text": "2019 年環球事件不斷，美聯儲停止緊縮政策，更在今年 10 月開始每月購買 600 億美元短債、中美貿易談判反覆、人民幣跌破關鍵水平、英國脫歐等…環球不明朗因素在上升。",
+            "link": "/reports/Market Review March 2020.pdf",
+            "src": "/images/market3.jpg"
+        }
+    ],
+    "SpecialEditions": [
+        {
+            "title": "1810.HK March 2019",
+            "text": "由於小米 2018 年第二季度產生的一次性以股份為基礎的薪酬人民幣 99 億元給小米創辦人雷軍, 加上在 2018 年尾增發股份給雷軍及其家族為受益人的信託基金 ARK Trust （Hong Kong） Limited 約 80 億元, 使公司期內收入增加波動性. 令部份投資者對公司失去信心.",
+            "link": "/reports/1810.HK March 2019.pdf",
+            "src": "/images/market2.jpg"
+        }
+    ]
+}
