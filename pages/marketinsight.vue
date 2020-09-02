@@ -42,7 +42,6 @@
 import pageContents from "@/assets/json/page-contents.json";
 import BLayout2 from "~/components/BLayout2.vue";
 import BFooterSiteMap from "~/components/BFooterSiteMap.vue";
-import reports from "@/static/json/reports.json";
 export default {
   components: {
     scrollToTop: true,
@@ -54,23 +53,48 @@ export default {
       pageContents,
       marketCommentaryExpand: false,
       specialEditionsExpand: false,
+      reports: undefined,
     };
   },
   mounted() {
     this.scrollto();
   },
+  fetch() {
+    fetch(location.origin + "/json/reports.json")
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+      })
+      .then((json) => {
+        this.reports = json;
+      })
+      .catch((err) => console.error(err));
+  },
   computed: {
     marketCommentary() {
-      const MarketCommentaryReports = reports.MarketCommentary.map((v) => v);
-      return this.marketCommentaryExpand
-        ? MarketCommentaryReports.reverse()
-        : MarketCommentaryReports.reverse().slice(0, 6);
+      if (this.reports) {
+        const MarketCommentaryReports = this.reports.MarketCommentary.map(
+          (v) => v
+        );
+        return this.marketCommentaryExpand
+          ? MarketCommentaryReports.reverse()
+          : MarketCommentaryReports.reverse().slice(0, 6);
+      } else {
+        return [];
+      }
     },
     specialEditions() {
-      const SpecialEditionsReports = reports.SpecialEditions.map((v) => v);
-      return this.specialEditionsExpand
-        ? SpecialEditionsReports.reverse()
-        : SpecialEditionsReports.reverse().slice(0, 6);
+      if (this.reports) {
+        const SpecialEditionsReports = this.reports.SpecialEditions.map(
+          (v) => v
+        );
+        return this.specialEditionsExpand
+          ? SpecialEditionsReports.reverse()
+          : SpecialEditionsReports.reverse().slice(0, 6);
+      } else {
+        return [];
+      }
     },
     pageData() {
       const target = pageContents.find((x) => x.name === "market-insight");
