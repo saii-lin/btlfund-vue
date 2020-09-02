@@ -13,16 +13,26 @@
           </a>
         </div>
       </div>
+      <div
+        class="market_more"
+        v-if="marketCommentary.length >= 6 && !marketCommentaryExpand"
+        @click="marketCommentaryExpand = true"
+      >{{ $t("marketinsight.More") }}</div>
       <div class="market_title" id="special-editions">{{ $t("marketinsight.SpecialEditions") }}</div>
-      <div class="market_grid Special">
-        <!-- <div v-for="(report, index) in specialEditions" :key="index" class="market_content">
+      <div class="market_grid">
+        <div v-for="(report, index) in specialEditions" :key="index" class="market_content">
           <a :href="report.link" download>
             <img class="market_pic" :src="report.src" alt />
             <p class="market_content_title">{{report.title}}</p>
             <p class="market_text">{{report.text}}</p>
           </a>
-        </div>-->
+        </div>
       </div>
+      <div
+        class="market_more"
+        v-if="marketCommentary.length >= 6 && !marketCommentaryExpand"
+        @click="marketCommentaryExpand = true"
+      >{{ $t("marketinsight.More") }}</div>
     </div>
     <b-footer-site-map></b-footer-site-map>
   </div>
@@ -42,6 +52,8 @@ export default {
   data() {
     return {
       pageContents,
+      marketCommentaryExpand: false,
+      specialEditionsExpand: false,
     };
   },
   mounted() {
@@ -49,10 +61,16 @@ export default {
   },
   computed: {
     marketCommentary() {
-      return reports.MarketCommentary;
+      const MarketCommentaryReports = reports.MarketCommentary.map((v) => v);
+      return this.marketCommentaryExpand
+        ? MarketCommentaryReports.reverse()
+        : MarketCommentaryReports.reverse().slice(0, 6);
     },
     specialEditions() {
-      return reports.SpecialEditions;
+      const SpecialEditionsReports = reports.SpecialEditions.map((v) => v);
+      return this.specialEditionsExpand
+        ? SpecialEditionsReports.reverse()
+        : SpecialEditionsReports.reverse().slice(0, 6);
     },
     pageData() {
       const target = pageContents.find((x) => x.name === "market-insight");
@@ -109,6 +127,7 @@ export default {
   margin: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  min-height: 300px;
 }
 .market p {
   line-height: 20px;
@@ -131,8 +150,17 @@ export default {
   font-size: 20px;
   font-weight: bold;
 }
-.Special {
-  height: 300px;
+.market_more {
+  font-size: 16px;
+  color: #0f4c81 !important;
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.market_more:hover {
+  color: #65a2d8 !important;
+  transform: translateX(10px);
 }
 @media screen and (max-width: 900px) {
   .market_grid {

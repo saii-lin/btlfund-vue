@@ -201,7 +201,8 @@
   "marketinsight": {
     "MarketInsightContent": "我們向客戶提供領先的市場洞察資訊，協助客戶對跨類別金融資產投資和分散風險。",
     "MarketCommentary": "市場評論",
-    "SpecialEditions": "特別報告"
+    "SpecialEditions": "特別報告",
+    "More": "更多>>>"
   },
   "forms": {
     "AssetManagementForms": "資產管理表格",

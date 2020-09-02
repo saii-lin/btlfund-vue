@@ -39,7 +39,7 @@ export default {};
 .what_text {
   width: 25vw;
   align-self: center;
-  text-align: justify
+  text-align: justify;
 }
 .what_text h3,
 .what_text p {

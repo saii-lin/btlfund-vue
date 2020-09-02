@@ -206,7 +206,8 @@
   "marketinsight": {
     "MarketInsightContent": "We seek to deliver to our clients leading market insight, helping them to raise money, invest, and risk diversification across multi-financial asset classes.",
     "MarketCommentary": "Market Commentary",
-    "SpecialEditions": "Special Editions"
+    "SpecialEditions": "Special Editions",
+    "More":"More>>>"
   },
   "forms": {
     "AssetManagementForms": "Asset Management Forms",
