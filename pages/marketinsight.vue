@@ -42,7 +42,7 @@
 import pageContents from "@/assets/json/page-contents.json";
 import BLayout2 from "~/components/BLayout2.vue";
 import BFooterSiteMap from "~/components/BFooterSiteMap.vue";
-import reports from "@/assets/json/reports.json";
+import reports from "@/static/json/reports.json";
 export default {
   components: {
     scrollToTop: true,
