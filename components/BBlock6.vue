@@ -10,12 +10,13 @@
         <div class="contact_font contact_font__4x">
           <div>
             <img src="/images/contact2.png" alt />
-            <div class="info">{{ $t("index.block6.Hotline") }}</div>
-          </div>
-          <div>
-            <div></div>
+            <!-- <div class="info">{{ $t("index.block6.Hotline") }}</div> -->
             <div class="info">{{ $t("index.block6.Fax") }}</div>
           </div>
+          <!-- <div>
+            <div></div>
+            <div class="info">{{ $t("index.block6.Fax") }}</div>
+          </div>-->
         </div>
         <div class="contact_font contact_font__4x">
           <div>
@@ -55,20 +56,20 @@ export default {
   props: {
     withTitle: {
       type: Boolean,
-      default: true
+      default: true,
     },
     fontColor: {
       type: String,
-      default: "#0f4c81"
-    }
-  }
+      default: "#0f4c81",
+    },
+  },
 };
 </script>
 
 <style>
 .contact {
   margin: 20px auto 100px;
-  max-width:84%;
+  max-width: 84%;
 }
 .contact h2 {
   font-size: 50px;
@@ -100,7 +101,7 @@ export default {
 }
 .contact_font__4x {
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 50px;
+  grid-template-rows: 50px;
 }
 .contact_font__4x > div {
   display: grid;
@@ -134,7 +135,7 @@ export default {
   }
   .contact h2 {
     font-size: 25px;
-     padding: 50px 50px 60px;
+    padding: 50px 50px 60px;
   }
 }
 </style>
