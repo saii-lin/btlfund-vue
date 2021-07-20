@@ -2,14 +2,21 @@
   <div class="block4">
     <h2>{{ $t("index.block4.MeetTheTeam") }}</h2>
     <div class="member-grid" v-if="members.length > 0">
-      <v-img :width="size" :height="size" src="/images/block4-1.jpg" class="member-grid__avatar"></v-img>
+      <v-img
+        :width="size"
+        :height="size"
+        src="/images/block4-1.jpg"
+        class="member-grid__avatar"
+      ></v-img>
       <div class="member-grid__content">
         <h2 class="member-grid__content__title">{{ members[0].title }}</h2>
         <p
           class="member-grid__content__text"
           v-for="(text, index) in members[0].texts"
           :key="index"
-        >{{ text }}</p>
+        >
+          {{ text }}
+        </p>
       </div>
     </div>
     <div class="block4_pic">
@@ -17,19 +24,40 @@
         <div class="block4_btn0">
           <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
         </div>
-        <h2 class="member-grid__content__text" v-if="members.length > 0">{{members[1].title}}</h2>
+        <h2
+          class="member-grid__content__text member-grid__content__name"
+          v-if="members.length > 0"
+          :class="{ 'special-style': $i18n.locale === 'en-us' }"
+        >
+          {{ members[1].title }}<br />
+          {{ members[1].title2 }}
+        </h2>
       </div>
       <div class="block4_pic0 block4_pic2" @click="openDialog(1)">
         <div class="block4_btn0">
           <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
         </div>
-        <h2 class="member-grid__content__text" v-if="members.length > 0">{{members[2].title}}</h2>
+        <h2
+          class="member-grid__content__text member-grid__content__name"
+          v-if="members.length > 0"
+          :class="{ 'special-style': $i18n.locale === 'en-us' }"
+        >
+          {{ members[2].title }}<br />
+          {{ members[2].title2 }}
+        </h2>
       </div>
       <div class="block4_pic0 block4_pic3" @click="openDialog(2)">
         <div class="block4_btn0">
           <div class="block4_btn1">{{ $t("index.block4.ReadMore") }}</div>
         </div>
-        <h2 class="member-grid__content__text" v-if="members.length > 0">{{members[3].title}}</h2>
+        <h2
+          class="member-grid__content__text member-grid__content__name"
+          v-if="members.length > 0"
+          :class="{ 'special-style': $i18n.locale === 'en-us' }"
+        >
+          {{ members[3].title }}<br />
+          {{ members[3].title2 }}
+        </h2>
       </div>
     </div>
     <v-dialog data-app v-model="dialog" max-width="800px">
@@ -37,21 +65,39 @@
         <v-btn class="close-btn" icon dark @click="dialog = false">
           <v-icon large>close</v-icon>
         </v-btn>
-        <v-carousel class="lightbox-carousel" :cycle="false" height="fit-content" hide-delimiters>
-          <v-carousel-item ref="carouselItems" v-for="(item, i) in members.slice(1)" :key="i">
+        <v-carousel
+          class="lightbox-carousel"
+          :cycle="false"
+          height="fit-content"
+          hide-delimiters
+        >
+          <v-carousel-item
+            ref="carouselItems"
+            v-for="(item, i) in members.slice(1)"
+            :key="i"
+          >
             <div class="member-grid">
-              <v-img :width="size" :height="size" :src="item.src" class="member-grid__avatar"></v-img>
+              <v-img
+                :width="size"
+                :height="size"
+                :src="item.src"
+                class="member-grid__avatar"
+              ></v-img>
               <div
                 class="member-grid__content member-grid__content__text member-grid__content__text_scroll"
               >
                 <h2
                   class="member-grid__content__title member-grid__content__text_padding"
-                >{{ item.title }}</h2>
+                >
+                  {{ item.title }} {{ item.title2 }}
+                </h2>
                 <p
                   class="member-grid__content__text_padding"
                   v-for="(text, index) in item.texts"
                   :key="index"
-                >{{ text }}</p>
+                >
+                  {{ text }}
+                </p>
               </div>
             </div>
           </v-carousel-item>
@@ -81,11 +127,13 @@ export default {
       {
         src: "/images/block4-2.jpg",
         title: this.$t("index.block4.MrLuiChiLung"),
+        title2: this.$t("index.block4.MrLuiChiLungWork"),
         texts: [this.$t("index.block4.MrLuiChiLungContent")],
       },
       {
         src: "/images/block4-3.jpg",
         title: this.$t("index.block4.MrChanKaiChunClay"),
+        title2: this.$t("index.block4.MrChanKaiChunClayWork"),
         texts: [
           this.$t("index.block4.MrChanKaiChunClayContent"),
           this.$t("index.block4.MrChanKaiChunClayContent2"),
@@ -95,6 +143,7 @@ export default {
       {
         src: "/images/block4-4.jpg",
         title: this.$t("index.block4.MrJoeYu"),
+        title2: this.$t("index.block4.MrJoeYuWork"),
         texts: [
           this.$t("index.block4.MrJoeYuContent"),
           this.$t("index.block4.MrJoeYuContent2"),
@@ -206,6 +255,14 @@ export default {
 }
 .member-grid__content__text {
   font-size: 16px;
+}
+.member-grid__content__name {
+  text-align: center;
+  line-height: 30px;
+  font-weight: bolder;
+}
+.special-style {
+  font-size: 14px;
 }
 .member-grid__content__text_scroll {
   max-height: 265px;
