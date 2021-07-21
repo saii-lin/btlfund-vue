@@ -122,6 +122,7 @@ export default {
         texts: [
           this.$t("index.block4.MrTangChiHongContent"),
           this.$t("index.block4.MrTangChiHongContent2"),
+           this.$t("index.block4.MrTangChiHongContent3"),
         ],
       },
       {
@@ -248,6 +249,8 @@ export default {
   margin: 20px;
   align-self: center;
   text-align: justify;
+  overflow-y: scroll;
+max-height: 210px;
 }
 .member-grid__content__title {
   font-size: 20px;
@@ -258,7 +261,6 @@ export default {
 }
 .member-grid__content__name {
   text-align: center;
-  line-height: 30px;
   font-weight: bolder;
 }
 .special-style {
@@ -306,6 +308,7 @@ export default {
     bottom: 0px;
     color: white;
     background: rgba(0, 0, 0, 0.3);
+    width: 100%;
   }
 }
 @media screen and (max-width: 414px) {
